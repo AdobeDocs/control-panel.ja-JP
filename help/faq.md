@@ -1,0 +1,115 @@
+---
+title: コントロールパネルに関するよくある質問
+description: コントロールパネルに関するよくある質問
+translation-type: tm+mt
+source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+
+---
+
+
+# FAQ {#faq}
+
+## IMS Org ID {#ims-org-id}
+
+**IMS Org ID とは何ですか？**
+
+これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
+
+For more information, please refer to [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+
+**IMS Org ID はどこにありますか？**
+
+
+1 つは、[Adobe Experience Cloud のホーム](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+
+別の方法は、**Admin Console** を起動することです。IMS組織IDがURLに表示され、次のようになります。https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+
+**IMS Org ID を知る必要があるのはなぜですか？**
+
+
+インスタンスの設定を管理するために、貴社で複数のインスタンスを使用している場合に備えて、適切なインスタンスに関する適切な情報を確実に取得する必要があります。
+
+**複数の IMS Org ID がある場合はどうすればよいですか？**
+
+複数のアドビソリューションへのアクセス権がある場合、2 つ以上の IMS Org ID がある可能性があります。この場合、使用している正しい IMS Org ID は、Adobe Campaign インスタンスの下に表示されるものです。
+
+>[!NOTE]
+>
+>Adobe Campaign と Adobe Analytics で同じ IMS Org ID がある場合、これは望ましい状態です。Analytics と Campaign の間で 1 つの IMS Org ID を持つことは、買い物かごの放棄などの複雑な事例を活用するためにソリューションを統合する予定がある場合の要件です（AA + AC の場合）。
+>
+>Adobe Campaign と Adobe Analytics で異なる IMS Org ID がある場合、カスタマーケアに問い合わせて揃えてください。
+
+**Adobe Campaign インスタンスが AWS でホストされているかどうかを知るにはどうしたらいいですか？**
+
+インスタンスがAWSでホストされているかどうかを確認するには、次の手順に従います。
+
+1. ログイン URL を取得します。ログイン URL は Campaign インスタンスにログインするために設定した URL で、ほとんどの場合、「.campaign.adobe.com」で終わります。
+1. ターミナルを開いて、ログイン URL に対して **nslookup** コマンドを実行します。
+
+   `doe-macOS% nslookup myinstance.campaign.adobe.com`
+
+1. 応答で、インスタンスに関する情報が返されます。
+
+   ```
+   doe-macOS% nslookup myinstance.campaign.adobe.com
+   Server:     12.34.5.678
+   Address:    12.34.5.678#99
+   
+   Non-authoritative answer:
+   myinstance.campaign.adobe.com
+   canonical name = myinstance-mkt-prod1.campaign.adobe.com.
+   myinstance-mkt-prod1.campaign.adobe.com
+   canonical name = myinstance-mkt-prod1-1.campaign.adobe.com.
+   Name: myinstance-mkt-prod1-1.campaign.adobe.com
+   Address: 12.34.567.89
+   ```
+
+1. 返された IP アドレスに対して **nslookup** コマンドを実行します。
+
+   `doe-macOS% nslookup 12.34.567.89`
+
+1. 返された結果の「name」の値を確認します。「amazonaws.com」が含まれている場合は、インスタンスが AWS でホストされていることを意味します。
+
+   ```
+   doe-macOS% nslookup 12.34.567.89
+   Server:     12.34.5.678
+   Address:    12.34.5.678#99
+   
+   Non-authoritative answer:
+   89.567.34.12.in-addr.arpa   name = ec2-12-34-567-89.address.amazonaws.com.
+   ```
+
+>[!NOTE]
+>
+>AWS に移行したい場合は、カスタマーサクセスマネージャーに問い合わせて、プロセスを開始してください。
+
+## コントロールパネル {#control-panel}
+
+**コントロールパネルとは何ですか？**
+
+コントロールパネルにより、製品管理者は、様々な設定を直接管理し、Adobe Campaign に接続された SFTP サーバーの容量を監視できます。
+
+**コントロールパネルの現在の機能には何がありますか？**
+
+
+コントロールパネルでは、SFTPサーバーのストレージ、ホワイトリストIPの追跡、SSHキーの管理を、ニーズやその他のアクションに基づいて独自に行うことができます。
+
+詳しくは、コントロールパネルでサポートされているアクションのドキュメントを参照してください。
+
+**コントロールパネルは Adobe Campaign 専用ですか？**
+
+はい、コントロールパネルで管理できるのは Adobe Campaign の設定のみです。
+
+**誰がコントロールパネルを使用できますか？**
+
+コントロールパネルは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者にのみ公開されています。
+
+管理者でないユーザーがアクセスを希望する場合は、製品管理者に問い合わせて、管理者として追加してもらう必要があります。
+
+**コントロールパネルにはどのようにしてアクセスできますか？**
+
+「コントロールパネルへのアクセス」の詳細な説明に従ってください。
+
+**コントロールパネルの使用に追加料金はかかりますか？**
+
+いいえ、Adobe Campaign の現在のお客様であれば、追加費用はかかりません。
