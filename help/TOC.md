@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: cde5b58c1cf65d23b68c5fa6b1a484fc6db40325
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -24,10 +24,8 @@ source-git-commit: cde5b58c1cf65d23b68c5fa6b1a484fc6db40325
    + [SFTPサーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
 + サブドメインと証明書 {#subdomains-and-certificates}
-   + [サブドメインについて](subdomains-certificates/using/about-subdomains.md)
-   + [サブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [SSL証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [SSL証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [SSL証明書について](subdomains-certificates/using/about-ssl-certificates.md)
+   + [サブドメインのSSL証明書の管理](subdomains-certificates/using/managing-ssl-certificates.md)
 + インスタンス設定(Campaign Classic) {#instances-settings}
    + [インスタンスアクセスのIPホワイトリスト](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL権限](instances-settings/using/url-permissions.md)
