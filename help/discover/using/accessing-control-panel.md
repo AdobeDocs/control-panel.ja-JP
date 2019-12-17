@@ -1,44 +1,44 @@
 ---
 title: コントロールパネルへのアクセス
-description: コントロールパネルにアクセスする方法
+description: コントロールパネルへのアクセス方法の詳細
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # コントロールパネルへのアクセス {#accessing-control-panel}
 
-コントロールパネルは、Experience cloudから直接、または製品自体から使用できます。
+Campaign コントロールパネルには、Experience Cloud から直接アクセスすることも、製品自体からアクセスすることもできます。
 
-管理者ユーザーのみ **がアクセスできます** 。 ユーザーを管理者グループに割り当てる方法について詳しくは、[この節](../../discover/using/managing-permissions.md)を参照してください。
+アクセスできるのは、**管理者ユーザー**&#x200B;のみです。ユーザーを管理者グループに割り当てる方法について詳しくは、[この節](../../discover/using/managing-permissions.md)を参照してください。
 
-## Experience Cloud Platform からのアクセス {#access-experience-cloud-platform}
+## Experience Cloud Platform からのアクセス{#access-experience-cloud-platform}
 
-Experience Cloud プラットフォームからコントロールパネルにアクセスするには、[Experience Cloud Platform ホームページ](https://amc.experiencecloud.adobe.com/)に移動し、「**クイックアクセス**」セクションの専用リンクをクリックします 。
+Experience Cloud Platform から Campaign コントロールパネルにアクセスするには、[Experience Cloud Platform ホームページ](https://amc.experiencecloud.adobe.com/)に移動し、「**クイックアクセス**」セクションの専用リンクをクリックします 。
 
-![](assets/quickaccess.png)
+![](assets/do-not-localize/quickaccess.png)
 
-コントロールパネルには、Experience Cloud Platform **ソリューションピッカー**&#x200B;からもアクセスできます。
+Campaign コントロールパネルには、Experience Cloud Platform **ソリューションピッカー**&#x200B;からもアクセスできます。
 
 1. [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/) に移動して、ソリューションピッカーから **Campaign** を選択します。
 
-   ![](assets/control_panel_access1.png)
+   ![](assets/do-not-localize/control_panel_access1.png)
 
-1. Campaign インスタンスのリストが表示されます。Click the **Control Panel** card to launch it.
+1. Campaign インスタンスのリストが表示されます。**コントロールパネル**&#x200B;カードをクリックして起動します。
 
-   ![](assets/control_panel_access2NEW.png)
+   ![](assets/do-not-localize/control_panel_access2.png)
 
 ## 製品からのアクセス {#access-product}
 
 >[!NOTE]
 >
->Campaign Classicのイ **ンスタンスの場合** 、製品内からアクセスできるのはCampaign Classic 19.1以降のバージョンです。
+>**Campaign Classic** インスタンスの場合、製品からアクセスできるのは Campaign Classic 19.1 バージョン以降です。
 
-1. Campaign Standard 製品を開き、****&#x200B;ナビゲーション]パネルの&#x200B;**[!UICONTROL 管理]メニューを選択します。[!UICONTROL **
+1. Campaign Standard 製品を開き、**[!UICONTROL ナビゲーション]**パネルの**[!UICONTROL &#x200B;管理]**メニューを選択します。
 
    ![](assets/control_panel_access3.png)
 
-1. [コントロールパ **[!UICONTROL ネル]** ]アイコンをクリックします。
+1. **[!UICONTROL コントロールパネル]**アイコンをクリックします。
 
-   ![](assets/control_panel_access4new.png)
+   ![](assets/control_panel_access4.png)
