@@ -4,30 +4,35 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
-# コントロールパネルのヘルプ {#using}
+# コントロールパネルのヘルプ{#using}
 
 + [製品ドキュメント](control-panel-home.md)
-+ コントロールパネルの理解 {#discover-control-panel}
++ コントロールパネルの理解{#discover-control-panel}
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
-   + [コントロールパネルの権限の管理](discover/using/managing-permissions.md)
-   + [コントロールパネルのインターフェイスの検出](discover/using/discovering-the-interface.md)
-+ SFTP management {#sftp-management}
-   + [SFTP管理について](sftp/using/about-sftp-management.md)
-   + [SFTPストレージ管理](sftp/using/sftp-storage-management.md)
-   + [IP範囲のホワイトリスト](sftp/using/ip-range-whitelisting.md)
-   + [鍵管理](sftp/using/key-management.md)
-   + [SFTPサーバーへのログイン](sftp/using/logging-into-sftp-server.md)
+   + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
+   + [コントロールパネルのインターフェイスの理解](discover/using/discovering-the-interface.md)
++ SFTP 管理 {#sftp-management}
+   + [SFTP 管理について](sftp/using/about-sftp-management.md)
+   + [SFTP ストレージ管理](sftp/using/sftp-storage-management.md)
+   + [IP 範囲のホワイトリスト登録](sftp/using/ip-range-whitelisting.md)
+   + [鍵の管理](sftp/using/key-management.md)
+   + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
-+ サブドメインと証明書 {#subdomains-and-certificates}
-   + [SSL証明書について](subdomains-certificates/using/about-ssl-certificates.md)
-   + [サブドメインのSSL証明書の管理](subdomains-certificates/using/managing-ssl-certificates.md)
-+ インスタンス設定(Campaign Classic) {#instances-settings}
-   + [インスタンスアクセスのIPホワイトリスト](instances-settings/using/ip-whitelisting-instance-access.md)
-   + [URL権限](instances-settings/using/url-permissions.md)
++ サブドメインおよび証明書{#subdomains-and-certificates}
+   + サブドメインの管理 {#managing-subdomains}
+      + [サブドメインのブランド化](subdomains-certificates/using/subdomains-branding.md)
+      + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
+      + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + SSL証明書の管理{managing-certificates}
+      + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [SSL証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
++ インスタンス設定（Campaign Classic）{#instances-settings}
+   + [インスタンスのアクセス用に IP をホワイトリストに登録](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
-+ [FAQ](faq.md)
++ [よくある質問](faq.md)
