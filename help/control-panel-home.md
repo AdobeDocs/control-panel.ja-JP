@@ -1,69 +1,69 @@
 ---
 title: 製品ドキュメント
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
-# ヘルプセンター {#control-panel-documentation}
+# ヘルプセンター{#control-panel-documentation}
 
-![](assets/banner.png)
+![](assets/do-not-localize/banner.png)
 
-## コントロールパネルについて {#about-control-panel}
+## コントロールパネルについて{#about-control-panel}
 
-コントロールパネルを使用すると、各インスタンスの設定を管理し、使用状況を追跡できるので、Adobe Campaign StandardまたはClassicの製品管理者としての作業の効率を向上できます。 この直感的なインターフェイスを使用すると、主要アセットの使用状況を簡単に監視でき、IPアドレスのホワイトリスト登録、SFTPストレージの監視、キー管理などの管理タスクを実行できます。
+コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況を追跡したりできるので、Adobe Campaign Standard および Classic の製品管理者としての作業の効率を向上できます。直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスのホワイトリスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
-主なメリット：
+主な利点：
 
-* カスタマーケアに問い合わせることなく、設定を簡単に変更できます。
-* 様々なビジネスニーズに基づいて、異なる時間に設定を行います。
-* 必要に応じてアクセス設定を制御することで、セキュリティを強化します。
+* カスタマーケアに連絡することなく、自分ですばやく設定に変更を加えることができます。
+* 様々なタイミングで様々なビジネスニーズに基づいて設定できます。
+* ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 
 >[!NOTE]
->コントロールパネルは管理者ユーザーのみがアクセスでき、AWSでホストされるすべてのお客様が利用できます。 ユーザーに管理者アクセス権を付与する手順については、この節で [説明します](discover/using/managing-permissions.md)。 インスタンスがAWSでホストされているかどうかを確認するには、この節で説明する手順 [に従います](faq.md)。
+>コントロールパネルには、管理者ユーザーのみがアクセスでき、AWS でホストされているすべてのお客様が利用できます。ユーザーに管理者アクセス権を付与する手順については、[この節](discover/using/managing-permissions.md)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[この節](faq.md)に記載されている手順に従います。
 >
->コントロールパネルにアクセスする際には、最新のCampaignビルドにアップグレードする必要はありません。
+>最新の Campaign ビルドにアップグレードしなくてもコントロールパネルにアクセスできます。
 
 <table>
 <tr>
     <td>
-        <a href="discover/using/accessing-control-panel.md"><img alt="条件" src="assets/discover.png"/></a>
+        <a href="discover/using/accessing-control-panel.md"><img alt="conditions" src="assets/do-not-localize/discover.png"/></a>
         <div><a href="discover/using/accessing-control-panel.md"><strong>コントロールパネルの理解</strong></a></div>
-        <em>詳しくは、コントロールパネルとそのアクセス方法を参照してください。</em>
+        <em>コントロールパネルおよびアクセス方法の詳細</em>
     </td>
     <td>
-        <a href="sftp/using/about-sftp-management.md"><img alt="条件" src="assets/sftp.png"/></a>
-        <div><a href="sftp/using/about-sftp-management.md"><strong>SFTPサーバーの監視</strong></a></div>
-        <em>SFTPサーバーの管理方法を説明します。</em>
+        <a href="sftp/using/about-sftp-management.md"><img alt="conditions" src="assets/do-not-localize/sftp.png"/></a>
+        <div><a href="sftp/using/about-sftp-management.md"><strong>SFTP サーバーの監視</strong></a></div>
+        <em>SFTP サーバーの管理方法の詳細</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="条件" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>サブドメインの監視</strong></a></div>
-        <em>サブドメインとその証明書を監視する方法について説明します。</em>
+        <a href="subdomains-certificates/using/subdomains-branding.md"><img alt="conditions" src="assets/do-not-localize/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/subdomains-branding.md"><strong>サブドメインの監視</strong></a></div>
+        <em>サブドメインとその証明書の監視方法の詳細</em>
     </td>
     <td>
-        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="条件" src="assets/instance_settings.png"/></a>
+        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="instances-settings/using/ip-whitelisting-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
-        <br/><em>インスタンス設定の管理方法について説明します（Campaign Classicのみ）。</em>
+        <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
     </td>
 </tr>
 </table>
 
-## その他のリソース {#additional-resources}
+## その他のリソース{#additional-resources}
 
 <table>
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standardのコントロールパネルチュートリアルビデオ</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standard のコントロールパネルチュートリアルビデオ</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard 製品ドキュメント</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Campaign Classicのコントロールパネルチュートリアルビデオ</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign Classic製品ドキュメント</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Campaign Classic のコントロールパネルチュートリアルビデオ</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign Classic 製品ドキュメント</a></li>
         </ul>
         </td>
     </tr>
