@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
       + [サブドメインのブランド化](subdomains-certificates/using/subdomains-branding.md)
       + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
       + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + SSL証明書の管理{managing-certificates}
+   + SSL 証明書の管理 {#managing-ceritficates}
       + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [SSL証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + インスタンス設定（Campaign Classic）{#instances-settings}
