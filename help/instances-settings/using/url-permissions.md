@@ -1,7 +1,7 @@
 ---
 title: URL へのアクセス権限
-description: コントロールパネルでURL権限を管理する方法を説明します
-translation-type: tm+mt
+description: コントロールパネルでの URL へのアクセス権限の管理方法
+translation-type: ht
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 >[!CAUTION]
 >
->この機能は、Campaign Classicインスタンスでのみ使用できます。
+>この機能は、Campaign Classic インスタンスでのみ使用できます。
 
-## URL へのアクセス権限について {#about-url-permissions}
+## URL へのアクセス権限について{#about-url-permissions}
 
-Campaign Classic の JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
+Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
 デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。コントロールパネルを使用すると、外部の URL を承認済み URL リストに追加して、インスタンスがアクセスできるように設定できます。これにより、Campaign インスタンスを SFTP サーバーや Web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
 
@@ -23,29 +23,29 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 **関連トピック：**
 
-* [キャンペーンサーバーの設定](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
+* [Campaign サーバーの設定](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [発信接続の保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
 * [URL へのアクセス権限（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
-## ベストプラクティス {#best-practices}
+## ベストプラクティス{#best-practices}
 
 * Campaign インスタンスを、接続する意図のない Web サイトやサーバーに接続しないでください。
 * 不要になった URL は削除してください。ただし、URL を削除すると、社内の他の部門も該当する URL に接続できなくなります。
-* The Control Panel supports **http**, **https**, and **sftp** protocols. 無効な URL またはプロトコルを入力すると、エラーが返されます。
+* コントロールパネルは、**http**、**https**、および **sftp** プロトコルに対応しています。無効な URL またはプロトコルを入力すると、エラーが返されます。
 
-## URL へのアクセス権限の管理 {#managing-url-permissions}
+## URL へのアクセス権限の管理{#managing-url-permissions}
 
-インスタンスが接続できるURLを追加するには、次の手順に従います。
+インスタンスがアクセスできる URL を追加するには、次の手順に従います。
 
-1. 「**[!UICONTROL インスタンス設定]**」カードを開き、「**[!UICONTROL URL 権限]**」タブにアクセスします。
+1. 「**[!UICONTROL インスタンス設定]**」カードを開き、「**[!UICONTROL  URL 権限]**」タブにアクセスします。
 
    >[!NOTE]
    >
-   >インスタンス設定カードが、コントロールパネルのホームページに表示されない場合、お使いの IMS ORG ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
+   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS ORG ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
    >
-   >The <b><span class="uicontrol">URL permissions</span></b> tab lists all outside URLs that your instance can connect to. このリストには、Campaign で操作が必要な URL（インフラストラクチャ間の接続など）は含まれません。
+   >「<b><span class="uicontrol">URL へのアクセス権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 
-1. 左側のパネルから任意のインスタンスを選択し、「**[!UICONTROL 新規 URL を追加]」ボタンをクリックします。**
+1. 左側のパネルから目的のインスタンスを選択し、「**[!UICONTROL 新規 URL を追加]**」ボタンをクリックします。
 
    ![](assets/add_url1.png)
 
@@ -53,7 +53,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
    >
    >左側のパネルのリストには、すべての Campaign インスタンスが表示されます。
    >
-   >URL権限管理はCampaign Classicインスタンス専用なので、Campaign Standardインスタンスを選択した場合は、「該当しないインスタンス」というメッセージが表示されます。
+   >URL へのアクセス権限の管理は、Campaign Classic インスタンスのみに適用されます。Campaign Standard インスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
 
 1. 承認したい URL とその関連プロトコルを入力します（http、https、または sftp）。
 
@@ -71,12 +71,12 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    ![](assets/add_url_listnew.png)
 
-You can delete a URL at any time by selecting it and clicking the **[!UICONTROL Delete URL]** button.
+該当する URL を選択して「**[!UICONTROL URL を削除]**」ボタンをクリックすれば、URL はいつでも削除できます。
 
 URL を削除すると、インスタンスはその URL を呼び出すことができなくなります。
 
-## 一般的な質問 {#common-questions}
+## よくある質問{#common-questions}
 
-**新規 URL を追加しましたが、インスタンスは URL に接続できません。これはなぜですか？**
+**新規 URL を追加しましたが、インスタンスは依然 URL に接続できません。これはなぜですか？**
 
 接続しようとしている URL にホワイトリスト設定、パスワードの入力、または別の認証方法が必要となる場合があります。コントロールパネルでは、その他の認証を管理できません。
