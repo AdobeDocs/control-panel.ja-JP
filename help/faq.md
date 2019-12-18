@@ -1,49 +1,48 @@
 ---
-title: コントロールパネルに関するよくある質問
+title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
 
 
-# FAQ {#faq}
+# よくある質問{#faq}
 
-## IMS Org ID {#ims-org-id}
+## IMS Org ID{#ims-org-id}
 
 **IMS Org ID とは何ですか？**
 
 これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
 
-For more information, please refer to [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
-**IMS Org ID はどこにありますか？**
+**IMS Org ID はどこに行けばわかりますか？**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc)／**[!UICONTROL 管理]**に移動する方法です。IMS Org ID は、「**[!UICONTROL &#x200B;管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
-別の方法は、**Admin Console** を起動することです。IMS組織IDがURLに表示され、次のようになります。https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+もう １ つの方法は、**Admin Console** を起動することです。IMS Org ID は、URL 内に、https://adminconsole.adobe.com/xxx@AdobeOrg/overview のような形式で表示されます。
 
 **IMS Org ID を知る必要があるのはなぜですか？**
 
-
-インスタンスの設定を管理するために、貴社で複数のインスタンスを使用している場合に備えて、適切なインスタンスに関する適切な情報を確実に取得する必要があります。
+自分で自分のインスタンスの設定を管理するためです。会社で複数のインスタンスを使用している場合に、適切なインスタンスに対する適切な情報を取得する必要があります。
 
 **複数の IMS Org ID がある場合はどうすればよいですか？**
 
-複数のアドビソリューションへのアクセス権がある場合、2 つ以上の IMS Org ID がある可能性があります。この場合、使用している正しい IMS Org ID は、Adobe Campaign インスタンスの下に表示されるものです。
+複数のアドビソリューションへのアクセス権がある場合、2 つ以上の IMS Org ID がある可能性があります。この場合、使用すべき正しい IMS Org ID は、Adobe Campaign インスタンスの下に表示されるものです。
 
 >[!NOTE]
 >
 >Adobe Campaign と Adobe Analytics で同じ IMS Org ID がある場合、これは望ましい状態です。Analytics と Campaign の間で 1 つの IMS Org ID を持つことは、買い物かごの放棄などの複雑な事例を活用するためにソリューションを統合する予定がある場合の要件です（AA + AC の場合）。
 >
->Adobe Campaign と Adobe Analytics で異なる IMS Org ID がある場合、カスタマーケアに問い合わせて揃えてください。
+>Adobe Campaign と Adobe Analytics で異なる IMS Org ID がある場合、カスタマーケアに問い合わせ、ID を整合させてください。
 
-**Adobe Campaign インスタンスが AWS でホストされているかどうかを知るにはどうしたらいいですか？**
+**Adobe Campaign インスタンスが AWS でホストされているかどうかを知るにはどうすればよいですか？**
 
-インスタンスがAWSでホストされているかどうかを確認するには、次の手順に従います。
+インスタンスが AWS でホストされているかどうかを確認するには、以下の手順に従います。
 
-1. ログイン URL を取得します。ログイン URL は Campaign インスタンスにログインするために設定した URL で、ほとんどの場合、「.campaign.adobe.com」で終わります。
+1. ログイン URL を取得します。ログイン URL は、Campaign インスタンスへのログインに利用する URL で、ほとんどの場合、「.campaign.adobe.com」で終わります。
 1. ターミナルを開いて、ログイン URL に対して **nslookup** コマンドを実行します。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
@@ -83,7 +82,7 @@ For more information, please refer to [Adobe Experience Cloud documentation](htt
 >
 >AWS に移行したい場合は、カスタマーサクセスマネージャーに問い合わせて、プロセスを開始してください。
 
-## コントロールパネル {#control-panel}
+## コントロールパネル{#control-panel}
 
 **コントロールパネルとは何ですか？**
 
@@ -92,9 +91,9 @@ For more information, please refer to [Adobe Experience Cloud documentation](htt
 **コントロールパネルの現在の機能には何がありますか？**
 
 
-コントロールパネルでは、SFTPサーバーのストレージ、ホワイトリストIPの追跡、SSHキーの管理を、ニーズやその他のアクションに基づいて独自に行うことができます。
+コントロールパネルでは、ニーズやその他の操作に基づいて、SFTP サーバーに対し、ストレージの追跡、IP のホワイトリストへの登録、SSH 鍵の管理を自身でおこなうことができます。
 
-詳しくは、コントロールパネルでサポートされているアクションのドキュメントを参照してください。
+詳しくは、コントロールパネルでサポートされる操作のドキュメントを参照してください。
 
 **コントロールパネルは Adobe Campaign 専用ですか？**
 
@@ -102,13 +101,13 @@ For more information, please refer to [Adobe Experience Cloud documentation](htt
 
 **誰がコントロールパネルを使用できますか？**
 
-コントロールパネルは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者にのみ公開されています。
+コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。
 
 管理者でないユーザーがアクセスを希望する場合は、製品管理者に問い合わせて、管理者として追加してもらう必要があります。
 
 **コントロールパネルにはどのようにしてアクセスできますか？**
 
-「コントロールパネルへのアクセス」の詳細な説明に従ってください。
+コントロールパネルへのアクセスのドキュメントに記載されている指示に従ってください。
 
 **コントロールパネルの使用に追加料金はかかりますか？**
 
