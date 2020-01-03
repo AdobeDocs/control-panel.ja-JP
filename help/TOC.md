@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 
 ---
 
@@ -23,11 +23,6 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
    + [鍵の管理](sftp/using/key-management.md)
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
-+ サブドメインおよび証明書{#subdomains-and-certificates}
-   + [サブドメインのブランド化](subdomains-certificates/using/subdomains-branding.md)
-   + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [SSL証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + サブドメインおよび証明書{#subdomains-and-certificates}
    + サブドメインの管理 {#managing-subdomains}
       + [サブドメインのブランド化](subdomains-certificates/using/subdomains-branding.md)
