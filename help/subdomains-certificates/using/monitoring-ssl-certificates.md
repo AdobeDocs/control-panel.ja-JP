@@ -2,7 +2,7 @@
 title: サブドメインのSSL証明書の監視
 description: サブドメインのSSL証明書を監視する方法について説明します
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 001064877594a10733c054f925f254545f93145d
 
 ---
 
