@@ -2,12 +2,16 @@
 title: サブドメインのブランド化
 description: サブドメインのブランディングの詳細
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # サブドメインのブランド化 {#subdomains-branding}
+
+>[!NOTE]
+>
+>コントロールパネルからのサブドメインの委任は現在ベータ版で、通知なしに頻繁に更新や変更が行われる可能性があります。
 
 ## サブドメインを設定する理由 {#why-setting-up-subdomains}
 
@@ -35,4 +39,4 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 | **完全委任** | サブドメインと名前空間レコードを作成します。 その後、Adobe Campaignに必要なすべてのDNSレコードが設定されます。<br/><br/>このセットアップでは、アドビは、サブドメインとすべてのDNSレコードを完全に管理する責任を負います。 | 低い |
 | **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。 次に、アドビはDNSサーバーに配置するレコードを提供し、Adobe Campaign DNSサーバーで対応する値を設定します。<br/><br/>この設定では、お客様とアドビの両方がDNSの保守を担当します。 | 高い |
 
-ドメインの委任に関する詳細は、このドキュメント[を参照してくださ](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)い。
+ドメインの委任に関する詳細は、このドキュメントを参 [照してくださ](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)い。
