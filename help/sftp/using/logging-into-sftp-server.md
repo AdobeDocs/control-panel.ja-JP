@@ -1,7 +1,7 @@
 ---
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
