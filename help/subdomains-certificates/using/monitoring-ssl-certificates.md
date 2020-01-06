@@ -1,13 +1,13 @@
 ---
-title: サブドメインのSSL証明書の監視
-description: サブドメインのSSL証明書を監視する方法について説明します
+title: サブドメインの SSL 証明書の監視
+description: サブドメインの SSL 証明書の監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
 
-# Monitoring subdomains&#39; SSL certificates {#monitoring-ssl-certificates}
+# サブドメインの SSL 証明書の監視 {#monitoring-ssl-certificates}
 
 ## SSL 証明書について {#about-ssl-certificates}
 
@@ -34,15 +34,14 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 ![](assets/subdomains_list.png)
 
-To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]**button.
-すべての関連サブドメインのリストが表示されます。 通常、ランディングページやリソースページなどのサブドメインが含まれます。
+サブドメインの証明書の詳細を取得するには、**[!UICONTROL サブドメインの詳細]**ボタンをクリックします。関連するすべてのサブドメインのリストが表示されます。通常、ランディングページやリソースページなどのサブドメインが含まれます。
 
-「送信 **[!UICONTROL 者情報]**」タブには、設定済みのinbox（送信者、返信、エラー電子メール）に関する情報が表示されます。
+「**[!UICONTROL 送信者情報]**」タブには、設定済みの受信ボックス（送信者、返信先、エラー E メール）に関する情報が表示されます。
 
 ![](assets/subdomain_details.png)
 
-サブドメインのSSL証明書の1つが期限切れになる前に、コントロールパネルから直接更新できます。 詳しくは、次の節を参照してください。サブド [メインのSSL証明書を更新します](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
+サブドメインのSSL証明書の1つが期限切れになる前に、コントロールパネルから直接更新できます。 詳しくは、[サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)を参照してください。
 
 >[!NOTE]
 >
->コントロールパネルからの証明書の更新は、ベータ版で近日中にご利用いただける予定です。 それまでの間、コントロールパネル内 [の証明書を監視する方法について](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) 、詳しくはこのページを参照してください。
+>コントロールパネルからの証明書の更新は、1月末にベータ版で利用可能になります。
