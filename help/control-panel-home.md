@@ -1,6 +1,6 @@
 ---
 title: 製品ドキュメント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -57,7 +57,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standard のコントロールパネルチュートリアルビデオ</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard 製品ドキュメント</a></li>
+            <li><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/campaign-standard-home.html">Campaign Standard 製品ドキュメント</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
