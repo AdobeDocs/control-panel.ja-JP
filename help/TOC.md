@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
+source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
 
 ---
 
@@ -12,7 +12,9 @@ source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 # コントロールパネルのヘルプ{#using}
 
 + [製品ドキュメント](control-panel-home.md)
++ [リリースノート](release-notes.md)
 + コントロールパネルの理解{#discover-control-panel}
+   + [主な機能](discover/using/key-features.md)
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
    + [コントロールパネルのインターフェイスの理解](discover/using/discovering-the-interface.md)
@@ -24,13 +26,13 @@ source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
 + サブドメインおよび証明書{#subdomains-and-certificates}
-   + サブドメインの管理 {#managing-subdomains}
+   + サブドメインの管理{#managing-subdomains}
       + [サブドメインのブランド化](subdomains-certificates/using/subdomains-branding.md)
       + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
       + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
    + SSL 証明書の管理 {#managing-certificates}
       + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
-      + [SSL証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + インスタンス設定（Campaign Classic）{#instances-settings}
    + [インスタンスのアクセス用に IP をホワイトリストに登録](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
