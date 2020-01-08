@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -12,13 +12,21 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 >[!NOTE]
 >
->コントロールパネルは、AWSでホストされるお客様のみが利用できます。コントロールパネルにアクセスする場合は、アップグレードは必要ありません。 アクセスする管理者ユーザーであることを確認してください。
+>コントロールパネルは、AWS でホストされているお客様のみ使用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスする管理者ユーザーであることを確認してください。
 
 ## January 2020 {#january-2020}
 
 *2020年1月22日*
 
-定義する
+管理者ユーザーがサブドメインを委任し、コントロールパネルからSSL証明書を更新するための新しい機能が追加されました。
+
+詳しくは、次のページを参照してください。
+* [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [サブドメインの SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>これらの機能はベータ版で利用可能になり、予告なく頻繁に更新や変更が行われる場合があります。
 
 ## September 2019 {#september-2019}
 
