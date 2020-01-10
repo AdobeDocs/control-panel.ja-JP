@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
 
 ---
@@ -15,12 +15,12 @@ source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
 
 これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
 
-詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
 **IMS Org ID はどこに行けばわかりますか？**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc)／**[!UICONTROL 管理]**に移動する方法です。IMS Org ID は、「**[!UICONTROL &#x200B;管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc)／**[!UICONTROL 管理]**に移動する方法です。IMS Org ID は、「**[!UICONTROL &#x200B;管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
 もう １ つの方法は、**Admin Console** を起動することです。IMS Org ID は、URL 内に、https://adminconsole.adobe.com/xxx@AdobeOrg/overview のような形式で表示されます。
 
