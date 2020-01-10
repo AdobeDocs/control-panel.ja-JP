@@ -20,7 +20,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ## ストレージ容量情報へのアクセス{#accessing-storage-capacity-information}
 
-ヘッダーの「**[!UICONTROL 最も使用された SFTP ディスク容量]**」セクションには、管理者アクセス権のあるインスタンスに接続されている、最も使用された上位 3 つのサーバーが含まれています。この情報は、SFTP カードのすべてのタブにあります。
+ヘッダーの「**[!UICONTROL SFTP ディスク使用率上位]**」セクションには、管理者アクセス権のあるインスタンスに接続されている、最も使用された上位 3 つのサーバーが含まれています。この情報は、SFTP カードのすべてのタブにあります。
 
 ![](assets/control_panel_topspace.png)
 
