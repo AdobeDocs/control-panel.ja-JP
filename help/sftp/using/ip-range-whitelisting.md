@@ -32,7 +32,7 @@ CIDR（Classless Inter-Domain Routing）は、コントロールパネルのイ�
 
 IP 範囲をホワイトリストに登録するには、次の手順に従います。
 
-1. 「**[!UICONTROL SFTP]**」カードを開き、「**[!UICONTROL  IP のホワイトリスト登録]**」タブを選択します。
+1. 「**[!UICONTROL SFTP]**」カードを開き、「**[!UICONTROL  IP ホワイトリスト]**」タブを選択します。
 1. 各インスタンスについて、ホワイトリストに登録された IP アドレスのリストが表示されます。左側のリストから目的のインスタンスを選択して、「**[!UICONTROL 新しい IP 範囲を追加]**」ボタンをクリックします。
 
    ![](assets/control_panel_add_range.png)
