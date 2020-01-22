@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ---
@@ -33,7 +33,7 @@ Campaign コントロールパネルには、Experience Cloud Platform **ソリ�
 
 >[!NOTE]
 >
->製品内からのアクセスは、キャンペーン標準でのみ可能です。
+>製品内からのアクセスは、Campaign Standard でのみ可能です。
 
 1. Campaign Standard 製品を開き、**[!UICONTROL ナビゲーション]**パネルの**[!UICONTROL &#x200B;管理]**メニューを選択します。
 
