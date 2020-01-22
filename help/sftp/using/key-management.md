@@ -1,7 +1,7 @@
 ---
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
@@ -41,7 +41,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 >
 >以下に、SSH 鍵の作成手順の一例を示します。SSH 鍵に関しては組織のガイドラインに従ってください。以下の例は、実行方法のほんの一例です。要件をチームまたは内部ネットワークグループに伝える際の基準として役立ててください。
 
-1. Navigate to the **[!UICONTROL Key Management]**tab, then click the**[!UICONTROL  Add new public key]** button.
+1. 「**[!UICONTROL 鍵管理]**」タブに移動し、「**[!UICONTROL &#x200B;新しい公開鍵を追加]**」ボタンをクリックします。
 
    ![](assets/key0.png)
 
