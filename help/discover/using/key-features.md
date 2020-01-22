@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ---
