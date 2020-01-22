@@ -1,6 +1,6 @@
 ---
 title: コントロールパネルのリリース
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
@@ -12,13 +12,13 @@ source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 >[!NOTE]
 >
->コントロールパネルは、AWS でホストされているお客様のみ使用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスする管理者ユーザーであることを確認してください。
+>コントロールパネルは、AWS でホストされているお客様のみ使用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
 
-## January 2020 {#january-2020}
+## 2020 年 1 月{#january-2020}
 
-*2020年1月22日*
+*2020 年 1 月 22 日*
 
-管理者ユーザーがサブドメインを委任し、コントロールパネルからSSL証明書を更新するための新しい機能が追加されました。
+管理者ユーザーがサブドメインをデリゲートし、コントロールパネルから SSL 証明書を更新するための新しい機能が追加されました。
 
 詳しくは、次のページを参照してください。
 * [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
@@ -26,25 +26,25 @@ source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 >[!IMPORTANT]
 >
->これらの機能はベータ版で利用可能になり、予告なく頻繁に更新や変更が行われる場合があります。
+>これらの機能はベータ版で利用可能になり、予告なしに頻繁に更新や変更がおこなわれます。
 
-## September 2019 {#september-2019}
+## 2019 年 9 月 {#september-2019}
 
-*2019年9月17日*
+*2019 年 9 月 16 日*
 
-Campaign Classicインスタンスに接続するための、管理者ユーザーの新しい機能がホワイトリストIPアドレスに追加されました。
-さらに、管理者ユーザーは、Campaign Classicインスタンスのリストとビルドアップグレードの適格性を表示できるようになりました。
+管理者ユーザーが Campaign Classic インスタンスに接続する IP アドレスをホワイトリストに登録するための新しい機能が追加されました。
+さらに管理者ユーザーは、Campaign Classic インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
-For more information, refer to the [dedicated documentation](instances-settings/using/ip-whitelisting-instance-access.md).
+詳しくは、[該当するドキュメント](instances-settings/using/ip-whitelisting-instance-access.md)を参照してください。
 
-## August 2019 {#august-2019}
+## 2019 年 8 月{#august-2019}
 
 管理者ユーザーがお使いのドメインの SSL 証明書の期限が切れる前に通知を受け取る新機能を追加しました。詳しくは、[詳細ドキュメント](subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
 
 さらに、管理者ユーザーは、SFTP サーバーにアクセスするために追加された SSH キーを削除できるようになりました。
 
-## July 2019 {#july-2019}
+## 2019 年 7 月{#july-2019}
 
-管理者ユーザーがCampaign Classicインスタンスの設定をより詳細に制御できるようにする新機能が追加されました。 新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
+管理者ユーザーが Campaign Classic インスタンス設定の管理をさらに強化できるようにするための新しい機能が追加されました。新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
 
 詳しくは、[詳細ドキュメント](instances-settings/using/url-permissions.md)を参照してください。
