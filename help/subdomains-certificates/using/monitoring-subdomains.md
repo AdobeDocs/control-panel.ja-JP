@@ -2,7 +2,7 @@
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -28,5 +28,5 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 **関連トピック：**
 
 * [SSL証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [サブドメインの SSL 証明書の更新](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
