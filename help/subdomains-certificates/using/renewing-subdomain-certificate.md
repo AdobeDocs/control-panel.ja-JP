@@ -1,8 +1,8 @@
 ---
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
-translation-type: ht
-source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -104,3 +104,9 @@ SSL 証明書を購入したら、インスタンスにインストールでき�
    ![](assets/install2.png)
 
 SSL 証明書がインストールされると、それに応じて証明書の有効期限とステータスアイコンが更新されます。
+
+**関連トピック：**
+
+* [SSL証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
+* [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
