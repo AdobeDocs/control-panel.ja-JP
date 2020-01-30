@@ -1,8 +1,8 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: ht
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+translation-type: tm+mt
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -45,3 +45,9 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 >[!IMPORTANT]
 >
 >コントロールパネルからの証明書の更新は、1 月末までにベータ版で利用可能になり、予告なしに頻繁に更新や変更がおこなわれます。
+
+**関連トピック：**
+
+* [SSL証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
