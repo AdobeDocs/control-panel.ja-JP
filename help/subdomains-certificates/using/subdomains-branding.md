@@ -1,8 +1,8 @@
 ---
 title: サブドメインのブランド化
 description: サブドメインのブランド化の詳細
-translation-type: ht
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -39,6 +39,12 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 | **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
 | **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
 
-ドメインのデリゲーションに関する追加情報については、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
+ドメインのデリゲーションに関する追加情報については、[このドキュメント](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)を参照してください。
 
-サブドメインの委任方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーサポートに連絡して配信品質のコンサルティングを依頼してください。
+サブドメインの委任方法に関してご質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
+
+**関連トピック：**
+
+* [新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [サブドメインの委任（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
