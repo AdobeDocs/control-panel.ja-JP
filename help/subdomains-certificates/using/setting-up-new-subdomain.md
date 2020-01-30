@@ -1,8 +1,8 @@
 ---
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-translation-type: ht
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 >
 >コントロールパネルからのサブドメインのデリゲーションは、1 月末までにベータ版で利用可能になり、予告なしに頻繁に更新や変更がおこなわれます。
 
-サブドメインのデリゲート方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーサポートに連絡して配信品質のコンサルティングを依頼してください。
+サブドメインの委任方法に関してご質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
 ## 完全なサブドメインデリゲーション {#full-subdomain-delegation}
 
@@ -109,3 +109,9 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 ## CNAME の使用 {#use-cnames}
 
 サブドメインのデリゲーションに対する CNAME の使用は、コントロールパネルでサポートされていません。この方法を使用するには、アドビカスタマーケアにお問い合わせください。
+
+**関連トピック：**
+
+* [サブドメインの委任（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
+* [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
