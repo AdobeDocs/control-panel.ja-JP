@@ -1,8 +1,8 @@
 ---
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-translation-type: ht
-source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
+translation-type: tm+mt
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -15,13 +15,13 @@ Campaign コントロールパネルには、Experience Cloud から直接アク
 
 ## Experience Cloud Platform からのアクセス{#access-experience-cloud-platform}
 
-Experience Cloud Platform から Campaign コントロールパネルにアクセスするには、[Experience Cloud Platform ホームページ](https://amc.experiencecloud.adobe.com/)に移動し、「**クイックアクセス**」セクションの専用リンクをクリックします 。
+Experience Cloud Platform から Campaign コントロールパネルにアクセスするには、[Experience Cloud Platform ホームページ](https://experiencecloud.adobe.com/)に移動し、「**クイックアクセス**」セクションの専用リンクをクリックします 。
 
 ![](assets/do-not-localize/quickaccess.png)
 
 Campaign コントロールパネルには、Experience Cloud Platform **ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/) に移動して、ソリューションピッカーから **Campaign** を選択します。
+1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/) に移動して、ソリューションピッカーから **Campaign** を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
