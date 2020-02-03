@@ -2,7 +2,7 @@
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
 translation-type: tm+mt
-source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 **IMS Org ID はどこに行けばわかりますか？**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc)／**[!UICONTROL 管理]**に移動する方法です。IMS Org ID は、「**[!UICONTROL &#x200B;管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**に移動する方法です。IMS Org ID は、「**[!UICONTROL &#x200B;管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
 
 もう １ つの方法は、**Admin Console** を起動することです。IMS Org ID は、URL 内に、https://adminconsole.adobe.com/xxx@AdobeOrg/overview のような形式で表示されます。
 
