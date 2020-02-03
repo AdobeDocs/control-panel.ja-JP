@@ -1,8 +1,8 @@
 ---
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
-translation-type: ht
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+translation-type: tm+mt
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 コントロールパネルは、Campaign インスタンスのすべての管理者ユーザーが利用できます。ユーザーを管理者グループに割り当てて、コントロールパネルへのアクセス権を付与するには、以下の手順に従います。
 
-1. [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html) に移動して、「**[!UICONTROL 管理]**」タブを選択します。
+1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/) に移動して、「**[!UICONTROL 管理]**」タブを選択します。
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
