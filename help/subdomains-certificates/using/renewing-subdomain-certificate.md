@@ -2,7 +2,7 @@
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->コントロールパネルからのサブドメインのデリゲーションは、1 月末までにベータ版で利用可能になり、予告なしに頻繁に更新や変更がおこなわれます。
+>コントロールパネルからのサブドメインの委任はベータ版で利用でき、通知なく頻繁に更新や変更が行われる場合があります。
 
 ## 証明書の更新について {#about-certificate-renewal-process}
 
