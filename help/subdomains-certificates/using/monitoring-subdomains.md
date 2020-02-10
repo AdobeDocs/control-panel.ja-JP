@@ -1,7 +1,7 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 各プロダクションインスタンスのサブドメインのリストには、「**[!UICONTROL サブドメインおよび証明書]**」カードを選択すると、直接アクセスできます。
 
-「**[!UICONTROL 前回の検証日]**」列には、サブドメインが最後に検証された日が示されます。**...**／**[!UICONTROL &#x200B;サブドメインを検証]**ボタンをクリックすることで、いつでも検証を開始できます。
+「**[!UICONTROL 前回の検証日]**」列には、サブドメインが最後に検証された日が示されます。**...**／**[!UICONTROL サブドメインを検証]**&#x200B;ボタンをクリックすることで、いつでも検証を開始できます。
 
 ![](assets/subdomain_verification.png)
 
@@ -27,6 +27,6 @@ source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 **関連トピック：**
 
-* [SSL証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
+* [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
