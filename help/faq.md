@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
@@ -15,14 +15,14 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
 
-詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
 **IMS Org ID はどこに行けばわかりますか？**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**に移動する方法です。IMS Org ID は、「**[!UICONTROL &#x200B;管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS Org ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
-もう １ つの方法は、**Admin Console** を起動することです。IMS Org ID は、URL 内に、https://adminconsole.adobe.com/xxx@AdobeOrg/overview のような形式で表示されます。
+もう 1 つの方法は、**Admin Console** を起動することです。IMS Org ID は、URL 内に、https://adminconsole.adobe.com/xxx@AdobeOrg/overview のような形式で表示されます。
 
 **IMS Org ID を知る必要があるのはなぜですか？**
 
@@ -42,8 +42,8 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 インスタンスが AWS でホストされているかどうかを確認するには、以下の手順に従います。
 
-1. ログイン URL を取得します。これは、Campaignインスタンスにログインする際に使用するURLで、ほとんどが「.campaign.adobe.com」または「.neolane.net」で終わります。
-1. ターミナルを開いて、ログイン URL に対して **[!DNL nslookup]**コマンドを実行します。
+1. ログイン URL を取得します。ログイン URL は、Campaign インスタンスへのログインに利用する URL で、ほとんどの場合、「.campaign.adobe.com」または「.neolane.net」で終わります。
+1. ターミナルを開いて、ログイン URL に対して **[!DNL nslookup]** コマンドを実行します。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
