@@ -1,7 +1,7 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 「**[!UICONTROL サブドメインおよび証明書]**」カードを選択すると、サブドメインのリストからサブドメインの SSL 証明書のステータスに直接アクセスできます。
 
-サブドメインは、有効期限の視覚的情報と共に、日数で数えてSSL 証明書の有効期限が近い順に表示されます。
+サブドメインは、有効期限の視覚的情報と共に、日数で数えて SSL 証明書の有効期限が近い順に表示されます。
 
 * **緑**：サブドメインには、今後 60 日以内に期限が切れる証明書はありません。
 * **オレンジ**：1 つ以上のサブドメインに、今後 60 日以内に期限が切れる証明書があります。
@@ -34,7 +34,7 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 ![](assets/subdomains_list.png)
 
-サブドメインの証明書の詳細を取得するには、**[!UICONTROL サブドメインの詳細]**ボタンをクリックします。関連するすべてのサブドメインのリストが表示されます。通常、ランディングページやリソースページなどのサブドメインが含まれます。
+サブドメインの証明書の詳細を取得するには、**[!UICONTROL サブドメインの詳細]**&#x200B;ボタンをクリックします。関連するすべてのサブドメインのリストが表示されます。通常、ランディングページやリソースページなどのサブドメインが含まれます。
 
 「**[!UICONTROL 送信者情報]**」タブには、設定済みの受信ボックス（送信者、返信先、エラー E メール）に関する情報が表示されます。
 
@@ -48,6 +48,6 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 **関連トピック：**
 
-* [SSL証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
+* [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
