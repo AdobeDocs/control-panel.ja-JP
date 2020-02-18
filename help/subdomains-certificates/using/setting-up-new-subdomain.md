@@ -1,7 +1,7 @@
 ---
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 >[!IMPORTANT]
 >
->コントロールパネルからのサブドメインの委任はベータ版で利用でき、通知なく頻繁に更新や変更が行われる場合があります。
+>コントロールパネルから使用できるサブドメインのデリゲーションは、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 
-サブドメインの委任方法に関してご質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
+サブドメインのデリゲート方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
 ## 完全なサブドメインデリゲーション {#full-subdomain-delegation}
 
@@ -25,7 +25,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >
 >そのプライマリサブドメインを使用して、リバース DNS レコードがその他のサブドメインに対して作成されます。その他のサブドメインの返信アドレスとバウンスアドレスは、プライマリサブドメインから生成されます。
 
-1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL &#x200B;新しいサブドメインをセットアップ]**」をクリックします。
+1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL 新しいサブドメインをセットアップ]**」をクリックします。
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +33,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
    >
    >サブドメインデリゲーションは、**プロダクション**&#x200B;インスタンスでのみ使用できます。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして、完全なデリゲーション方法を確認します。
+1. 「**[!UICONTROL 次へ]**」をクリックして、完全なデリゲート方法を確認します。
 
    ![](assets/subdomain3.png)
 
@@ -79,7 +79,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
    >[!NOTE]
    >
-   >場合によっては、デリゲーションが処理されますが、サブドメインが正しく検証されない場合があります。サブドメインは、**[!UICONTROL 検証済みのサブドメイン]**リストに直接表示され、**[!UICONTROL &#x200B;未検証]**ステータスとエラーに関する情報を提供するジョブのログが表示されます。問題が解決されない場合は、カスタマーケアにお問い合わせください。
+   >場合によっては、デリゲーションが処理されますが、サブドメインが正しく検証されない場合があります。サブドメインは、**[!UICONTROL 検証済みのサブドメイン]**&#x200B;リストに直接表示され、**[!UICONTROL 未検証]**&#x200B;ステータスとエラーに関する情報を提供するジョブのログが表示されます。問題が解決されない場合は、カスタマーケアにお問い合わせください。
    >
    >パフォーマンスの問題を回避するために、サブドメインデリゲーションが実行される間は、コントロールパネルからのその他の要求はキューに入り、サブドメインデリゲーションが完了した後で実行されます。
 
@@ -108,10 +108,10 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ## CNAME の使用 {#use-cnames}
 
-サブドメインのデリゲーションに対する CNAME の使用は、コントロールパネルでサポートされていません。この方法を使用するには、アドビカスタマーケアにお問い合わせください。
+サブドメインデリゲーションに対する CNAME の使用は、コントロールパネルでサポートされていません。この方法を使用するには、アドビカスタマーケアにお問い合わせください。
 
 **関連トピック：**
 
-* [サブドメインの委任（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
+* [サブドメインデリゲーション（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
