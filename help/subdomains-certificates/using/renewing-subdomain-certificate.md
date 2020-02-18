@@ -1,7 +1,7 @@
 ---
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
@@ -11,14 +11,14 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 >[!IMPORTANT]
 >
->コントロールパネルからのサブドメインの委任はベータ版で利用でき、通知なく頻繁に更新や変更が行われる場合があります。
+>コントロールパネルから使用できるサブドメインのデリゲーションは、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 
 ## 証明書の更新について {#about-certificate-renewal-process}
 
 SSL 証明書の更新プロセスには、以下の 3 ステップがあります。
 
 1. **証明書署名要求（CSR）の生成**
-アドビカスタマーケアによって、CSRが生成されます。CSR を生成するために必要な情報（共通名、組織名および住所など）を提供する必要があります。
+アドビカスタマーケアによって、CSR が生成されます。CSR を生成するために必要な情報（共通名、組織名および住所など）を提供する必要があります。
 1. **SSL 証明書の購入**
 CSR が生成されると、ダウンロードでき、会社が承認する認証局から SSL 証明書を購入する際に使用できます。
 1. **SSL 証明書のインストール**
@@ -26,21 +26,21 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 
 >[!NOTE]
 >
->コントロールパネルでの SSL 証明書の更新は、**完全にデリゲーションされたサブドメイン**&#x200B;に対してのみ利用できます。
+>コントロールパネルでの SSL 証明書の更新は、**完全にデリゲートされたサブドメイン**&#x200B;に対してのみ利用できます。
 
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 
 証明書署名要求（CSR）を生成するには、次の手順に従います。
 
-1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のインスタンスを選択してから、「**[!UICONTROL &#x200B;証明書を管理]**」ボタンをクリックします。
+1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のインスタンスを選択してから、「**[!UICONTROL 証明書を管理]**」ボタンをクリックします。
 
    ![](assets/renewal1.png)
 
-1. 「**[!UICONTROL CSR を生成]**」を選択してから、「**[!UICONTROL &#x200B;次へ]**」をクリックし、CSR 生成プロセスの手順を示すウィザードを起動します。
+1. 「**[!UICONTROL CSR を生成]**」を選択してから、「**[!UICONTROL 次へ]**」をクリックし、CSR 生成プロセスの手順を示すウィザードを起動します。
 
    ![](assets/renewal2.png)
 
-1. SSL 証明書を生成するために必要なすべての詳細と共に、フォームが表示されます。
+1. CSR を生成するために必要なすべての詳細と共に、フォームが表示されます。
 
    証明書を確実に更新するために、要求された情報をすべて正確に入力していることを確認して（必要に応じて、社内チーム、セキュリティおよび IT チームに問い合わせます）から、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -91,11 +91,11 @@ SSL 証明書を購入したら、インスタンスにインストールでき�
 
 証明書をインストールするには、次の手順に従います。
 
-1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のインスタンスを選択してから、「**[!UICONTROL &#x200B;証明書を管理]**」ボタンをクリックします。
+1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のインスタンスを選択してから、「**[!UICONTROL 証明書を管理]**」ボタンをクリックします。
 
    ![](assets/renewal1.png)
 
-1. 「**[!UICONTROL SSL 証明書をインストール]**」をクリックしてから、「**[!UICONTROL &#x200B;次へ]**」をクリックし、証明書のインストールプロセスの手順を示すウィザードを起動します。
+1. 「**[!UICONTROL SSL 証明書をインストール]**」をクリックしてから、「**[!UICONTROL 次へ]**」をクリックし、証明書のインストールプロセスの手順を示すウィザードを起動します。
 
    ![](assets/install1.png)
 
@@ -107,6 +107,6 @@ SSL 証明書がインストールされると、それに応じて証明書の�
 
 **関連トピック：**
 
-* [SSL証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [サブドメインのブランド化](../../subdomains-certificates/using/subdomains-branding.md)
+* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
