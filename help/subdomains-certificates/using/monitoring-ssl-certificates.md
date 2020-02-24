@@ -1,8 +1,8 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: ht
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+translation-type: tm+mt
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 ## SSL 証明書の監視 {#monitoring-certificates}
 
-「**[!UICONTROL サブドメインおよび証明書]**」カードを選択すると、サブドメインのリストからサブドメインの SSL 証明書のステータスに直接アクセスできます。
+The status of your subdomains&#39; SSL certificates is available directly from the list of subdomains when selecting the **[!UICONTROL Subdomains & Certificates]** card.
 
 サブドメインは、有効期限の視覚的情報と共に、日数で数えて SSL 証明書の有効期限が近い順に表示されます。
 
@@ -34,9 +34,10 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 ![](assets/subdomains_list.png)
 
-サブドメインの証明書の詳細を取得するには、**[!UICONTROL サブドメインの詳細]**&#x200B;ボタンをクリックします。関連するすべてのサブドメインのリストが表示されます。通常、ランディングページやリソースページなどのサブドメインが含まれます。
+To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]** button.
+関連するすべてのサブドメインのリストが表示されます。通常、ランディングページやリソースページなどのサブドメインが含まれます。
 
-「**[!UICONTROL 送信者情報]**」タブには、設定済みの受信ボックス（送信者、返信先、エラー E メール）に関する情報が表示されます。
+The **[!UICONTROL Sender info]** tab provides information on the configured inboxes (Sender, Reply to, Error email).
 
 ![](assets/subdomain_details.png)
 
@@ -44,7 +45,7 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 
 >[!IMPORTANT]
 >
->コントロールパネルからの証明書の更新は、1 月末までにベータ版で利用可能になり、予告なしに頻繁に更新や変更がおこなわれます。
+>コントロールパネルからの証明書の更新はベータ版で利用でき、通知なく頻繁に更新や変更が行われる場合があります。
 
 **関連トピック：**
 
