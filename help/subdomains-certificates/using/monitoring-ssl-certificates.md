@@ -2,7 +2,7 @@
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
@@ -22,6 +22,11 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 ![](assets/no_certificate.png)
 
 ## SSL 証明書の監視 {#monitoring-certificates}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_details&quot;
+>title=&quot;サブドメインの詳細&quot;
+>abstract=&quot;サブドメインの情報を取得します。&quot;
 
 The status of your subdomains&#39; SSL certificates is available directly from the list of subdomains when selecting the **[!UICONTROL Subdomains & Certificates]** card.
 
@@ -45,7 +50,7 @@ The **[!UICONTROL Sender info]** tab provides information on the configured inbo
 
 >[!IMPORTANT]
 >
->コントロールパネルからの証明書の更新はベータ版で利用でき、通知なく頻繁に更新や変更が行われる場合があります。
+>コントロールパネルからの証明書の更新はベータ版で利用でき、通知なしに頻繁に更新や変更が行われる場合があります。
 
 **関連トピック：**
 
