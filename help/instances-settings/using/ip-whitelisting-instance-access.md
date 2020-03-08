@@ -1,13 +1,19 @@
 ---
 title: IP のホワイトリスト登録
 description: インスタンスにアクセスするためのコントロールパネルでの IP アドレスのホワイトリスト登録の詳細
-translation-type: ht
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+translation-type: tm+mt
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # IP のホワイトリスト登録{#ip-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange&quot;
+>title=&quot;IPホワイトリストについて&quot;
+>abstract=&quot;IPホワイトリストを管理してインスタンスにアクセスします。&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;デモビデオを見る&quot;
 
 >[!CAUTION]
 >
@@ -33,9 +39,14 @@ IP アドレスがいったんホワイトリストに登録されれば、Campa
 
 ## インスタンスにアクセスするための IP アドレスのホワイトリスト登録{#whistelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange_add&quot;
+>title=&quot;Add New Ip Range&quot;
+>abstract=&quot;インスタンスに接続するホワイトリストのIP範囲を定義します。&quot;
+
 IP アドレスをホワイトリストに登録するには、次の手順に従います。
 
-1. **[!UICONTROL 「インスタンス設定」カード]**を開いて「IP ホワイトリスト」タブにアクセスし、「**[!UICONTROL &#x200B;新しい IP 範囲を追加]**」をクリックします。
+1. を開いて「IPホワ **[!UICONTROL Instances Settings card]** イトリスト」タブにアクセスし、をクリックしま **[!UICONTROL Add new IP Range]**&#x200B;す。
 
    >[!NOTE]
    >
@@ -47,30 +58,30 @@ IP アドレスをホワイトリストに登録するには、次の手順に�
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL インスタンス]**：IP アドレスから接続できるインスタンス。複数のインスタンスを同時に操作できます。例えば、プロダクションインスタンスとステージインスタンスの IP ホワイトリスト登録を同じ手順で実行できます。
-   * **[!UICONTROL IP 範囲]**：ホワイトリストに登録する IP 範囲（CIDR 形式）。なお、IP 範囲は、既存のホワイトリストに登録された範囲と重複できません。重複する場合は、まず、重複している IP を含む範囲を削除してください。
+   * **[!UICONTROL Instance(s)]**:IPアドレスが接続できるインスタンス。 複数のインスタンスを同時に操作できます。例えば、プロダクションインスタンスとステージインスタンスの IP ホワイトリスト登録を同じ手順で実行できます。
+   * **[!UICONTROL IP Range]**:ホワイトリストにするIP範囲（CIDR形式）。 なお、IP 範囲は、既存のホワイトリストに登録された範囲と重複できません。重複する場合は、まず、重複している IP を含む範囲を削除してください。
    >[!NOTE]
    >
    >CIDR（Classless Inter-Domain Routing）は、コントロールパネルのインターフェイスで IP 範囲を追加する際にサポートされる形式です。構文は、IP アドレスとそれに続く「/」（スラッシュ記号）および 10 進数で構成されます。形式とその構文について詳しくは、[この記事](https://whatismyipaddress.com/cidr)を参照してください。
    >
    >管理している IP 範囲を CIDR 形式に変換するのに役立つ無料のオンラインツールをインターネットで検索できます。
 
-   * **[!UICONTROL ラベル]**：ホワイトリストに登録されている IP アドレスのリストに表示されるラベル。
-   * **[!UICONTROL 名前]**：アクセスタイプ、インスタンス（外部 API 接続の場合）および IP アドレスで一意になる名前が必要です。
+   * **[!UICONTROL Label]**:ホワイトリストに登録されたIPアドレスの一覧に表示するラベルです。
+   * **[!UICONTROL Name]**:この名前は、アクセスタイプ、インスタンス（外部API接続の場合）およびIPアドレスに対して一意である必要があります。
 
 
 1. IP アドレスに許可するアクセスのタイプを指定します。
 
-   * **[!UICONTROL Campaign コンソールアクセス]**：IP アドレスから Campaign Classic コンソールに接続できるようになります。なお、コンソールアクセスはマーケティングインスタンスの場合にのみ有効です。MID および RT インスタンスへのアクセスは許可されないので、無効です。
-   * **[!UICONTROL AEM 接続]**：指定された AEM IP アドレスからマーケティングインスタンスに接続できるようになります。
-   * **[!UICONTROL 外部 API 接続]**：指定された IP アドレスを持つ外部 API からマーケティングインスタンスや Message Center（RT）インスタンスに接続できるようになります。なお、RT インスタンスのコンソールへの接続は無効です。
+   * **[!UICONTROL Campaign Console Access]**:IPアドレスは、Campaign Classicコンソールに接続できます。 なお、コンソールアクセスはマーケティングインスタンスの場合にのみ有効です。MID および RT インスタンスへのアクセスは許可されないので、無効です。
+   * **[!UICONTROL AEM connection]**:指定したAEM IPアドレスは、Marketingインスタンスへの接続を許可されます。
+   * **[!UICONTROL External API connection]**:指定したIPアドレスを持つ外部APIは、マーケティングまたはMessage Center(RT)インスタンスに接続できます。 なお、RT インスタンスのコンソールへの接続は無効です。
    ![](assets/ip_whitelist_acesstype.png)
 
-1. 「**[!UICONTROL 保存]**」ボタンをクリックします。指定の IP 範囲がホワイトリストに登録された IP アドレスのリストに追加されます。
+1. ボタンをクリッ **[!UICONTROL Save]** クします。 指定の IP 範囲がホワイトリストに登録された IP アドレスのリストに追加されます。
 
    ![](assets/ip_whitelist_added.png)
 
-ホワイトリストに登録されている IP 範囲を削除するには、IP 範囲を選択してから、「**[!UICONTROL IP 範囲を削除]**」ボタンをクリックします。
+To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
 
 **関連トピック：**
 * [IP ホワイトリスト登録（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
