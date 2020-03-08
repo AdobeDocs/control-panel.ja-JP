@@ -2,12 +2,18 @@
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 新しいサブドメインの設定 {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;新しいサブドメインの設定と証明書の管理&quot;
+>abstract=&quot;You need to setup a new subdomain and manage your subdomains&#39; SSL certificates to start send emails or publish landing pages with Adobe Campaign.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;サブドメインのSSL証明書の監視方法&quot;
 
 >[!IMPORTANT]
 >
@@ -100,7 +106,7 @@ You can get more details on the subdomain by clicking the **[!UICONTROL Subdomai
 
 >[!IMPORTANT]
 >
->処理段階に従って、作成された新しいサブドメインを監査するために、配信品質チームに対する監査リクエストが提出されたことをアドビカスタマーケアに確認する必要があります。 監査プロセスは、サブドメインが委任されてから3 10営業日後に行われます。
+>処理段階に入ったら、作成した新しいサブドメインを監査するために、配信品質チームに対する監査リクエストがアドビカスタマーケアに提出されたことを確認する必要があります。 監査プロセスは、サブドメインが委任されてから3 10営業日後に行われます。
 >
 >実行されるチェックには、フィードバックループや迷惑メール報告ループテストが含まれます。したがって、監査が完了する前にサブドメインを使用することはお勧めしません。サブドメインの評価が悪くなる可能性があります。
 
