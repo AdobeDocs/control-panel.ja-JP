@@ -1,7 +1,7 @@
 ---
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,8 +11,8 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_urlpermissions&quot;
->title=&quot;URL権限について&quot;
->abstract=&quot;Adobe Campaignインスタンスが接続できるURLを管理します。&quot;
+>title=&quot;URL 権限について&quot;
+>abstract=&quot;Adobe Campaign インスタンスが接続できる URL を管理します。&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;デモビデオを見る&quot;
 
 >[!CAUTION]
@@ -43,12 +43,12 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_url_add&quot;
->title=&quot;新しいURLの追加&quot;
->abstract=&quot;Add URLs to allow connections to your Campaign instance.&quot;
+>title=&quot;新しい URL の追加&quot;
+>abstract=&quot;Campaign インスタンスへの接続を許可するための URL を追加します。&quot;
 
 インスタンスがアクセスできる URL を追加するには、次の手順に従います。
 
-1. カードを開 **[!UICONTROL Instances Settings]** いてタブにアクセス **[!UICONTROL URL Permissions]** します。
+1. 「**[!UICONTROL インスタンス設定]**」カードを開き、「**[!UICONTROL URL 権限]**」タブにアクセスします。
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
    >
    >「<b><span class="uicontrol">URL へのアクセス権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 
-1. Select in the left pane the desired instance, then click the **[!UICONTROL Add new URL]** button.
+1. 左側のパネルから目的のインスタンスを選択し、「**[!UICONTROL 新規 URL を追加]**」ボタンをクリックします。
 
    ![](assets/add_url1.png)
 
@@ -82,7 +82,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    ![](assets/add_url_listnew.png)
 
-You can delete a URL at any time by selecting it and clicking the **[!UICONTROL Delete URL]** button.
+該当する URL を選択して「**[!UICONTROL URL を削除]**」ボタンをクリックすれば、URL はいつでも削除できます。
 
 URL を削除すると、インスタンスはその URL を呼び出すことができなくなります。
 
