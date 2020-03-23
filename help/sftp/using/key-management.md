@@ -1,7 +1,7 @@
 ---
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_key_management&quot;
->title=&quot;Key Managementについて&quot;
+>title=&quot;鍵キー管理について&quot;
 >abstract=&quot;このタブで、公開鍵を管理できます。&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166&quot; text=&quot;デモビデオを見る&quot;
 
@@ -45,14 +45,14 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_sftp_publickey_add&quot;
->title=&quot;Add New Public Key&quot;
+>title=&quot;新しい公開鍵の追加&quot;
 >abstract=&quot;インスタンスの新しい公開鍵を追加します。&quot;
 
 >[!CAUTION]
 >
 >以下に、SSH 鍵の作成手順の一例を示します。SSH 鍵に関しては組織のガイドラインに従ってください。以下の例は、実行方法のほんの一例です。要件をチームまたは内部ネットワークグループに伝える際の基準として役立ててください。
 
-1. タブに移動し、 **[!UICONTROL Key Management]** ボタンをクリック **[!UICONTROL Add new public key]** します。
+1. 「**[!UICONTROL 鍵管理]**」タブに移動し、「**[!UICONTROL 新しい公開鍵を追加]**」ボタンをクリックします。
 
    ![](assets/key0.png)
 
@@ -87,7 +87,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
    ![](assets/publickey.png)
 
-1. Click the **[!UICONTROL Save]** button to create the key. コントロールパネルは、SHA256 形式で暗号化された公開鍵とそれに関連するフィンガープリントを保存します。
+1. 「**[!UICONTROL 保存]**」ボタンをクリックして、鍵を作成します。コントロールパネルは、SHA256 形式で暗号化された公開鍵とそれに関連するフィンガープリントを保存します。
 
 フィンガープリントを使用して、コンピューターに保存されている秘密鍵と、コントロールパネルに保存されている対応する公開鍵を照合できます。
 
