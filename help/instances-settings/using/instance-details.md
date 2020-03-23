@@ -1,7 +1,7 @@
 ---
 title: インスタンスの詳細
 description: コントロールパネルでのインスタンスの詳細の監視方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_instancedetails&quot;
 >title=&quot;インスタンスの詳細について&quot;
->abstract=&quot;Adobe Campaignインスタンスの詳細を表示します。タイプ、名前、ビルド情報、およびアップグレードの推奨事項を示します。」
->additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classicリリースノート&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standardリリースノート&quot;
+>abstract=&quot;Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および利用可能な推奨アップグレード）を表示します。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic リリースノート&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard リリースノート&quot;
 
 >[!CAUTION]
 >
@@ -32,14 +32,14 @@ Adobe Campaign Classic インスタンスアーキテクチャには複数のサ
 
 **関連トピック：**
 
-* [ビルドアップグレードの実行](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [ビルドアップグレードの実行](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)
 * [Adobe Campaign の更新](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
 ## インスタンスに関する情報の取得{#retrieving-information-about-instances}
 
 お使いのインスタンスに接続しているサーバーに関する情報を取得するには、次の手順に従います。
 
-1. カードを開 **[!UICONTROL Instances Settings]** いてタブにアクセス **[!UICONTROL Instance Details]** します。
+1. 「**[!UICONTROL インスタンス設定]**」カードを開き、「**[!UICONTROL インスタンスの詳細]**」タブにアクセスします。
 
    >[!NOTE]
    >
@@ -57,15 +57,15 @@ Adobe Campaign Classic インスタンスアーキテクチャには複数のサ
 
 入手できる情報は次のとおりです。
 
-* **[!UICONTROL Type]**:サーバーのタイプ。 値は MKT（マーケティング）、MID（ミッドソーシング）、RT（Message Center / リアルタイムメッセージング）のいずれかです。
-* **[!UICONTROL Name]**:サーバーの名前。
-* **[!UICONTROL Build:]** サーバーにインストールされているビルドバージョン。
-* **[!UICONTROL Upgrade info]**:この列は、サーバーに更新が必要な場合に通知します。
+* **[!UICONTROL タイプ]**：サーバーのタイプ。値は MKT（マーケティング）、MID（ミッドソーシング）、RT（Message Center / リアルタイムメッセージング）のいずれかです。
+* **[!UICONTROL 名前]**：サーバーの名前。
+* **[!UICONTROL ビルド：]**&#x200B;サーバーにインストールされているビルドバージョン。
+* **[!UICONTROL アップグレード情報]**：サーバーの更新が必要かどうかを示します。
    * 緑：サーバーは最新です。アップグレードは必要ありません。
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問{#common-questions}
 
