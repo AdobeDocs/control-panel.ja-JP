@@ -1,7 +1,7 @@
 ---
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_certificate_management&quot;
->title=&quot;サブドメインとSSL証明書について&quot;
->abstract=&quot;サブドメインと関連するSSL証明書を監視します。&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;サブドメインのSSL証明書の監視方法&quot;
+>title=&quot;サブドメインと SSL 証明書について&quot;
+>abstract=&quot;サブドメインと関連する SSL 証明書を監視します。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;サブドメインの SSL 証明書の監視方法&quot;
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 | **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
 | **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
 
-ドメインデリゲーションに関する追加情報については、[このドキュメント](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)を参照してください。
+ドメインデリゲーションに関する追加情報については、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
 
 サブドメインのデリゲート方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
