@@ -1,7 +1,7 @@
 ---
 title: IP 範囲のホワイトリスト登録
 description: SFTP サーバーにアクセスするための IP 範囲のホワイトリスト登録方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,8 +11,8 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_ip_whitelist&quot;
->title=&quot;IPホワイトリストについて&quot;
->abstract=&quot;このタブでは、IP範囲をホワイトリストに登録して、SFTPサーバーへの接続を確立できます。 アクセス権を持つSFTPサーバーのみが表示されます。他のSFTPサーバーへのアクセスをリクエストするには、管理者にお問い合わせください。」
+>title=&quot;IP のホワイトリスト登録について&quot;
+>abstract=&quot;このタブでは、SFTP サーバーへの接続を確立するための IP 範囲をホワイトリストに登録できます。アクセス権のある SFTP サーバーのみがここに表示されます。他の SFTP サーバーへのアクセス権をリクエストするには、管理者にお問い合わせください。&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;デモビデオを見る&quot;
 
 SFTP サーバーは保護されています。ファイルを表示したり新しいファイルを書き込んだりするために SFTP サーバーにアクセスするには、サーバーにアクセスするシステムまたはクライアントのパブリック IP アドレスをホワイトリストに登録する必要があります。
@@ -38,13 +38,13 @@ CIDR（Classless Inter-Domain Routing）は、コントロールパネルのイ�
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_sftp_iprange_add&quot;
->title=&quot;Add New Ip Range&quot;
->abstract=&quot;SFTPサーバーに接続するためのホワイトリストのIP範囲を定義します。&quot;
+>title=&quot;新しい IP 範囲の追加&quot;
+>abstract=&quot;SFTP サーバーに接続するためにホワイトリストに登録したい IP 範囲を定義します。&quot;
 
 IP 範囲をホワイトリストに登録するには、次の手順に従います。
 
-1. カードを **[!UICONTROL SFTP]** 開き、タブを選択し **[!UICONTROL IP Whistelisting]** ます。
-1. 各インスタンスについて、ホワイトリストに登録された IP アドレスのリストが表示されます。Select the desired instance from the left-hand side list, then click the **[!UICONTROL Add new IP range]** button.
+1. 「**[!UICONTROL SFTP]**」カードを開き、「**[!UICONTROL IP ホワイトリスト]**」タブを選択します。
+1. 各インスタンスについて、ホワイトリストに登録された IP アドレスのリストが表示されます。左側のリストから目的のインスタンスを選択して、「**[!UICONTROL 新しい IP 範囲を追加]**」ボタンをクリックします。
 
    ![](assets/control_panel_add_range.png)
 
@@ -65,9 +65,9 @@ IP 範囲をホワイトリストに登録するには、次の手順に従い�
 
    ![](assets/control_panel_add_range3.png)
 
-1. ボタンをクリッ **[!UICONTROL Save]** クします。 IP のホワイトリストへの追加は、リクエストが完全に処理されるまで、保留中として表示されます。これにかかるのは、わずか数秒です。
+1. 「**[!UICONTROL 保存]**」ボタンをクリックします。IP のホワイトリストへの追加は、リクエストが完全に処理されるまで、保留中として表示されます。これにかかるのは、わずか数秒です。
 
-To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
+ホワイトリストに登録されている IP 範囲を削除するには、IP 範囲を選択してから、「**[!UICONTROL IP 範囲を削除]**」ボタンをクリックします。
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -77,7 +77,7 @@ To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete
 
 ## 変更の監視{#monitoring-changes}
 
-The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
+コントロールパネルホームページの&#x200B;**[!UICONTROL ジョブのログ]**&#x200B;を使用すると、ホワイトリストに登録されている IP アドレスに加えられたすべての変更を監視できます。
 
 コントロールパネルのインターフェイスについて詳しくは、[この節](../../discover/using/discovering-the-interface.md)を参照してください。
 
