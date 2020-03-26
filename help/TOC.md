@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
-translation-type: ht
-source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
+translation-type: tm+mt
+source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
 + サブドメインおよび証明書{#subdomains-and-certificates}
-   + [サブドメインのブランド化](subdomains-certificates/using/subdomains-branding.md)
+   + [サブドメインのブランディング](subdomains-certificates/using/subdomains-branding.md)
    + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
    + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
