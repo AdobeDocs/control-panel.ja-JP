@@ -1,8 +1,8 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: ht
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+translation-type: tm+mt
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -11,13 +11,13 @@ source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 サブドメインを監視して、Adobe Campaign で機能するようにすべてが正しく設定されていることを確認することが重要です。
 
-各プロダクションインスタンスのサブドメインのリストには、「**[!UICONTROL サブドメインおよび証明書]**」カードを選択すると、直接アクセスできます。
+The list of subdomains for each of your production instances is accessible directly when selecting the **[!UICONTROL Subdomains & Certificates]** card.
 
-「**[!UICONTROL 前回の検証日]**」列には、サブドメインが最後に検証された日が示されます。**...**／**[!UICONTROL サブドメインを検証]**&#x200B;ボタンをクリックすることで、いつでも検証を開始できます。
+The **[!UICONTROL Last verification]** column indicates when a subdomain was verified for the last time. You can launch a verification at any time by clicking the **...** / **[!UICONTROL Verify subdomain]** button.
 
 ![](assets/subdomain_verification.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >アドビでは、証明日のないサブドメインの使用は、配信品質の問題がある可能性があるので、お勧めしません。
 
