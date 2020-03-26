@@ -1,8 +1,8 @@
 ---
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+translation-type: tm+mt
+source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >
 >そのプライマリサブドメインを使用して、リバース DNS レコードがその他のサブドメインに対して作成されます。その他のサブドメインの返信アドレスとバウンスアドレスは、プライマリサブドメインから生成されます。
 
-1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL 新しいサブドメインをセットアップ]**」をクリックします。
+1. カードで、 **[!UICONTROL Subdomains & Certificates]** 目的の実稼働インスタンスを選択し、をクリックしま **[!UICONTROL Setup new subdomain]**&#x200B;す。
 
    ![](assets/subdomain1.png)
 
@@ -37,7 +37,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
    >
    >サブドメインデリゲーションは、**プロダクション**&#x200B;インスタンスでのみ使用できます。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして、完全なデリゲート方法を確認します。
+1. Click **[!UICONTROL Next]** to confirm the full delegation method.
 
    ![](assets/subdomain3.png)
 
@@ -47,43 +47,47 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 1. 組織で使用するホスティングソリューションに、目的のサブドメインとネームサーバーを作成します。これをおこなうには、ウィザードに表示される Adobe ネームサーバー情報をコピー＆ペーストします。ホスティングソリューションでのサブドメインの作成方法について詳しくは、[チュートリアルビデオ](https://video.tv.adobe.com/v/30175?captions=jpn)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >ネームサーバーを設定する際は、**ルートサブドメインをアドビにデリゲートしない**&#x200B;ようにしてください。そうしないと、ドメインが機能できるのがアドビのみになります。例えば、組織の従業員に内部 E メールを送信するなど、他の使用はできなくなります。
+   >
+   >また、この新し **いサブドメイン用に別のゾーンファイルを作成しない** でください。
 
    ![](assets/subdomain4.png)
 
-   対応する Adobe ネームサーバー情報を使用してサブドメインを作成したら、「**[!UICONTROL 次へ]**」をクリックします。
+   Once the subdomain is created with the corresponding Adobe nameserver information, click **[!UICONTROL Next]**.
 
 1. 目的のサブドメインの使用例を選択します。
 
    * **マーケティングコミュニケーション**：商用目的のコミュニケーション。例：販売の E メールキャンペーン。
    * **トランザクションおよび運用コミュニケーション**：トランザクションコミュニケーションには、受信者が開始したプロセスの完了を目的とした情報が含まれます。例：購入確認、パスワードリセット用の E メール。組織のコミュニケーションには、商用目的でない組織内外の情報、アイデア、見解の交換が関係します。
-   >[!NOTE]
-   >
-   >使用例に従ってサブドメインを分類することが、配信品質のベストプラクティスです。これにより、各サブドメインの評価が分離され、保護されます。
-   >
-   >例えば、マーケティングコミュニケーション用のサブドメインがインターネットサービスプロバイダーによってブラックリストに登録された場合、トランザクションコミュニケーションサブドメインは影響を受けず、コミュニケーションを送信し続けることができます。
-
    ![](assets/subdomain5.png)
 
-1. 作成したサブドメインをホスティングソリューションに入力し、「**[!UICONTROL 送信]**」をクリックします。
+   **サブドメインを使用例に従って分類するのが、配信品質のベストプラクティスです**。 これにより、各サブドメインの評価が分離され、保護されます。例えば、マーケティングコミュニケーション用のサブドメインがインターネットサービスプロバイダーによってブラックリストに登録された場合、トランザクションコミュニケーションサブドメインは影響を受けず、コミュニケーションを送信し続けることができます。
 
+   **マーケティングとトランザクションの両方の使用例に対してサブドメインを委任できます**。
+
+   * マーケティングの使用例では、サブドメインは **MID** （ミッドソーシング）インスタンスで設定されます。
+   * トランザクションの使用例では、接続を確保するために、すべての **RT** （Message Center/リアルタイムメッセージング）インスタンスにサブドメインが設定されます。 したがって、サブドメインはすべてのRTインスタンスで動作します。
    >[!NOTE]
    >
-   > 必ずデリゲートするサブドメインの&#x200B;**フルネームを**&#x200B;入力してください。例えば、「usoffers.email.weretail.com」サブドメインをデリゲートするには、&quot;usoffers.email.weretail.com&quot; と入力します。
+   >Campaign Classicを使用している場合、コントロールパネルでは、操作しているマーケティングインスタンスに接続されているRT/MIDインスタンスを確認できます。 詳しくは、[この節](../../instances-settings/using/instance-details.md)を参照してください。
+
+1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Submit]**.
+
+   必ずデリゲートするサブドメインの&#x200B;**フルネームを**&#x200B;入力してください。例えば、「usoffers.email.weretail.com」サブドメインをデリゲートするには、&quot;usoffers.email.weretail.com&quot; と入力します。
 
    ![](assets/subdomain6.png)
 
 1. サブドメインが送信されると、コントロールパネルは、そのサブドメインが正しく Adobe NS レコードを指していることと、このサブドメインに対して SOA（Start of Authority）レコードが存在しないことを確認します。
 
-1. チェックが正常に完了すると、コントロールパネルで、DNS レコード、追加の URL、受信ボックスなどを含むサブドメインの設定が開始されます。「**[!UICONTROL プロセスの詳細]**」ボタンをクリックすると、設定プロセスに関する詳細を取得できます。
+1. チェックが正常に完了すると、コントロールパネルで、DNS レコード、追加の URL、受信ボックスなどを含むサブドメインの設定が開始されます。You can get more details on the configuration progress by clicking the **[!UICONTROL Process details]** button.
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >場合によっては、デリゲーションが処理されますが、サブドメインが正しく検証されない場合があります。サブドメインは、**[!UICONTROL 検証済みのサブドメイン]**&#x200B;リストに直接表示され、**[!UICONTROL 未検証]**&#x200B;ステータスとエラーに関する情報を提供するジョブのログが表示されます。問題が解決されない場合は、カスタマーケアにお問い合わせください。
+   >場合によっては、デリゲーションが処理されますが、サブドメインが正しく検証されない場合があります。The subdomain will go directly into the **[!UICONTROL Verified subdomains]** list with the **[!UICONTROL Unverified]** status and a job log providing information on the error. 問題が解決されない場合は、カスタマーケアにお問い合わせください。
    >
    >パフォーマンスの問題を回避するために、サブドメインデリゲーションが実行される間は、コントロールパネルからのその他の要求はキューに入り、サブドメインデリゲーションが完了した後で実行されます。
 
@@ -98,7 +102,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >デフォルトでは、コントロールパネルからの「返信先」受信ボックスは、E メールを消去するように構成され、再表示できません。マーケティングキャンペーンの「返信先」受信ボックスを監視する場合は、このアドレスを使用しないでください。
 
 
-「**[!UICONTROL サブドメインの詳細]**」ボタンをクリックすると、サブドメインに関する詳細を取得できます。
+You can get more details on the subdomain by clicking the **[!UICONTROL Subdomain Details]** button.
 
 ![](assets/subdomain_details_general.png)
 
