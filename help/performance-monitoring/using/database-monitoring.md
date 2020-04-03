@@ -2,7 +2,7 @@
 title: データベースの監視
 description: コントロールパネルでキャンペーンデータベースを監視する方法
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
 
 >[!NOTE]
 >
->パフォーマンスを高めるために、現在のデータベースの容量と、異なる期間に指定した容量との間に多少の相違が生じる可能性があります。
+>コントロールパネルに表示されるデータベース領域の量は、契約で指定されたデータベース領域の量を反映していない場合があります。 ほとんどの場合、システムのパフォーマンスを確保するために、大きなデータベース領域が一時的に提供されます。
 
 ## データベースの使用状況の監視 {#monitoring-instances-database}
 
-1. カードを **[!UICONTROL Health Monitoring]** 開き、タブを選択し **[!UICONTROL Databases]** ます。
+コントロールパネルでは、各データベースインスタンスのデータベースの使用状況をキャンペーンできます。 それには、次の手順に従います。
+
+1. カードを **[!UICONTROL Performance Monitoring]** 開き、タブを選択し **[!UICONTROL Databases]** ます。
 
 1. から目的のインスタンスを選択しま **[!UICONTROL Instance List]**&#x200B;す。
 
@@ -38,6 +40,10 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
    グラフの上にマウスポインターを置くと、選択した期間の詳細情報を取得できます。
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>また、データベースの1つが容量に達した場合に通知を受け取ることもできます。 これを行うには、電子メールアラートを [登録します](../../performance-monitoring/using/email-alerting.md)
 
 ## データベースの過負荷の防止 {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ Campaign Standardと従来のオファーでは、データベースのディス
 
 **データベースメンテナンス**
 
-* データベースのクリーンアップ技術ワ[ークフ](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) ロー [(](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)Campaign Standard/Campaign Classic)
+* データベースのクリーンアップ技術ワ[ークフ](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) ロー [(](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)Campaign Standard/Campaign Classic)
 * [データベースメンテナンスガイド](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [データベースのパフォーマンスのトラブルシューティング](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [データベース関連のオプション](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
