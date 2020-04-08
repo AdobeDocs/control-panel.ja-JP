@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
-   + [TXTレコードの管理](subdomains-certificates/using/managing-txt-records.md)
-+ Performance monitoring {#performance-monitoring}
+   + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
++ パフォーマンス監視 {#performance-monitoring}
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
-   + [データベースの監視](performance-monitoring/using/database-monitoring.md)
-   + [電子メール通知](performance-monitoring/using/email-alerting.md)
+   + [データベース監視](performance-monitoring/using/database-monitoring.md)
+   + [E メールアラート](performance-monitoring/using/email-alerting.md)
 + インスタンス設定（Campaign Classic）{#instances-settings}
    + [インスタンスのアクセス用に IP をホワイトリストに登録](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
