@@ -1,50 +1,53 @@
 ---
-title: TXTレコードの管理
-description: ドメイン所有権の検証用のTXTレコードを管理する方法を説明します。
-translation-type: tm+mt
+title: TXT レコードの管理
+description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
+translation-type: ht
 source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
 
 ---
 
 
-# TXTレコードの管理 {#managing-txt-records}
+# TXT レコードの管理 {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
+>id="cp_siteverification_add"
+>title="[!CONTEXTUALHELP]
 >id=&quot;cp_siteverification_add&quot;
->title=&quot;TXTレコードの管理&quot;
->abstract=&quot;Googleなどの一部のサービスでは、ドメインの所有者を確認するために、ドメイン設定にTXTレコードを追加する必要があります。&quot;
+>title=&quot;TXT レコードの管理&quot;
+>abstract=&quot;Google などの一部のサービスでは、ドメインを所有していることを検証するために、ドメイン設定に TXT レコードを追加する必要があります。&quot;"
+>abstract="TXT レコードについて {#about-txt-records}"
 
-## TXTレコードについて {#about-txt-records}
+## TXT レコードは、ドメインに関するテキスト情報を提供するために使用される DNS レコードの一種で、外部ソースから読み取ることができます。{#about-txt-records}
 
-TXTレコードは、ドメインに関するテキスト情報を提供するために使用されるDNSレコードの一種で、外部ソースから読み取ることができます。
+高い受信ボックス率および低いスパム率を確保するために、Google などの一部のサービスでは、ドメインを所有していることを検証するために、ドメイン設定に TXT レコードを追加する必要があります。
 
-高い受信トレイ率と低いスパム率を確保するために、Googleなどの一部のサービスでは、ドメインの所有者を確認するために、ドメイン設定にTXTレコードを追加する必要があります。
+現在、Gmail は最も人気のある E メールアドレスプロバイダーの 1 つです。Adobe Campaign では、Gmail アドレス宛ての E メールの配信品質を確保して確実な配信をおこなうために、サブドメインに Google サイト検証用の特別な TXT レコードを追加して、サブドメインを確実に検証できます。
 
-現在、Gmailは最も人気のある電子メールアドレスプロバイダーの1つです。 Gmailアドレスへの電子メールの配信品質と配信を確実に行うために、Adobe Campaignでは、Googleサイト検証用の特別なTXTレコードをサブドメインに追加して、確実に検証されるようにすることができます。
+サブドメイン用の Google TXT レコードの追加 {#adding-a-google-txt-record}
 
-## サブドメイン用のGoogle TXTレコードの追加 {#adding-a-google-txt-record}
+## Gmail アドレス宛ての E メール送信に使用するサブドメインに Google TXT レコードを追加するには、次の手順に従います。{#adding-a-google-txt-record}
 
-Google TXTレコードをGmailアドレスの電子メール送信に使用するサブドメインに追加するには、次の手順に従います。
+「**[!UICONTROL サブドメインおよび証明書]**」カードに移動します。
 
-1. カードに移動し **[!UICONTROL Subdomain and Certificates]** ます。
+1. インスタンスを選択し、DNS レコードを追加するサブドメインの詳細を開きます。****
 
-1. インスタンスを選択し、DNSレコードを追加するサブドメインの詳細を開きます。
+1. ![](assets/txt_subdomaindetails.png)
 
-   ![](assets/txt_subdomaindetails.png)
+   「**[!UICONTROL TXT レコードを追加]**」ボタンをクリックし、G Suite 管理ツールで生成した値を入力します。詳しくは、[G Suite 管理ヘルプ[#$tu15]を参照してください。
 
-1. ボタンをク **[!UICONTROL Add TXT record]** リックし、G Suiteの管理ツールで生成された値を入力します。 詳しくは、 [G Suite管理ヘルプを参照してください](https://support.google.com/a/answer/183895)。
+1. 
 
-   ![](assets/txt_addtxt.png)
+   「**[!UICONTROL 追加]**」ボタンをクリックして、確定します。
 
-1. 確認するボタン **[!UICONTROL Add]** をクリックします。
+1. ![](assets/txt_txtadded.png)]**
 
-   ![](assets/txt_txtadded.png)
-
-TXTレコードが追加されたら、Googleで確認する必要があります。 これを行うには、G Suite管理ツールに移動し、検証手順を起動します( [G Suite管理ヘルプを参照](https://support.google.com/a/answer/183895))。
+   TXT レコードを追加したら、Google で検証する必要があります。それには、G Suite 管理ツールに移動し、検証手順を実行します（[G Suite 管理ヘルプ[#$tu20]を参照）。
 
 
-レコードを削除するには、レコードリストからレコードを選択し、削除ボタンをクリックします。
 
->[!NOTE]
+
+[!NOTE]
+
+>[!NOTE]DNS レコードリストから削除できるのは、以前に追加したレコードのみです（この例では Google TXT レコード）。
 >
->DNSレコードリストから削除できるレコードは、以前に追加したレコード（この例ではGoogle TXTレコード）だけです。
+>The only record that you can delete from the DNS records list is the one that you have previously added (in our case the Google TXT record).
