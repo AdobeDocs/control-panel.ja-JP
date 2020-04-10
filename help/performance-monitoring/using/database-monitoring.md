@@ -1,64 +1,68 @@
 ---
-title: データベースの監視
-description: コントロールパネルでキャンペーンデータベースを監視する方法
+title: データベース監視
+description: コントロールパネルでの Campaign データベースの監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
 
-# データベースの監視 {#database-monitoring}
+# データベース監視 {#database-monitoring}
 
 ## インスタンスデータベースについて {#about-instances-databases}
 
-契約に従って、各データベースインスタンスには、キャンペーンの特定の容量のデータベースがプロビジョニングされます。
+各 Campaign インスタンスには、契約に従って特定の容量のデータベースがプロビジョニングされます。
 
-データベースには、Adobe Campaignに保 **存されている****ワークフロー****** 、アセット、データ、データがすべて含まれます。
+データベースには、Adobe Campaign に保存されるすべての&#x200B;**アセット**、**ワークフロー**、**データ**&#x200B;が含まれます。
 
-データベースの最大容量に達するまで時間がかかります。特に、格納されたリソースがインスタンスから削除されない場合や、一時停止状態のワークフローが多い場合には、データベースが最大容量に達します。
+特に、格納されたリソースがインスタンスからまったく削除されていない場合や、一時停止状態のワークフローが多数ある場合には、時間の経過と共に、データベースが最大容量に達してしまう可能性があります。
 
-インスタンスデータベースをオーバーフローすると、いくつかの問題（ログインできない、電子メールの送信など）が発生する可能性があります。 したがって、最適なパフォーマンスを確保するには、インスタンスのデータベースを監視する必要があります。
+インスタンスデータベースの容量が足りなくなると、複数の問題（ログインや E メール送信ができないなど）が発生する可能性があります。したがって、最適なパフォーマンスを確保するには、インスタンスのデータベースを監視する必要があります。
 
 >[!NOTE]
 >
 >コントロールパネルに表示されるデータベース領域の量は、契約で指定されたデータベース領域の量を反映していない場合があります。 ほとんどの場合、システムのパフォーマンスを確保するために、大きなデータベース領域が一時的に提供されます。
 
-## データベースの使用状況の監視 {#monitoring-instances-database}
+## データベース使用状況の監視 {#monitoring-instances-database}
 
 コントロールパネルでは、各データベースインスタンスのデータベースの使用状況をキャンペーンできます。 それには、次の手順に従います。
 
 1. カードを **[!UICONTROL Performance Monitoring]** 開き、タブを選択し **[!UICONTROL Databases]** ます。
 
-1. から目的のインスタンスを選択しま **[!UICONTROL Instance List]**&#x200B;す。
+1. Select the desired instance from the **[!UICONTROL Instance List]**.
 
-   上の領域は、インスタンスのデータベース容量と使用領域に関する情報を提供します。
+   上部に、インスタンスのデータベース容量および使用中の容量に関する情報が表示されます。
 
    ![](assets/databases_dashboard.png)
 
-   下の領域には、過去7日間のデータベースの使用率が図式的に表示されます。 右上隅の使用可能なフィルターを使用して、表示期間を変更できます。
+   下の領域には、過去7日間のデータベースの最小使用率、平均使用率、最大使用率のグラフが表示され、データベース使用率の90%のしきい値が赤い点線の曲線で示されます。
 
-   グラフの上にマウスポインターを置くと、選択した期間の詳細情報を取得できます。
+   右上隅にあるフィルターを使用すると、表示される期間を変更できます。
+
+   グラフ内の1つまたは複数のカーブをハイライト表示して、読みやすくすることもできます。 これを行うには、凡例から選択し **[!UICONTROL Aggregation Type]** ます。
+
+   グラフの上にマウスポインターを置くと、選択した期間についての詳細な情報を取得できます。
 
    ![](assets/databases_dashboard_detail.png)
 
 >[!NOTE]
 >
->また、データベースの1つが容量に達した場合に通知を受け取ることもできます。 これを行うには、電子メールアラートを [登録します](../../performance-monitoring/using/email-alerting.md)
+>また、このダッシュボードに加えて、データベースの1つがその容量に達した場合に通知を受け取ることもできます。 これを行うには、電子メールアラートを [登録します](../../performance-monitoring/using/email-alerting.md)
 
-## データベースの過負荷の防止 {#preventing-database-overload}
+## データベース容量超過の防止 {#preventing-database-overload}
 
-Campaign Standardと従来のオファーでは、データベースのディスク領域の過剰消費を防ぐ様々な方法を使用します。
+Campaign Standard および Campaign Classic では、様々な方法でデータベースのディスク容量の過剰消費を防ぐことができます。
 
-以下の節では、データベースの使用を最適化するのに役立つキャンペーンドキュメントのリソースを示します。
+以下の節では、データベース使用の最適化に役立つ Campaign ドキュメントのリソースを示します。
 
-**ワークフロー監視**
+**ワークフローの監視**
 
-* [ワークフローのベストプラクティス](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) (Campaign Standard)
-* [監視ワークフローの実行](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
+* [ワークフローのベストプラクティス](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html)（Campaign Standard）
+* [監視ワークフローの実行](https://docs.adobe.com/help/ja-JP/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)（Campaign Classic）
 
-**データベースメンテナンス**
+**データベースのメンテナンス**
 
-* データベースのクリーンアップ技術ワ[ークフ](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) ロー [(](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)Campaign Standard/Campaign Classic)
-* [データベースメンテナンスガイド](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
-* [データベースのパフォーマンスのトラブルシューティング](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
-* [データベース関連のオプション](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* データベースクリーンアップテクニカルワークフロー（[Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)／[Campaign Classic](https://docs.adobe.com/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)）
+* [データベースメンテナンスガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)（Campaign Classic）
+* [データベースパフォーマンスのトラブルシューティング](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html)（Campaign Classic）
+* [データベース関連オプション](https://docs.adobe.com/help/ja-JP/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)（Campaign Classic）
