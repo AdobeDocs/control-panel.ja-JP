@@ -1,7 +1,7 @@
 ---
 title: 製品ドキュメント
-translation-type: ht
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+translation-type: tm+mt
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -12,13 +12,17 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## 新機能
 
-* [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Google TXTレコード管理](subdomains-certificates/using/managing-txt-records.md)
 
-   サブドメインの SSL 証明書の有効期限を監視する方法について説明します。
+   Google 追加 TXTサイトの検証レコードを、[キャンペーン]コントロールパネルを使用してGmailアドレスに電子メールを送信するために使用するすべてのサブドメインに送信します。
 
-* [サブドメインのデリゲーション](subdomains-certificates/using/subdomains-branding.md)
+* [データベース領域の監視](performance-monitoring/using/database-monitoring.md)
 
-   サブドメインのブランディングと、コントロールパネルを使用してアドビにサブドメインをデリゲートするための主要な手順について説明します
+   表示容量の使用状況をオン・デマンドで、時間の経過とともにデータベースを使用できます。
+
+* [E メールアラート](performance-monitoring/using/email-alerting.md)
+
+   コントロール・パネルにログインし、システムのパフォーマンスが低下する危険がある場合や、将来の高いパフォーマンスを確保するためにアラートを受け取る場合は、新規登録します。
 
 ## その他のリソース{#additional-resources}
 
