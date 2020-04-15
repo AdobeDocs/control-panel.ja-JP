@@ -1,7 +1,7 @@
 ---
 title: SFTP ストレージ管理
 description: SFTP サーバーのストレージを監視および管理する方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ---
@@ -10,10 +10,10 @@ source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 # SFTP ストレージ管理{#sftp-storage-management}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_storage&quot;
->title=&quot;ストレージ容量について&quot;
->abstract=&quot;このタブでは、SFTP サーバーのストレージ容量および使用状況情報を表示できます。アクセス権のある SFTP サーバーのみがここに表示されます。他の SFTP サーバーへのアクセス権をリクエストするには、管理者にお問い合わせください。&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4&quot; text=&quot;デモビデオを見る&quot;
+>id="cp_storage"
+>title="ストレージ容量について"
+>abstract="このタブでは、SFTP サーバーのストレージ容量および使用状況情報を表示できます.アクセス権のある SFTP サーバーのみがここに表示されます。他の SFTP サーバーへのアクセス権をリクエストするには、管理者にお問い合わせください。"
+>additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 契約条項によっては、異なるストレージ容量を SFTP サーバーでプロビジョニングしている可能性があります。
 
@@ -26,7 +26,7 @@ source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ## ストレージ容量情報へのアクセス{#accessing-storage-capacity-information}
 
-Information about the space used by all instances you have access to is available in the **[!UICONTROL Storage]** tab of the SFTP card. ページが更新されるたびに、このタブも更新されます。
+アクセス権のあるすべてのインスタンスで使用される容量に関する情報は、SFTP カードの「**[!UICONTROL ストレージ]**」タブにあります。ページが更新されるたびに、このタブも更新されます。
 
 ![](assets/control_panel_space.png)
 
@@ -40,6 +40,6 @@ Information about the space used by all instances you have access to is availabl
 ## ストレージ容量がなくなった場合のベストプラクティス{#best-practices-when-capacity-runs-out}
 
 1. **古いファイルや不要なファイルを削除して SFTP サーバーをクリーンアップする。** SFTP サーバーフォルダーへのアクセス方法については、[この節](../../sftp/using/logging-into-sftp-server.md)を参照してください。
-1. SFTP サーバーをクリーンアップする&#x200B;**ワークフロー**&#x200B;が正常に実行されていることを確認する。Adobe Campaign のテクニカルワークフローについて詳しくは、[Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) および [Campaign Standard](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html) 用の各ドキュメントを参照してください。
+1. SFTP サーバーをクリーンアップする&#x200B;**ワークフロー**&#x200B;が正常に実行されていることを確認する。Adobe Campaign のテクニカルワークフローについて詳しくは、[Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) および [Campaign Standard](https://helpx.adobe.com/jp/campaign/standard/administration/using/technical-workflows.html) 用の各ドキュメントを参照してください。
 1. アカウントチームに問い合わせて、**追加ストレージをリクエスト**&#x200B;する（追加料金が発生する場合があります）。
 1. 問題があると思われる場合は、**カスタマーケア**&#x200B;にお問い合わせください。
