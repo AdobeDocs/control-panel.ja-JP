@@ -1,42 +1,38 @@
 ---
 title: E メールアラート
-description: インスタンスに問題が発生した場合に電子メール通知を受信するキャンペーン
+description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # E メールアラート {#email-alerting}
 
->[!IMPORTANT]
->
->コントロール・パネルからの電子メール・アラートは、4月末までに利用可能になります。
-
-## 電子メールアラートについて {#about-email-alerts}
+## E メールアラートについて {#about-email-alerts}
 
 作業を柔軟におこなえるよう、コントロールパネルにはリアルタイムの E メールアラート機能が備わっています。
 
-これらのアラートを登録するには、次の手順に従います。
+これらのアラートを購読するには、次の手順に従います。
 
-1. コントロール **[!UICONTROL Alerting notifications]** パネルの任意の場所で使用可能なボタンをクリックし、をクリックしま **[!UICONTROL Subscribe]**&#x200B;す。
+1. Click the **[!UICONTROL Alerting notifications]** button available from any location in the Control Panel, then click **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
-1. 電子メールが送信され、購読が
+1. 購読を確認する電子メールが送信されます。
 
    ![](assets/email_subscription.png)
 
-1. 購読後、コントロールパネルでシステムの問題が通知され、実行するアクションを推奨します。 E メールアラートは、管理者となっている&#x200B;**すべてのインスタンス**&#x200B;について登録したすべてのユーザーに送信されます。
+1. 購読すると、Campaign コントロールパネルによってシステムの問題に関する通知が送信され、実行すべきアクションが推奨されます。E メールアラートは、管理者となっている&#x200B;**すべてのインスタンス**&#x200B;について登録したすべてのユーザーに送信されます。
 
    ![](assets/alert_sample.png)
 
 
-アラートのリストは次のとおりです。
+アラートのリストを次に示します。
 
-* **SFTPストレージの使用**:1台のSFTPサーバーの容量が80%以上に達しました。 See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
+* **SFTP ストレージの使用**：1 台の SFTP サーバーの容量が 80％以上に到達しました。[SFTP ストレージ管理](../../sftp/using/sftp-storage-management.md)を参照してください。
 
-* **データベースの使用**:インスタンスのデータベースの1つが、その容量の80%以上に達しました。 データベー [ス監視を参照](../../performance-monitoring/using/database-monitoring.md)。
+* **データベースの使用**：1 台のインスタンスデータベースの容量が 80％以上に到達しました。[データベース監視](../../performance-monitoring/using/database-monitoring.md)を参照してください。
 
-* **SSL証明書の有効期限**:サブドメインのSSL証明書の1つが期限切れになったか、60日以内に期限切れになります。 See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **SSL 証明書の有効期限**：サブドメインの SSL 証明書の 1 つが期限切れになったか、60 日以内に期限切れになります。[サブドメインの SSL 証明書の監視](../../subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
 
