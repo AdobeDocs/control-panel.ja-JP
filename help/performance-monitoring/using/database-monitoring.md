@@ -2,16 +2,13 @@
 title: データベース監視
 description: コントロールパネルでの Campaign データベースの監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # データベース監視 {#database-monitoring}
 
->[!IMPORTANT]
->
->コントロール・パネルでのデータベース監視は、4月末までに利用可能になります。
 
 ## インスタンスデータベースについて {#about-instances-databases}
 
@@ -25,11 +22,11 @@ source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 >[!NOTE]
 >
->コントロールパネルに表示されるデータベース領域の量は、契約で指定されたデータベース領域の量を反映していない場合があります。 ほとんどの場合、システムのパフォーマンスを確保するために、大きなデータベース領域が一時的に提供されます。
+>Campaign コントロールパネルに表示されるデータベース容量は、契約で指定されたデータベース容量を反映していない場合があります。ほとんどの場合、システムのパフォーマンスを確保するために、大きなデータベース容量が一時的に提供されます。
 
 ## データベース使用状況の監視 {#monitoring-instances-database}
 
-コントロールパネルでは、各データベースインスタンスのデータベースの使用状況をキャンペーンできます。 それには、次の手順に従います。
+Campaign コントロールパネルでは、各 Campaign インスタンスのデータベースの使用状況を監視できます。それには、次の手順に従います。
 
 1. カードを **[!UICONTROL Performance Monitoring]** 開き、タブを選択し **[!UICONTROL Databases]** ます。
 
@@ -51,7 +48,7 @@ source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 >[!NOTE]
 >
->また、このダッシュボードに加えて、データベースの1つがその容量に達した場合に通知を受け取ることもできます。 これを行うには、電子メールアラートを [登録します](../../performance-monitoring/using/email-alerting.md)
+>また、このダッシュボードに加えて、データベースの1つがその容量に達した場合に通知を受け取ることもできます。 これをおこなうには、[E メールアラート](../../performance-monitoring/using/email-alerting.md)を購読します
 
 ## データベース容量超過の防止 {#preventing-database-overload}
 
@@ -66,7 +63,7 @@ Campaign Standard および Campaign Classic では、様々な方法でデー�
 
 **データベースのメンテナンス**
 
-* データベースクリーンアップテクニカルワークフロー（[Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)／[Campaign Classic](https://docs.adobe.com/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)）
+* データベースクリーンアップテクニカルワークフロー（[Campaign Standard](https://docs.adobe.com/help/ja-JP/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)／[Campaign Classic](https://docs.adobe.com/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)）
 * [データベースメンテナンスガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)（Campaign Classic）
 * [データベースパフォーマンスのトラブルシューティング](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html)（Campaign Classic）
 * [データベース関連オプション](https://docs.adobe.com/help/ja-JP/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)（Campaign Classic）
