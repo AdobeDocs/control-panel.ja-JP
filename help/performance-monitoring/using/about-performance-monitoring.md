@@ -1,13 +1,17 @@
 ---
 title: パフォーマンス監視について
-description: コントロールパネルでインスタンスのパフォーマンスを監視する方法を説明します。
+description: コントロールパネルでのインスタンスのパフォーマンスの監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 34dc95481fa7f2db162dbfc19a462782ee825739
+source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
 
 ---
 
 
 # パフォーマンス監視について {#about-performance-monitoring}
+
+>[!IMPORTANT]
+>
+>コントロール・パネルでのパフォーマンス監視は、4月末までに利用可能になります。
 
 コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。
 
