@@ -2,12 +2,16 @@
 title: データベース監視
 description: コントロールパネルでの Campaign データベースの監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # データベース監視 {#database-monitoring}
+
+>[!IMPORTANT]
+>
+>コントロール・パネルでのデータベース監視は、4月末までに利用可能になります。
 
 ## インスタンスデータベースについて {#about-instances-databases}
 
