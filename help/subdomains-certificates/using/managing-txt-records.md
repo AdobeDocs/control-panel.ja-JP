@@ -2,7 +2,7 @@
 title: TXT レコードの管理
 description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 
 ---
 
@@ -28,8 +28,8 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
 その他のリソース：
 
-* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html).
-* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
 ## サブドメイン用の Google TXT レコードの追加 {#adding-a-google-txt-record}
 
