@@ -31,17 +31,17 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
 Gmail アドレス宛ての E メール送信に使用するサブドメインに Google TXT レコードを追加するには、次の手順に従います。
 
-1. カードに移動し **[!UICONTROL Subdomain and Certificates]** ます。
+1. 「**[!UICONTROL サブドメインおよび証明書]**」カードに移動します。
 
 1. インスタンスを選択し、DNS レコードを追加するサブドメインの詳細を開きます。
 
    ![](assets/txt_subdomaindetails.png)
 
-1. Click the **[!UICONTROL Add TXT record]** button, then enter the value generated in G Suite Admin tools. 詳しくは、[G Suite 管理ヘルプ](https://support.google.com/a/answer/183895)を参照してください。
+1. 「**[!UICONTROL TXT レコードを追加]**」ボタンをクリックし、G Suite 管理ツールで生成した値を入力します。詳しくは、[G Suite 管理ヘルプ](https://support.google.com/a/answer/183895)を参照してください。
 
    ![](assets/txt_addtxt.png)
 
-1. Click the **[!UICONTROL Add]** button to confirm.
+1. 「**[!UICONTROL 追加]**」ボタンをクリックして、確定します。
 
    ![](assets/txt_txtadded.png)
 
