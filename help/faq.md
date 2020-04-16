@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
