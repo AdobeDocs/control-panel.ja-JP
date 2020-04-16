@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
