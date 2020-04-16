@@ -1,7 +1,7 @@
 ---
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 SFTP サーバーに接続するには、次の手順に従います。
 
-1. コントロールパネルを起動して、**[!UICONTROL SFTP]**カードから「**[!UICONTROL &#x200B;鍵管理]**」タブを選択します。
+1. コントロールパネルを起動して、**[!UICONTROL SFTP]** カードから「**[!UICONTROL 鍵管理]**」タブを選択します。
 
    ![](assets/sftp_card.png)
 
