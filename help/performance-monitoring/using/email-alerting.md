@@ -15,7 +15,7 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 これらのアラートを購読するには、次の手順に従います。
 
-1. Click the **[!UICONTROL Alerting notifications]** button available from any location in the Control Panel, then click **[!UICONTROL Subscribe]**.
+1. Campaign コントロールパネルの任意の場所で「**[!UICONTROL アラート通知]**」ボタンをクリックし、「**[!UICONTROL 購読]**」をクリックします。
 
    ![](assets/subscribing.png)
 
