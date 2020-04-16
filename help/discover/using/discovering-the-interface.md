@@ -1,7 +1,7 @@
 ---
 title: コントロールパネルのインターフェイスの理解
 description: コントロールパネルのインターフェイスの詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -31,6 +31,6 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ## ヘルプリソース{#help-resources}
 
-**[!UICONTROL ヘルプリソース]**の節では、コントロールパネルおよび Campaign 製品の使用に役立つ便利な資料を提供しています。ぜひ活用してください。
+**[!UICONTROL ヘルプリソース]**&#x200B;の節では、コントロールパネルおよび Campaign 製品の使用に役立つ便利な資料を提供しています。ぜひ活用してください。
 
 ![](assets/helpresources.png)
