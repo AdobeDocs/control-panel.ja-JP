@@ -1,7 +1,7 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
