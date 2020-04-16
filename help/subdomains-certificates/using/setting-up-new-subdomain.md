@@ -1,7 +1,7 @@
 ---
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
