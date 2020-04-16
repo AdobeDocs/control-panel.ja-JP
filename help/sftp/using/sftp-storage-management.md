@@ -1,7 +1,7 @@
 ---
 title: SFTP ストレージ管理
 description: SFTP サーバーのストレージを監視および管理する方法
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ---
