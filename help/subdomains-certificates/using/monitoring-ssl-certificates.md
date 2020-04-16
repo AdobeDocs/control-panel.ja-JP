@@ -1,7 +1,7 @@
 ---
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -24,9 +24,9 @@ Adobe Campaign では、ランディングページ（特に、お客様の機�
 ## SSL 証明書の監視 {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;サブドメインの詳細&quot;
->abstract=&quot;サブドメインの情報を取得します。&quot;
+>id="cp_subdomain_details"
+>title="サブドメインの詳細"
+>abstract="サブドメインの情報を取得します。"
 
 「**[!UICONTROL サブドメインおよび証明書]**」カードを選択すると、サブドメインのリストからサブドメインの SSL 証明書のステータスに直接アクセスできます。
 
