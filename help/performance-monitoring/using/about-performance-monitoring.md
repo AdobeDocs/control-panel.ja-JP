@@ -11,7 +11,7 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 Campaign コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。
 
-The **[!UICONTROL Performance monitoring]** card in the Control Panel home page allows you to monitor the usage of your Campaign instances like, for example, their database capacity. 詳しくは、[この節](../../performance-monitoring/using/database-monitoring.md)を参照してください。
+Campaign コントロールパネルホームページの「**[!UICONTROL パフォーマンス監視]**」カードを使用すると、データベース容量など、Campaign インスタンスの使用状況を監視できます。詳しくは、[この節](../../performance-monitoring/using/database-monitoring.md)を参照してください。
 
 ![](assets/performance_card.png)
 
