@@ -1,7 +1,7 @@
 ---
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -10,10 +10,10 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # サブドメインのブランディング {#subdomains-branding}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_certificate_management&quot;
->title=&quot;サブドメインと SSL 証明書について&quot;
->abstract=&quot;サブドメインと関連する SSL 証明書を監視します。&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;サブドメインの SSL 証明書の監視方法&quot;
+>id="cp_certificate_management"
+>title="サブドメインと SSL 証明書について"
+>abstract="サブドメインと関連するSSL証明書を監視します。"
+>additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="サブドメインの SSL 証明書の監視方法"
 
 >[!IMPORTANT]
 >
