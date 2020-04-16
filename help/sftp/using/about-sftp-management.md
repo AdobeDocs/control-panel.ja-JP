@@ -1,7 +1,7 @@
 ---
 title: SFTP 管理について
 description: コントロールパネルでの SFTP 管理の詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
