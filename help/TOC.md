@@ -1,9 +1,9 @@
 ---
 product: adobe campaign
-sub-product: control panel
+sub-product: 制御盤
 audience: end-user
-user-guide-title: Control Panel Help
-translation-type: ht
+user-guide-title: コントロールパネルのヘルプ
+translation-type: tm+mt
 source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
