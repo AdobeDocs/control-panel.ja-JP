@@ -1,7 +1,7 @@
 ---
 title: TXT レコードの管理
 description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="TXT レコードの管理"
->abstract="Googleなどの一部のサービスでは、ドメインの所有者を確認するために、ドメイン設定にTXTレコードを追加する必要があります。"
+>abstract="Google などの一部のサービスでは、ドメインを所有していることを検証するために、ドメイン設定に TXT レコードを追加する必要があります。"
 
 ## TXT レコードについて {#about-txt-records}
 
