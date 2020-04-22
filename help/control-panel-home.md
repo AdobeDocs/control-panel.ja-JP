@@ -1,6 +1,6 @@
 ---
 title: 製品ドキュメント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
@@ -12,17 +12,17 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## 新機能
 
-* [Google TXTレコード管理](subdomains-certificates/using/managing-txt-records.md)
+* [Google TXT レコード管理](subdomains-certificates/using/managing-txt-records.md)
 
-   Google 追加 TXTサイトの検証レコードを、[キャンペーン]コントロールパネルを使用してGmailアドレスに電子メールを送信するために使用するすべてのサブドメインに送信します。
+   Campaign コントロールパネルを使用して、Gmail アドレス宛ての E メール送信に使用するすべてのサブドメインに Google TXT サイト検証レコードを追加します。
 
-* [データベース領域の監視](performance-monitoring/using/database-monitoring.md)
+* [データベース容量の監視](performance-monitoring/using/database-monitoring.md)
 
-   表示容量の使用状況をオン・デマンドで、時間の経過とともにデータベースを使用できます。
+   データベース容量の使用率をオンデマンドで表示でき、経時的変化も確認できます。
 
 * [E メールアラート](performance-monitoring/using/email-alerting.md)
 
-   コントロール・パネルにログインし、システムのパフォーマンスが低下する危険がある場合や、将来の高いパフォーマンスを確保するためにアラートを受け取る場合は、新規登録します。
+   コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。
 
 ## その他のリソース{#additional-resources}
 
@@ -37,7 +37,7 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
         <td><b>Campaign Classic</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Campaign Classic のコントロールパネルチュートリアルビデオ</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign Classic 製品ドキュメント</a></li>
+            <li><a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/campaign-classic-home.html">Campaign Classic 製品ドキュメント</a></li>
         </ul>
         </td>
     </tr>
