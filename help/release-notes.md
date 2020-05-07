@@ -1,7 +1,10 @@
 ---
 title: コントロールパネルのリリース
-translation-type: ht
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+translation-type: tm+mt
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 93%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 >[!NOTE]
 >
->コントロールパネルは、AWS でホストされているお客様のみ使用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
+>コントロールパネルは、まだサポートされていないハイブリッド環境を除き、AWSでホストされるお客様のみ利用できます。 . コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
 
 ## 2020 年 4 月 {#april-2020}
 
