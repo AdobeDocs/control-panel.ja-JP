@@ -2,17 +2,17 @@
 title: GPG鍵管理
 description: Adobe Campaign内のデータを暗号化および復号化するためのGPGキーを管理する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1051'
+ht-degree: 3%
 
 ---
 
 
 # GPG鍵管理 {#gpg-keys-management}
 
-## GPG暗号化について{about-gpg-encryption}
+## GPG暗号化について {#about-gpg-encryption}
 
 GPG暗号化を使用すると、OpenPGPの [仕様に従う公開鍵と秘密鍵のペアのシステムを使用してデータを保護できます](https://www.openpgp.org/about/standard/) 。
 
