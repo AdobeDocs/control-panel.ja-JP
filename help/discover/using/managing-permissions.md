@@ -2,7 +2,10 @@
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 89%
 
 ---
 
@@ -50,3 +53,7 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 1. 管理者ユーザーのリストが表示されます。「**[!UICONTROL ユーザーを追加]**」ボタンをクリックして、目的のユーザーを追加します。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
+
+>[!NOTE]
+>
+>アクセスが設定されたら、アクセス制御パネルに戻るには、Adobe Experience Cloudからログアウトしてから再度ログインする必要があります。
