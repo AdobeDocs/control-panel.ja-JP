@@ -1,8 +1,11 @@
 ---
 title: TXT レコードの管理
 description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
-translation-type: ht
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+translation-type: tm+mt
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,3 @@ TXT レコードを追加したら、Google で検証する必要があります
 >[!NOTE]
 >
 >DNS レコードリストから削除できるのは、以前に追加したレコードのみです（この例では Google TXT レコード）。
-
-
