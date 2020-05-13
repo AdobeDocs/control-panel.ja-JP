@@ -2,7 +2,7 @@
 title: GPG鍵管理
 description: Adobe Campaign内のデータを暗号化および復号化するためのGPGキーを管理する方法について説明します。
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -69,9 +69,9 @@ GPG暗号化を使用すると、OpenPGPの [仕様に従う公開鍵と秘密�
 
    >[!NOTE]
    >
-   >キーを生成するオープンソースフリーソフトウェアを利用できます。 ただし、貴社のガイドラインに従い、IT/セキュリティ機関が推奨するPGPユーティリティを使用していることを確認してください。
+   >キーを生成するオープンソースのフリーソフトウェアを利用できます。 ただし、組織のガイドラインに従い、IT/セキュリティ組織が推奨するGPGユーティリティを使用していることを確認してください。
 
-1. ユーティリティがインストールされたら、MacターミナルまたはWindowsマシンで次のコマンドを実行します。
+1. ユーティリティがインストールされたら、MacターミナルまたはWindowsコマンドで、次のコマンドを実行します。
 
    `gpg --full-generate-key`
 
