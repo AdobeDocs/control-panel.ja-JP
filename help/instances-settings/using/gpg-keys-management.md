@@ -2,7 +2,7 @@
 title: GPG鍵管理
 description: Adobe Campaign内のデータを暗号化および復号化するためのGPGキーを管理する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
+source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -103,7 +103,7 @@ GPG暗号化を使用すると、OpenPGPの [仕様に従う公開鍵と秘密�
 
    ![](assets/gpg_install_paste.png)
 
-1. 「 **!UICONTROL Install Key]**」ボタンをクリックします。
+1. 「 **[!UICONTROL Install Key]** 」ボタンをクリックします。
 
 公開鍵がインストールされると、リストに表示されます。 ダウンロードまたは指紋のコピーには、 **..** .ボタンを使用できます。
 
@@ -113,10 +113,15 @@ GPG暗号化を使用すると、OpenPGPの [仕様に従う公開鍵と秘密�
 
 詳しくは、次のAdobe Campaignドキュメントを参照してください。
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [ファイルの圧縮または暗号化](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file) | [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [データ抽出（ファイル）アクティビティ](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html) | [「Extract file」アクティビティ](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html) |
+**Campaign Classic:**
+
+* [ファイルの圧縮または暗号化](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [データ抽出（ファイル）アクティビティ](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
+
+**Campaign Standard:**
+
+* [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [「Extract file」アクティビティ](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
 
 ## データの復号化 {#decrypting-data}
 
@@ -149,7 +154,12 @@ GPG暗号化を使用すると、OpenPGPの [仕様に従う公開鍵と秘密�
 
 詳しくは、次のAdobe Campaignドキュメントを参照してください。
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [処理前のファイルの解凍または復号化](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing) | [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [データ読み込み（ファイル）アクティビティ](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html) | [ファイルの読み込みアクティビティ](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html) |
+**Campaign Classic:**
+
+* [処理前のファイルの解凍または復号化](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [データ読み込み（ファイル）アクティビティ](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
+
+**Campaign Standard:**
+
+* [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [ファイルの読み込みアクティビティ](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
