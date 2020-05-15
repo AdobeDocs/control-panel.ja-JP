@@ -1,11 +1,11 @@
 ---
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 98%
 
 **誰がコントロールパネルを使用できますか？**
 
-コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。ハイブリッド環境はまだサポートされていません。
+コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。ハイブリッド環境はまだサポートされていないことに注意してください。
 
 管理者でないユーザーがアクセスを希望する場合は、製品管理者に問い合わせて、管理者として追加してもらう必要があります。
 
