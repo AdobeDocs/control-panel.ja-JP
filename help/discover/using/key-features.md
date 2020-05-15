@@ -1,11 +1,11 @@
 ---
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 >id="cp_overview"
 >title="コントロールパネルについて"
 >abstract="コントロールパネルホームページから、Campaign インスタンスで実行できるすべてのアクションにアクセスできます。"
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="インターフェイスの検出"
+>additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/discovering-the-interface.html" text="インターフェイスの理解"
 
 コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況を追跡したりできるので、Adobe Campaign Standard および Classic の製品管理者としての作業の効率を向上できます。直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスのホワイトリスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
@@ -27,7 +27,7 @@ ht-degree: 87%
 * ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 
 >[!NOTE]
->コントロールパネルは管理者ユーザーのみがアクセスでき、AWSでホストされるすべてのお客様が利用できます。ただし、まだサポートされていないハイブリッド環境は除きます。 ユーザーに管理者アクセス権を付与する手順については、[この節](../../discover/using/managing-permissions.md)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[この節](../../faq.md)に記載されている手順に従います。
+>コントロールパネルには、管理者ユーザーのみがアクセスでき、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるすべてのお客様が利用できます。ユーザーに管理者アクセス権を付与する手順については、[この節](../../discover/using/managing-permissions.md)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[この節](../../faq.md)に記載されている手順に従います。
 >
 >最新の Campaign ビルドにアップグレードしなくてもコントロールパネルにアクセスできます。
 
