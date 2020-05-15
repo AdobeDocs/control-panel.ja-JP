@@ -1,11 +1,11 @@
 ---
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,4 +56,4 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->アクセスが設定されたら、アクセス制御パネルに戻るには、Adobe Experience Cloudからログアウトしてから再度ログインする必要があります。
+>アクセスを設定したら、コントロールパネルにアクセスするために、Adobe Experience Cloud からログアウトして、ログインし直す必要があります。
