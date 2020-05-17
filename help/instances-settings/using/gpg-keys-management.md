@@ -2,10 +2,10 @@
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 86%
+source-wordcount: '1061'
+ht-degree: 82%
 
 ---
 
@@ -25,39 +25,6 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 * **送信データを暗号化**：Adobe Campaign は、インストールされた公開鍵でデータを暗号化してから送信します。
 
 * **受信データを復号化**：Adobe Campaign は、コントロールパネルからダウンロードした公開鍵を使用して、外部システムから暗号化されたデータを受信します。Adobe Campaign は、コントロールパネルから生成された秘密鍵を使用して、データを復号化します。
-
-## GPG キーの監視
-
-インスタンス用にインストールおよび生成された GPG キーにアクセスするには、**[!UICONTROL インスタンス設定]**&#x200B;カードを開いて、「**[!UICONTROL GPG キー]**」タブを選択します。
-
-![](assets/gpg_list.png)
-
-リストには、インスタンスに対してインストールおよび生成されたすべての暗号化および復号化 GPG キーが、各キーに関する詳細情報と共に表示されます。
-
-* **[!UICONTROL 名前]**：キーをインストールまたは生成する際に定義された名前。
-* **[!UICONTROL 使用例]**：この列は、キーの使用例を指定します。
-
-   ![](assets/gpg_icon_encrypt.png)：キーはデータ暗号化用にインストールされています。
-
-   ![](assets/gpg_icon_decrypt.png)：データの復号化を可能にするためにキーが生成されています。
-
-* **[!UICONTROL フィンガープリント]**：キーのフィンガープリント。
-* **[!UICONTROL 有効期限]**：キーの有効期限。コントロールパネルでは、キーの有効期限が近づくと視覚的に示されます。
-
-   * 30 日前には至急（赤）が表示されます。
-   * 60 日前には警告（黄色）が表示されます。
-   * キーの有効期限が切れると、「期限切れ」の赤いバナーが表示されます。
-   >[!NOTE]
-   >
-   >コントロールパネルから E メール通知は送信されないことに注意してください。
-
-ベストプラクティスとして、不要になったキーは削除することをお勧めします。これをおこなうには、**...** ボタンをクリックしてから「**[!UICONTROL キーを削除]」を選択します。**
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->Adobe Campaign ワークフローが失敗するのを防ぐために、キーを削除する前に、ワークフローでキーが使用されていないことを確認してください。
 
 ## データの暗号化 {#encrypting-data}
 
@@ -89,7 +56,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    `gpg -a --export <fingerprint>`
 
-1. 公開鍵をコントロールパネルにインストールするには、「**[!UICONTROL GPG キー]**」タブにアクセスし、目的のインスタンスを選択します。
+1. 公開鍵をコントロールパネルにインストールするには、 **[!UICONTROL インスタンス設定]** カードを開き、「 **[!UICONTROL GPGキー]** 」タブを選択し、目的のインスタンスを選択します。
 
 1. 「**[!UICONTROL キーをインストール]**」ボタンをクリックします。
 
@@ -134,7 +101,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 コントロールパネルでキーペアを生成するには、次の手順に従います。
 
-1. 「**[!UICONTROL GPG キー]**」タブにアクセスし、適切な Adobe Campaign インスタンスを選択します。
+1. 「 **[!UICONTROL インスタンス設定]** 」カードを開き、「 **[!UICONTROL GPGキー]** 」タブを選択し、目的のAdobe Campaignインスタンスを選択します。
 
 1. 「**[!UICONTROL キーを生成]**」ボタンをクリックします。
 
@@ -163,3 +130,36 @@ You can use the **...** button to download the public key or copy its fingerprin
 
 * [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [ファイルを読み込みアクティビティ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## GPG キーの監視
+
+インスタンス用にインストールおよび生成された GPG キーにアクセスするには、**[!UICONTROL インスタンス設定]**&#x200B;カードを開いて、「**[!UICONTROL GPG キー]**」タブを選択します。
+
+![](assets/gpg_list.png)
+
+リストには、インスタンスに対してインストールおよび生成されたすべての暗号化および復号化 GPG キーが、各キーに関する詳細情報と共に表示されます。
+
+* **[!UICONTROL 名前]**：キーをインストールまたは生成する際に定義された名前。
+* **[!UICONTROL 使用例]**：この列は、キーの使用例を指定します。
+
+   ![](assets/gpg_icon_encrypt.png)：キーはデータ暗号化用にインストールされています。
+
+   ![](assets/gpg_icon_decrypt.png)：データの復号化を可能にするためにキーが生成されています。
+
+* **[!UICONTROL フィンガープリント]**：キーのフィンガープリント。
+* **[!UICONTROL 有効期限]**：キーの有効期限。コントロールパネルでは、キーの有効期限が近づくと視覚的に示されます。
+
+   * 30 日前には至急（赤）が表示されます。
+   * 60 日前には警告（黄色）が表示されます。
+   * キーの有効期限が切れると、「期限切れ」の赤いバナーが表示されます。
+   >[!NOTE]
+   >
+   >コントロールパネルから E メール通知は送信されないことに注意してください。
+
+ベストプラクティスとして、不要になったキーは削除することをお勧めします。これをおこなうには、**...** ボタンをクリックしてから「**[!UICONTROL キーを削除]」を選択します。**
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>Adobe Campaign ワークフローが失敗するのを防ぐために、キーを削除する前に、ワークフローでキーが使用されていないことを確認してください。
