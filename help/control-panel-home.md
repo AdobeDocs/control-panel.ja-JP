@@ -1,7 +1,10 @@
 ---
 title: 製品ドキュメント
-translation-type: ht
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+translation-type: tm+mt
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 59%
 
 ---
 
@@ -12,17 +15,13 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## 新機能
 
-* [Google TXT レコード管理](subdomains-certificates/using/managing-txt-records.md)
+* [GPG キー管理](instances-settings/using/gpg-keys-management.md)
 
-   Campaign コントロールパネルを使用して、Gmail アドレス宛ての E メール送信に使用するすべてのサブドメインに Google TXT サイト検証レコードを追加します。
+   キャンペーンから送信されるデータを暗号化し、受信データを復号化するために、マーケティングインスタンスにGPGキーをインストールまたは生成します。
 
-* [データベース容量の監視](performance-monitoring/using/database-monitoring.md)
+* [CNAMEサブドメインの証明書管理](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
-   データベース容量の使用率をオンデマンドで表示でき、経時的変化も確認できます。
-
-* [E メールアラート](performance-monitoring/using/email-alerting.md)
-
-   コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。
+   コントロールパネルで、CNAMEメソッドで委任されたサブドメインのSSL証明書を更新できるようになりました。
 
 ## その他のリソース{#additional-resources}
 
