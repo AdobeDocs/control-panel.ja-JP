@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
+source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 64%
+ht-degree: 65%
 
 ---
 
@@ -19,27 +19,27 @@ ht-degree: 64%
 
 ## 2020年5月(#may-2020)
 
-**GPG鍵管理**
+**GPG キー管理**
 
-キャンペーンから送信されるデータを暗号化し、受信データを復号化するために、マーケティングインスタンスにGPGキーをインストールまたは生成します。 [詳細を表示](../..//instances-settings/using/gpg-keys-management.md)
+キャンペーンから送信されるデータを暗号化し、受信データを復号化するために、マーケティングインスタンスにGPGキーをインストールまたは生成します。 [詳細を表示](instances-settings/using/gpg-keys-management.md)
 
 **CNAMEサブドメインの証明書管理**
 
-コントロールパネルで、CNAMEメソッドで委任されたサブドメインのSSL証明書を更新できるようになりました。 [詳細を表示](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+コントロールパネルで、CNAMEメソッドで委任されたサブドメインのSSL証明書を更新できるようになりました。 [詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
 **Google TXT レコード管理**
 
-Campaign コントロールパネルを使用して、Gmail アドレス宛ての E メール送信に使用するすべてのサブドメインに Google TXT サイト検証レコードを追加します。[詳細を表示](../../subdomains-certificates/using/managing-txt-records.md)
+Campaign コントロールパネルを使用して、Gmail アドレス宛ての E メール送信に使用するすべてのサブドメインに Google TXT サイト検証レコードを追加します。[詳細を表示](subdomains-certificates/using/managing-txt-records.md)
 
 **データベース容量の監視**
 
-キャンペーンコントロールパネルには、データベース監視機能が備わっており、必要に応じて時間の経過とともにデータベースの使用率を表示できます。 [詳細を表示](../../performance-monitoring/using/database-monitoring.md)
+キャンペーンコントロールパネルには、データベース監視機能が備わっており、必要に応じて時間の経過とともにデータベースの使用率を表示できます。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
 
 **E メールアラート**
 
-キャンペーンコントロールパネルには、リアルタイムの電子メール通知機能が備わっており、コントロールパネルにログインしてサインアップし、パフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するためにアラートを受け取ることができます。 [詳細を表示](../../performance-monitoring/using/email-alerting.md)
+キャンペーンコントロールパネルには、リアルタイムの電子メール通知機能が備わっており、コントロールパネルにログインしてサインアップし、パフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するためにアラートを受け取ることができます。 [詳細を表示](performance-monitoring/using/email-alerting.md)
 
 ## 2020 年 1 月{#january-2020}
 
