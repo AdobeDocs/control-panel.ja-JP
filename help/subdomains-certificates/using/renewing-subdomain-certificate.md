@@ -2,7 +2,10 @@
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
 translation-type: tm+mt
-source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
+source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 80%
 
 ---
 
@@ -31,21 +34,17 @@ CSR が生成されると、ダウンロードでき、会社が承認する認�
 1. **SSL 証明書のインストール**
 SSL 証明書を購入したら、目的のサブドメインにインストールできます。
 
->[!NOTE]
->
->コントロールパネルでの SSL 証明書の更新は、**完全にデリゲートされたサブドメイン**&#x200B;に対してのみ利用できます。
-
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
 >title="CSR を生成"
->abstract="証明書の署名要求は、証明書を購入する前に、保護する予定のインスタンスおよびサブドメインに対して生成する必要があります。"
+>abstract="証明書の購入前に、保護する予定のインスタンスとサブドメインに対して、証明書署名要求を生成する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="cp_select_subdomains"
 >title="CSR のサブドメインの選択"
->abstract="証明書署名要求に、特定のサブドメインをすべて含めるか、またはのみ含めるかを選択できます。 選択したサブドメインのみが、購入したSSL証明書を通じて認証されます。"
+>abstract="証明書署名要求に、特定のサブドメインをすべて含めるか、またはのみ含めるかを選択できます。 選択したサブドメインのみが、購入したSSL証明書を使用して認証されます。"
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成 "
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
@@ -55,7 +54,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 
    ![](assets/renewal1.png)
 
-1. 「**[!UICONTROL CSR を生成]**」を選択してから、「**[!UICONTROL 次へ]**」をクリックし、CSR 生成プロセスの手順を示すウィザードを起動します。
+1. Select **[!UICONTROL 1 - Generate a CSR]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the CSR generation process.
 
    ![](assets/renewal2.png)
 
@@ -95,7 +94,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
 >title="SSL 証明書をインストール"
->abstract="組織の承認を得た認証局から購入したSSL証明書をインストールします。"
+>abstract="組織が承認した認証局から購入したSSL証明書をインストールします。"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 SSL 証明書を購入したら、インスタンスにインストールできます。先に進む前に、次の前提条件を必ず確認してください。
@@ -120,7 +119,7 @@ SSL 証明書を購入したら、インスタンスにインストールでき�
 
    ![](assets/renewal1.png)
 
-1. 「**[!UICONTROL SSL 証明書をインストール]**」をクリックしてから、「**[!UICONTROL 次へ]**」をクリックし、証明書のインストールプロセスの手順を示すウィザードを起動します。
+1. Select **[!UICONTROL 3 - Install Certificate Bundle]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the certificate installation process.
 
    ![](assets/install1.png)
 
