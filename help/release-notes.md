@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 65%
+source-wordcount: '423'
+ht-degree: 61%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 65%
 
 **GPG キー管理**
 
-キャンペーンから送信されるデータを暗号化し、受信データを復号化するために、マーケティングインスタンスにGPGキーをインストールまたは生成します。 [詳細を表示](instances-settings/using/gpg-keys-management.md)
+コントロールパネルでGPGキーのペアを生成できるようになり、外部からキャンペーンに来るデータを簡単に復号化できます。 さらに、キャンペーンを離れるデータを暗号化するための公開GPGキーをインストールできる機能が追加されました。 [詳細を表示](instances-settings/using/gpg-keys-management.md)
 
 **CNAMEサブドメインの証明書管理**
 
