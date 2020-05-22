@@ -3,10 +3,10 @@ product: adobe campaign
 sub-product: コントロールパネル
 audience: end-user
 user-guide-title: コントロールパネルのヘルプ
-translation-type: ht
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
-workflow-type: ht
-source-wordcount: '97'
+translation-type: tm+mt
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+workflow-type: tm+mt
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 100%
    + [インスタンスのアクセス用に IP をホワイトリストに登録](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
-   + [GPG キー管理](instances-settings/using/gpg-keys-management.md)
 + [よくある質問](faq.md)
