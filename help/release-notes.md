@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 61%
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,13 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->コントロールパネルは、まだサポートされていないハイブリッド環境を除き、AWSでホストされるお客様のみ利用できます。 コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
+>コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
 
-## 2020年5月(#may-2020)
+## 2020 年 5 月（#may-2020）
 
-**GPG キー管理**
+**CNAME サブドメインの証明書管理**
 
-コントロールパネルでGPGキーのペアを生成できるようになり、外部からキャンペーンに来るデータを簡単に復号化できます。 さらに、キャンペーンを離れるデータを暗号化するための公開GPGキーをインストールできる機能が追加されました。 [詳細を表示](instances-settings/using/gpg-keys-management.md)
-
-**CNAMEサブドメインの証明書管理**
-
-コントロールパネルで、CNAMEメソッドで委任されたサブドメインのSSL証明書を更新できるようになりました。 [詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
+コントロールパネルで、CNAME メソッドでデリゲートされたサブドメインの SSL 証明書を更新できるようになりました。[詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -35,11 +31,11 @@ Campaign コントロールパネルを使用して、Gmail アドレス宛て�
 
 **データベース容量の監視**
 
-キャンペーンコントロールパネルには、データベース監視機能が備わっており、必要に応じて時間の経過とともにデータベースの使用率を表示できます。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
+Campaign コントロールパネルに、データベース監視機能が搭載されました。データベース容量の使用率をオンデマンドで表示でき、経時的変化も確認できます。[詳細を表示](performance-monitoring/using/database-monitoring.md)
 
 **E メールアラート**
 
-キャンペーンコントロールパネルには、リアルタイムの電子メール通知機能が備わっており、コントロールパネルにログインしてサインアップし、パフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するためにアラートを受け取ることができます。 [詳細を表示](performance-monitoring/using/email-alerting.md)
+Campaign コントロールパネルに、リアルタイムの E メールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。[詳細を表示](performance-monitoring/using/email-alerting.md)
 
 ## 2020 年 1 月{#january-2020}
 
