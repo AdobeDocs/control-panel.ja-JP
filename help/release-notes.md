@@ -1,8 +1,8 @@
 ---
 title: コントロールパネルのリリース
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 **CNAME サブドメインの証明書管理**
 
-コントロールパネルで、CNAME メソッドでデリゲートされたサブドメインの SSL 証明書を更新できるようになりました。[詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
+CNAME メソッドでデリゲートされたサブドメインの SSL 証明書をコントロールパネルで更新できるようになりました。[詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
