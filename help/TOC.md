@@ -3,9 +3,9 @@ product: adobe campaign
 sub-product: コントロールパネル
 audience: end-user
 user-guide-title: コントロールパネルのヘルプ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
