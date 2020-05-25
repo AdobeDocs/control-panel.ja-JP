@@ -1,8 +1,8 @@
 ---
 title: 製品ドキュメント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [CNAME サブドメインの証明書管理](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-コントロールパネルで、CNAME メソッドでデリゲートされたサブドメインの SSL 証明書を更新できるようになりました。
+CNAME メソッドでデリゲートされたサブドメインの SSL 証明書をコントロールパネルで更新できるようになりました。
 
 ## その他のリソース{#additional-resources}
 
