@@ -2,7 +2,10 @@
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="キー管理について"
->abstract="このタブで、公開鍵を管理できます。"
+>abstract="このタブでは、公開鍵を管理できます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="デモビデオを見る"
 
 アドビでは、すべてのお客様が&#x200B;**公開鍵と秘密鍵のペア**&#x200B;を使用して SFTP サーバーへの接続を確立することを推奨します。
@@ -45,8 +48,8 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="新し追加い公開鍵"
->abstract="イン追加スタンスの新しい公開鍵です。"
+>title="追加新しい公開鍵"
+>abstract="インスタンス追加の新しい公開鍵。"
 
 >[!IMPORTANT]
 >
@@ -75,7 +78,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
    **Linux および Mac の場合：**
 
    ターミナルを使用して公開鍵と秘密鍵のペアを生成します。
-   1. コマンド `ssh-keygen -t rsa -C <your_email@example.com>` を入力します。
+   1. コマンド `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"` を入力します。
    1. プロンプトが表示されたら、鍵に名前を付けます。.ssh ディレクトリが存在しない場合は、システムによって作成されます。
    1. プロンプトが表示されたら、パスフレーズを入力し、もう一度入力します。空欄のままにすることもできます。
    1. 「name」および「name.pub」の鍵のペアがシステムによって作成されます。「name.pub」ファイルを検索して開きます。指定した電子メールアドレスで終わる英数字の文字列が含まれているはずです。
