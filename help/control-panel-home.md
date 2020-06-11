@@ -1,10 +1,10 @@
 ---
 title: 製品ドキュメント
-translation-type: ht
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
+workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ## 新機能
 
-[CNAME サブドメインの証明書管理](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
 
-CNAME メソッドでデリゲートされたサブドメインの SSL 証明書をコントロールパネルで更新できるようになりました。
+コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。
 
 ## その他のリソース{#additional-resources}
 
