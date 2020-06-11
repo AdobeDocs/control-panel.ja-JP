@@ -1,11 +1,11 @@
 ---
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,12 @@ ht-degree: 100%
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
-        <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
+        <br/><em>インスタンス設定の管理方法を説明します(Campaign Classicのみ)。</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>パフォーマンスの監視</strong></a></div>
+        <br/><em>インスタンスの主要リソースの使用率を監視する方法を説明します。</em>
     </td>
 </tr>
 </table>
