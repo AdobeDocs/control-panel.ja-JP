@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
-translation-type: ht
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 >[!NOTE]
 >
 >コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
+
+## June 2020 {#june-2020}
+
+**アクティブなプロファイルの監視**
+
+コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。 [詳細を表示](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>コントロールパネルでのアクティブなプロファイルの監視は、ベータ版で利用できます。通常、更新や変更が予告なく行われます。
+>
+>この機能は、Campaign Standard10368のビルドとCampaign Classic8931のビルドから、AWSでホストされるお客様が利用できます。 以前のビルドを使用している場合は、この機能を使用するにはアップグレードする必要があります。
 
 ## 2020 年 5 月 {#may-2020}
 
