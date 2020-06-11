@@ -2,14 +2,15 @@
 title: E メールアラート
 description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
 
 # E メールアラート {#email-alerting}
-
-## E メールアラートについて {#about-email-alerts}
 
 作業を柔軟におこなえるよう、コントロールパネルにはリアルタイムの E メールアラート機能が備わっています。
 
