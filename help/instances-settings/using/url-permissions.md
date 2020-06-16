@@ -2,7 +2,10 @@
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -12,12 +15,12 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_urlpermissions"
 >title="URL へのアクセス権限について"
->abstract="ユーザーのAdobe Campaignインスタンスが接続できるURLを管理します。"
+>abstract="Adobe Campaignインスタンスが接続できるURLを管理します。"
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 >[!IMPORTANT]
 >
->この機能は、Campaign Classic インスタンスでのみ使用できます。
+>この機能は、ビルド8850からのCampaign Classicインスタンスでのみ使用できます。 以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
 
 ## URL へのアクセス権限について{#about-url-permissions}
 
@@ -44,7 +47,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
 >title="新しい URL を追加"
->abstract="追加URLを使用して、ユーザーのキャンペーンインスタンスへの接続を許可します。"
+>abstract="追加キャンペーンインスタンスへの接続を許可するURL。"
 
 インスタンスがアクセスできる URL を追加するには、次の手順に従います。
 
