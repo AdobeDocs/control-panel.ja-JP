@@ -1,11 +1,11 @@
 ---
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -93,8 +93,7 @@ ht-degree: 100%
 
 **コントロールパネルの現在の機能には何がありますか？**
 
-
-コントロールパネルでは、ニーズやその他の操作に基づいて、SFTP サーバーに対し、ストレージの追跡、IP のホワイトリストへの登録、SSH 鍵の管理を自身でおこなうことができます。
+コントロールパネルでは、ストレージの追跡、許可リストへのIPの追加、SFTPサーバーのSSHキーの管理を、必要に応じて独自に行うことができます。
 
 詳しくは、コントロールパネルでサポートされる操作のドキュメントを参照してください。
 
