@@ -2,10 +2,10 @@
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 92%
+source-wordcount: '617'
+ht-degree: 89%
 
 ---
 
@@ -93,4 +93,4 @@ URL を削除すると、インスタンスはその URL を呼び出すこと�
 
 **新規 URL を追加しましたが、インスタンスは依然 URL に接続できません。これはなぜですか？**
 
-接続しようとしている URL にホワイトリスト設定、パスワードの入力、または別の認証方法が必要となる場合があります。コントロールパネルでは、その他の認証を管理できません。
+場合によっては、許可リスト、パスワード入力、または別の認証形式が必要なために接続しようとするURLもあります。 コントロールパネルでは、その他の認証を管理できません。
