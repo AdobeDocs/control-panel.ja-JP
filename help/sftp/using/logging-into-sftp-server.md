@@ -2,7 +2,10 @@
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 * SFTP サーバーが&#x200B;**アドビによってホストされている**。
 * **ユーザー名**&#x200B;は、サーバー用に設定されている。この情報は、SFTP カードの「**鍵管理**」タブのコントロールパネルで、直接確認できます。
 * SFTP サーバーにログインするための&#x200B;**秘密鍵と公開鍵のペア**&#x200B;がある。SSH 鍵の追加方法について詳しくは、[この節](../../sftp/using/key-management.md)を参照してください。
-* SFTP サーバー上で&#x200B;**パブリック IP アドレスがホワイトリストに登録されている**。登録されていない場合は、IP 範囲をホワイトリストに登録する方法について、[この節](../../sftp/using/ip-range-whitelisting.md)を参照してください。
+* SFTPサーバー上の許可リストに **パブリックIPアドレスが追加されました** 。 IP範囲を許可リストに追加する方法の詳細については [、この節](../../sftp/using/ip-range-whitelisting.md) を参照してください。
 * **SFTP クライアントソフトウェア**&#x200B;へのアクセス権がある。使用が推奨される SFTP クライアントアプリケーションについて IT 部門に相談したり、会社のポリシーによって許可されている場合はインターネットで検索したりできます。
 
 SFTP サーバーに接続するには、次の手順に従います。
