@@ -2,7 +2,10 @@
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 89%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 * トランザクションコミュニケーション（購入確認、パスワードリセットなど）用の「info.mybrand.com」サブドメイン
 * 見込み客向けの E メール送信用の「marketing.mybrand.com」サブドメイン
 
-そうすることで、ドメインおよび他のサブドメインの評価を守るのに役立ちます。例えば、配信品質が悪いために「marketing.mybrand.com」サブドメインがインターネットサービスプロバイダーによってブラックリストに登録された場合、「mybrand.com」ドメイン全体および「info.mybrand.com」サブドメインがブラックリストに登録されるのを防ぎます。
+そうすることで、ドメインおよび他のサブドメインの評価を守るのに役立ちます。例えば、配信品質が悪いために「marketing.mybrand.com」サブドメインがインターネットサービスプロバイダーによってブロックリストに追加された場合、「mybrand.com」ドメインと「info.mybrand.com」サブドメイン全体がブロックリストに追加されなくなります。
 
 ## サブドメインのデリゲート方法 {#subdomain-delegation-methods}
 
