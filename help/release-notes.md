@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->コントロールパネルでのアクティブなプロファイルの監視は、ベータ版で利用できます。通常、更新や変更が予告なく行われます。
+>コントロールパネルから使用できるアクティブなプロファイルの監視は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 >
->この機能は、Campaign Standard10368のビルドとCampaign Classic8931のビルドから、AWSでホストされるお客様が利用できます。 以前のビルドを使用している場合は、この機能を使用するにはアップグレードする必要があります。
+>この機能は、Campaign Standard 10368 のビルドおよび Campaign Classic 8931 のビルドで、AWS でホストされている顧客が使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
 
 ## 2020 年 5 月 {#may-2020}
 
@@ -67,7 +67,7 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 *2019 年 9 月 16 日*
 
-管理者ユーザーが Campaign Classic インスタンスに接続する IP アドレスをホワイトリストに登録するための新しい機能が追加されました。
+管理者ユーザーがIPアドレスを許可リストに追加してCampaign Classicインスタンスに接続できる新しい機能が追加されました。
 さらに管理者ユーザーは、Campaign Classic インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
 詳しくは、[該当するドキュメント](instances-settings/using/ip-whitelisting-instance-access.md)を参照してください。
