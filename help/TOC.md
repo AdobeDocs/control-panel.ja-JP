@@ -4,10 +4,10 @@ sub-product: コントロールパネル
 audience: end-user
 user-guide-title: コントロールパネルのヘルプ
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 96%
+source-wordcount: '99'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 + SFTP 管理 {#sftp-management}
    + [SFTP 管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージ管理](sftp/using/sftp-storage-management.md)
-   + [IP 範囲のホワイトリスト登録](sftp/using/ip-range-whitelisting.md)
+   + [IP範囲許可リスト](sftp/using/ip-range-whitelisting.md)
    + [鍵の管理](sftp/using/key-management.md)
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 96%
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [E メールアラート](performance-monitoring/using/email-alerting.md)
 + インスタンス設定（Campaign Classic）{#instances-settings}
-   + [インスタンスのアクセス用に IP をホワイトリストに登録](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [インスタンスアクセスのIP許可リスト](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
 + [よくある質問](faq.md)
