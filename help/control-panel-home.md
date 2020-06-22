@@ -1,10 +1,10 @@
 ---
 title: 製品ドキュメント
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 51%
+source-wordcount: '112'
+ht-degree: 66%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 51%
 
 ## 新機能
 
-* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
+* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](release-notes.md)
 
-* [アクティブなプロファイル監視](performance-monitoring/using/active-profiles-monitoring.md): コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。
+* **アクティブなプロファイル監視**: コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。 [詳細を表示](performance-monitoring/using/active-profiles-monitoring.md)
 
 ## その他のリソース{#additional-resources}
 
