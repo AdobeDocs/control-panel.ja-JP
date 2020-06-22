@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 89%
+source-wordcount: '503'
+ht-degree: 81%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 89%
 >コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
 
 ## June 2020 {#june-2020}
+
+**&#39;Whitelist&#39; / &#39;Blacklist&#39; removal**
+
+「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
 **アクティブなプロファイルの監視**
 
