@@ -4,10 +4,10 @@ sub-product: コントロールパネル
 audience: end-user
 user-guide-title: コントロールパネルのヘルプ
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 89%
+source-wordcount: '100'
+ht-degree: 88%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 89%
    + [データベース監視](performance-monitoring/using/database-monitoring.md)
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [E メールアラート](performance-monitoring/using/email-alerting.md)
-+ インスタンス設定（Campaign Classic）{#instances-settings}
++ Instances settings {#instances-settings}
    + [インスタンスアクセスのIP許可リスト](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
+   + [GPG キー管理](instances-settings/using/gpg-keys-management.md)
 + [よくある質問](faq.md)
