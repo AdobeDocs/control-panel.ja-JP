@@ -2,9 +2,9 @@
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
 translation-type: tm+mt
-source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
+source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1107'
 ht-degree: 82%
 
 ---
@@ -50,6 +50,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
    * **comment**: コメントフィールドにラベルを追加すると、データの暗号化に使用するキーを簡単に識別できます。
    * **expiration**（有効期限）：日付。有効期限なしの場合は「0」。
    * **passphrase**（パスフレーズ）
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. 確認が完了すると、スクリプトは関連する指紋を持つキーを生成し、ファイルにエクスポートしたり、コントロールパネルに直接貼り付けたりできます。 ファイルを書き出すには、このコマンドを実行し、生成したキーのフィンガープリントを実行します。
@@ -83,7 +84,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 **Campaign Classic：**
 
 * [ファイルの圧縮または暗号化](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [使用例： コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
+* [使用例： コントロールパネルにインストールされたキーを使用して、データを暗号化およびエクスポートする](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard：**
 
@@ -152,6 +153,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
    * 30 日前には至急（赤）が表示されます。
    * 60 日前には警告（黄色）が表示されます。
    * キーの有効期限が切れると、「期限切れ」の赤いバナーが表示されます。
+
    >[!NOTE]
    >
    >コントロールパネルから E メール通知は送信されないことに注意してください。
