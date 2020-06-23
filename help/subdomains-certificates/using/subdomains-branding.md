@@ -2,10 +2,10 @@
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 89%
 
 | デリゲート方法 | 仕組み | 労力のレベル |
 |---|---|---|
-| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
+| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべてのDNSレコードの管理を完全に行います。 | 低 |
 | **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
 
 ドメインデリゲーションに関する追加情報については、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
