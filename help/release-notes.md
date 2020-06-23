@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 81%
+source-wordcount: '577'
+ht-degree: 80%
 
 ---
 
@@ -18,6 +18,14 @@ ht-degree: 81%
 >コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
 
 ## June 2020 {#june-2020}
+
+**サブドメイン配信品質の監査**
+
+新しいサブドメインを委任した後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**GPG キー管理**
+
+コントロールパネルで GPG キーのペアを生成できるようになりました。これにより、Campaign で受信する外部データを簡単に復号化できます。さらに、Campaign から送信されるデータを暗号化するための公開 GPG キーをインストールする機能も追加されました。[詳細を表示](instances-settings/using/gpg-keys-management.md)
 
 **&#39;Whitelist&#39; / &#39;Blacklist&#39; removal**
 
