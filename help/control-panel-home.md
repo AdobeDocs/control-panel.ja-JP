@@ -1,10 +1,10 @@
 ---
 title: 製品ドキュメント
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## 新機能
 
-* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](release-notes.md)
+* **サブドメイン配信品質の監査**
 
-* **アクティブなプロファイル監視**: コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。 [詳細を表示](performance-monitoring/using/active-profiles-monitoring.md)
+   新しいサブドメインを委任した後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **GPG キー管理**
+
+   キャンペーンから送信されるデータを暗号化し、受信データを復号化するには、マーケティングインスタンスに GPG キーをインストールまたは生成します。[詳細を表示](instances-settings/using/gpg-keys-management.md)
+
+* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](release-notes.md)
 
 ## その他のリソース{#additional-resources}
 
