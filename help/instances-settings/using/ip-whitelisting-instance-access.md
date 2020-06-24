@@ -2,10 +2,10 @@
 title: IP許可一覧
 description: コントロールパネルで許可リストにIPアドレスを追加して、インスタンスアクセスする方法を説明します
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -63,6 +63,7 @@ IPアドレスが許可リスト上に配置されたら、キャンペーン演
 
    * **[!UICONTROL インスタンス]**：IP アドレスから接続できるインスタンス。複数のインスタンスを同時に操作できます。例えば、IP許可の一覧表示は、実稼働インスタンスとステージインスタンスの両方で、同じ手順を使用して実行できます。
    * **[!UICONTROL IP範囲]**: 許可リストに追加するIP範囲（CIDR形式）。 IP範囲は、許可リスト上の既存の範囲と重複することはできません。 重複する場合は、まず、重複している IP を含む範囲を削除してください。
+
    >[!NOTE]
    >
    >CIDR（Classless Inter-Domain Routing）は、コントロールパネルのインターフェイスで IP 範囲を追加する際にサポートされる形式です。構文は、IP アドレスとそれに続く「/」（スラッシュ記号）および 10 進数で構成されます。形式とその構文について詳しくは、[この記事](https://whatismyipaddress.com/cidr)を参照してください。
@@ -78,6 +79,7 @@ IPアドレスが許可リスト上に配置されたら、キャンペーン演
    * **[!UICONTROL Campaign コンソールアクセス]**：IP アドレスから Campaign Classic コンソールに接続できるようになります。なお、コンソールアクセスはマーケティングインスタンスの場合にのみ有効です。MID および RT インスタンスへのアクセスは許可されないので、無効です。
    * **[!UICONTROL AEM 接続]**：指定された AEM IP アドレスからマーケティングインスタンスに接続できるようになります。
    * **[!UICONTROL 外部 API 接続]**：指定された IP アドレスを持つ外部 API からマーケティングインスタンスや Message Center（RT）インスタンスに接続できるようになります。なお、RT インスタンスのコンソールへの接続は無効です。
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックします。IP範囲が許可リストに追加されます。
@@ -87,5 +89,5 @@ IPアドレスが許可リスト上に配置されたら、キャンペーン演
 許可リストからIP範囲を削除するには、IP範囲を選択して、 **[!UICONTROL 「IP範囲を]** 削除」ボタンをクリックします。
 
 **関連トピック：**
-* [IP許可一覧（チュートリアルのビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [IP許可一覧（チュートリアルのビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [セキュリティゾーンとオペレーターとのリンク](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
