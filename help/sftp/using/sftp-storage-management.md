@@ -2,7 +2,10 @@
 title: SFTP ストレージ管理
 description: SFTP サーバーのストレージを監視および管理する方法
 translation-type: tm+mt
-source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 94%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 **関連トピック：**
 
-* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
 
 ## ストレージ容量情報へのアクセス{#accessing-storage-capacity-information}
 
