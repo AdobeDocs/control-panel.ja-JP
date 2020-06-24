@@ -1,10 +1,10 @@
 ---
 title: 製品ドキュメント
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **GPG キー管理**
 
    キャンペーンから送信されるデータを暗号化し、受信データを復号化するには、マーケティングインスタンスに GPG キーをインストールまたは生成します。[詳細を表示](instances-settings/using/gpg-keys-management.md)
-
-* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](release-notes.md)
 
 ## その他のリソース{#additional-resources}
 
