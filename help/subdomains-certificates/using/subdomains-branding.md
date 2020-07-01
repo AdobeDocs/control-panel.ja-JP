@@ -1,11 +1,11 @@
 ---
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="cp_certificate_management"
 >title="サブドメインと SSL 証明書について"
->abstract="サブドメインと関連するSSL証明書を監視します。"
+>abstract="サブドメインと関連する SSL 証明書を監視します。"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="サブドメインの SSL 証明書の監視方法"
 
 >[!IMPORTANT]
@@ -31,7 +31,7 @@ ht-degree: 86%
 * トランザクションコミュニケーション（購入確認、パスワードリセットなど）用の「info.mybrand.com」サブドメイン
 * 見込み客向けの E メール送信用の「marketing.mybrand.com」サブドメイン
 
-そうすることで、ドメインおよび他のサブドメインの評価を守るのに役立ちます。例えば、配信品質が悪いために「marketing.mybrand.com」サブドメインがインターネットサービスプロバイダーによってブロックリストに追加された場合、「mybrand.com」ドメインと「info.mybrand.com」サブドメイン全体がブロックリストに追加されなくなります。
+そうすることで、ドメインおよび他のサブドメインの評価を守るのに役立ちます。例えば、配信品質が悪いために「marketing.mybrand.com」サブドメインがインターネットサービスプロバイダーによってブロックリストに追加された場合、「mybrand.com」ドメイン全体および「info.mybrand.com」サブドメインがブロックリストに追加されるのを防ぎます。
 
 ## サブドメインのデリゲート方法 {#subdomain-delegation-methods}
 
@@ -45,7 +45,7 @@ ht-degree: 86%
 
 | デリゲート方法 | 仕組み | 労力のレベル |
 |---|---|---|
-| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべてのDNSレコードの管理を完全に行います。 | 低 |
+| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
 | **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
 
 ドメインデリゲーションに関する追加情報については、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
