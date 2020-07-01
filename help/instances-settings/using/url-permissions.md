@@ -1,11 +1,11 @@
 ---
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_urlpermissions"
 >title="URL へのアクセス権限について"
->abstract="Adobe Campaignインスタンスが接続できるURLを管理します。"
+>abstract="Adobe Campaign インスタンスが接続できる URL を管理します。"
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 >[!IMPORTANT]
 >
->この機能は、ビルド8850からのCampaign Classicインスタンスでのみ使用できます。 以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
+>この機能は、Campaign Classic インスタンスのビルド 8850 以降でのみ使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
 
 ## URL へのアクセス権限について{#about-url-permissions}
 
@@ -47,7 +47,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
 >title="新しい URL を追加"
->abstract="追加キャンペーンインスタンスへの接続を許可するURL。"
+>abstract="Campaign インスタンスへの接続を許可するための URL を追加します。"
 
 インスタンスがアクセスできる URL を追加するには、次の手順に従います。
 
@@ -93,4 +93,4 @@ URL を削除すると、インスタンスはその URL を呼び出すこと�
 
 **新規 URL を追加しましたが、インスタンスは依然 URL に接続できません。これはなぜですか？**
 
-場合によっては、許可リスト、パスワード入力、または別の認証形式が必要なために接続しようとするURLもあります。 コントロールパネルでは、その他の認証を管理できません。
+接続しようとしている URL に許可リストへの登録、パスワードの入力、または別の認証方法が必要となる場合があります。コントロールパネルでは、その他の認証を管理できません。
