@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 78%
 >
 >コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
 
-## June 2020 {#june-2020}
+## 2020 年 6 月{#june-2020}
 
 **サブドメイン配信品質の監査**
 
-新しいサブドメインを委任した後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+新しいサブドメインをデリゲートした後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **GPG キー管理**
 
@@ -29,13 +29,13 @@ ht-degree: 78%
 * [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
-**&#39;Whitelist&#39; / &#39;Blacklist&#39; removal**
+**「ホワイトリスト」と「ブラックリスト」の削除**
 
-「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
+「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
 **アクティブなプロファイルの監視**
 
-コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。 [詳細を表示](performance-monitoring/using/active-profiles-monitoring.md)
+コントロールパネルで、インスタンスが使用し、課金のためにカウントされるアクティブなプロファイルの数を監視できるようになりました。[詳細を表示](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
@@ -81,7 +81,7 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 *2019 年 9 月 16 日*
 
-管理者ユーザーがIPアドレスを許可リストに追加してCampaign Classicインスタンスに接続できる新しい機能が追加されました。
+管理者ユーザーが IP アドレスを許可リストに追加して Campaign Classic インスタンスに接続できる新しい機能を追加しました。
 さらに管理者ユーザーは、Campaign Classic インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
 詳しくは、[該当するドキュメント](instances-settings/using/ip-whitelisting-instance-access.md)を参照してください。
