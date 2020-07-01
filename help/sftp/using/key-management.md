@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="キー管理について"
->abstract="このタブでは、公開鍵を管理できます。"
+>title="鍵の管理について"
+>abstract="このタブで、公開鍵を管理できます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="デモビデオを見る"
 
 アドビでは、すべてのお客様が&#x200B;**公開鍵と秘密鍵のペア**&#x200B;を使用して SFTP サーバーへの接続を確立することを推奨します。
 
 SFTP サーバーにアクセスするために SSH 公開鍵を生成して追加する手順および認証に関する推奨事項を以下に説明します。
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 詳しくは、[この節](../../instances-settings/using/ip-whitelisting-instance-access.md)を参照してください。
+サーバーへのアクセスを設定したら、忘れずにサーバーにアクセスする必要がある **** IP アドレスを許可リストに登録して、サーバーに接続できるようにしてください。詳しくは、[この節](../../instances-settings/using/ip-whitelisting-instance-access.md)を参照してください。
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Once access to the server is set up, remember to **add the IP addresses that wil
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="追加新しい公開鍵"
->abstract="インスタンス追加の新しい公開鍵。"
+>title="新しい公開鍵の追加"
+>abstract="インスタンスの新しい公開鍵を追加します。"
 
 >[!IMPORTANT]
 >
@@ -82,6 +82,7 @@ Once access to the server is set up, remember to **add the IP addresses that wil
    1. プロンプトが表示されたら、鍵に名前を付けます。.ssh ディレクトリが存在しない場合は、システムによって作成されます。
    1. プロンプトが表示されたら、パスフレーズを入力し、もう一度入力します。空欄のままにすることもできます。
    1. 「name」および「name.pub」の鍵のペアがシステムによって作成されます。「name.pub」ファイルを検索して開きます。指定した電子メールアドレスで終わる英数字の文字列が含まれているはずです。
+
    **Windows の場合：**
 
    秘密鍵と公開鍵のペアを同じ「name.pub」形式で生成するのを支援するサードパーティツールをインストールする必要に迫られる場合があります。
