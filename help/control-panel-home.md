@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 * **サブドメイン配信品質の監査**
 
-   新しいサブドメインを委任した後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+   新しいサブドメインをデリゲートした後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **GPG キー管理**
 
