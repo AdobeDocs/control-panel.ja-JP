@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 + SFTP 管理 {#sftp-management}
    + [SFTP 管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージ管理](sftp/using/sftp-storage-management.md)
-   + [IP範囲許可リスト](sftp/using/ip-range-whitelisting.md)
+   + [IP 範囲許可リストへの登録](sftp/using/ip-range-whitelisting.md)
    + [鍵の管理](sftp/using/key-management.md)
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
@@ -40,8 +40,8 @@ ht-degree: 88%
    + [データベース監視](performance-monitoring/using/database-monitoring.md)
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [E メールアラート](performance-monitoring/using/email-alerting.md)
-+ Instances settings {#instances-settings}
-   + [インスタンスアクセスのIP許可リスト](instances-settings/using/ip-whitelisting-instance-access.md)
++ インスタンス設定 {#instances-settings}
+   + [インスタンスアクセスの IP 許可リストへの登録](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
    + [GPG キー管理](instances-settings/using/gpg-keys-management.md)
