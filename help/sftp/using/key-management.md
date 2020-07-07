@@ -2,7 +2,7 @@
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 SFTP サーバーにアクセスするために SSH 公開鍵を生成して追加する手順および認証に関する推奨事項を以下に説明します。
 
-サーバーへのアクセスを設定したら、忘れずにサーバーにアクセスする必要がある **** IP アドレスを許可リストに登録して、サーバーに接続できるようにしてください。詳しくは、[この節](../../instances-settings/using/ip-whitelisting-instance-access.md)を参照してください。
+サーバーへのアクセスを設定したら、忘れずにサーバーにアクセスする必要がある **** IP アドレスを許可リストに登録して、サーバーに接続できるようにしてください。詳しくは、[この節](../../instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 >[!IMPORTANT]
 >
 >パスワードの期限が切れると、システムに鍵がインストールされていても、SFTP アカウントにログインできなくなります。
-
-![](assets/control_panel_passwordexpires.png)
 
 ## SSH 鍵のインストール{#installing-ssh-key}
 
