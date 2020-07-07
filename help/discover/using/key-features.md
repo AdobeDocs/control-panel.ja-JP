@@ -2,7 +2,7 @@
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
@@ -49,8 +49,8 @@ ht-degree: 100%
         <em>サブドメインとその証明書の監視方法の詳細</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
-        <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
+        <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
         <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
     </td>
     <td>
