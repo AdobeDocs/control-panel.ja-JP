@@ -1,45 +1,45 @@
 ---
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-translation-type: ht
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
 
 # よくある質問{#faq}
 
-## IMS Org ID{#ims-org-id}
+## IMS Organization ID {#ims-org-id}
 
-**IMS Org ID とは何ですか？**
+**IMS組織IDとは何ですか。**
 
 これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
 
 詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
-**IMS Org ID はどこに行けばわかりますか？**
+**IMS組織IDはどこで見つけられますか。**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS Org ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. 詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
-もう 1 つの方法は、**Admin Console** を起動することです。IMS Org ID は、URL 内に、https://adminconsole.adobe.com/xxx@AdobeOrg/overview のような形式で表示されます。
+もう 1 つの方法は、**Admin Console** を起動することです。IMS組織IDがURLに表示されます。次のようになります。 https://adminconsole.adobe.com/xxx@AdobeOrg/overview
 
-**IMS Org ID を知る必要があるのはなぜですか？**
+**IMS組織IDを知る必要がある理由を教えてください。**
 
 自分で自分のインスタンスの設定を管理するためです。会社で複数のインスタンスを使用している場合に、適切なインスタンスに対する適切な情報を取得する必要があります。
 
-**複数の IMS Org ID がある場合はどうすればよいですか？**
+**複数のIMS組織IDがある場合はどうなりますか。**
 
-複数のアドビソリューションへのアクセス権がある場合、2 つ以上の IMS Org ID がある可能性があります。この場合、使用すべき正しい IMS Org ID は、Adobe Campaign インスタンスの下に表示されるものです。
+複数のアドビソリューションにアクセスできる場合は、複数のIMS組織IDを持つことがあります。 この場合、使用する必要がある正しいIMS組織IDは、Adobe Campaignインスタンスの下に表示されるIMS組織IDです。
 
 >[!NOTE]
 >
->Adobe Campaign と Adobe Analytics で同じ IMS Org ID がある場合、これは望ましい状態です。Analytics と Campaign の間で 1 つの IMS Org ID を持つことは、買い物かごの放棄などの複雑な事例を活用するためにソリューションを統合する予定がある場合の要件です（AA + AC の場合）。
+>Adobe CampaignとアドビAnalyticsのIMS組織IDが同じである場合、これは非常に良いことです。 買い物かごの放棄(AA + AC)などの複雑な使用例を活用するためにソリューションを統合する場合は、Analyticsとキャンペーンの間にIMS組織IDを1つ持つ必要があります。
 >
->Adobe Campaign と Adobe Analytics で異なる IMS Org ID がある場合、カスタマーケアに問い合わせ、ID を整合させてください。
+>Adobe Campaign用とアドビAnalytics用に異なるIMS組織IDをお持ちの場合は、カスタマーケアに連絡して、それらのIDを調整してください。
 
 **Adobe Campaign インスタンスが AWS でホストされているかどうかを知るにはどうすればよいですか？**
 
