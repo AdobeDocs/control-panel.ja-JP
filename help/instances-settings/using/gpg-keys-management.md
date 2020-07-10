@@ -1,11 +1,11 @@
 ---
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
-translation-type: ht
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
-workflow-type: ht
-source-wordcount: '1137'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,8 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **関連トピック：**
 
-* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## データの暗号化 {#encrypting-data}
 
