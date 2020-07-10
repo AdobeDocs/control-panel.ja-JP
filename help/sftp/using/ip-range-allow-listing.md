@@ -2,10 +2,10 @@
 title: IP 範囲許可リストへの登録
 description: SFTPサーバーがアクセスできるように許可リストにIP範囲を追加する方法を説明します
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 48%
+source-wordcount: '615'
+ht-degree: 47%
 
 ---
 
@@ -46,7 +46,7 @@ CIDR（Classless Inter-Domain Routing）は、コントロールパネルのイ�
 
 許可リストにIP範囲を追加するには、次の手順に従います。
 
-1. 「**[!UICONTROL SFTP]**」カードを開き、「**[!UICONTROL IP ホワイトリスト]**」タブを選択します。
+1. **[!UICONTROL SFTP]** カードを開き、「 **[!UICONTROL IP Allow Listing]** 」タブを選択します。
 1. 許可リスト上のIPアドレスのリストが、各インスタンスに対して表示されます。 左側のリストから目的のインスタンスを選択して、「**[!UICONTROL 新しい IP 範囲を追加]**」ボタンをクリックします。
 
    ![](assets/control_panel_add_range.png)
