@@ -1,9 +1,9 @@
 ---
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
