@@ -1,17 +1,17 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 96%
+source-wordcount: '564'
+ht-degree: 94%
 
 ---
 
 
 # コントロールパネルのリリース {#control-panel-releases}
 
-最新のコントロールパネルのリリースに関する情報は、次のとおりです。
+最新のCampaign コントロールパネルリリースに関する情報は、次の場所にあります。
 
 >[!NOTE]
 >
