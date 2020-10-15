@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: コントロールパネル
 audience: end-user
-user-guide-title: Campaign コントロールパネルガイド
+user-guide-title: コントロールパネルガイド
 translation-type: tm+mt
 source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Campaign コントロールパネルガイド {#using}
+# コントロールパネルガイド {#using}
 
 + [製品ドキュメント](control-panel-home.md)
 + [リリースノート](release-notes.md)
