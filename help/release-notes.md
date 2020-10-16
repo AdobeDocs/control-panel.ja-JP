@@ -1,10 +1,10 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 94%
+source-wordcount: '621'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 94%
 >[!NOTE]
 >
 >コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
+
+## 2020 年 10 月 {#october-2020}
+
+**CNAMEを使用したサブドメインの設定**
+
+Campaign コントロールパネルでは、CNAMEを使用してAdobeを操作するサブドメインを、インターフェイスから直接設定できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**データベース監視の強化**
+
+追加の指標により **[!UICONTROL 「Database monitoring]** 」タブが強化され、データベース上の領域を消費しているリソースに関する詳細情報を取得できるようになりました。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月{#june-2020}
 
@@ -43,7 +53,7 @@ ht-degree: 94%
 
 **CNAME サブドメインの証明書管理**
 
-CNAME メソッドでデリゲートされたサブドメインの SSL 証明書をコントロールパネルで更新できるようになりました。[詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Campaign コントロールパネルでは、CNAME方式で設定したサブドメインのSSL証明書を更新できるようになりました。 [詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -63,7 +73,7 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 *2020 年 1 月 22 日*
 
-管理者ユーザーがサブドメインをデリゲートし、コントロールパネルから SSL 証明書を更新するための新しい機能が追加されました。
+管理者ユーザーがサブドメインを設定し、Campaign コントロールパネルからSSL証明書を更新するための新しい機能が追加されました。
 
 詳しくは、次のページを参照してください。
 * [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
