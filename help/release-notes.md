@@ -1,9 +1,9 @@
 ---
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 80%
 
 ---
@@ -25,7 +25,7 @@ Campaign コントロールパネルでは、CNAMEを使用してAdobeを操作�
 
 **データベース監視の強化**
 
-追加の指標により **[!UICONTROL 「Database monitoring]** 」タブが強化され、データベース上の領域を消費しているリソースに関する詳細情報を取得できるようになりました。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
+データベースの監視機能が強化され、追加の指標が追加され、データベース上の領域を消費しているリソースに関する詳細な情報を取得できるようになりました。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月{#june-2020}
 
