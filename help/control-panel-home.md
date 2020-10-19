@@ -1,10 +1,10 @@
 ---
 title: 製品ドキュメント
 translation-type: tm+mt
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 58%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## 新機能
 
-* **サブドメイン配信品質の監査**
 
-   新しいサブドメインをデリゲートした後、コントロールパネルで配信品質チームが実行した監査を追跡できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+**CNAMEを使用したサブドメインの設定**
 
-* **GPG キー管理**
+Campaign コントロールパネルでは、CNAMEを使用してAdobeを操作するサブドメインを、インターフェイスから直接設定できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   キャンペーンから送信されるデータを暗号化し、受信データを復号化するには、マーケティングインスタンスに GPG キーをインストールまたは生成します。[詳細を表示](instances-settings/using/gpg-keys-management.md)
+**データベース監視の強化**
+
+追加の指標により **[!UICONTROL 「Database monitoring]** 」タブが強化され、データベース上の領域を消費しているリソースに関する詳細情報を取得できるようになりました。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
 
 ## その他のリソース{#additional-resources}
 
