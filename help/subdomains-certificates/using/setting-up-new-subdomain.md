@@ -2,9 +2,9 @@
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
 translation-type: tm+mt
-source-git-commit: c215836129487530e50398ca1454895a2f319867
+source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1128'
 ht-degree: 49%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 49%
 **関連トピック：**
 
 * [サブドメインデリゲーション（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [CNAMEを使用したサブドメインの設定](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+* [CNAMEを使用したサブドメインの設定（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## 必読 {#must-read}
