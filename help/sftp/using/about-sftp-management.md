@@ -2,9 +2,9 @@
 title: SFTP 管理について
 description: コントロールパネルでの SFTP 管理の詳細
 testing: SSECD-836 2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe5f25ef2f3d7dafe9ae63d430279c354fce25a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
