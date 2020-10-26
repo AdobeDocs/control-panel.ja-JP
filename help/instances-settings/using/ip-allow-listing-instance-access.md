@@ -1,11 +1,11 @@
 ---
 title: IP 許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
    >[!NOTE]
    >
-   >インスタンス設定カードがコントロールパネルのホームページに表示されない場合、IMS組織IDはAdobe Campaignクラシックインスタンスと関連付けられていません
+   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -89,5 +89,5 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 許可リストから IP 範囲を削除するには、IP 範囲を選択して、**[!UICONTROL 「IP 範囲を削除]**」ボタンをクリックします。
 
 **関連トピック：**
-* [IP 許可リストへの登録（チュートリアルのビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+* [IP 許可リストへの登録（チュートリアルのビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html)
 * [セキュリティゾーンとオペレーターとのリンク](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
