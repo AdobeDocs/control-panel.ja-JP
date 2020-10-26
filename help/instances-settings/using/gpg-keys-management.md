@@ -1,11 +1,11 @@
 ---
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1139'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **関連トピック：**
 
-* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 ## データの暗号化 {#encrypting-data}
 
@@ -113,7 +113,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    ![](assets/gpg_generate.png)
 
-1. Specify the name of the key, then click **[!UICONTROL Generate Key]**. この名前は、Campaign ワークフローでの復号化に使用するキーの識別に役立ちます。
+1. キーの名前を指定して、「**[!UICONTROL キーを生成]**」をクリックします。この名前は、Campaign ワークフローでの復号化に使用するキーの識別に役立ちます。
 
    ![](assets/gpg_generate_name.png)
 
