@@ -1,11 +1,11 @@
 ---
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Campaign コントロールパネルのサブドメイン設定はベータ版で利用でき、頻繁な更新や変更が予告なく行われる場合があります。
+>Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
 
 ## 証明書の更新について {#about-certificate-renewal-process}
 
@@ -101,7 +101,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 SSL 証明書を購入したら、インスタンスにインストールできます。先に進む前に、次の前提条件を必ず確認してください。
 
 * 証明書署名要求（CSR）は、コントロールパネルから生成されている必要があります。そうでない場合、コントロールパネルから証明書をインストールできなくなります。
-* 証明書署名要求(CSR)は、Adobeで動作するように設定されたサブドメインと一致する必要があります。 例えば、設定済みのサブドメインをそれ以上含めることはできません。
+* 証明書署名要求（CSR）は、アドビと機能するように設定されたサブドメインと一致する必要があります。例えば、設定されたもの以外のサブドメインを含めることはできません。
 * 証明書の日付は現在の日付である必要があります。将来の日付になっている証明書はインストールできません。証明書は有効期限が切れていない（開始日と終了日が有効）必要があります。
 * 証明書は、Comodo、DigiCert、GoDaddy などの信頼できる認証局（CA）によって発行される必要があります。
 * 証明書のサイズは 2048 bit、アルゴリズムは RSA である必要があります。
@@ -136,6 +136,6 @@ SSL 証明書がインストールされると、それに応じて証明書の�
 
 **関連トピック：**
 
-* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
