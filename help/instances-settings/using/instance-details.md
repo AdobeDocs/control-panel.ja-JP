@@ -1,11 +1,11 @@
 ---
 title: インスタンスの詳細
 description: コントロールパネルでのインスタンスの詳細の監視方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="インスタンスの詳細について"
->abstract="Adobe Campaignインスタンスの詳細の表示: タイプ、名前、ビルド情報および使用可能なアップグレードの推奨事項"
->additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classicのリリースノート"
->additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standardのリリースノート"
+>abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および利用可能な推奨アップグレード）を表示します。"
+>additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic リリースノート"
+>additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/release-notes/release-notes.translate.html" text="Campaign Standard リリースノート"
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Adobe Campaign Classic インスタンスアーキテクチャには複数のサ
 
    >[!NOTE]
    >
-   >インスタンス設定カードがコントロールパネルのホームページに表示されない場合、IMS組織IDはAdobe Campaignクラシックインスタンスと関連付けられていません
+   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
 
 1. 左側のパネルから目的の Campaign Classic インスタンスを選択します。
 
