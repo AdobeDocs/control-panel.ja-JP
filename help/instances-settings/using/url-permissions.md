@@ -1,11 +1,11 @@
 ---
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 * [Campaign サーバーの設定](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [発信接続の保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [URL へのアクセス権限（チュートリアルビデオ）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
+* [URL へのアクセス権限（チュートリアルビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html)
 
 ## ベストプラクティス{#best-practices}
 
@@ -55,7 +55,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    >[!NOTE]
    >
-   >インスタンス設定カードがコントロールパネルのホームページに表示されない場合、IMS組織IDはAdobe Campaignクラシックインスタンスと関連付けられていません
+   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
    >
    >「<b><span class="uicontrol">URL へのアクセス権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 
