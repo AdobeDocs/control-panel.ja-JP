@@ -4,14 +4,14 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 80%
+ht-degree: 95%
 
 ---
 
 
 # コントロールパネルのリリース {#control-panel-releases}
 
-最新のCampaign コントロールパネルリリースに関する情報は、次の場所にあります。
+最新の Campaign コントロールパネルのリリースに関する情報は、次のとおりです。
 
 >[!NOTE]
 >
@@ -19,9 +19,9 @@ ht-degree: 80%
 
 ## 2020 年 10 月 {#october-2020}
 
-**CNAMEを使用したサブドメインの設定**
+**CNAME を使用したサブドメインの設定**
 
-Campaign コントロールパネルでは、CNAMEを使用してAdobeを操作するサブドメインを、インターフェイスから直接設定できるようになりました。 [詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+CNAME を使用してアドビと機能するサブドメインを、Campaign コントロールパネルのインターフェイスから直接設定できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **データベース監視の強化**
 
@@ -36,8 +36,8 @@ Campaign コントロールパネルでは、CNAMEを使用してAdobeを操作�
 **GPG キー管理**
 
 コントロールパネルで GPG キーのペアを生成できるようになりました。これにより、Campaign で受信する外部データを簡単に復号化できます。さらに、Campaign から送信されるデータを暗号化するための公開 GPG キーをインストールする機能も追加されました。[詳細を表示](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **アクティブなプロファイルの監視**
 
@@ -53,7 +53,7 @@ Campaign コントロールパネルでは、CNAMEを使用してAdobeを操作�
 
 **CNAME サブドメインの証明書管理**
 
-Campaign コントロールパネルでは、CNAME方式で設定したサブドメインのSSL証明書を更新できるようになりました。 [詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
+CNAME メソッドで設定されたサブドメインの SSL 証明書を Campaign コントロールパネルで更新できるようになりました。[詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -73,7 +73,7 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 *2020 年 1 月 22 日*
 
-管理者ユーザーがサブドメインを設定し、Campaign コントロールパネルからSSL証明書を更新するための新しい機能が追加されました。
+管理者ユーザーがサブドメインを設定し、Campaign コントロールパネルから SSL 証明書を更新するための新しい機能が追加されました。
 
 詳しくは、次のページを参照してください。
 * [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
