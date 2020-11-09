@@ -1,11 +1,11 @@
 ---
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-translation-type: ht
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## サブドメインの使用例（Campaign Classic）（#subdomains-use-cases）
 
-Campaign Classic インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります（[](../../subdomains-certificates/using/setting-up-new-subdomain.md) を参照）。
+When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 考えられる使用例は次のとおりです。
 
