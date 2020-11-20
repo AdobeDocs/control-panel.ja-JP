@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: IP 範囲許可リストへの登録
 description: SFTP サーバーがアクセスできるよう IP 範囲を許可リストに追加する方法を説明します
-translation-type: ht
-source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 
