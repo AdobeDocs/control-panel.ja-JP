@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: IP 許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
-translation-type: ht
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 100%
 
