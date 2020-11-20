@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
-translation-type: ht
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
