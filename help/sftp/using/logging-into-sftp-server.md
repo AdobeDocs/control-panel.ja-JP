@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
-translation-type: ht
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
