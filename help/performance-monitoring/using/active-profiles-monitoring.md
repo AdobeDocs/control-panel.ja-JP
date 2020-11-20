@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: アクティブなプロファイルの監視
 description: 各キャンペーンインスタンスのアクティブなプロファイルの最新使用状況、使用履歴および変化に関するリアルタイム情報を取得する方法を説明します。
-translation-type: ht
-source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
