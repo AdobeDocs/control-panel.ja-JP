@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
-translation-type: ht
-source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
