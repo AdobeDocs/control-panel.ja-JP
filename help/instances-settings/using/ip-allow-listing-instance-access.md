@@ -4,7 +4,7 @@ solution: Campaign
 title: IP 許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 98%
@@ -20,11 +20,11 @@ ht-degree: 98%
 >abstract="IP アドレスを許可リストに追加して、インスタンスにアクセスします。"
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
+## IP 許可リストへの登録について{#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >この機能は、Campaign Classic インスタンスでのみ使用できます。
-
-## IP 許可リストへの登録について{#about-ip-allow-listing}
 
 デフォルトでは、様々な IP アドレスから Adobe Campaign Classic インスタンスにアクセスできるわけではありません。
 
