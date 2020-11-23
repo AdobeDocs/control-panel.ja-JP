@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: コントロールパネルのリリース
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '590'
 ht-degree: 95%
 
 ---
@@ -38,8 +38,6 @@ CNAME を使用してアドビと機能するサブドメインを、Campaign �
 **GPG キー管理**
 
 コントロールパネルで GPG キーのペアを生成できるようになりました。これにより、Campaign で受信する外部データを簡単に復号化できます。さらに、Campaign から送信されるデータを暗号化するための公開 GPG キーをインストールする機能も追加されました。[詳細を表示](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **アクティブなプロファイルの監視**
 
