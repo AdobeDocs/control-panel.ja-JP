@@ -4,7 +4,7 @@ solution: Campaign
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 98%
@@ -20,11 +20,11 @@ ht-degree: 98%
 >abstract="Adobe Campaign インスタンスが接続できる URL を管理します。"
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
+## URL へのアクセス権限について{#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >この機能は、Campaign Classic インスタンスのビルド 8850 以降でのみ使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
-
-## URL へのアクセス権限について{#about-url-permissions}
 
 Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
