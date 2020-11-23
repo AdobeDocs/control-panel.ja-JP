@@ -4,10 +4,10 @@ solution: Campaign
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,11 +32,12 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 URL を追加すると、該当するインスタンスの設定ファイル（serverConf.xml）で参照されます。
 
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **関連トピック：**
 
 * [Campaign サーバーの設定](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [発信接続の保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [URL へのアクセス権限（チュートリアルビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html)
 
 ## ベストプラクティス{#best-practices}
 
