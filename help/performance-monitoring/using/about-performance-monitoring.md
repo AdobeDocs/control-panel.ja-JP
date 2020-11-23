@@ -4,10 +4,10 @@ solution: Campaign
 title: パフォーマンス監視について
 description: コントロールパネルでのインスタンスのパフォーマンスの監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 78%
 
 ---
 
@@ -25,3 +25,5 @@ Campaign コントロールパネルホームページの「**[!UICONTROL パフ
 >今後の Campaign コントロールパネルのリリースでは、このカードで追加の監視機能が使用できるようになります。
 
 また、Campaign コントロールパネルでは、新規登録して、いずれかの Campaign インスタンスで問題が検出されるたびに電子メール通知を受け取ることができます。詳しくは、[この節](../../performance-monitoring/using/email-alerting.md)を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
