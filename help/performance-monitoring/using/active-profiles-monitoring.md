@@ -4,7 +4,7 @@ solution: Campaign
 title: アクティブなプロファイルの監視
 description: 各キャンペーンインスタンスのアクティブなプロファイルの最新使用状況、使用履歴および変化に関するリアルタイム情報を取得する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # アクティブなプロファイルの監視 {#active-profiles-monitoring}
 
+## アクティブなプロファイルについて {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >コントロールパネルから使用できるアクティブなプロファイルの監視は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 >
 >この機能は、Campaign Standard 10368 のビルドおよび Campaign Classic 8931 のビルドで、AWS でホストされている顧客が使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
-
-## アクティブなプロファイルについて {#about-active-profiles}
 
 各キャンペーンインスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金のためその数がカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。
 
