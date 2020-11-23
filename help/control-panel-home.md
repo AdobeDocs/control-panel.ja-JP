@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: 製品ドキュメント
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 89%
 
 ---
 
@@ -32,13 +32,13 @@ CNAME を使用してアドビと機能するサブドメインを、Campaign �
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standard のコントロールパネルチュートリアルビデオ</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Campaign Standard のコントロールパネルチュートリアルビデオ</a></li>
             <li><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/campaign-standard-home.html">Campaign Standard 製品ドキュメント</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Campaign Classic のコントロールパネルチュートリアルビデオ</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Campaign Classic のコントロールパネルチュートリアルビデオ</a></li>
             <li><a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/campaign-classic-home.html">Campaign Classic 製品ドキュメント</a></li>
         </ul>
         </td>
