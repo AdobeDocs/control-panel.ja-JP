@@ -4,7 +4,7 @@ solution: Campaign
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 90%
@@ -20,6 +20,8 @@ ht-degree: 90%
 >abstract="Adobe Campaign で E メールの送信またはランディングページのパブリッシュを開始するには、新しいサブドメインを設定してサブドメインの SSL 証明書を管理する必要があります。"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="サブドメインの SSL 証明書の監視方法"
 
+## 必読 {#must-read}
+
 >[!IMPORTANT]
 >
 >Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
@@ -29,8 +31,6 @@ ht-degree: 90%
 **関連トピック：**
 
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## 必読 {#must-read}
 
 ### インスタンスの選択
 
