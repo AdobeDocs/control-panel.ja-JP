@@ -4,9 +4,9 @@ solution: Campaign
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
@@ -32,6 +32,5 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
