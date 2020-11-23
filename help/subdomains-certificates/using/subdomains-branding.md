@@ -4,7 +4,7 @@ solution: Campaign
 title: サブドメインのブランド化
 description: サブドメインのブランディングの詳細
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 95%
@@ -20,11 +20,11 @@ ht-degree: 95%
 >abstract="サブドメインと関連する SSL 証明書を監視します。"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="サブドメインの SSL 証明書の監視方法"
 
+## サブドメインを設定する理由 {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
-
-## サブドメインを設定する理由 {#why-setting-up-subdomains}
 
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
