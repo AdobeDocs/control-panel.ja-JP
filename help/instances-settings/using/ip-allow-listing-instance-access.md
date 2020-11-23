@@ -4,10 +4,10 @@ solution: Campaign
 title: IP 許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 100%
 コントロールパネルでは、IP アドレスの範囲を許可リストに登録することで、インスタンスへの新しい接続をセットアップできます。それには、次の手順に従います。
 
 IP アドレスがいったん許可リストに登録されれば、Campaign オペレーターを作成して IP アドレスにリンクできます。その結果、ユーザーがインスタンスにアクセスできるようになります。
+
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## ベストプラクティス{#best-practices}
 
@@ -91,5 +93,5 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 許可リストから IP 範囲を削除するには、IP 範囲を選択して、**[!UICONTROL 「IP 範囲を削除]**」ボタンをクリックします。
 
 **関連トピック：**
-* [IP 許可リストへの登録（チュートリアルのビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html)
+
 * [セキュリティゾーンとオペレーターとのリンク](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
