@@ -4,10 +4,10 @@ solution: Campaign
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 # SFTP サーバーへのログイン{#logging-into-sft-server}
 
 以下の手順では、SFTP クライアントアプリケーションを使用した SFTP サーバーへの接続方法について説明します。
+
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
 
 サーバーにログインする前に、以下のことを確認してください。
 
