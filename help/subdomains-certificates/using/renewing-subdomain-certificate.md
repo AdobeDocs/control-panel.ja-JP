@@ -4,7 +4,7 @@ solution: Campaign
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 96%
@@ -21,13 +21,11 @@ ht-degree: 96%
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="SSL 証明書のインストール方法"
 
+## 証明書の更新について {#about-certificate-renewal-process}
+
 >[!IMPORTANT]
 >
 >Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
-
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
-
-## 証明書の更新について {#about-certificate-renewal-process}
 
 SSL 証明書の更新プロセスには、以下の 3 ステップがあります。
 
@@ -37,6 +35,8 @@ SSL 証明書の更新プロセスには、以下の 3 ステップがありま�
 CSR が生成されると、ダウンロードでき、会社が承認する認証局から SSL 証明書を購入する際に使用できます。
 1. **SSL 証明書のインストール**
 SSL 証明書を購入したら、目的のサブドメインにインストールできます。
+
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 
