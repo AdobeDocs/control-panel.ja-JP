@@ -4,7 +4,7 @@ solution: Campaign
 title: インスタンスの詳細
 description: コントロールパネルでのインスタンスの詳細の監視方法
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
@@ -21,11 +21,11 @@ ht-degree: 100%
 >additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic リリースノート"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/release-notes/release-notes.translate.html" text="Campaign Standard リリースノート"
 
+## インスタンスの詳細について{#about-instance-details}
+
 >[!IMPORTANT]
 >
 >この機能は、Campaign Classic インスタンスでのみ使用できます。
-
-## インスタンスの詳細について{#about-instance-details}
 
 Adobe Campaign Classic インスタンスアーキテクチャには複数のサーバーを含めることができるので、柔軟なマーケティング活動が可能になります。例えば、マーケティングサーバー、リアルタイム（Message Center）サーバー、ミッドソーシングサーバーでインスタンスをサポートすることができます。
 
