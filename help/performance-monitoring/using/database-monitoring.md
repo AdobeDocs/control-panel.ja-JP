@@ -4,10 +4,10 @@ solution: Campaign
 title: データベース監視
 description: コントロールパネルでの Campaign データベースの監視方法の詳細
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '979'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 >Campaign コントロールパネルに示されているデータベース容量が契約で指定した容量を反映していない場合は、カスタマーケアにお問い合わせください。
 
 ## データベース使用状況の監視 {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Campaign コントロールパネルでは、各 Campaign インスタンスのデータベースの使用状況を監視できます。これをおこなうには、「**[!UICONTROL パフォーマンス監視]**」カードを開き、「**[!UICONTROL データベース]**」タブを選択します。
 
