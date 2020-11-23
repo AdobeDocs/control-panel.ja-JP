@@ -4,10 +4,10 @@ solution: Campaign
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 >[!NOTE]
 >
 >現在のところ、SSH 公開鍵を削除することはできません。
+
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
 ## ベストプラクティス{#best-practices}
 
