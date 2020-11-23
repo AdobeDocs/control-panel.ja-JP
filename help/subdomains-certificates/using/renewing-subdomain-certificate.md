@@ -4,10 +4,10 @@ solution: Campaign
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '883'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
+
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## 証明書の更新について {#about-certificate-renewal-process}
 
@@ -138,6 +140,5 @@ SSL 証明書がインストールされると、それに応じて証明書の�
 
 **関連トピック：**
 
-* [SSL 証明書の追加（チュートリアルビデオ）](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
