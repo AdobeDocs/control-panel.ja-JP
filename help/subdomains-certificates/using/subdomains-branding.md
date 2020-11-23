@@ -1,12 +1,12 @@
 ---
 product: campaign
 solution: Campaign
-title: サブドメインのブランディング
+title: サブドメインのブランド化
 description: サブドメインのブランディングの詳細
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '694'
 ht-degree: 95%
 
 ---
@@ -78,5 +78,4 @@ When setting up subdomains for Campaign Classic instances, you are required to s
 **関連トピック：**
 
 * [新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
