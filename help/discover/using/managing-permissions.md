@@ -4,10 +4,10 @@ solution: Campaign
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 90%
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 コントロールパネルは、Campaign インスタンスのすべての管理者ユーザーが利用できます。ユーザーを管理者グループに割り当てて、コントロールパネルへのアクセス権を付与するには、以下の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
 
 1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/) に移動して、「**[!UICONTROL 管理]**」タブを選択します。
 
@@ -61,3 +61,7 @@ ht-degree: 90%
 >[!NOTE]
 >
 >アクセスを設定したら、コントロールパネルにアクセスするために、Adobe Experience Cloud からログアウトして、ログインし直す必要があります。
+
+## チュートリアルビデオ {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
