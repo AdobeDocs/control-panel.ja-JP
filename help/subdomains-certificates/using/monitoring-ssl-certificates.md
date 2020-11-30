@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
