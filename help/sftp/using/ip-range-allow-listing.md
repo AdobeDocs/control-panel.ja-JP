@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: IP 範囲許可リストへの登録
 description: SFTP サーバーがアクセスできるよう IP 範囲を許可リストに追加する方法を説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 SFTP サーバーは保護されています。ファイルを表示したり新しいファイルを書き込んだりするために SFTP サーバーにアクセスするには、サーバーにアクセスするシステムまたはクライアントのパブリック IP アドレスを許可リストに追加する必要があります。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) を使用してこの機能をビデオで確認する
 
 ## CIDR 形式について{#about-cidr-format}
 
