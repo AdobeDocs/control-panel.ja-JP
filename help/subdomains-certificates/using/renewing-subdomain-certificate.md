@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ CSR が生成されると、ダウンロードでき、会社が承認する認�
 1. **SSL 証明書のインストール**
 SSL 証明書を購入したら、目的のサブドメインにインストールできます。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#adding-ssl-certificates) を使用してこの機能をビデオで確認する
 
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 
