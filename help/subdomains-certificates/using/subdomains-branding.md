@@ -1,13 +1,13 @@
 ---
 product: campaign
 solution: Campaign
-title: サブドメインのブランド化
+title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ ht-degree: 95%
 
 サブドメインの設定方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
-## Subdomains&#39; use cases (Campaign Classic){#subdomains-use-cases}
+## サブドメインの使用例（Campaign Classic）{#subdomains-use-cases}
 
-When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Campaign Classic インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります（](../../subdomains-certificates/using/setting-up-new-subdomain.md)新しいサブドメインの設定[を参照）。
 
 考えられる使用例は次のとおりです。
 
