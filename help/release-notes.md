@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: コントロールパネルのリリース
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ CNAME を使用してアドビと機能するサブドメインを、Campaign �
 
 **データベース監視の強化**
 
-データベースの監視機能が強化され、追加の指標が追加され、データベース上の領域を消費しているリソースに関する詳細な情報を取得できるようになりました。 [詳細を表示](performance-monitoring/using/database-monitoring.md)
+データベース監視が強化されて追加の指標が配置され、データベースの容量を消費しているリソースに関する詳細情報を取得できるようになりました。[詳細を表示](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月{#june-2020}
 
