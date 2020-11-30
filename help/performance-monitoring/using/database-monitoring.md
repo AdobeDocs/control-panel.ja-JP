@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: データベース監視
 description: コントロールパネルでの Campaign データベースの監視方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 96%
 >
 >Campaign コントロールパネルに示されているデータベース容量が契約で指定した容量を反映していない場合は、カスタマーケアにお問い合わせください。
 
-## データベース使用状況の監視 {#monitoring-instances-database}
+## データベース使用量の監視 {#monitoring-instances-database}
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) を使用してこの機能をビデオで確認する
 
-Campaign コントロールパネルでは、各 Campaign インスタンスのデータベースの使用状況を監視できます。これをおこなうには、「**[!UICONTROL パフォーマンス監視]**」カードを開き、「**[!UICONTROL データベース]**」タブを選択します。
+Campaign コントロールパネルでは、各 Campaign インスタンスのデータベース使用量を監視できます。これをおこなうには、「**[!UICONTROL パフォーマンス監視]**」カードを開き、「**[!UICONTROL データベース]**」タブを選択します。
 
 「**[!UICONTROL インスタンスリスト]**」から目的のインスタンスを選択し、インスタンスのデータベース容量と使用中の容量に関する情報を表示します。
 
@@ -58,7 +58,7 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 
 グラフ内の 1 つまたは複数の曲線をハイライト表示して、読みやすくすることもできます。これをおこなうには、「**[!UICONTROL 集計タイプ]**」の凡例から曲線を選択します。
 
-特定の期間の詳細を表示するには、グラフの上にマウスポインターを置いて、その期間中のデータベースの使用状況に関する情報を表示します。
+特定の期間の詳細を表示するには、グラフの上にマウスポインターを置いて、その期間中のデータベース使用量に関する情報を表示します。
 
 ![](assets/databases_dashboard_detail.png)
 
