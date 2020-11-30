@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1168'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 >
 >Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
 
-このページでは、完全なサブドメインデリゲーションまたは CNAME を使用して新しいサブドメインを設定する方法について説明します。Global concepts on these two methods are presented in this section: [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md).
+このページでは、完全なサブドメインデリゲーションまたは CNAME を使用して新しいサブドメインを設定する方法について説明します。これら 2 つの方法に関する全体的な概念については](../../subdomains-certificates/using/subdomains-branding.md)サブドメインのブランディング[の節で説明します。
 
 **関連トピック：**
 
@@ -48,9 +48,9 @@ ht-degree: 90%
 
 ## 完全なサブドメインデリゲーション {#full-subdomain-delegation}
 
-サブドメインをAdobe Campaignに完全に委任するには、次の手順に従います。
+サブドメインを Adobe Campaign に完全にデリゲートするには、次の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ja#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ja#subdomains-and-certificates) を使用してこの機能をビデオで確認する
 
 1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL 新しいサブドメインを設定]**」をクリックします。
 
@@ -76,13 +76,13 @@ ht-degree: 90%
 
    ![](assets/subdomain6.png)
 
-サブドメインが送信されると、Campaign コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、「 [サブドメインの確認と設定](#subdomain-checks-and-configuration)」を参照してください。
+サブドメインが送信されると、Campaign コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、[サブドメインのチェックと設定](#subdomain-checks-and-configuration)を参照してください。
 
 ## CNAME を使用したサブドメインの設定 {#use-cnames}
 
-CNAMEを使用してサブドメインを設定するには、次の手順に従います。
+CNAME を使用してサブドメインを設定するには、次の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) または [Campaign Standardを使用したビデオでこの機能を見つける](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ja#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ja) を使用してこの機能をビデオで確認する
 
 1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL 新しいサブドメインを設定]**」をクリックします。
 
@@ -116,7 +116,7 @@ CNAMEを使用してサブドメインを設定するには、次の手順に従
    >
    >サーバーに配置する DNS レコードは、Campaign コントロールパネルに 30 日間保持されます。その後は、サブドメインを最初から設定する必要があります。
 
-サブドメインが送信されると、Campaign コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、「 [サブドメインの確認と設定](#subdomain-checks-and-configuration)」を参照してください。
+サブドメインが送信されると、Campaign コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、[サブドメインのチェックと設定](#subdomain-checks-and-configuration)を参照してください。
 
 ## サブドメインのチェックと設定 {#subdomain-checks-and-configuration}
 
