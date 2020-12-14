@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
 translation-type: tm+mt
-source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
+source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1180'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 これをおこなうには、PGP 暗号化ツールから GPG キーペアを生成し、公開鍵をコントロールパネルにインストールする必要があります。その後、インスタンスからデータを送信する前に、データを暗号化できます。それには、次の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video-generate-key)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
 
 1. [OpenPGP の仕様](https://www.openpgp.org/about/standard/)に従った PGP 暗号化ツールを使用して公開鍵と秘密鍵のペアを生成します。これをおこなうには、GPG ユーティリティまたは GNuGP ソフトウェアをインストールします。
 
@@ -83,7 +83,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 その後、キーは Adobe Campaign ワークフローで使用できます。データ抽出アクティビティを使用する場合は、このキーを使用してデータを暗号化できます。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video-use-key)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
 
 このトピックについて詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
@@ -106,7 +106,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 * **公開鍵**&#x200B;は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
 * **秘密鍵**&#x200B;は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video-decrypt)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
 
 コントロールパネルでキーペアを生成するには、次の手順に従います。
 
@@ -137,7 +137,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG キーの監視
@@ -174,16 +174,11 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 >
 >Adobe Campaign ワークフローが失敗するのを防ぐために、キーを削除する前に、ワークフローでキーが使用されていないことを確認してください。
 
-## チュートリアル動画 {#video}
+## チュートリアルビデオ {#video}
 
-### データ暗号化用の GPG キーの生成とインストール {#video-generate-key}
+次のビデオは、データ暗号化用のGPGキーを生成し、インストールする方法を示しています。
+
+GPG鍵管理に関する追加のハウツービデオは、[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings)と[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings)のチュートリアルページで参照できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
-### GPG キーを使用したデータの暗号化 {#video-use-key}
-
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
-
-### データの復号化 {#video-decrypt}
-
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
