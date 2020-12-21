@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12&captions=jpn)
