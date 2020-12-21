@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG キーの監視
@@ -176,9 +176,9 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 ## チュートリアルビデオ {#video}
 
-次のビデオは、データ暗号化用のGPGキーを生成し、インストールする方法を示しています。
+次のビデオでは、データ暗号化用の GPG キーを生成してインストールする方法を説明します。
 
-GPG鍵管理に関する追加のハウツービデオは、[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings)と[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings)のチュートリアルページで参照できます。
+GPG キー管理に関する追加のハウツービデオが [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12&captions=jpn)
 
