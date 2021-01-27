@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
@@ -41,22 +41,22 @@ ht-degree: 100%
         <em>コントロールパネルおよびアクセス方法の詳細</em>
     </td>
     <td>
-        <a href="../../sftp/using/about-sftp-management.md"><img alt="conditions" src="assets/do-not-localize/sftp.png"/></a>
+        <a href="../../sftp/using/about-sftp-management.md"><img alt="条件" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="../../sftp/using/about-sftp-management.md"><strong>SFTP サーバーの監視</strong></a></div>
         <em>SFTP サーバーの管理方法の詳細</em>
     </td>
     <td>
-        <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="conditions" src="assets/do-not-localize/subdomains.png"/></a>
+        <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="条件" src="assets/do-not-localize/subdomains.png"/></a>
         <div><a href="../../subdomains-certificates/using/subdomains-branding.md"><strong>サブドメインの監視</strong></a></div>
         <em>サブドメインとその証明書の監視方法の詳細</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
         <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
     </td>
     <td>
-        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>パフォーマンスの監視</strong></a></div>
         <br/><em>インスタンスの主要リソースの使用率を監視する方法の詳細</em>
     </td>
