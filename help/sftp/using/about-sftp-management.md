@@ -4,9 +4,9 @@ solution: Campaign
 title: SFTP 管理について
 description: コントロールパネルでの SFTP 管理の詳細
 testing: SSECD-836 2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
