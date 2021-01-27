@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG キーの監視
@@ -180,5 +180,5 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 GPG キー管理に関する追加のハウツービデオが [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
