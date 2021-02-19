@@ -16,7 +16,7 @@ ht-degree: 100%
 
 以下の手順では、SFTP クライアントアプリケーションを使用した SFTP サーバーへの接続方法について説明します。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](https://video.tv.adobe.com/v/27263?quality=12&captions=jpn)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](https://video.tv.adobe.com/v/27263?quality=12)
 
 サーバーにログインする前に、以下のことを確認してください。
 
