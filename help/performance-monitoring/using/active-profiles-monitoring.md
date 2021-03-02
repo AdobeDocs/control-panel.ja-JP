@@ -4,10 +4,10 @@ solution: Campaign
 title: アクティブなプロファイルの監視
 description: 各キャンペーンインスタンスのアクティブなプロファイルの最新使用状況、使用履歴および変化に関するリアルタイム情報を取得する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Campaign コントロールパネルでは、各キャンペーンインスタ�
 >アクティブなプロファイルは、インスタンスで毎日実行される専用のテクニカルワークフローに基づいてカウントされます。
 >
 >* Campaign Standard の[「請求」](https://docs.adobe.com/help/ja-JP/campaign-standard/using/administrating/application-settings/technical-workflows.html)ワークフロー、
->* Campaign Classic の[「アクティブな請求プロファイルの数」](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html)ワークフロー。
+>* Campaign Classic の[「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)ワークフロー。
 
 
 下部には、過去 30 日間のアクティブなプロファイルの使用状況がグラフで表示されます。右上隅にあるフィルターを使用すると、表示される期間を 1 年に変更できます。
