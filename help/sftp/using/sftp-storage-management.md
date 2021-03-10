@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: SFTP ストレージ管理
 description: SFTP サーバーのストレージを監視および管理する方法
+feature: Campaign コントロールパネル
+role: 建築家
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 99%
 
 ---
 
