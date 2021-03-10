@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: E メールアラート
 description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
+feature: Campaign コントロールパネル
+role: 建築家
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '173'
+ht-degree: 98%
 
 ---
 
