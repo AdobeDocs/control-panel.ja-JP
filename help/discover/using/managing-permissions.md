@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
+feature: Campaign コントロールパネル
+role: 建築家
+level: 中級
 translation-type: tm+mt
-source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 99%
 
 ---
 
