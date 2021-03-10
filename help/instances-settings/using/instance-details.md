@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: インスタンスの詳細
 description: コントロールパネルでのインスタンスの詳細の監視方法
+feature: Campaign コントロールパネル
+role: 建築家
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 99%
 
 ---
 
