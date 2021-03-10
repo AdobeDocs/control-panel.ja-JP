@@ -2,16 +2,19 @@
 product: campaign
 solution: Campaign
 title: 製品ドキュメント
+feature: Campaign コントロールパネル
+role: 建築家
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 98%
 
 ---
 
 
-# ヘルプセンター{#control-panel-documentation}
+# ヘルプセンター {#control-panel-documentation}
 
 ![](assets/do-not-localize/banner.png)
 
