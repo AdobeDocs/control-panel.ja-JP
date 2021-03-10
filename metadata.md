@@ -9,11 +9,14 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.ja-JP
 index: true
-translation-type: ht
-source-git-commit: 62aa6827e7ffbc16e95468b4ce5347cdb8d6c945
-workflow-type: ht
-source-wordcount: '33'
-ht-degree: 100%
+feature: Campaign コントロールパネル
+role: 建築家
+level: 初心者
+translation-type: tm+mt
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 94%
 
 ---
 
