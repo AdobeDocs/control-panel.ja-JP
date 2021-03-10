@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: アクティブなプロファイルの監視
 description: 各キャンペーンインスタンスのアクティブなプロファイルの最新使用状況、使用履歴および変化に関するリアルタイム情報を取得する方法を説明します。
+feature: Campaign コントロールパネル
+role: 建築家
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '397'
 ht-degree: 97%
 
 ---
