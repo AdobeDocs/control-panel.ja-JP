@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
+feature: Campaign コントロールパネル
+role: 建築家
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 99%
 
 ---
 
