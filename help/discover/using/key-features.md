@@ -7,7 +7,7 @@ feature: Campaign コントロールパネル
 role: 建築家
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ ht-degree: 99%
 >
 >最新の Campaign ビルドにアップグレードしなくてもコントロールパネルにアクセスできます。
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="conditions" src="assets/do-not-localize/discover.png"/></a>
