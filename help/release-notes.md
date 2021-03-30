@@ -6,10 +6,10 @@ feature: Campaign コントロールパネル
 role: 建築家
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->コントロールパネルは、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるお客様のみ利用できることに注意してください。コントロールパネルにアクセスするためにアップグレードする必要はありません。アクセスするには、管理者ユーザーであることを確認してください。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>
+>Campaign Classicのためには、インスタンスをAWSでホストし、最新の[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)ビルドまたは[最新のGAビルド(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)でアップグレードする必要があります。 [このセクション](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従ってください。
 
 ## 2020 年 10 月 {#october-2020}
 
@@ -49,8 +51,6 @@ CNAME を使用してアドビと機能するサブドメインを、Campaign �
 >[!IMPORTANT]
 >
 >コントロールパネルから使用できるアクティブなプロファイルの監視は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
->
->この機能は、Campaign Standard 10368 のビルドおよび Campaign Classic 8931 のビルドで、AWS でホストされている顧客が使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
 
 ## 2020 年 5 月 {#may-2020}
 
