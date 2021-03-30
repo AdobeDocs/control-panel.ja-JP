@@ -7,10 +7,10 @@ feature: Campaign コントロールパネル
 role: 建築家
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->コントロールパネルから使用できるアクティブなプロファイルの監視は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
->
->この機能は、Campaign Standard 10368 のビルドおよび Campaign Classic 8931 のビルドで、AWS でホストされている顧客が使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
+>コントロールパネルから使用できるアクティブなプロファイルの監視は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。Campaign Standard10368ビルドから利用できます。
 
 各キャンペーンインスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金のためその数がカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。
 
