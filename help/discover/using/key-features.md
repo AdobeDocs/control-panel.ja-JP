@@ -7,10 +7,10 @@ feature: Campaign コントロールパネル
 role: 建築家
 level: 初心者
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,10 @@ ht-degree: 99%
 * ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 
 >[!NOTE]
->コントロールパネルには、管理者ユーザーのみがアクセスでき、まだサポートされていないハイブリッド環境を除いて、AWS でホストされるすべてのお客様が利用できます。ユーザーに管理者アクセス権を付与する手順については、[この節](../../discover/using/managing-permissions.md)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[この節](../../faq.md)に記載されている手順に従います。
 >
->最新の Campaign ビルドにアップグレードしなくてもコントロールパネルにアクセスできます。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>
+>Campaign Classicのためには、インスタンスをAWSでホストし、最新の[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)ビルドまたは[最新のGAビルド(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)でアップグレードする必要があります。 [このセクション](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](../../faq.md)に記載されている手順に従ってください。
 
 <table style="table-layout:fixed">
 <tr>
