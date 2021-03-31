@@ -5,9 +5,9 @@ title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
 feature: Campaign コントロールパネル
 role: 建築家
-level: 中級
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 コントロールパネルは、Campaign インスタンスのすべての管理者ユーザーが利用できます。ユーザーを管理者グループに割り当てて、コントロールパネルへのアクセス権を付与するには、以下の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](../../discover/using/managing-permissions.md#video)
 
 1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/) に移動して、「**[!UICONTROL 管理]**」タブを選択します。
 
