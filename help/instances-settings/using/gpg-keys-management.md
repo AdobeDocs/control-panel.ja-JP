@@ -7,10 +7,10 @@ feature: Campaign コントロールパネル
 role: 建築家
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 99%
+source-wordcount: '1178'
+ht-degree: 96%
 
 ---
 
@@ -92,13 +92,13 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Classic：**
 
-* [ファイルの圧縮または暗号化](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard：**
 
 * [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## データの復号化 {#decrypting-data}
 
@@ -135,8 +135,8 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Classic：**
 
-* [処理前のファイルの解凍または復号化](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [処理前のファイルの解凍または復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
+* [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
 
 **Campaign Standard：**
 
