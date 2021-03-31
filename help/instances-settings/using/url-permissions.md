@@ -5,12 +5,12 @@ title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
 feature: Campaign コントロールパネル
 role: 建築家
-level: 中級
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 99%
+source-wordcount: '616'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 **関連トピック：**
 
 * [Campaign サーバーの設定](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [発信接続の保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [発信接続の保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## ベストプラクティス{#best-practices}
 
