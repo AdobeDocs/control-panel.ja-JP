@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: ラーニングとサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/campaign/standard.html
 solution-image: assets/campaign-icon-24.png
@@ -9,14 +9,14 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.ja-JP
 index: true
-feature: Campaign コントロールパネル
+feature: コントロールパネル
 role: 建築家
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
