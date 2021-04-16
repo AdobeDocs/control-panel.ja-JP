@@ -4,16 +4,16 @@ solution: Campaign
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 99%
+role: Architect
+level: Experienced
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '885'
+ht-degree: 100%
 
 ---
-
 
 # サブドメインの SSL 証明書の更新 {#renewing-subdomains-ssl-certificates}
 
@@ -52,7 +52,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >id="cp_select_subdomains"
 >title="CSR のサブドメインの選択"
 >abstract="証明書署名要求に、すべてのサブドメインまたは特定のサブドメインのみを含めるよう選択できます。選択したサブドメインのみが、購入した SSL 証明書を通じて認証されます。"
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
+>additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 証明書署名要求（CSR）を生成するには、次の手順に従います。
@@ -103,7 +103,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >id="cp_install_ssl_certificate"
 >title="SSL 証明書をインストール"
 >abstract="組織が承認した認証局から購入した SSL 証明書をインストールします。"
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
+>additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 SSL 証明書を購入したら、インスタンスにインストールできます。先に進む前に、次の前提条件を必ず確認してください。
 
