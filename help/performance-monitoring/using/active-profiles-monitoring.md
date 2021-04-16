@@ -4,16 +4,16 @@ solution: Campaign
 title: アクティブなプロファイルの監視
 description: 各キャンペーンインスタンスのアクティブなプロファイルの最新使用状況、使用履歴および変化に関するリアルタイム情報を取得する方法を説明します。
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+role: Architect
+level: Experienced
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '370'
+ht-degree: 100%
 
 ---
-
 
 # アクティブなプロファイルの監視 {#active-profiles-monitoring}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->コントロールパネルから使用できるアクティブなプロファイルの監視は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。Campaign Standard10368ビルドから利用できます。
+>Campaign コントロールパネルから使用できるアクティブなプロファイルの監視はベータ版です。通知なしに頻繁に更新および変更される可能性があります。Campaign Standard 10368 ビルドから利用できます。
 
 各キャンペーンインスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金のためその数がカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。
 
@@ -54,7 +54,7 @@ Campaign コントロールパネルでは、各キャンペーンインスタ�
 >アクティブなプロファイルは、インスタンスで毎日実行される専用のテクニカルワークフローに基づいてカウントされます。
 >
 >* Campaign Standard の[「請求」](https://docs.adobe.com/help/ja-JP/campaign-standard/using/administrating/application-settings/technical-workflows.html)ワークフロー、
->* Campaign Classic の[「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)ワークフロー。
+>* Campaign Classic の[「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)ワークフロー。
 
 
 下部には、過去 30 日間のアクティブなプロファイルの使用状況がグラフで表示されます。右上隅にあるフィルターを使用すると、表示される期間を 1 年に変更できます。
