@@ -4,16 +4,16 @@ solution: Campaign
 title: パフォーマンス監視について
 description: コントロールパネルでのインスタンスのパフォーマンスの監視方法の詳細
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 98%
+role: Architect
+level: Experienced
+exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
-
 
 # パフォーマンス監視について {#about-performance-monitoring}
 
@@ -28,4 +28,3 @@ Campaign コントロールパネルホームページの「**[!UICONTROL パフ
 >今後の Campaign コントロールパネルのリリースでは、このカードで追加の監視機能が使用できるようになります。
 
 また、Campaign コントロールパネルでは、新規登録して、いずれかの Campaign インスタンスで問題が検出されるたびに電子メール通知を受け取ることができます。詳しくは、[この節](../../performance-monitoring/using/email-alerting.md)を参照してください。
-
