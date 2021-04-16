@@ -4,16 +4,16 @@ solution: Campaign
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 99%
+role: Architect
+level: Experienced
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '641'
+ht-degree: 100%
 
 ---
-
 
 # 鍵の管理 {#key-management}
 
