@@ -4,16 +4,16 @@ solution: Campaign
 title: IP 許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
 feature: Campaign コントロールパネル
-role: 建築家
-level: 中級
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+role: Architect
+level: Intermediate
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '792'
+ht-degree: 100%
 
 ---
-
 
 # IP 許可リストへの登録{#ip-allow-listing}
 
