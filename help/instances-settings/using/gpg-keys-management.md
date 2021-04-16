@@ -4,16 +4,16 @@ solution: Campaign
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 96%
+role: Architect
+level: Experienced
+exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '1176'
+ht-degree: 100%
 
 ---
-
 
 # GPG キー管理 {#gpg-keys-management}
 
@@ -92,13 +92,13 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Classic：**
 
-* [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
+* [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja)
 * [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard：**
 
 * [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
+* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja#use-case-gpg-encrypt)
 
 ## データの復号化 {#decrypting-data}
 
@@ -135,12 +135,12 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Classic：**
 
-* [処理前のファイルの解凍または復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
-* [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
+* [処理前のファイルの解凍または復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja)
+* [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja#use-case-gpg-decrypt)
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [暗号化されたデータの管理](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG キーの監視
@@ -184,4 +184,3 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 GPG キー管理に関する追加のハウツービデオが [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
-
