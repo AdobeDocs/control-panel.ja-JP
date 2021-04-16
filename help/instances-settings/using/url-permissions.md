@@ -4,16 +4,16 @@ solution: Campaign
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
 feature: Campaign コントロールパネル
-role: 建築家
-level: 中級者
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 98%
+role: Architect
+level: Intermediate
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
-
 
 # URL へのアクセス権限 {#url-permissions}
 
@@ -39,8 +39,8 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 **関連トピック：**
 
-* [Campaign サーバーの設定](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [発信接続の保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Campaign サーバーの設定](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ja#installing-campaign-classic)
+* [発信接続の保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=ja#outgoing-connection-protection)
 
 ## ベストプラクティス{#best-practices}
 
