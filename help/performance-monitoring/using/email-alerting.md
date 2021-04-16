@@ -4,16 +4,16 @@ solution: Campaign
 title: E メールアラート
 description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 98%
+role: Architect
+level: Experienced
+exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '171'
+ht-degree: 100%
 
 ---
-
 
 # E メールアラート {#email-alerting}
 
@@ -41,4 +41,3 @@ ht-degree: 98%
 * **データベース使用量**：1 台のインスタンスデータベースの容量が 80％以上に到達しました。[データベース監視](../../performance-monitoring/using/database-monitoring.md)を参照してください。
 
 * **SSL 証明書の有効期限**：サブドメインの SSL 証明書の 1 つが期限切れになったか、60 日以内に期限切れになります。[サブドメインの SSL 証明書の監視](../../subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
-
