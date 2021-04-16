@@ -4,16 +4,16 @@ solution: Campaign
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 99%
+role: Architect
+level: Experienced
+exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '1170'
+ht-degree: 100%
 
 ---
-
 
 # 新しいサブドメインの設定 {#setting-up-subdomain}
 
