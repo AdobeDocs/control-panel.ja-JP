@@ -4,18 +4,18 @@ solution: Campaign
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
 feature: Campaign コントロールパネル
-role: 建築家
-level: 中級
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 99%
+role: Architect
+level: Intermediate
+exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '634'
+ht-degree: 100%
 
 ---
 
-
-# よくある質問{#faq}
+# よくある質問 {#faq}
 
 ## IMS 組織 ID {#ims-org-id}
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 **IMS 組織 ID はどこにありますか？**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
 
 もう 1 つの方法は、**Admin Console** を起動することです。IMS 組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
