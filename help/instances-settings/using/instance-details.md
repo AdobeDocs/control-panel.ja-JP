@@ -4,18 +4,18 @@ solution: Campaign
 title: インスタンスの詳細
 description: コントロールパネルでのインスタンスの詳細の監視方法
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 99%
+role: Architect
+level: Experienced
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '565'
+ht-degree: 100%
 
 ---
 
-
-# インスタンスの詳細{#instance-details}
+# インスタンスの詳細 {#instance-details}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
@@ -73,7 +73,7 @@ Adobe Campaign Classic インスタンスアーキテクチャには複数のサ
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問{#common-questions}
 
