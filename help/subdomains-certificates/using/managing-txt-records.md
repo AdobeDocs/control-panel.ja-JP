@@ -4,16 +4,16 @@ solution: Campaign
 title: TXT レコードの管理
 description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
 feature: Campaign コントロールパネル
-role: 建築家
-level: 経験豊富な
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+role: Architect
+level: Experienced
+exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '353'
+ht-degree: 100%
 
 ---
-
 
 # TXT レコードの管理 {#managing-txt-records}
 
