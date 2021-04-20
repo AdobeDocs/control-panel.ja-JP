@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: よくある質問
 description: SFTP 管理に関するよくある質問の詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: SFTP サーバーへのログイン
 description: SFTP サーバーへのログイン方法
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3

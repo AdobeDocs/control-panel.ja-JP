@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: E メールアラート
 description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0

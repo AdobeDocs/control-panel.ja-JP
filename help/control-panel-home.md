@@ -1,7 +1,7 @@
 ---
 title: 製品ドキュメント
 description: Campaign コントロールパネルに関するドキュメント。
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab

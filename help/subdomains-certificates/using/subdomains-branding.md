@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795

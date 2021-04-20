@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Campaign コントロールパネルのリリース
 description: 最新のCampaign コントロールパネルリリースノート。
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa

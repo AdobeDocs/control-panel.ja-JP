@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: パフォーマンス監視について
 description: コントロールパネルでのインスタンスのパフォーマンスの監視方法の詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a

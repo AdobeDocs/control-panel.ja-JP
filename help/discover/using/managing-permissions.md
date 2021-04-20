@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: コントロールパネルに対する権限の管理
 description: コントロールパネルに対する権限の管理方法
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: SFTP ストレージ管理
 description: SFTP サーバーのストレージを監視および管理する方法
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a

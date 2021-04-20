@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 鍵の管理
 description: SFTP サーバーに接続するための鍵の管理方法
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee

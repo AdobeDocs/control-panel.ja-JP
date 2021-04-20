@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: コントロールパネルのインターフェイスの理解
 description: コントロールパネルのインターフェイスの詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5

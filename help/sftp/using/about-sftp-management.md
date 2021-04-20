@@ -4,7 +4,7 @@ solution: Campaign
 title: SFTP 管理について
 description: コントロールパネルでの SFTP 管理の詳細
 testing: SSECD-836 2
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d

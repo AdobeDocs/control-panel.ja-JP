@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
