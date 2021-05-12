@@ -7,11 +7,11 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Campaign コントロールパネルに表示されるデータベースの空き容量が、契約で指定された容量を反映していない場合は、カスタマーケアにお問い合わせください。
+>Campaign コントロールパネルに示されている利用可能なデータベース容量が、契約で指定されている容量を反映していない場合は、カスタマーケアにお問い合わせください。
 
 ## データベース使用量の監視 {#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 >
 >このダッシュボードのデータは、Campaign インスタンスで実行される&#x200B;**[!UICONTROL データベースクリーンアップテクニカルワークフロー]**（[Campaign Standard](https://docs.adobe.com/help/ja-JP/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) および [Campaign Classic](https://docs.adobe.com/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) のドキュメントを参照）に基づいて更新されます。
 >
->また、データベースの1つがcに到達した時点で、ワークフローが&#x200B;**[!UICONTROL 使用済み領域]**&#x200B;および&#x200B;**[!UICONTROL 指定済み領域]**&#x200B;指標を下回ったときに、通知を受け取ることもできます。 ワークフローが 3 日を超えて実行されていない場合は、アドビカスタマーケアに連絡して、ワークフローが実行されていない理由を調査することをお勧めします。
+>さらに、**[!UICONTROL 使用中の容量]**&#x200B;指標と&#x200B;**[!UICONTROL 提供された容量]**&#x200B;指標で、ワークフローの前回の実行時にデータベースの 1 つが c に達した場合、通知を受け取ることができます。 ワークフローが 3 日を超えて実行されていない場合は、アドビカスタマーケアに連絡して、ワークフローが実行されていない理由を調査することをお勧めします。
 
 このダッシュボードでは、以下で説明する、インスタンスのデータベースの使用状況を分析するのに役立つ追加の指標を利用できます。
 
@@ -105,13 +105,13 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 
 ![](assets/database-top10-view.png)
 
-「**[!UICONTROL 中間結果を保持]**」列の値は、Campaign でこのオプションが有効（「1」）と無効（「0」）のどちらであるかを示します。このオプションを使用すると、ワークフローの様々なアクティビティ間のトランジションの結果を保存できます([Campaign Standard](https://https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.translate.html)と[Campaign Classic](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)のドキュメントを参照)。
+「**[!UICONTROL 中間結果を保持]**」列の値は、Campaign でこのオプションが有効（「1」）と無効（「0」）のどちらであるかを示します。このオプションを使用すると、ワークフローの様々なアクティビティ間のトランジションの結果を保存できます（[Campaign Standard](https://https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.translate.html) および [Campaign Classic](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) のドキュメントを参照）。
 
 >[!IMPORTANT]
 >
->プロダクションワークフローでは、このオプションを選択しないでください。結果の分析に使用され、テスト目的でのみ設計されているので、開発環境またはステージング環境でのみ使用する必要があります。
+>このオプションは、本番ワークフローでは絶対にオンにしないでください。これは結果の分析に使用され、テスト目的でのみ設計されているので、開発環境またはステージング環境に限定して使用する必要があります。
 >
->Campaign コントロールパネルの値が、ワークフローの1つに対してこのオプションが有効になっていることを示している場合は、キャンペーンでオフにすることを強くお勧めします。
+>コントロールパネルの値が、ワークフローの 1 つに対してこのオプションが有効になっていることを示している場合は、Campaign でこのオプションをオフにすることを強くお勧めします。
 
 ## データベース容量超過の防止 {#preventing-database-overload}
 
@@ -126,7 +126,7 @@ Campaign Standard および Campaign Classic では、様々な方法でデー�
 
 **データベースのメンテナンス**
 
-* データベースクリーンアップテクニカルワークフロー（[Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)／[Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)）
+* データベースクリーンアップテクニカルワークフロー（[Campaign Standard](https://docs.adobe.com/help/ja-JP/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)／[Campaign Classic](https://docs.adobe.com/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)）
 * [データベースメンテナンスガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)（Campaign Classic）
 * [データベースパフォーマンスのトラブルシューティング](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ja)（Campaign Classic）
 * [データベース関連オプション](https://docs.adobe.com/help/ja-JP/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)（Campaign Classic）
