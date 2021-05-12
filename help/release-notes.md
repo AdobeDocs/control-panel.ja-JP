@@ -2,16 +2,16 @@
 product: campaign
 solution: Campaign
 title: Campaign コントロールパネルのリリース
-description: 最新のCampaign コントロールパネルリリースノート。
-feature: Control Panel
+description: Campaign コントロールパネルの最新のリリースノート。
+feature: Campaign コントロールパネル
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
