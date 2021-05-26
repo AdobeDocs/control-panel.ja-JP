@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-feature: Control Panel
+feature: Campaign コントロールパネル
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 87%
 
 ---
 
@@ -33,9 +32,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=jp#discover-control-panel)を参照してください。
+>Campaign コントロールパネルは管理者ユーザーに制限されています。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
->Campaign Classic の場合、インスタンスは AWS でホストし、最新の [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja) ビルドまたは[最新の GA ビルド（21.1）](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes)でアップグレードする必要があります。 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](../../faq.md)で詳しく説明されている手順に従ってください。
+>Campaign Classicの場合、インスタンスはAmazon Web Services(AWS)でホストされ、最新の[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)ビルドにアップグレードする必要があります。 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](../../faq.md)で詳しく説明されている手順に従ってください。
 
 <table style="table-layout:fixed">
 <tr>
@@ -45,22 +44,22 @@ ht-degree: 100%
         <em>コントロールパネルおよびアクセス方法の詳細</em>
     </td>
     <td>
-        <a href="../../sftp/using/about-sftp-management.md"><img alt="conditions" src="assets/do-not-localize/sftp.png"/></a>
+        <a href="../../sftp/using/about-sftp-management.md"><img alt="条件" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="../../sftp/using/about-sftp-management.md"><strong>SFTP サーバーの監視</strong></a></div>
         <em>SFTP サーバーの管理方法の詳細</em>
     </td>
     <td>
-        <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="conditions" src="assets/do-not-localize/subdomains.png"/></a>
+        <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="条件" src="assets/do-not-localize/subdomains.png"/></a>
         <div><a href="../../subdomains-certificates/using/subdomains-branding.md"><strong>サブドメインの監視</strong></a></div>
         <em>サブドメインとその証明書の監視方法の詳細</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
         <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
     </td>
     <td>
-        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>パフォーマンスの監視</strong></a></div>
         <br/><em>インスタンスの主要リソースの使用率を監視する方法の詳細</em>
     </td>
