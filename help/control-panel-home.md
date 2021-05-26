@@ -5,7 +5,7 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 68%
@@ -28,13 +28,17 @@ CNAME を使用してアドビと機能するサブドメインを、Campaign �
 
 >[!NOTE]
 >
->Campaign コントロールパネルは管理者ユーザーに制限されています。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)。
->
->Campaign Classicの場合、インスタンスはAmazon Web Services(AWS)でホストされ、最新の[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)ビルドにアップグレードする必要があります。
->
->[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)でCampaign Classicのバージョンを確認する方法を説明します。
->
->Campaign ClassicインスタンスがAWSでホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
+>* Campaign コントロールパネルは管理者ユーザーに制限されています。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)。
+   >
+   >
+* Campaign Classicの場合、インスタンスはAmazon Web Services(AWS)でホストされ、最新の[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)ビルドにアップグレードする必要があります。
+   >   
+   >   
+   * [この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)でCampaign Classicのバージョンを確認する方法を説明します。
+      >   
+      >   
+   * Campaign ClassicインスタンスがAWSでホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
+
 
 ## その他のリソース{#additional-resources}
 
