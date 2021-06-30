@@ -29,9 +29,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >* コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)。
-   >
-   >
-* Campaign Classic の場合、インスタンスは Amazon Web Services（AWS）でホストされ、最新の [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses) ビルドにアップグレードする必要があります。Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)で説明されている手順の詳細に従ってください。
+>
+>* Campaign Classic の場合、インスタンスは Amazon Web Services（AWS）でホストされ、最新の [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses) ビルドにアップグレードする必要があります。Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)で説明されている手順の詳細に従ってください。
 
 
 ## その他のリソース {#additional-resources}
