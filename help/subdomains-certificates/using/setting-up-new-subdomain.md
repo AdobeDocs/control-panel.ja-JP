@@ -7,7 +7,7 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 98%
@@ -66,7 +66,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   > Adobe Campaign Standardインスタンスの場合、サブドメインを使用すると、マーケティングコミュニケーションとトランザクションコミュニケーションの両方を送信できます。
+   > Adobe Campaign Standardの場合、デリゲートされたサブドメインを使用すると、**マーケティング**&#x200B;と&#x200B;**トランザクション**&#x200B;の両方のコミュニケーションを送信できます。
 
    ![](assets/subdomain4.png)
 
