@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Campaign コントロールパネルのリリース
 description: Campaign コントロールパネルの最新のリリースノート。
-feature: Campaign コントロールパネル
+feature: コントロールパネル
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: ht
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -23,19 +22,19 @@ ht-degree: 100%
 >
 >Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=jp#discover-control-panel)を参照してください。
 >
->Campaign Classic の場合、インスタンスは AWS でホストし、最新の [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja) ビルドまたは[最新の GA ビルド（21.1）](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes)でアップグレードする必要があります。 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)で詳しく説明されている手順に従ってください。
+>Campaign Classicv7の場合、インスタンスはAWSでホストされ、最新の[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja)ビルドまたは[最新のGAビルド(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes)でアップグレードする必要があります。 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
 
 ## 2020 年 10 月 {#october-2020}
 
 **CNAME を使用したサブドメインの設定**
 
-CNAME を使用してアドビと機能するサブドメインを、Campaign コントロールパネルのインターフェイスから直接設定できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+アドビで使用するサブドメインを、Campaign コントロールパネルのインターフェイスから CNAME を使用して直接設定できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **データベース監視の強化**
 
-データベース監視が強化されて追加の指標が配置され、データベースの容量を消費しているリソースに関する詳細情報を取得できるようになりました。[詳細を表示](performance-monitoring/using/database-monitoring.md)
+データベース監視が強化されて指標が追加され、データベースの容量を消費しているリソースに関する詳細情報を取得できるようになりました。[詳細情報](performance-monitoring/using/database-monitoring.md)
 
-## 2020 年 6 月{#june-2020}
+## 2020 年 6 月 {#june-2020}
 
 **サブドメイン配信品質の監査**
 
@@ -57,7 +56,7 @@ CNAME を使用してアドビと機能するサブドメインを、Campaign �
 
 **CNAME サブドメインの証明書管理**
 
-CNAME メソッドで設定されたサブドメインの SSL 証明書を Campaign コントロールパネルで更新できるようになりました。[詳細を表示](subdomains-certificates/using/renewing-subdomain-certificate.md)
+CNAME メソッドで設定されたサブドメインの SSL 証明書を Campaign コントロールパネルで更新できるようになりました。[詳細情報](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -71,15 +70,15 @@ Campaign コントロールパネルに、データベース監視機能が搭�
 
 **E メールアラート**
 
-Campaign コントロールパネルに、リアルタイムの E メールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。[詳細を表示](performance-monitoring/using/email-alerting.md)
+Campaign コントロールパネルに、リアルタイムの E メールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。[詳細情報](performance-monitoring/using/email-alerting.md)
 
-## 2020 年 1 月{#january-2020}
+## 2020 年 1 月 {#january-2020}
 
 *2020 年 1 月 22 日*
 
 管理者ユーザーがサブドメインを設定し、Campaign コントロールパネルから SSL 証明書を更新するための新しい機能が追加されました。
 
-詳しくは、次のページを参照してください。
+詳しくは、以下のページを参照してください。
 * [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
 * [サブドメインの SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
@@ -91,19 +90,18 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 *2019 年 9 月 16 日*
 
-管理者ユーザーが IP アドレスを許可リストに追加して Campaign Classic インスタンスに接続できる新しい機能を追加しました。
-さらに管理者ユーザーは、Campaign Classic インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
+Campaign Classic インスタンスに接続するために、管理者ユーザーが IP アドレスを許可リストに追加するための新機能を追加しました。さらに管理者ユーザーは、Campaign Classic インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
 詳しくは、[該当するドキュメント](instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
-## 2019 年 8 月{#august-2019}
+## 2019 年 8 月 {#august-2019}
 
 管理者ユーザーがお使いのドメインの SSL 証明書の期限が切れる前に通知を受け取る新機能を追加しました。詳しくは、[詳細ドキュメント](subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
 
 さらに、管理者ユーザーは、SFTP サーバーにアクセスするために追加された SSH キーを削除できるようになりました。
 
-## 2019 年 7 月{#july-2019}
+## 2019 年 7 月 {#july-2019}
 
-管理者ユーザーが Campaign Classic インスタンス設定の管理をさらに強化できるようにするための新しい機能が追加されました。新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
+管理者ユーザーが Campaign Classic インスタンス設定をさらに詳細に管理するための新機能が追加されました。新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
 
 詳しくは、[詳細ドキュメント](instances-settings/using/url-permissions.md)を参照してください。
