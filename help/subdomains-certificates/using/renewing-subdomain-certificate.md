@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
-feature: Control Panel
+feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL 証明書を追加"
->abstract="SSL 証明書を追加するには、CSR を生成し、サブドメイン用の SSL 証明書を購入して、証明書バンドルをインストールする必要があります。"
+>abstract="SSL 証明書を追加するには、CSR を生成し、サブドメイン用の SSL 証明書を購入して、証明書バンドルのインストールする必要があります。"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="SSL 証明書のインストール方法"
 
@@ -29,15 +28,17 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
+>
+>この機能は、Campaign v8では使用できません。
 
 SSL 証明書の更新プロセスには、以下の 3 ステップがあります。
 
 1. **証明書署名要求（CSR）の生成**
-アドビカスタマーケアによって、CSR が生成されます。CSR を生成するために必要な情報（共通名、組織名および住所など）を提供する必要があります。
+アドビカスタマーケアが CSR を生成します。CSR を生成するために必要な情報（共通名、組織名および住所など）を提供する必要があります。
 1. **SSL 証明書の購入**
-CSR が生成されると、ダウンロードでき、会社が承認する認証局から SSL 証明書を購入する際に使用できます。
+CSR が生成されると、ダウンロードして、会社が承認する認証局から SSL 証明書を購入する際に使用できます。
 1. **SSL 証明書のインストール**
-SSL 証明書を購入したら、目的のサブドメインにインストールできます。
+SSL 証明書を購入したら、目的のサブドメインにインストールします。
 
 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#adding-ssl-certificates) を使用してこの機能をビデオで確認する
 
@@ -52,7 +53,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >id="cp_select_subdomains"
 >title="CSR のサブドメインの選択"
 >abstract="証明書署名要求に、すべてのサブドメインまたは特定のサブドメインのみを含めるよう選択できます。選択したサブドメインのみが、購入した SSL 証明書を通じて認証されます。"
->additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
 >additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 証明書署名要求（CSR）を生成するには、次の手順に従います。
@@ -67,7 +68,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 
 1. CSR を生成するために必要なすべての詳細と共に、フォームが表示されます。
 
-   証明書を確実に更新するために、要求された情報をすべて正確に入力していることを確認して（必要に応じて、社内チーム、セキュリティおよび IT チームに問い合わせます）から、「**[!UICONTROL 次へ]**」をクリックします。
+   証明書を確実に更新するため、要求された情報を必ずすべて正確に入力して（必要に応じて、社内チーム、セキュリティおよび IT チームに確認）、「**[!UICONTROL 次へ]**」をクリックします。
 
    * **[!UICONTROL 組織]**：正式な組織名。
    * **[!UICONTROL 組織単位]**：サブドメインにリンクされた単位（例：マーケティング、IT）。
@@ -83,7 +84,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 
    ![](assets/renewal5.png)
 
-1. CSR に含めるサブドメインの概要が表示されます。「**[!UICONTROL 送信]**」をクリックし、要求を確認します。
+1. CSR に含めるサブドメインの概要が表示されたら、「**[!UICONTROL 送信]**」をクリックして要求を確定します。
 
    ![](assets/renewal6.png)
 
@@ -103,7 +104,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >id="cp_install_ssl_certificate"
 >title="SSL 証明書をインストール"
 >abstract="組織が承認した認証局から購入した SSL 証明書をインストールします。"
->additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 SSL 証明書を購入したら、インスタンスにインストールできます。先に進む前に、次の前提条件を必ず確認してください。
 
@@ -127,7 +128,7 @@ SSL 証明書を購入したら、インスタンスにインストールでき�
 
    ![](assets/renewal1.png)
 
-1. 「**[!UICONTROL 3 - 証明書バンドルをインストール]**」を選択してから、「**[!UICONTROL 次へ]**」をクリックし、証明書のインストールプロセスの手順を示すウィザードを起動します。
+1. 「**[!UICONTROL 3 - 証明書バンドルのインストール]**」を選択してから、「**[!UICONTROL 次へ]**」をクリックし、証明書のインストールプロセスの手順を示すウィザードを起動します。
 
    ![](assets/install1.png)
 
@@ -137,7 +138,7 @@ SSL 証明書を購入したら、インスタンスにインストールでき�
 
 >[!NOTE]
 >
->CSR に含まれるすべてのドメイン／サブドメインに証明書がインストールされます。証明書に存在する追加のドメイン／サブドメインは考慮されません。
+>CSR に含まれるすべてのドメイン／サブドメインに証明書がインストールされます。証明書内に記載されている追加のドメイン／サブドメインは考慮されません。
 
 SSL 証明書がインストールされると、それに応じて証明書の有効期限とステータスアイコンが更新されます。
 
