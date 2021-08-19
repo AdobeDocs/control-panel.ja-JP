@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: アクティブなプロファイルの監視
 description: 各キャンペーンインスタンスのアクティブなプロファイルの最新使用状況、使用履歴および変化に関するリアルタイム情報を取得する方法を説明します。
-feature: Control Panel
+feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 100%
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-アクティブなプロファイルについて詳しくは、[Campaign Standard](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) および [Campaign Classic](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) のドキュメントを参照してください。
+アクティブなプロファイルについて詳しくは、 [Campaign Standard](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)および[Campaign Classicv7](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)のドキュメントを参照してください。
 
 ## アクティブなプロファイルの監視 {#monitoring-active-profiles}
 
