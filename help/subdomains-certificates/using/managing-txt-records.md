@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: TXT レコードの管理
 description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
-feature: Control Panel
+feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +20,10 @@ ht-degree: 100%
 >id="cp_siteverification_add"
 >title="TXT レコードの管理"
 >abstract="Google などの一部のサービスでは、ドメインを所有していることを検証するために、ドメイン設定に TXT レコードを追加する必要があります。"
+
+>[!AVAILABILITY]
+>
+>この機能は、Campaign v8では使用できません。
 
 ## TXT レコードについて {#about-txt-records}
 
