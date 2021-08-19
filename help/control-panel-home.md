@@ -5,10 +5,10 @@ feature: コントロールパネル
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 88%
+source-wordcount: '227'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ ht-degree: 88%
    >
    >
 * Campaign Classicv7の場合、インスタンスはAmazon Web Services(AWS)でホストされ、最新の[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)ビルドにアップグレードする必要があります。 Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)で説明されている手順の詳細に従ってください。
+   >
+   >
+* 次の機能は、Campaign v8では使用できません。サブドメインの管理と証明書の管理。
 
 
 ## その他のリソース {#additional-resources}
