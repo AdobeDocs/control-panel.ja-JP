@@ -5,10 +5,10 @@ feature: コントロールパネル
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 88%
 
 ---
 
@@ -29,8 +29,9 @@ ht-degree: 100%
 >[!NOTE]
 >
 >* コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)。
->
->* Campaign Classic の場合、インスタンスは Amazon Web Services（AWS）でホストされ、最新の [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses) ビルドにアップグレードする必要があります。Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)で説明されている手順の詳細に従ってください。
+   >
+   >
+* Campaign Classicv7の場合、インスタンスはAmazon Web Services(AWS)でホストされ、最新の[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)ビルドにアップグレードする必要があります。 Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)で説明されている手順の詳細に従ってください。
 
 
 ## その他のリソース {#additional-resources}
