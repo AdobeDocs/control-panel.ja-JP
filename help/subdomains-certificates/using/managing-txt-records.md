@@ -7,7 +7,7 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 97%
@@ -21,11 +21,11 @@ ht-degree: 97%
 >title="TXT レコードの管理"
 >abstract="Google などの一部のサービスでは、ドメインを所有していることを検証するために、ドメイン設定に TXT レコードを追加する必要があります。"
 
+## TXT レコードについて {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >この機能は、Campaign v8では使用できません。
-
-## TXT レコードについて {#about-txt-records}
 
 TXT レコードは、ドメインに関するテキスト情報を提供するために使用される DNS レコードの一種で、外部ソースから読み取ることができます。
 
