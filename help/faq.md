@@ -7,14 +7,14 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+source-git-commit: 224bad296e416288ea717c904ce679653495c046
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '674'
 ht-degree: 94%
 
 ---
 
-# FAQ {#faq}
+# よくある質問（FAQ） {#faq}
 
 ## IMS 組織 ID {#ims-org-id}
 
