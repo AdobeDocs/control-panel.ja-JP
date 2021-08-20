@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: コントロールパネルのよくある質問
 description: コントロールパネルに関するよくある質問
-feature: Control Panel
+feature: Campaign コントロールパネル
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 94%
 
 ---
 
-# よくある質問 {#faq}
+# FAQ {#faq}
 
 ## IMS 組織 ID {#ims-org-id}
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 **IMS 組織 ID はどこにありますか？**
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
 
 もう 1 つの方法は、**Admin Console** を起動することです。IMS 組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
@@ -90,7 +89,7 @@ ht-degree: 100%
 >
 >AWS に移行したい場合は、カスタマーサクセスマネージャーに問い合わせて、プロセスを開始してください。
 
-## コントロールパネル{#control-panel}
+## コントロールパネル {#control-panel}
 
 **コントロールパネルとは何ですか？**
 
@@ -101,6 +100,10 @@ ht-degree: 100%
 コントロールパネルでは、ニーズやその他の操作に基づいて、SFTP サーバーに対し、ストレージの追跡、IP の許可リストへの登録、SSH 鍵の管理を自身でおこなうことができます。
 
 詳しくは、コントロールパネルでサポートされる操作のドキュメントを参照してください。
+
+**Campaign v8ではサポートされていないが、Campaign Classicv7で使用できる機能**
+
+サブドメインおよび証明書管理関連の機能は、Campaign v8のCampaign コントロールパネルを通じてまだサポートされていません。 関連するサポートについては、Campaignカスタマーケアにお問い合わせください。
 
 **コントロールパネルは Adobe Campaign 専用ですか？**
 
