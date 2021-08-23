@@ -7,10 +7,10 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 96%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-アクティブなプロファイルについて詳しくは、 [Campaign Standard](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)および[Campaign Classicv7](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)のドキュメントを参照してください。
+アクティブなプロファイルについて詳しくは、 [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)および[Campaign Classicv7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)のドキュメントを参照してください。
 
 ## アクティブなプロファイルの監視 {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ Campaign コントロールパネルでは、各キャンペーンインスタ�
 >
 >アクティブなプロファイルは、インスタンスで毎日実行される専用のテクニカルワークフローに基づいてカウントされます。
 >
->* Campaign Standard の[「請求」](https://docs.adobe.com/help/ja-JP/campaign-standard/using/administrating/application-settings/technical-workflows.html)ワークフロー、
+>* Campaign Standard の[「請求」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en)ワークフロー、
 >* Campaign Classic の[「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)ワークフロー。
 
 
