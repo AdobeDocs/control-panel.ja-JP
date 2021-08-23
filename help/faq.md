@@ -7,35 +7,75 @@ feature: Campaign コントロールパネル
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 224bad296e416288ea717c904ce679653495c046
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 94%
+source-wordcount: '779'
+ht-degree: 85%
 
 ---
 
 # よくある質問（FAQ） {#faq}
 
+## コントロールパネル {#control-panel}
+
+### コントロールパネルとは何ですか？
+
+コントロールパネルにより、製品管理者は、様々な設定を直接管理し、Adobe Campaign に接続された SFTP サーバーの容量を監視できます。
+
+### コントロールパネルの現在の機能には何がありますか？
+
+コントロールパネルでは、ニーズやその他の操作に基づいて、SFTP サーバーに対し、ストレージの追跡、IP の許可リストへの登録、SSH 鍵の管理を自身でおこなうことができます。
+
+詳しくは、コントロールパネルでサポートされる操作のドキュメントを参照してください。
+
+### Campaign v8ではサポートされていないが、Campaign Classicv7で使用できる機能{#v8-restrictions}
+
+サブドメインおよび証明書管理関連の機能は、Campaign v8のCampaign コントロールパネルを通じてまだサポートされていません。 関連するサポートについては、Campaignカスタマーケアにお問い合わせください。
+
+### コントロールパネルは Adobe Campaign 専用ですか？
+
+はい、コントロールパネルで管理できるのは Adobe Campaign の設定のみです。
+
+### 誰がコントロールパネルを使用できますか？
+
+コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。ハイブリッド環境はまだサポートされていないことに注意してください。
+
+管理者でないユーザーがアクセスを希望する場合は、製品管理者に問い合わせて、管理者として追加してもらう必要があります。
+
+### Campaign Classicv7ユーザーの場合、コントロールパネルにアクセスする条件は何ですか？ {#v7-restrictions}
+
+コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)。
+
+Campaign Classicv7の場合、インスタンスはAmazon Web Services(AWS)でホストされ、最新の[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)ビルドにアップグレードする必要があります。 Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign ClassicインスタンスがAWSでホストされているかどうかを確認するには、[この節](#hosted-aws)に記載されている手順に従います。
+
+### コントロールパネルにはどのようにしてアクセスできますか？
+
+コントロールパネルへのアクセスのドキュメントに記載されている指示に従ってください。
+
+### コントロールパネルの使用に追加料金はかかりますか？
+
+いいえ、Adobe Campaign の現在のお客様であれば、追加費用はかかりません。
+
 ## IMS 組織 ID {#ims-org-id}
 
-**IMS 組織 ID とは何ですか？**
+### IMS 組織 ID とは何ですか？
 
 これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
 
-詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。
+詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)を参照してください。
 
-**IMS 組織 ID はどこにありますか？**
+### IMS 組織 ID はどこにありますか？
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)を参照してください。
 
 もう 1 つの方法は、**Admin Console** を起動することです。IMS 組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
-**IMS 組織 ID を知る必要があるのはなぜですか？**
+### IMS 組織 ID を知る必要があるのはなぜですか？
 
 自分で自分のインスタンスの設定を管理するためです。会社で複数のインスタンスを使用している場合に、適切なインスタンスに対する適切な情報を取得する必要があります。
 
-**複数の IMS 組織 ID がある場合はどうすればよいですか？**
+### 複数の IMS 組織 ID がある場合はどうすればよいですか？
 
 複数のアドビソリューションへのアクセス権がある場合、2 つ以上の IMS 組織 ID がある可能性があります。この場合、使用すべき正しい IMS 組織 ID は、Adobe Campaign インスタンスの下に表示されるものです。
 
@@ -45,7 +85,7 @@ ht-degree: 94%
 >
 >Adobe Campaign と Adobe Analytics で異なる IMS 組織 ID がある場合、カスタマーケアに問い合わせ、ID を整合させてください。
 
-**Adobe Campaign インスタンスが AWS でホストされているかどうかを知るにはどうすればよいですか？**
+### Adobe Campaign インスタンスが AWS でホストされているかどうかを知るにはどうすればよいですか？{#hosted-aws}
 
 インスタンスが AWS でホストされているかどうかを確認するには、以下の手順に従います。
 
@@ -88,37 +128,3 @@ ht-degree: 94%
 >[!NOTE]
 >
 >AWS に移行したい場合は、カスタマーサクセスマネージャーに問い合わせて、プロセスを開始してください。
-
-## コントロールパネル {#control-panel}
-
-**コントロールパネルとは何ですか？**
-
-コントロールパネルにより、製品管理者は、様々な設定を直接管理し、Adobe Campaign に接続された SFTP サーバーの容量を監視できます。
-
-**コントロールパネルの現在の機能には何がありますか？**
-
-コントロールパネルでは、ニーズやその他の操作に基づいて、SFTP サーバーに対し、ストレージの追跡、IP の許可リストへの登録、SSH 鍵の管理を自身でおこなうことができます。
-
-詳しくは、コントロールパネルでサポートされる操作のドキュメントを参照してください。
-
-**Campaign v8ではサポートされていないが、Campaign Classicv7で使用できる機能**
-
-サブドメインおよび証明書管理関連の機能は、Campaign v8のCampaign コントロールパネルを通じてまだサポートされていません。 関連するサポートについては、Campaignカスタマーケアにお問い合わせください。
-
-**コントロールパネルは Adobe Campaign 専用ですか？**
-
-はい、コントロールパネルで管理できるのは Adobe Campaign の設定のみです。
-
-**誰がコントロールパネルを使用できますか？**
-
-コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。ハイブリッド環境はまだサポートされていないことに注意してください。
-
-管理者でないユーザーがアクセスを希望する場合は、製品管理者に問い合わせて、管理者として追加してもらう必要があります。
-
-**コントロールパネルにはどのようにしてアクセスできますか？**
-
-コントロールパネルへのアクセスのドキュメントに記載されている指示に従ってください。
-
-**コントロールパネルの使用に追加料金はかかりますか？**
-
-いいえ、Adobe Campaign の現在のお客様であれば、追加費用はかかりません。
