@@ -3,28 +3,28 @@ product: campaign
 solution: Campaign
 title: Campaign コントロールパネルのリリース
 description: Campaign コントロールパネルの最新のリリースノート。
-feature: コントロールパネル
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '630'
+ht-degree: 100%
 
 ---
 
-# Campaign コントロールパネルのリリース {#control-panel-releases}
+# コントロールパネルのリリース {#control-panel-releases}
 
-最新の Campaign コントロールパネルのリリースに関する情報は、次のとおりです。
+コントロールパネルの最新リリースに関する情報は、次のとおりです。
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=jp#discover-control-panel)を参照してください。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
->Campaign Classicv7の場合、インスタンスはAWSでホストされ、最新の[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja)ビルドまたは[最新のGAビルド(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes)でアップグレードする必要があります。 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
+>Campaign Classic v7 の場合、インスタンスを AWS でホストし、最新の [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja) ビルド、または最新の [GA ビルド（21.1）](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes) でアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
 
-## 2020 年 10 月 {#october-2020}
+## 2020年10月 {#october-2020}
 
 **CNAME を使用したサブドメインの設定**
 
@@ -52,7 +52,7 @@ ht-degree: 95%
 >
 >Campaign コントロールパネルから使用できるアクティブなプロファイルの監視はベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 
-## 2020 年 5 月 {#may-2020}
+## 2020年5月 {#may-2020}
 
 **CNAME サブドメインの証明書管理**
 
@@ -74,7 +74,7 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 ## 2020 年 1 月 {#january-2020}
 
-*2020 年 1 月 22 日*
+*2020年1月22日*
 
 管理者ユーザーがサブドメインを設定し、Campaign コントロールパネルから SSL 証明書を更新するための新しい機能が追加されました。
 
@@ -84,23 +84,23 @@ Campaign コントロールパネルに、リアルタイムの E メールア�
 
 >[!IMPORTANT]
 >
->これらの機能はベータ版で利用可能になり、予告なしに頻繁に更新や変更がおこなわれます。
+>これらの機能はベータ版であり、予告なく頻繁に更新や変更が行われる可能性があります。
 
-## 2019 年 9 月 {#september-2019}
+## 2019年9月 {#september-2019}
 
-*2019 年 9 月 16 日*
+*2019年9月16日*
 
 Campaign Classic インスタンスに接続するために、管理者ユーザーが IP アドレスを許可リストに追加するための新機能を追加しました。さらに管理者ユーザーは、Campaign Classic インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
 詳しくは、[該当するドキュメント](instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
-## 2019 年 8 月 {#august-2019}
+## 2019年8月 {#august-2019}
 
 管理者ユーザーがお使いのドメインの SSL 証明書の期限が切れる前に通知を受け取る新機能を追加しました。詳しくは、[詳細ドキュメント](subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
 
 さらに、管理者ユーザーは、SFTP サーバーにアクセスするために追加された SSH キーを削除できるようになりました。
 
-## 2019 年 7 月 {#july-2019}
+## 2019年7月 {#july-2019}
 
 管理者ユーザーが Campaign Classic インスタンス設定をさらに詳細に管理するための新機能が追加されました。新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
 
