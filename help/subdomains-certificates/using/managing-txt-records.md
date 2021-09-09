@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: TXT レコードの管理
 description: ドメイン所有権検証用の TXT レコードを管理する方法を説明します。
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
-workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->この機能は、Campaign v8では使用できません。
+>この機能は、Campaign v8 では使用できません。
 
 TXT レコードは、ドメインに関するテキスト情報を提供するために使用される DNS レコードの一種で、外部ソースから読み取ることができます。
 
