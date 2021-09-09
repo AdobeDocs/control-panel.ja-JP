@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: IP 許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '793'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->この機能は、Campaign Classicv7およびCampaign v8インスタンスでのみ使用できます。
+>この機能は、Campaign Classic v7 および Campaign v8 のインスタンスでのみ使用できます。
 
-デフォルトでは、様々な IP アドレスから Adobe Campaign インスタンスにアクセスできるわけではありません。
+デフォルトでは、様々な IP アドレスから Adobe Campaign インスタンスへはアクセスできません。
 
 お使いの IP アドレスが許可リストに登録されていない場合は、そのアドレスからインスタンスにログインすることはできません。同様に、お使いの Message Center インスタンスまたはマーケティングインスタンスの許可リストに IP アドレスが明示的に登録されていない場合、そのインスタンスに API を接続できません。
 
@@ -46,7 +46,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 * **IP アドレスからのインスタンスへのアクセスを一時的に有効にした場合**、インスタンスへ接続する必要がなくなり次第、許可リストに登録されている IP アドレスからその IP アドレスを必ず削除します。
 * **公共の場所の IP アドレスを許可リストに追加することはお勧めしません**（空港、ホテルなど）。インスタンスのセキュリティを常に確保するには、会社の VPN アドレスを使用してください。
 
-## インスタンスアクセス用の許可リストへの IP アドレスの追加 {#adding-ip-addresses-allow-list}
+## インスタンスへアクセスできる許可リストへの IP アドレスの追加 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
@@ -83,7 +83,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
 1. IP アドレスに許可するアクセスのタイプを指定します。
 
-   * **[!UICONTROL Campaignコンソールへのアクセス]**:IPアドレスからCampaignクライアントコンソールに接続できるようになります。なお、コンソールアクセスはマーケティングインスタンスの場合にのみ有効です。MID および RT インスタンスへのアクセスは許可されないので、無効です。
+   * **[!UICONTROL Campaign コンソールアクセス]**：IP アドレスから Campaign クライアントコンソールに接続できるようになります。なお、コンソールアクセスはマーケティングインスタンスの場合にのみ有効です。MID および RT インスタンスへのアクセスは許可されないので、無効です。
    * **[!UICONTROL AEM 接続]**：指定された AEM IP アドレスからマーケティングインスタンスに接続できるようになります。
    * **[!UICONTROL 外部 API 接続]**：指定された IP アドレスを持つ外部 API からマーケティングインスタンスや Message Center（RT）インスタンスに接続できるようになります。なお、RT インスタンスのコンソールへの接続は無効です。
 
