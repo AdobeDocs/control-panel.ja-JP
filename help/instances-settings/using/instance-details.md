@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: インスタンスの詳細
 description: コントロールパネルでのインスタンスの詳細の監視方法
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '563'
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 97%
 >id="cp_instancesettings_instancedetails"
 >title="インスタンスの詳細について"
 >abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および利用可能な推奨アップグレード）を表示します。"
->additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic リリースノート"
->additional-url="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/release-notes/release-notes.translate.html" text="Campaign Standard リリースノート"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja" text="Campaign Classic リリースノート"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja" text="Campaign Standard リリースノート"
 
 ## インスタンスの詳細について {#about-instance-details}
 
 >[!IMPORTANT]
 >
->この機能は、Campaign Classicv7およびCampaign v8インスタンスでのみ使用できます。
+>この機能は、Campaign Classic v7 および Campaign v8 のインスタンスでのみ使用できます。
 
 Adobe Campaign インスタンスアーキテクチャには複数のサーバーを含めることができるので、柔軟なマーケティング活動が可能になります。例えば、マーケティングサーバー、リアルタイム（Message Center）サーバー、ミッドソーシングサーバーをインスタンスと連係させることができます。
 
@@ -52,7 +52,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
    >
    >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
 
-1. 左側のパネルから目的の Campaign インスタンスを選択します。
+1. 左側のペインから目的の Campaign インスタンスを選択します。
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問 {#common-questions}
 
