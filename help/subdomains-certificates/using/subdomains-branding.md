@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: サブドメインのブランディング
 description: サブドメインのブランディングの詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '705'
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 96%
 >id="cp_certificate_management"
 >title="サブドメインと SSL 証明書について"
 >abstract="サブドメインと関連する SSL 証明書を監視します。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="サブドメインの SSL 証明書の監視方法"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="サブドメインの SSL 証明書の監視方法"
 
 
 ## サブドメインを設定する理由  {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
+>コントロールパネルからサブドメインを設定できる機能はベータ版であり、予告なく頻繁に更新や変更が行われる可能性があります。
 >
->この機能は、Campaign v8では使用できません。
+>この機能は、Campaign v8 では使用できません。
 
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
@@ -55,11 +55,11 @@ ht-degree: 96%
 | **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
 | **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
 
-ドメイン設定に関するその他の詳細情報については、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)を参照してください。
+ドメイン設定に関するその他の詳細情報については、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja)を参照してください。
 
 サブドメインの設定方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
-## サブドメインの使用例（Campaign Classic）{#subdomains-use-cases}
+## サブドメインの活用事例（Campaign Classic）{#subdomains-use-cases}
 
 Campaign Classic インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります（](../../subdomains-certificates/using/setting-up-new-subdomain.md)新しいサブドメインの設定[を参照）。
 
