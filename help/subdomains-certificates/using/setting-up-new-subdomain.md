@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="新しいサブドメインの設定と証明書の管理"
 >abstract="Adobe Campaign で E メールの送信またはランディングページの公開を開始するには、新しいサブドメインを設定してサブドメインの SSL 証明書を管理する必要があります。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="サブドメインの SSL 証明書の監視方法"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="サブドメインの SSL 証明書の監視方法"
 
 
 ## 必読 {#must-read}
 
 >[!IMPORTANT]
 >
->Campaign コントロールパネルから使用できるサブドメインの設定はベータ版であり、通知なしに頻繁に更新および変更される可能性があります。
+>コントロールパネルからサブドメインを設定できる機能はベータ版であり、予告なく頻繁に更新や変更が行われる可能性があります。
 >
->この機能は、Campaign v8では使用できません。
+>この機能は、Campaign v8 では使用できません。
 
-このページでは、完全なサブドメインデリゲーションまたは CNAME を使用して新しいサブドメインを設定する方法について説明します。これら 2 つの方法に関する全体的な概念については](../../subdomains-certificates/using/subdomains-branding.md)サブドメインのブランディング[の節で説明します。
+このページでは、完全なサブドメインの委任または CNAME を使用して新しいサブドメインを設定する方法について説明します。これら 2 つの方法に関する全体的な概念については](../../subdomains-certificates/using/subdomains-branding.md)サブドメインのブランディング[の節で説明します。
 
 **関連トピック：**
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 また、この新しいサブドメイン用に&#x200B;**別のゾーンファイルを作成しない**&#x200B;でください。
 
-## 完全なサブドメインデリゲーション {#full-subdomain-delegation}
+## 完全なサブドメインのデリゲーション {#full-subdomain-delegation}
 
 サブドメインを Adobe Campaign に完全にデリゲートするには、次の手順に従います。
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   > Adobe Campaign Standardの場合、デリゲートされたサブドメインを使用すると、**マーケティング**&#x200B;と&#x200B;**トランザクション**&#x200B;の両方のコミュニケーションを送信できます。
+   > Adobe Campaign Standard の場合、デリゲートされたサブドメインを使用すると、**マーケティング**&#x200B;と&#x200B;**トランザクション**&#x200B;の両方のやりとりを送信できます。
 
    ![](assets/subdomain4.png)
 
