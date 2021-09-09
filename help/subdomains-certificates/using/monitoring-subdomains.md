@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->この機能は、Campaign v8では使用できません。
+>この機能は、Campaign v8 では使用できません。
 
 サブドメインを監視して、Adobe Campaign で機能するようにすべてが正しく設定されていることを確認することが重要です。
 
