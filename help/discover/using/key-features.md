@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: コントロールパネルへのアクセス
 description: コントロールパネルへのアクセス方法の詳細
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: ht
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 >id="cp_overview"
 >title="コントロールパネルについて"
 >abstract="コントロールパネルホームページから、Campaign インスタンスで実行できるすべてのアクションにアクセスできます。"
->additional-url="https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/discovering-the-interface.html" text="インターフェイスの概要"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=ja" text="インターフェイスの概要"
 
 コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況を追跡したりできるので、Adobe Campaign Standard および Classic の製品管理者としての作業の効率を向上できます。直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
