@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: URL へのアクセス権限
 description: コントロールパネルでの URL へのアクセス権限の管理方法
-feature: Campaign コントロールパネル
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->この機能は、Campaign v8およびCampaign Classicv7インスタンス（ビルド8850以降）でのみ使用できます。 以前のビルドを使用している場合、この機能を使用するにはアップグレードする必要があります。
+>この機能は、Campaign v8 および Campaign Classic v7 のインスタンス（ビルド 8850 以降）でのみ使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードが必要です。
 
-Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、制限されている。 リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
+Campaign のインスタンスが JavaScript コード（ワークフローなど）で呼び出せる URL のデフォルトリストは制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
 デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。コントロールパネルを使用すると、外部の URL を承認済み URL リストに追加して、インスタンスがアクセスできるように設定できます。これにより、Campaign インスタンスを SFTP サーバーや web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
 
@@ -60,7 +60,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    >[!NOTE]
    >
-   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign インスタンスに関連付けられていません。
+   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は Adobe Campaign のインスタンスに関連付けられていません。
    >
    >「<b><span class="uicontrol">URL 権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 
