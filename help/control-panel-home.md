@@ -5,14 +5,21 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '179'
-ht-degree: 100%
+source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 92%
 
 ---
 
 # ヘルプセンター {#control-panel-documentation}
+
+>[!CONTEXTUALHELP]
+>id="cp_overview"
+>title="コントロールパネルについて"
+>abstract="コントロールパネルホームページから、Campaign インスタンスで実行できるすべてのアクションにアクセスできます。"
+>additional-url="://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=ja" text="インターフェイスの理解"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="コントロールパネルへのアクセス方法"
 
 ![](assets/do-not-localize/banner.png)
 

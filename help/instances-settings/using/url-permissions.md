@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 
 URL を追加すると、該当するインスタンスの設定ファイル（serverConf.xml）で参照されます。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=ja#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=ja#instance-settings)
 
 **関連トピック：**
 
@@ -51,7 +51,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="新しい URL を追加"
+>title="URL 定義"
 >abstract="Campaign インスタンスへの接続を許可するための URL を追加します。"
 
 インスタンスがアクセスできる URL を追加するには、次の手順に従います。
@@ -64,14 +64,14 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
    >
    >「<b><span class="uicontrol">URL 権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 
-1. 左側のパネルから目的のインスタンスを選択し、「**[!UICONTROL 新しい URL を追加]**」ボタンをクリックします。
+1. 左側のペインから目的のインスタンスを選択し、「**[!UICONTROL 新しい URL を追加]**」ボタンをクリックします。
 
 
    ![](assets/add_url1.png)
 
    >[!NOTE]
    >
-   >左側のパネルのリストには、すべての Campaign インスタンスが表示されます。
+   >左側のペインのリストには、すべての Campaign インスタンスが表示されます。
    >
    >URL へのアクセス権限の管理は、Campaign Classic インスタンスのみに適用されます。Campaign Standard インスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 97%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 100%
 >id="cp_certificate_management"
 >title="サブドメインと SSL 証明書について"
 >abstract="サブドメインと関連する SSL 証明書を監視します。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="サブドメインの SSL 証明書の監視方法"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="SSL 証明書の監視"
 
 ## サブドメインを設定する理由  {#why-setting-up-subdomains}
 
@@ -60,6 +59,13 @@ ht-degree: 100%
 サブドメインの設定方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
 ## サブドメインの活用事例（Campaign Classic）{#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="サブドメインの使用例を選択します"
+>abstract="使用例でサブドメインを分類することが、配信品質のベストプラクティスです。 これにより、各サブドメインの評価が分離され、保護されます。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディング"
 
 Campaign Classic インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります（](../../subdomains-certificates/using/setting-up-new-subdomain.md)新しいサブドメインの設定[を参照）。
 

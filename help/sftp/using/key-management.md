@@ -7,20 +7,19 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 94%
 
 ---
 
-# 鍵の管理 {#key-management}
+# キーの管理 {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="鍵の管理について"
->abstract="このタブで、公開鍵を管理できます。"
+>title="公開鍵管理について"
+>abstract="このタブでは、公開鍵を作成、管理および編集できます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="デモビデオを見る"
 
 アドビでは、すべての顧客が&#x200B;**公開鍵と秘密鍵のペア**&#x200B;を使用して SFTP サーバーへの接続を確立することを推奨します。
@@ -35,11 +34,11 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) を使用してこの機能をビデオで確認する
 
-## ベストプラクティス{#best-practices}
+## ベストプラクティス {#best-practices}
 
 **SSH 公開鍵について**
 
-常に同じ認証を使用してサーバーに接続していることと、サポートされている形式の鍵を使用していることを確認してください。
+必ず、常に同じ認証を使用してサーバーに接続し、対応する形式の鍵を使用してください。
 
 **ユーザー名とパスワードによる API 統合**
 
@@ -49,12 +48,12 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 >
 >パスワードの期限が切れると、システムに鍵がインストールされていても、SFTP アカウントにログインできなくなります。
 
-## SSH 鍵のインストール{#installing-ssh-key}
+## SSH 鍵のインストール {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="新しい公開鍵の追加"
->abstract="インスタンスの新しい公開鍵を追加します。"
+>title="公開鍵の追加"
+>abstract="インスタンスの SSH 公開鍵を生成し、SFTP サーバーにアクセスするためにCampaign コントロールパネルに追加します。"
 
 >[!IMPORTANT]
 >
@@ -68,13 +67,13 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
    >[!NOTE]
    >
-   >特定のユーザー名が特定のインスタンス上で有効であるかどうかの確認がおこなわれます。また、1 つまたは複数のインスタンス上で鍵を有効にするためのオプションが提供されます。
+   >特定のユーザー名が特定のインスタンス上で有効になっているかチェックされ、鍵を有効にする対象のインスタンスが、1 つか複数かを選択するオプションが表示されます。
    >
    >各ユーザーには 1 つ以上の SSH 公開鍵を追加できます。
 
    ![](assets/key1.png)
 
-1. SSH 公開鍵をコピーして貼り付けます。公開鍵を生成するには、オペレーティングシステムに対応する以下の手順に従います。
+1. SSH 公開鍵をコピーしてペーストします。公開鍵を生成するには、オペレーティングシステムに対応する以下の手順に従います。
 
    >[!NOTE]
    >
@@ -96,12 +95,12 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
    ![](assets/publickey.png)
 
-1. 「**[!UICONTROL 保存]**」ボタンをクリックして、鍵を作成します。コントロールパネルは、SHA256 形式で暗号化された公開鍵とそれに関連するフィンガープリントを保存します。
+1. 「**[!UICONTROL 保存]**」ボタンをクリックして、鍵を作成します。SHA256 形式で暗号化された公開鍵とそれに関連付けられたフィンガープリントが保存されます。
 
 フィンガープリントを使用して、コンピューターに保存されている秘密鍵と、コントロールパネルに保存されている対応する公開鍵を照合できます。
 
 ![](assets/fingerprint_compare.png)
 
-「**...**」ボタンをクリックすると、既存の鍵を削除したり、関連するフィンガープリントをクリップボードにコピーできます。
+「**...**」ボタンをクリックすると、既存の鍵を削除したり、関連付けられているフィンガープリントをクリップボードにコピーできます。
 
 ![](assets/key_options.png)

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '1191'
-ht-degree: 100%
+source-git-commit: 76696e236ee2416fd20cf325fea734c5aef924ae
+workflow-type: tm+mt
+source-wordcount: '1378'
+ht-degree: 92%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 100%
 >id="cp_subdomain_management"
 >title="新しいサブドメインの設定と証明書の管理"
 >abstract="Adobe Campaign で E メールの送信またはランディングページの公開を開始するには、新しいサブドメインを設定してサブドメインの SSL 証明書を管理する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="サブドメインの SSL 証明書の監視方法"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="SSL 証明書の監視"
 
 ## 必読 {#must-read}
 
@@ -52,6 +51,26 @@ ht-degree: 100%
 また、この新しいサブドメイン用に&#x200B;**別のゾーンファイルを作成しない**&#x200B;でください。
 
 ## 完全なサブドメインのデリゲーション {#full-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_new_subdomain"
+>title="新しいサブドメインを追加"
+>abstract="Adobeは、完全なサブドメインデリゲーションをお勧めします。 ただし、CNAME またはカスタムメソッドを使用してサブドメインを設定することはできます。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインの設定"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="カスタマーケアに問い合わせる"
+
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_create_delegate"
+>title="サブドメインの作成とデリゲート"
+>abstract="ホスティングソリューションでAdobe Campaignで使用するサブドメインを作成し、Adobeにデリゲートします。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_submit"
+>title="サブドメインの送信"
+>abstract="前の手順で設定したサブドメインを確認して送信します。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
 
 サブドメインを Adobe Campaign に完全にデリゲートするには、次の手順に従います。
 
@@ -88,6 +107,24 @@ ht-degree: 100%
 サブドメインが送信されると、Campaign コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、[サブドメインのチェックと設定](#subdomain-checks-and-configuration)を参照してください。
 
 ## CNAME を使用したサブドメインの設定 {#use-cnames}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_subdomain_create_delegate"
+>title="サブドメインの設定"
+>abstract="この画面で、CNAME を使用して設定するサブドメインを指定します。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_records"
+>title="レコードを生成"
+>abstract="この画面に表示される DNS レコードのリストを生成するには、ホスティングソリューションに移動します。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_subdomain_submit"
+>title="サブドメインの送信"
+>abstract="前の手順で設定したサブドメインを確認して送信します。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
 
 CNAME を使用してサブドメインを設定するには、次の手順に従います。
 

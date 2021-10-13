@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 98%
 
 ---
 
@@ -46,11 +46,11 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 * **IP アドレスからのインスタンスへのアクセスを一時的に有効にした場合**、インスタンスへ接続する必要がなくなり次第、許可リストに登録されている IP アドレスからその IP アドレスを必ず削除します。
 * **公共の場所の IP アドレスを許可リストに追加することはお勧めしません**（空港、ホテルなど）。インスタンスのセキュリティを常に確保するには、会社の VPN アドレスを使用してください。
 
-## インスタンスへアクセスできる許可リストへの IP アドレスの追加 {#adding-ip-addresses-allow-list}
+## インスタンスにアクセスするための許可リストへの IP アドレスの追加 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="新しい IP 範囲の追加"
+>title="IP 範囲の設定"
 >abstract="インスタンスに接続するための許可リストに追加する IP 範囲を定義します。"
 
 許可リストに IP アドレスを追加するには、次の手順に従います。

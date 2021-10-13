@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '1053'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 100%
 >Campaign コントロールパネルに示されている利用可能なデータベース容量が、契約で指定されている容量を反映していない場合は、カスタマーケアにお問い合わせください。
 
 ## データベース使用量の監視 {#monitoring-instances-database}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="データベース監視について"
+>abstract="このタブでは、各 Campaign インスタンスの最新および過去のデータベースの使用状況と変化に関するリアルタイム情報を取得できます。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="パフォーマンス監視について"
 
 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) を使用してこの機能をビデオで確認する
 
@@ -61,6 +67,11 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 ![](assets/databases_dashboard_detail.png)
 
 ### ストレージの概要 {#storage-overview}
+
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="ストレージの概要"
+>abstract="このタブでは、データベース容量を消費している様々な Campaign リソースに関する詳細情報を取得できます。"
 
 **[!UICONTROL ストレージの概要]**&#x200B;領域には、以下が占める容量のグラフが表示されます。
 
@@ -125,7 +136,7 @@ Campaign Standard および Campaign Classic では、様々な方法でデー�
 
 **データベースのメンテナンス**
 
-* データベースクリーンアップのテクニカルワークフロー：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ja)
+* データベースクリーンアップのテクニカルワークフロー：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
 * [データベースメンテナンスガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=ja)（Campaign Classic）
 * [データベースパフォーマンスのトラブルシューティング](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ja)（Campaign Classic）
 * [データベース関連オプション](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#database)（Campaign Classic）

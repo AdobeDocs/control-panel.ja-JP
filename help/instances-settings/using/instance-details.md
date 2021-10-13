@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="インスタンスの詳細について"
->abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および利用可能な推奨アップグレード）を表示します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja" text="Campaign Classic リリースノート"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja" text="Campaign Standard リリースノート"
+>abstract="Adobe Campaignインスタンスの詳細を表示します。タイプ、名前、ビルド情報および使用可能なアップグレードの推奨事項。"
+>additional-url="://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja" text="Campaign Classic リリースノート"
+>additional-url="://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja" text="Campaign Standard リリースノート"
 
 ## インスタンスの詳細について {#about-instance-details}
 
@@ -56,7 +56,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
 
    >[!NOTE]
    >
-   >左側のパネルのリストには、すべての Campaign インスタンスが表示されます。「インスタンスの詳細」機能は、Campaign Classic インスタンス専用です。Campaign Standard インスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
+   >左側のペインのリストには、すべての Campaign インスタンスが表示されます。「インスタンスの詳細」機能は、Campaign Classic インスタンス専用です。Campaign Standard インスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
 
 1. インスタンスに接続しているサーバーが表示されます。
 
@@ -72,7 +72,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問 {#common-questions}
 

@@ -7,14 +7,20 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '1178'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '1219'
+ht-degree: 96%
 
 ---
 
 # GPG キー管理 {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="GPG キーについて"
+>abstract="このタブでは、Campaign から送信されたデータを暗号化し、受信データを復号化するために、マーケティングインスタンスに GPG キーをインストールまたは生成できます。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="パフォーマンス監視について"
 
 ## GPG 暗号化について {#about-gpg-encryption}
 
@@ -36,7 +42,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 これをおこなうには、PGP 暗号化ツールから GPG キーペアを生成し、公開鍵をコントロールパネルにインストールする必要があります。その後、インスタンスからデータを送信する前に、データを暗号化できます。それには、次の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
 1. [OpenPGP の仕様](https://www.openpgp.org/about/standard/)に従った PGP 暗号化ツールを使用して公開鍵と秘密鍵のペアを生成します。これをおこなうには、GPG ユーティリティまたは GNuGP ソフトウェアをインストールします。
 
@@ -85,14 +91,14 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 その後、キーは Adobe Campaign ワークフローで使用できます。データ抽出アクティビティを使用する場合は、このキーを使用してデータを暗号化できます。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
 このトピックについて詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
 **Campaign Classic v7 および Campaign v8：**
 
 * [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html?lang=ja#use-case-gpg-encrypt)
+* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard：**
 
@@ -108,7 +114,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 * **公開鍵**&#x200B;は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
 * **秘密鍵**&#x200B;は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
 コントロールパネルでキーペアを生成するには、次の手順に従います。
 
