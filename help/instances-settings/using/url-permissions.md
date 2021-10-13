@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 99%
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 
 URL を追加すると、該当するインスタンスの設定ファイル（serverConf.xml）で参照されます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=ja#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
 
 **関連トピック：**
 

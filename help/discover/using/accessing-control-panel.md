@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '183'
 ht-degree: 56%
 
 ---
@@ -22,9 +22,9 @@ Campaign コントロールパネルには、Experience Cloud から直接アク
 
 ## Experience Cloud Platform からのアクセス {#access-experience-cloud-platform}
 
-Adobe Experience Cloud PlatformからCampaign コントロールパネルにアクセスするには、次の手順に従います。
+Adobe Experience Cloud Platform からCampaign コントロールパネルにアクセスするには、次の手順に従います。
 
-1. [Experience Cloudのホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}に移動します。
+1. [Experience Cloudのホームページ ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;} に移動します。
 
 1. 「**クイックアクセス**」セクションの専用リンクをクリックします。
 
@@ -32,7 +32,7 @@ Adobe Experience Cloud PlatformからCampaign コントロールパネルにア�
 
 Campaign コントロールパネルには、Experience Cloud Platform **ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. [Adobe Experience Cloudホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}から、**クイックアクセス**&#x200B;セクションまたは右側の上部メニューから&#x200B;**キャンペーン**&#x200B;を選択します。
+1. [Adobe Experience Cloudホームページ ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;} から、**クイックアクセス** セクションまたは右側の上部メニューから **キャンペーン** を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,11 +44,11 @@ Campaign コントロールパネルには、Experience Cloud Platform **ソリ�
 
 >[!NOTE]
 >
->製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target=&quot;_blank&quot;}のみで可能です。
+>製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target=&quot;_blank&quot;} のみ可能です。
 
 1. Campaign Standard製品を開きます。
 
-1. **ナビゲーション**&#x200B;ウィンドウから&#x200B;**[!UICONTROL 管理]**&#x200B;メニューを選択します。
+1. **ナビゲーション** ウィンドウから **[!UICONTROL Administration]** メニューを選択します。
 
    ![](assets/control_panel_access3.png)
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 94%
+source-wordcount: '649'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 >
 >現在のところ、SSH 公開鍵を削除することはできません。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) を使用してこの機能をビデオで確認する
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) を使用してこの機能をビデオで確認する
 
 ## ベストプラクティス {#best-practices}
 

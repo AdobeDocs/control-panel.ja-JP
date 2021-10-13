@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 98%
+source-wordcount: '790'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 IP アドレスがいったん許可リストに登録されれば、Campaign オペレーターを作成して IP アドレスにリンクできます。その結果、ユーザーがインスタンスにアクセスできるようになります。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=ja#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
 
 ## ベストプラクティス {#best-practices}
 

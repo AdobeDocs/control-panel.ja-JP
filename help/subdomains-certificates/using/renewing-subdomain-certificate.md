@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 96%
+source-wordcount: '875'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ CSR が生成されると、ダウンロードして、会社が承認する認�
 1. **SSL 証明書のインストール**
 SSL 証明書を購入したら、目的のサブドメインにインストールします。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#adding-ssl-certificates) を使用してこの機能をビデオで確認する
+![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates) を使用してこの機能をビデオで確認する
 
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 

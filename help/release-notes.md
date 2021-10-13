@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 94%
+source-wordcount: '665'
+ht-degree: 93%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)を参照してください。
 >
 >Campaign Classic v7 の場合、インスタンスを AWS でホストし、最新の [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja) ビルド、または最新の [GA ビルド（21.1）](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes) でアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
 
-## 2021年8月 {#august-2021}
+## 2021 年 8 月 {#august-2021}
 
-Adobe Campaign v8でCampaign コントロールパネルが使用できるようになりましたが、**サブドメイン**&#x200B;および&#x200B;**証明書**&#x200B;管理機能はまだサポートされていません。 詳しくは、[Campaign v8ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}を参照してください
+Adobe Campaign v8 でCampaign コントロールパネルが使用できるようになりました。ただし、**Subdomain** および **Certificate** 管理機能はまだサポートされていません。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;} を参照してください
 
 ## 2020年10月 {#october-2020}
 
