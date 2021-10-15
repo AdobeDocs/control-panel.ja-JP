@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '861'
 ht-degree: 94%
 
 ---
@@ -53,7 +53,6 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >id="cp_select_subdomains"
 >title="CSR のサブドメインの選択"
 >abstract="証明書署名要求に、すべてのサブドメインまたは特定のサブドメインのみを含めるよう選択できます。選択したサブドメインのみが、購入した SSL 証明書を通じて認証されます。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="証明書署名要求（CSR）の生成"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディングについて"
 
 証明書署名要求（CSR）を生成するには、次の手順に従います。
