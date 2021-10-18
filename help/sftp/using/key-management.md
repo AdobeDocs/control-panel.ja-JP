@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: eb574ab42ae8cf1fd7d9e85ea0c811add77a3940
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 35%
 
 ---
@@ -69,7 +69,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
    >
    >各ユーザーには 1 つ以上の SSH 公開鍵を追加できます。
 
-1. 公開鍵をより適切に管理するには、各鍵が使用可能になる期間を設定します。 それには、**[!UICONTROL タイプ]** ドロップダウンリストで単位を選択し、対応するフィールドで期間を定義します。 公開鍵の有効期限について詳しくは、[ この節 ](#managing-public-keys) を参照してください。
+1. 公開鍵をより適切に管理するには、各鍵が使用可能になる期間を設定します。 それには、**[!UICONTROL タイプ]** ドロップダウンリストで単位を選択し、対応するフィールドで期間を定義します。 公開鍵の有効期限について詳しくは、[ この節 ](#expiry) を参照してください。
 
    ![](assets/key_expiry.png)
 
@@ -130,6 +130,8 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 リストから 1 つ以上の公開鍵を削除するには、公開鍵を選択し、「**[!UICONTROL 公開鍵を削除]**」ボタンをクリックします。
 
 ![](assets/control_panel_delete_key.png)
+
+### 有効期限 {#expiry}
 
 **[!UICONTROL Expires]** 列には、公開鍵の有効期限が切れるまでの残り日数が表示されます。
 
