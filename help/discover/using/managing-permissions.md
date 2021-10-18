@@ -10,7 +10,7 @@ exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 69%
 
 コントロールパネルは、Campaign インスタンスのすべての管理者ユーザーが利用できます。ユーザーを管理者グループに割り当てて、コントロールパネルへのアクセス権を付与するには、以下の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloudのホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}に移動します。
+1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}に移動します。
 
-1. **クイックアクセス**&#x200B;セクションまたは右上のメニューから使用可能なリンクをクリックして、**Admin Console**&#x200B;を起動します。
+1. 「**クイックアクセス**」セクションまたは右上のメニューで選択可能なリンクをクリックして、**Admin Console** を起動します。
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >**Admin Console**&#x200B;リンクが表示されない場合は、組織の管理者権限がありません。 組織の管理者に問い合わせて、管理者と共に手順を実行してください。
+   >**Admin Console** リンクが表示されない場合は、組織の管理者権限を与えられていないことを意味します。組織の管理者に問い合わせて、管理者と共に手順を実行してください。
 
-1. **Admin Console**&#x200B;から、**[!UICONTROL 製品とサービス]**&#x200B;リストから目的のCampaign製品を選択します。
+1. **Admin Console** の「**[!UICONTROL 製品とサービス]**」リストから目的の Campaign 製品を選択します。
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -44,9 +44,9 @@ ht-degree: 69%
 
    >[!NOTE]
    >
-   >Campaign インスタンスごとに異なる管理者ユーザーを追加できます。管理者ユーザーは、自分が属するCampaign コントロールパネルのインスタンスにのみアクセスします。
+   >Campaign インスタンスごとに異なる管理者ユーザーを追加できます。管理者ユーザーは、自分が属しているインスタンスのコントロールパネルにのみアクセスできます。
 
-1. 選択したインスタンスの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;のリストが表示されます。 製品プロファイル「**[!UICONTROL 管理者]**」をクリックして、管理者ユーザーのリストにアクセスします。
+1. 選択したインスタンスの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;のリストが表示されます。製品プロファイル「**[!UICONTROL 管理者]**」をクリックして、管理者ユーザーのリストにアクセスします。
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
