@@ -1,22 +1,21 @@
 ---
 product: campaign
 solution: Campaign
-title: SFTP 管理について
+title: SFTP の管理について
 description: コントロールパネルでの SFTP 管理の詳細
 testing: SSECD-836 2
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
-translation-type: ht
 source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '170'
+workflow-type: tm+mt
+source-wordcount: '168'
 ht-degree: 100%
 
 ---
 
-# SFTP 管理について {#about-sftp-management}
+# SFTP の管理について {#about-sftp-management}
 
 コントロールパネルでは、アクセス権のある Campaign インスタンスに接続されているすべての SFTP サーバーを操作できます。ほとんどのインスタンスは SFTP サーバーに接続されています（場合によっては、開発インスタンスおよびステージインスタンスは、どの SFTP サーバーにも接続されていない可能性があります）。
 
