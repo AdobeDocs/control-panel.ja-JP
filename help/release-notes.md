@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 69f01abc8003a46e50082ea68b67df2d660f9bb7
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 78%
@@ -26,13 +26,13 @@ ht-degree: 78%
 
 ## 2021年10月 {#october-2021}
 
-**IP 範囲と公開鍵の編集**
-
-作成する [IP 範囲 ](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) と [ 公開鍵 ](sftp/using/key-management.md#editing-public-keys) を編集できるようになりました。 この機能は、現在のリリースより前に作成された項目には使用できないことに注意してください。Campaign コントロールパネル
-
 **IP 範囲と公開鍵の有効期間**
 
 IP 範囲と公開鍵が使用可能な期間を設定できるようになりました。 詳しくは、[IP 範囲許可リスト ](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) と [ キー管理 ](sftp/using/key-management.md#installing-ssh-key) の節を参照してください。
+
+**IP 範囲と公開鍵の編集**
+
+作成する [IP 範囲 ](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) と [ 公開鍵 ](sftp/using/key-management.md#editing-public-keys) を編集できるようになりました。 この機能は、現在のリリースより前に作成された項目には使用できないことに注意してください。Campaign コントロールパネル
 
 **SFTP IP 範囲および公開鍵の有効期限に関する警告**
 
