@@ -10,7 +10,7 @@ exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ Campaign コントロールパネルには、Experience Cloud から直接アク
 
 ## Experience Cloud Platform からのアクセス {#access-experience-cloud-platform}
 
-Adobe Experience Cloud Platform からCampaign コントロールパネルにアクセスするには、次の手順に従います。
+Adobe Experience Cloud Platform からコントロールパネルにアクセスするには、次の手順に従います。
 
-1. [Experience Cloudのホームページ ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;} に移動します。
+1. [Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}に移動します。
 
 1. 「**クイックアクセス**」セクションの専用リンクをクリックします。
 
    ![](assets/do-not-localize/quickaccess.png)
 
-Campaign コントロールパネルには、Experience Cloud Platform **ソリューションピッカー**&#x200B;からもアクセスできます。
+コントロールパネルには、Experience Cloud Platform の&#x200B;**ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. [Adobe Experience Cloudホームページ ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;} から、**クイックアクセス** セクションまたは右側の上部メニューから **キャンペーン** を選択します。
+1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}で、「**クイックアクセス**」セクションまたは右側の上部メニューから「**Campaign**」を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,14 +44,14 @@ Campaign コントロールパネルには、Experience Cloud Platform **ソリ�
 
 >[!NOTE]
 >
->製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target=&quot;_blank&quot;} のみ可能です。
+>製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target=&quot;_blank&quot;} でのみ可能です。
 
-1. Campaign Standard製品を開きます。
+1. Campaign Standard 製品を起動します。
 
-1. **ナビゲーション** ウィンドウから **[!UICONTROL Administration]** メニューを選択します。
+1. **ナビゲーション**&#x200B;ペインから&#x200B;**[!UICONTROL 管理]**&#x200B;メニューを選択します。
 
    ![](assets/control_panel_access3.png)
 
-1. **[!UICONTROL コントロールパネル]**&#x200B;アイコンをクリックします。
+1. 「**[!UICONTROL コントロールパネル]**」アイコンをクリックします。
 
    ![](assets/control_panel_access4.png)
