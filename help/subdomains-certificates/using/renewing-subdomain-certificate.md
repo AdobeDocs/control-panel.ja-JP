@@ -40,7 +40,7 @@ CSR が生成されると、ダウンロードして、会社が承認する認�
 1. **SSL 証明書のインストール**
 SSL 証明書を購入したら、目的のサブドメインにインストールします。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates) を使用してこの機能をビデオで確認する
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates) 使用時のビデオで確認
 
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 
