@@ -14,7 +14,7 @@ ht-degree: 95%
 
 ---
 
-# SFTP ストレージ管理 {#sftp-storage-management}
+# SFTP ストレージの管理 {#sftp-storage-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_storage"
@@ -26,9 +26,9 @@ ht-degree: 95%
 
 各 SFTP サーバーの使用可能容量を定期的に監視することが重要です。そうしないと、サーバーに追加のファイルを保存できなくなったり、このサーバーからの更新に依存するワークフローを正常に実行できなくなったりする可能性があります。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) を使用してこの機能をビデオで確認する
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 使用時のビデオで確認
 
-## ストレージ容量情報へのアクセス {#accessing-storage-capacity-information}
+## ストレージ容量に関する情報へのアクセス {#accessing-storage-capacity-information}
 
 アクセス権のあるすべてのインスタンスで使用される容量に関する情報は、SFTP カードの「**[!UICONTROL ストレージ]**」タブにあります。ページが更新されるたびに、このタブも更新されます。
 
