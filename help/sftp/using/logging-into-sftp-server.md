@@ -7,26 +7,25 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-translation-type: ht
 source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '358'
+workflow-type: tm+mt
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
 
-# SFTP サーバーへのログイン{#logging-into-sft-server}
+# SFTP サーバーへのログイン {#logging-into-sft-server}
 
-以下の手順では、SFTP クライアントアプリケーションを使用した SFTP サーバーへの接続方法について説明します。
+以下の手順では、SFTP クライアントアプリケーションから SFTP サーバーに接続する方法について説明します。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](https://video.tv.adobe.com/v/27263?quality=12)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](https://video.tv.adobe.com/v/27263?quality=12)
 
 サーバーにログインする前に、以下のことを確認してください。
 
 * SFTP サーバーが&#x200B;**アドビによってホストされている**。
 * **ユーザー名**&#x200B;は、サーバー用に設定されている。この情報は、SFTP カードの「**鍵管理**」タブのコントロールパネルで、直接確認できます。
 * SFTP サーバーにログインするための&#x200B;**秘密鍵と公開鍵のペア**&#x200B;がある。SSH 鍵の追加方法について詳しくは、[この節](../../sftp/using/key-management.md)を参照してください。
-* SFTP サーバー上の&#x200B;**許可リストにパブリック IP アドレスが追加されている**。そうでない場合は、IP 範囲を許可リストに追加する方法の詳細について[この節](../../sftp/using/ip-range-allow-listing.md)を参照してください。
+* SFTP サーバー上の&#x200B;**許可リストにパブリック IP アドレスが追加されている**。追加されていない場合は、IP 範囲を許可リストに追加する方法の詳細について[この節](../../sftp/using/ip-range-allow-listing.md)を参照してください。
 * **SFTP クライアントソフトウェア**&#x200B;へのアクセス権がある。使用が推奨される SFTP クライアントアプリケーションについて IT 部門に相談したり、会社のポリシーによって許可されている場合はインターネットで検索したりできます。
 
 SFTP サーバーに接続するには、次の手順に従います。
