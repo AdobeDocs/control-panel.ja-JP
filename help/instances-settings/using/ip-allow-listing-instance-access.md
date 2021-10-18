@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: IP 許可リストへの登録
+title: IP の許可リストへの登録
 description: コントロールパネルで IP アドレスを許可リストに追加して、インスタンスにアクセスする方法を説明します
 feature: Control Panel
 role: Architect
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 ---
 
-# IP 許可リストへの登録 {#ip-allow-listing}
+# IP の許可リストへの登録 {#ip-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
@@ -40,7 +40,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
 ## ベストプラクティス {#best-practices}
 
-コントロールパネルで IP アドレスを許可リストに登録する場合は、必ず以下の推奨事項と制限に従ってください。
+コントロールパネルで IP アドレスを許可リストに登録する場合は、必ず以下の推奨事項と制限事項に従ってください。
 
 * RT サーバーまたは AEM セキュリティゾーンに接続する予定のない IP アドレスでは、**すべてのアクセスタイプへの IP アクセスを有効にしないでください**。
 * **IP アドレスからのインスタンスへのアクセスを一時的に有効にした場合**、インスタンスへ接続する必要がなくなり次第、許可リストに登録されている IP アドレスからその IP アドレスを必ず削除します。
@@ -55,7 +55,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
 >[!NOTE]
 >
->**[!UICONTROL インスタンス設定]** カードがCampaign コントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign Classic v7 または Campaign v8 インスタンスに関連付けられていません。
+>を **[!UICONTROL インスタンス設定]** カードがCampaign コントロールパネルのホームページに表示されないので、お使いの IMS 組織 ID は、Adobe Campaign Classic v7 または Campaign v8 インスタンスに関連付けられていません。
 
 許可リストに IP アドレスを追加するには、次の手順に従います。
 
@@ -95,7 +95,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-許可リストから 1 つ以上の IP 範囲を削除するには、IP 範囲を選択し、「**[!UICONTROL IP 範囲を削除]**」ボタンをクリックします。
+許可リストから 1 つ以上の IP 範囲を削除するには、IP 範囲を選択し、 **[!UICONTROL IP 範囲の削除]** ボタンをクリックします。
 
 ![](assets/ip_whitelist_delete.png)
 
