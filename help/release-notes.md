@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 69f01abc8003a46e50082ea68b67df2d660f9bb7
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 93%
+source-wordcount: '792'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,27 @@ ht-degree: 93%
 >
 >Campaign Classic v7 の場合、インスタンスを AWS でホストし、最新の [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja) ビルド、または最新の [GA ビルド（21.1）](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes) でアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
 
+## 2021年10月 {#october-2021}
+
+**IP 範囲と公開鍵の編集**
+
+作成する [IP 範囲 ](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) と [ 公開鍵 ](sftp/using/key-management.md#editing-public-keys) を編集できるようになりました。 この機能は、現在のリリースより前に作成された項目には使用できないことに注意してください。Campaign コントロールパネル
+
+**IP 範囲と公開鍵の有効期間**
+
+IP 範囲と公開鍵が使用可能な期間を設定できるようになりました。 詳しくは、[IP 範囲許可リスト ](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) と [ キー管理 ](sftp/using/key-management.md#installing-ssh-key) の節を参照してください。
+
+**SFTP IP 範囲および公開鍵の有効期限に関する警告**
+
+電子メールアラート機能に、SFTP IP 許可リストの有効期限と SFTP 公開鍵の有効期限に関するアラートが含まれるようになりました。 [詳細情報](performance-monitoring/using/email-alerting.md)
+
+**Campaign v8 での完全なサポート**
+
+**サブドメイン** および **証明書** の管理機能が、Adobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。
+
 ## 2021 年 8 月 {#august-2021}
+
+**Campaign v8 のサポート**
 
 Adobe Campaign v8 でCampaign コントロールパネルが使用できるようになりました。ただし、**Subdomain** および **Certificate** 管理機能はまだサポートされていません。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;} を参照してください
 
