@@ -38,7 +38,7 @@ ht-degree: 87%
 >abstract="このタブでは、各 Campaign インスタンスの最新および過去のデータベースの使用状況と変化に関するリアルタイム情報を取得できます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja" text="パフォーマンス監視について"
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) を使用してこの機能をビデオで確認する
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) 使用時のビデオで確認
 
 Campaign コントロールパネルでは、各 Campaign インスタンスのデータベース使用量を監視できます。これをおこなうには、「**[!UICONTROL パフォーマンス監視]**」カードを開き、「**[!UICONTROL データベース]**」タブを選択します。
 
