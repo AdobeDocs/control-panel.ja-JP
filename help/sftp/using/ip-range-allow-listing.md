@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: eb574ab42ae8cf1fd7d9e85ea0c811add77a3940
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 36%
 
 ---
@@ -78,7 +78,7 @@ CIDR（Classless Inter-Domain Routing）は、コントロールパネルのイ�
    >「**[!UICONTROL Label]**」フィールドでは、次の特殊文字を使用できます。
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. IP許可リストの管理を強化するには、各 IP 範囲の可用性の期間を設定します。 それには、**[!UICONTROL タイプ]** ドロップダウンリストで単位を選択し、対応するフィールドで期間を定義します。 IP 範囲の有効期限について詳しくは、[ この節 ](#managing-ip-ranges) を参照してください。
+1. IP許可リストの管理を強化するには、各 IP 範囲の可用性の期間を設定します。 それには、**[!UICONTROL タイプ]** ドロップダウンリストで単位を選択し、対応するフィールドで期間を定義します。 IP 範囲の有効期限について詳しくは、[ この節 ](#expiry) を参照してください。
 
    ![](assets/control_panel_add_range5.png)
 
@@ -111,6 +111,8 @@ IP 範囲の検索は、ラベル、範囲、名前またはコメントの入�
 許可リストから 1 つ以上の IP 範囲を削除するには、IP 範囲を選択し、「**[!UICONTROL IP 範囲を削除]**」ボタンをクリックします。
 
 ![](assets/control_panel_delete_range.png)
+
+### 有効期限 {#expiry}
 
 **[!UICONTROL 有効期限]** 列には、IP 範囲が期限切れになるまでの残り日数が表示されます。
 
