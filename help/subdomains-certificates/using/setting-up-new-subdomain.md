@@ -56,7 +56,7 @@ ht-degree: 89%
 >id="cp_add_new_subdomain"
 >title="新しいサブドメインを追加"
 >abstract="Adobeは、完全なサブドメインデリゲーションをお勧めします。 ただし、CNAME またはカスタムメソッドを使用してサブドメインを設定することはできます。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインのセットアップ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="カスタマーケアに問い合わせる"
 
 
@@ -64,17 +64,17 @@ ht-degree: 89%
 >id="cp_add_subdomain_create_delegate"
 >title="サブドメインの作成とデリゲート"
 >abstract="ホスティングソリューションでAdobe Campaignで使用するサブドメインを作成し、Adobeにデリゲートします。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインのセットアップ"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="サブドメインの送信"
 >abstract="前の手順で設定したサブドメインを確認して送信します。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインのセットアップ"
 
 サブドメインを Adobe Campaign に完全にデリゲートするには、次の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) を使用してこの機能をビデオで確認する
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) 使用時のビデオで確認
 
 1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL 新しいサブドメインを設定]**」をクリックします。
 
@@ -112,23 +112,23 @@ ht-degree: 89%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="サブドメインの設定"
 >abstract="この画面で、CNAME を使用して設定するサブドメインを指定します。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインのセットアップ"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="レコードを生成"
 >abstract="この画面に表示される DNS レコードのリストを生成するには、ホスティングソリューションに移動します。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインのセットアップ"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="サブドメインの送信"
 >abstract="前の手順で設定したサブドメインを確認して送信します。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="新しいサブドメインのセットアップ"
 
 CNAME を使用してサブドメインを設定するには、次の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html#subdomains-and-certificates) または [Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) を使用してこの機能をビデオで確認する
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html#subdomains-and-certificates) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) 使用時のビデオで確認
 
 1. 「**[!UICONTROL サブドメインおよび証明書]**」カードで、目的のプロダクションインスタンスを選択し、「**[!UICONTROL 新しいサブドメインを設定]**」をクリックします。
 
