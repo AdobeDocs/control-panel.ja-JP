@@ -64,7 +64,7 @@ ht-degree: 97%
 >id="cp_add_subdomain_usecase_selection"
 >title="サブドメインの使用例を選択します"
 >abstract="使用例でサブドメインを分類することが、配信品質のベストプラクティスです。 これにより、各サブドメインの評価が分離され、保護されます。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインのセットアップ"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディング"
 
 Campaign Classic インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります（](../../subdomains-certificates/using/setting-up-new-subdomain.md)新しいサブドメインの設定[を参照）。
