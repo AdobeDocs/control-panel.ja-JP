@@ -1,40 +1,39 @@
 ---
 product: adobe campaign
-sub-product: コントロールパネル
+sub-product: control panel
 audience: end-user
-user-guide-title: コントロールパネルガイド
+user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
 
 
-# コントロールパネルガイド {#using}
+# コントロールパネルのガイド {#using}
 
 + [製品ドキュメント](control-panel-home.md)
 + [リリースノート](release-notes.md)
-+ コントロールパネルの理解{#discover-control-panel}
++ コントロールパネルの概要 {#discover-control-panel}
    + [主な機能](discover/using/key-features.md)
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
-   + [コントロールパネルのインターフェイスの理解](discover/using/discovering-the-interface.md)
-+ SFTP 管理 {#sftp-management}
-   + [SFTP 管理について](sftp/using/about-sftp-management.md)
-   + [SFTP ストレージ管理](sftp/using/sftp-storage-management.md)
+   + [コントロールパネルのインターフェイスの概要](discover/using/discovering-the-interface.md)
++ SFTP の管理 {#sftp-management}
+   + [SFTP の管理について](sftp/using/about-sftp-management.md)
+   + [SFTP ストレージの管理](sftp/using/sftp-storage-management.md)
    + [IP 範囲許可リストへの登録](sftp/using/ip-range-allow-listing.md)
    + [鍵の管理](sftp/using/key-management.md)
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
-+ サブドメインおよび証明書{#subdomains-and-certificates}
++ サブドメインと証明書 {#subdomains-and-certificates}
    + [サブドメインのブランディング](subdomains-certificates/using/subdomains-branding.md)
    + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
-   + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [新しいサブドメインのセットアップ](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
@@ -42,10 +41,10 @@ ht-degree: 100%
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
    + [データベース監視](performance-monitoring/using/database-monitoring.md)
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
-   + [E メールアラート](performance-monitoring/using/email-alerting.md)
+   + [メールアラート](performance-monitoring/using/email-alerting.md)
 + インスタンス設定 {#instances-settings}
-   + [インスタンスアクセスの IP 許可リストへの登録](instances-settings/using/ip-allow-listing-instance-access.md)
-   + [URL へのアクセス権限](instances-settings/using/url-permissions.md)
+   + [インスタンスにアクセスするための IP 許可リストへの登録](instances-settings/using/ip-allow-listing-instance-access.md)
+   + [URL 権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
-   + [GPG キー管理](instances-settings/using/gpg-keys-management.md)
-+ [よくある質問](faq.md)
+   + [GPG キーの管理](instances-settings/using/gpg-keys-management.md)
++ [FAQ](faq.md)
