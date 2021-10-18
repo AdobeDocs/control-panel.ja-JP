@@ -7,10 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-translation-type: ht
 source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '116'
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
