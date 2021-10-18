@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '171'
-ht-degree: 100%
+source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 72%
 
 ---
 
@@ -33,7 +32,6 @@ ht-degree: 100%
 
    ![](assets/alert_sample.png)
 
-
 アラートのリストを次に示します。
 
 * **SFTP ストレージの使用**：1 台の SFTP サーバーの容量が 80％以上に到達しました。[SFTP ストレージ管理](../../sftp/using/sftp-storage-management.md)を参照してください。
@@ -41,3 +39,7 @@ ht-degree: 100%
 * **データベース使用量**：1 台のインスタンスデータベースの容量が 80％以上に到達しました。[データベース監視](../../performance-monitoring/using/database-monitoring.md)を参照してください。
 
 * **SSL 証明書の有効期限**：サブドメインの SSL 証明書の 1 つが期限切れになったか、60 日以内に期限切れになります。[サブドメインの SSL 証明書の監視](../../subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
+
+* **SFTP IP 許可リストの有効期限**:定義した IP 範囲の 1 つが期限切れになっているか、10 日以内に期限切れになります。[IP 範囲許可リスト ](../../sftp/using/ip-range-allow-listing.md) を参照してください。
+
+* **SFTP 公開鍵の有効期限**:定義した公開鍵の 1 つが期限切れになったか、10 日以内に期限切れになります。[ キー管理 ](../../sftp/using/key-management.md) を参照してください。
