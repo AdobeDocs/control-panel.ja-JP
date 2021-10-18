@@ -10,7 +10,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 78%
 
 **IP 範囲と公開鍵の有効期間**
 
-IP 範囲と公開鍵が使用可能な期間を設定できるようになりました。 詳しくは、[IP 範囲許可リスト ](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) と [ キー管理 ](sftp/using/key-management.md#installing-ssh-key) の節を参照してください。
+IP 範囲と公開鍵が使用可能な期間を設定できるようになりました。 詳しくは、 [IP 範囲許可リストへの登録](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) および [鍵の管理](sftp/using/key-management.md#installing-ssh-key) セクション。
 
 **IP 範囲と公開鍵の編集**
 
-作成する [IP 範囲 ](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) と [ 公開鍵 ](sftp/using/key-management.md#editing-public-keys) を編集できるようになりました。 この機能は、現在のリリースより前に作成された項目には使用できないことに注意してください。Campaign コントロールパネル
+これで、 [IP 範囲](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) および [公開鍵](sftp/using/key-management.md#editing-public-keys) 作成する この機能は、現在のリリースより前に作成された項目には使用できないことに注意してください。Campaign コントロールパネル
 
 **SFTP IP 範囲および公開鍵の有効期限に関する警告**
 
@@ -40,13 +40,13 @@ IP 範囲と公開鍵が使用可能な期間を設定できるようになり�
 
 **Campaign v8 での完全なサポート**
 
-**サブドメイン** および **証明書** の管理機能が、Adobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。
+10. **サブドメイン** および **証明書** 管理機能がAdobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。
 
-## 2021 年 8 月 {#august-2021}
+## 2021年8月 {#august-2021}
 
 **Campaign v8 のサポート**
 
-Adobe Campaign v8 でCampaign コントロールパネルが使用できるようになりました。ただし、**Subdomain** および **Certificate** 管理機能はまだサポートされていません。 詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;} を参照してください
+Adobe Campaign v8 でコントロールパネルが使用できるようになりました。ただし、**サブドメイン**&#x200B;管理機能と&#x200B;**証明書**&#x200B;管理機能はまだサポートされていません。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}を参照してください。
 
 ## 2020年10月 {#october-2020}
 
@@ -92,9 +92,9 @@ Campaign コントロールパネルを使用して、Gmail アドレス宛て�
 
 Campaign コントロールパネルに、データベース監視機能が搭載されました。データベース容量の使用率をオンデマンドで表示でき、経時的変化も確認できます。[詳細を表示](performance-monitoring/using/database-monitoring.md)
 
-**E メールアラート**
+**メールアラート**
 
-Campaign コントロールパネルに、リアルタイムの E メールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。[詳細情報](performance-monitoring/using/email-alerting.md)
+Campaign コントロールパネルに、リアルタイムの メールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。[詳細情報](performance-monitoring/using/email-alerting.md)
 
 ## 2020 年 1 月 {#january-2020}
 
