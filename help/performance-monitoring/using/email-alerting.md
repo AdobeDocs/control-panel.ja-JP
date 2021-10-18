@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: E メールアラート
+title: メールアラート
 description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
 feature: Control Panel
 role: Architect
@@ -10,13 +10,13 @@ exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# E メールアラート {#email-alerting}
+# メールアラート {#email-alerting}
 
-作業を柔軟におこなえるよう、コントロールパネルにはリアルタイムの E メールアラート機能が備わっています。
+作業を柔軟に行えるように、コントロールパネルにはリアルタイムのメールアラート機能が備わっています。
 
 これらのアラートを購読するには、次の手順に従います。
 
@@ -40,6 +40,6 @@ ht-degree: 72%
 
 * **SSL 証明書の有効期限**：サブドメインの SSL 証明書の 1 つが期限切れになったか、60 日以内に期限切れになります。[サブドメインの SSL 証明書の監視](../../subdomains-certificates/using/monitoring-ssl-certificates.md)を参照してください。
 
-* **SFTP IP 許可リストの有効期限**:定義した IP 範囲の 1 つが期限切れになっているか、10 日以内に期限切れになります。[IP 範囲許可リスト ](../../sftp/using/ip-range-allow-listing.md) を参照してください。
+* **SFTP IP 許可リストの有効期限**：定義した IP 範囲のいずれかが期限切れになっているか、10 日以内に期限切れになります。[IP 範囲許可リストへの登録](../../sftp/using/ip-range-allow-listing.md)を参照してください。
 
-* **SFTP 公開鍵の有効期限**:定義した公開鍵の 1 つが期限切れになったか、10 日以内に期限切れになります。[ キー管理 ](../../sftp/using/key-management.md) を参照してください。
+* **SFTP 公開鍵の有効期限**：定義した公開鍵のいずれかが期限切れになったか、10 日以内に期限切れになります。[鍵の管理](../../sftp/using/key-management.md)を参照してください。
