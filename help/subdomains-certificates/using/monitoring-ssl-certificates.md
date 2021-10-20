@@ -7,18 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '397'
 ht-degree: 98%
 
 ---
 
 # サブドメインの SSL 証明書の監視 {#monitoring-ssl-certificates}
-
->[!AVAILABILITY]
->
->この機能は、Campaign v8 では使用できません。
 
 ## SSL 証明書について {#about-ssl-certificates}
 
