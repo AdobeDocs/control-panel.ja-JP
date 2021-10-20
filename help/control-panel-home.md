@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 96%
+source-wordcount: '232'
+ht-degree: 62%
 
 ---
 
@@ -25,21 +25,23 @@ ht-degree: 96%
 
 ## 新機能
 
-**CNAME を使用したサブドメインの設定**
+**Campaign v8 での完全なサポート**
 
-アドビで使用するサブドメインを、Campaign コントロールパネルのインターフェイスから CNAME を使用して直接設定できるようになりました。[詳細を表示](subdomains-certificates/using/setting-up-new-subdomain.md)
+すべての機能 ( **サブドメイン** および **証明書** 管理が、Adobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。 [詳細情報](faq.md#v8-restrictions)
 
-**データベース監視の強化**
+**IP 範囲の有効期間と編集**
 
-「**[!UICONTROL データベース監視]**」タブに追加の指標が配置され、データベースの容量を消費しているリソースに関する詳細情報を取得できるようになりました。[詳細を表示](performance-monitoring/using/database-monitoring.md)
+IP 範囲の可用性の期間を設定し、作成する IP 範囲を編集できるようになりました。 [詳細情報](sftp/using/ip-range-allow-listing.md)
+
+**公開鍵の有効期間と編集**
+
+同様に、公開鍵の可用性の期間を設定し、作成した公開鍵を編集できるようになりました。 [詳細情報](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Campaign Classic v7 の場合は、デプロイメントに制限があります。[詳細情報](faq.md#v7-restrictions)
->
->* Campaign v8 では、使用できない機能があります。 [詳細情報](faq.md#v8-restrictions)
 
 
 ## その他のリソース {#additional-resources}
