@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 7998dba576488ca1e7e587a9d987458beec101b3
+source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 91%
+source-wordcount: '771'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 91%
 
 詳しくは、コントロールパネルがサポートする操作のドキュメントを参照してください。
 
-### Campaign v8 ではまだサポートされていないが、Campaign Classicv7 で使用できる機能はありますか。{#v8-restrictions}
+### Campaign Classic v7 では使用できるが、Campaign v8 ではサポートされていない機能はありますか？{#v8-restrictions}
 
-いいえ。Campaign Classicv7 で使用可能なすべての機能が、サブドメインや証明書管理関連の機能を含む、Campaign v8 でのCampaign コントロールパネルを通じてサポートされるようになりました。
+サブドメインと証明書の管理に関する機能は、まだ Campaign v8 のコントロールパネルでサポートされていません。関連するサポートについては、Campaign カスタマーケアにお問い合わせください。
 
 ### コントロールパネルは Adobe Campaign 専用ですか？
 

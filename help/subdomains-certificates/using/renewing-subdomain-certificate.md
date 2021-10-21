@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '861'
 ht-degree: 94%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 94%
 >[!IMPORTANT]
 >
 >コントロールパネルからサブドメインを設定できる機能はベータ版であり、予告なく頻繁に更新や変更を行われる可能性があります。
+>
+>この機能は、Campaign v8 では使用できません。
 
 SSL 証明書の更新プロセスには、以下の 3 ステップがあります。
 

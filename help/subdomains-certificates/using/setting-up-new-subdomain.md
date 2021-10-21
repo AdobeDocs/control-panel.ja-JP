@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1370'
 ht-degree: 89%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 89%
 >[!IMPORTANT]
 >
 >コントロールパネルからサブドメインを設定できる機能はベータ版であり、予告なく頻繁に更新や変更が行われる可能性があります。
+>
+>この機能は、Campaign v8 では使用できません。
 
 このページでは、完全なサブドメインの委任または CNAME を使用して新しいサブドメインを設定する方法について説明します。これら 2 つの方法に関する全体的な概念については](../../subdomains-certificates/using/subdomains-branding.md)サブドメインのブランディング[の節で説明します。
 
