@@ -32,7 +32,7 @@ ht-degree: 89%
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-アクティブなプロファイルについて詳しくは、 [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) および [Campaign Classicv7](://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) ドキュメント
+アクティブなプロファイルについて詳しくは、 [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) および [Campaign Classicv7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) ドキュメント
 
 ## アクティブなプロファイルの監視 {#monitoring-active-profiles}
 
