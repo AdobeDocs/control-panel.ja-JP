@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '745'
 ht-degree: 97%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 97%
 >[!IMPORTANT]
 >
 >コントロールパネルからサブドメインを設定できる機能はベータ版であり、予告なく頻繁に更新や変更が行われる可能性があります。
->
->この機能は、Campaign v8 では使用できません。
 
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 

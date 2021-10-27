@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 75d369f52be140732525411239ae18b7269e761f
+source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 72%
+source-wordcount: '232'
+ht-degree: 62%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 72%
 
 ## 新機能
 
+**Campaign v8 での完全なサポート**
+
+すべての機能 ( **サブドメイン** および **証明書** 管理が、Adobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。 [詳細情報](faq.md#v8-restrictions)
+
 **IP 範囲の有効期間と編集**
 
 IP 範囲の可用性の期間を設定し、作成する IP 範囲を編集できるようになりました。 [詳細情報](sftp/using/ip-range-allow-listing.md)
@@ -33,17 +37,11 @@ IP 範囲の可用性の期間を設定し、作成する IP 範囲を編集で�
 
 同様に、公開鍵の可用性の期間を設定し、作成した公開鍵を編集できるようになりました。 [詳細情報](sftp/using/key-management.md)
 
-**Campaign v8 のサポート**
-
-Adobe Campaign v8 でコントロールパネルが使用できるようになりました。ただし、**サブドメイン**&#x200B;管理機能と&#x200B;**証明書**&#x200B;管理機能はまだサポートされていません。 
-
 >[!CAUTION]
 >
 >* コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Campaign Classic v7 の場合は、デプロイメントに制限があります。[詳細情報](faq.md#v7-restrictions)
->
->* Campaign v8 では、使用できない機能があります。 [詳細情報](faq.md#v8-restrictions)
 
 
 ## その他のリソース {#additional-resources}
