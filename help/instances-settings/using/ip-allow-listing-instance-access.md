@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 
 IP アドレスがいったん許可リストに登録されれば、Campaign オペレーターを作成して IP アドレスにリンクできます。その結果、ユーザーがインスタンスにアクセスできるようになります。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=ja#instance-settings)
 
 ## ベストプラクティス {#best-practices}
 
@@ -46,16 +46,16 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 * **IP アドレスからのインスタンスへのアクセスを一時的に有効にした場合**、インスタンスへ接続する必要がなくなり次第、許可リストに登録されている IP アドレスからその IP アドレスを必ず削除します。
 * **公共の場所の IP アドレスを許可リストに追加することはお勧めしません**（空港、ホテルなど）。インスタンスのセキュリティを常に確保するには、会社の VPN アドレスを使用してください。
 
-## インスタンスにアクセスするための許可リストへの IP アドレスの追加 {#adding-ip-addresses-allow-list}
+## インスタンスへのアクセスを目的とした許可リストへの IP アドレスの追加 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
 >title="IP 範囲の設定"
->abstract="インスタンスに接続するための許可リストに追加する IP 範囲を定義します。"
+>abstract="インスタンスに接続するために許可リストに追加する IP 範囲を定義します。"
 
 >[!NOTE]
 >
->を **[!UICONTROL インスタンス設定]** カードがCampaign コントロールパネルのホームページに表示されないので、お使いの IMS 組織 ID は、Adobe Campaign Classic v7 または Campaign v8 インスタンスに関連付けられていません。
+>**[!UICONTROL インスタンスの設定]**&#x200B;カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、 Adobe Campaign Classic v7 インスタンスまたは Campaign v8 インスタンスに関連付けられていません。
 
 許可リストに IP アドレスを追加するには、次の手順に従います。
 
@@ -95,7 +95,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-許可リストから 1 つ以上の IP 範囲を削除するには、IP 範囲を選択し、 **[!UICONTROL IP 範囲の削除]** ボタンをクリックします。
+許可リストから 1 つ以上の IP 範囲を削除するには、対象の IP 範囲を選択してから「**[!UICONTROL IP 範囲を削除]**」ボタンをクリックします。
 
 ![](assets/ip_whitelist_delete.png)
 

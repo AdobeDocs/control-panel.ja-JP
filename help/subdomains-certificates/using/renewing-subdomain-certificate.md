@@ -10,7 +10,7 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL 証明書の更新"
->abstract="SSL 証明書を更新するには、CSR を生成し、サブドメイン用の SSL 証明書を購入して、証明書バンドルをインストールする必要があります。"
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#generating-csr" text="証明書署名要求（CSR）の生成"
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#installing-ssl-certificate" text="SSL 証明書のインストール"
+>abstract="SSL 証明書を更新するには、CSR を生成し、サブドメインの SSL 証明書を購入して、証明書バンドルをインストールする必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#generating-csr" text="証明書署名要求（CSR）の生成"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#installing-ssl-certificate" text="SSL 証明書のインストール"
 
 ## 証明書の更新について {#about-certificate-renewal-process}
 
@@ -38,7 +38,7 @@ CSR が生成されると、ダウンロードして、会社が承認する認�
 1. **SSL 証明書のインストール**
 SSL 証明書を購入したら、目的のサブドメインにインストールします。
 
-この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates) 使用時のビデオで確認
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#subdomains-and-certificates) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#adding-ssl-certificates) 使用時のビデオで確認
 
 ## 証明書署名要求（CSR）の生成 {#generating-csr}
 
@@ -100,7 +100,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
 >title="SSL 証明書のインストール"
->abstract="組織が承認した認証局から購入した SSL 証明書をインストールします。"
+>abstract="組織で承認された認証局から購入した SSL 証明書をインストールします。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 SSL 証明書を購入したら、インスタンスにインストールできます。先に進む前に、次の前提条件を必ず確認してください。

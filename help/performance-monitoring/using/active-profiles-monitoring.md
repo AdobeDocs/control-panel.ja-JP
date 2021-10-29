@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 89%
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-アクティブなプロファイルについて詳しくは、 [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) および [Campaign Classicv7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) ドキュメント
+アクティブなプロファイルについて詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) と [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) のドキュメントを参照してください。
 
 ## アクティブなプロファイルの監視 {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="アクティブなプロファイルの監視について"
->abstract="このタブでは、各 Campaign インスタンスのアクティブなプロファイルの最新使用状況および履歴の使用状況と変化に関するリアルタイム情報を取得できます。"
+>abstract="このタブでは、Campaign インスタンスごとに、アクティブなプロファイルの使用状況と変化の最新情報や履歴がリアルタイムで表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja" text="パフォーマンス監視について"
 
 Campaign コントロールパネルでは、各キャンペーンインスタンスのアクティブなプロファイルの使用状況を監視できます。

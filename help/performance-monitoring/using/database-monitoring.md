@@ -10,7 +10,7 @@ exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
 >title="データベース監視について"
->abstract="このタブでは、各 Campaign インスタンスの最新および過去のデータベースの使用状況と変化に関するリアルタイム情報を取得できます。"
+>abstract="このタブでは、Campaign インスタンスごとに、データベースの使用状況と変化の最新情報や履歴がリアルタイムで表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja" text="パフォーマンス監視について"
 
-この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) 使用時のビデオで確認
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) 使用時のビデオで確認
 
 Campaign コントロールパネルでは、各 Campaign インスタンスのデータベース使用量を監視できます。これをおこなうには、「**[!UICONTROL パフォーマンス監視]**」カードを開き、「**[!UICONTROL データベース]**」タブを選択します。
 
@@ -48,7 +48,7 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 
 >[!NOTE]
 >
->このダッシュボードのデータは、Campaign インスタンスで実行される&#x200B;**[!UICONTROL データベースクリーンアップテクニカルワークフロー]**（[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) のドキュメントを参照）に基づいて更新されます。
+>このダッシュボードのデータは、Campaign インスタンスで実行される&#x200B;**[!UICONTROL データベースクリーンアップテクニカルワークフロー]**（[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja#list-of-technical-workflows) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ja) のドキュメントを参照）に基づいて更新されます。
 >
 >さらに、**[!UICONTROL 使用中の容量]**&#x200B;指標と&#x200B;**[!UICONTROL 提供された容量]**&#x200B;指標で、ワークフローの前回の実行時にデータベースの 1 つが c に達した場合、通知を受け取ることができます。 ワークフローが 3 日を超えて実行されていない場合は、アドビカスタマーケアに連絡して、ワークフローが実行されていない理由を調査することをお勧めします。
 
@@ -70,8 +70,8 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
->title="ストレージの概要"
->abstract="このタブでは、データベース容量を消費している様々な Campaign リソースに関する詳細情報を取得できます。"
+>title="ストレージの概要について"
+>abstract="このタブでは、データベース容量を消費している様々な Campaign リソースの詳細が表示されます。"
 
 **[!UICONTROL ストレージの概要]**&#x200B;領域には、以下が占める容量のグラフが表示されます。
 
@@ -115,7 +115,7 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 
 ![](assets/database-top10-view.png)
 
-「**[!UICONTROL 中間結果を保持]**」列の値は、Campaign でこのオプションが有効（「1」）と無効（「0」）のどちらであるかを示します。このオプションを使用すると、ワークフローの様々なアクティビティ間のトランジションの結果を保存できます（[Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) のドキュメントを参照）。
+「**[!UICONTROL 中間結果を保持]**」列の値は、Campaign でこのオプションが有効（「1」）と無効（「0」）のどちらであるかを示します。このオプションを使用すると、ワークフローの様々なアクティビティ間のトランジションの結果を保存できます（[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja#logs) のドキュメントを参照）。
 
 >[!IMPORTANT]
 >
@@ -131,16 +131,16 @@ Campaign Standard および Campaign Classic では、様々な方法でデー�
 
 **ワークフローの監視**
 
-* [ワークフローのベストプラクティス](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=ja)（Campaign Standard）
+* [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=ja)（Campaign Standard）
 * [監視ワークフローの実行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja)（Campaign Classic）
 
 **データベースのメンテナンス**
 
 * データベースクリーンアップのテクニカルワークフロー：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)
-* [データベースメンテナンスガイド](://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=ja)（Campaign Classic）
+* [データベースメンテナンスガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=ja)（Campaign Classic）
 * [データベースパフォーマンスのトラブルシューティング](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ja)（Campaign Classic）
-* [データベース関連オプション](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)（Campaign Classic）
-* データ保持：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention)
+* [データベース関連オプション](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#database)（Campaign Classic）
+* データ保持：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=ja) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=ja#data-retention)
 
 >[!NOTE]
 >

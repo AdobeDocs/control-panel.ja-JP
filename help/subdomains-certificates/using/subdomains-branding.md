@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,8 +60,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
->title="サブドメインの使用例を選択します"
->abstract="使用例でサブドメインを分類することが、配信品質のベストプラクティスです。 これにより、各サブドメインの評価が分離され、保護されます。"
+>title="サブドメインのユースケースの選択"
+>abstract="サブドメインをユースケース別に分類することが、配信品質を確保するためのベストプラクティスです。それにより、各サブドメインの評価が分離され、保護されます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインのセットアップ"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディング"
 

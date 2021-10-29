@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="公開鍵管理について"
->abstract="このタブで、公開鍵を作成、管理および編集します。"
+>title="公開鍵の管理について"
+>abstract="このタブでは、公開鍵を作成、管理および編集します。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="デモビデオを見る"
 
 アドビでは、すべての顧客が&#x200B;**公開鍵と秘密鍵のペア**&#x200B;を使用して SFTP サーバーへの接続を確立することを推奨します。
@@ -28,7 +28,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
 サーバーへのアクセスを設定したら、忘れずにサーバーにアクセスする必要がある **** IP アドレスを許可リストに登録して、サーバーに接続できるようにしてください。詳しくは、[この節](../../instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
-この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 使用時のビデオで確認
+この機能を ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) 使用時のビデオで確認
 
 ## ベストプラクティス {#best-practices}
 
@@ -49,7 +49,7 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
 >title="公開鍵の追加"
->abstract="インスタンスの SSH 公開鍵を生成し、SFTP サーバーにアクセスするためにCampaign コントロールパネルに追加します。"
+>abstract="インスタンスの SSH 公開鍵を生成し、コントロールパネルに追加して、SFTP サーバーにアクセスできるようにします。"
 
 >[!IMPORTANT]
 >
@@ -59,27 +59,27 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
    ![](assets/key0.png)
 
-1. 開いたダイアログボックスで、公開鍵を作成するユーザー名および鍵を有効にするサーバーを選択します。
+1. ダイアログボックスが開くので、作成する公開鍵のユーザー名と、公開鍵を有効にするサーバーを選択します。
 
    ![](assets/key1.png)
 
    >[!NOTE]
    >
-   >Campaign コントロールパネルは、特定のユーザー名が特定のインスタンスでアクティブかどうかを確認し、1 つまたは複数のインスタンスでキーをアクティブにできるようにします。
+   >指定された名前のユーザーが指定のインスタンスでアクティブかどうかがコントロールパネルで確認され、1 つ以上のインスタンスで鍵を有効化できるようになります。
    >
-   >各ユーザーには 1 つ以上の SSH 公開鍵を追加できます。
+   >ユーザーごとに 1 つ以上の SSH 公開鍵を追加できます。
 
-1. 公開鍵をより適切に管理するには、各鍵が使用可能になる期間を設定します。 それには、「**[!UICONTROL タイプ]**」ドロップダウンリストで単位を選択し、該当するフィールドで期間を定義します。公開鍵の有効期限について詳しくは、 [この節](#expiry).
+1. 公開鍵を管理しやすくするために、鍵ごとに有効期間を設定することができます。 それには、「**[!UICONTROL タイプ]**」ドロップダウンリストで単位を選択し、該当するフィールドで期間を指定します。公開鍵の有効期限について詳しくは、[この節](#expiry)を参照してください。
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >デフォルトでは、「**[!UICONTROL タイプ]**」フィールドは&#x200B;**[!UICONTROL 無制限]**&#x200B;に設定されています。これは、公開鍵の有効期限がないことを意味します。
+   >デフォルトでは、「**[!UICONTROL タイプ]**」フィールドは「**[!UICONTROL 無制限]**」に設定されています。これは、公開鍵の有効期限がないことを意味します。
 
-1. の **[!UICONTROL コメント]** フィールドに、この公開鍵を追加する理由（理由、ユーザーなど）を指定できます。
+1. 「**[!UICONTROL コメント]**」フィールドに、この公開鍵を追加する理由や対象ユーザーなどを入力できます。
 
-1. 「**[!UICONTROL 公開鍵]**」フィールドに入力するには、SSH 公開鍵を生成する必要があります。 ご使用のオペレーティングシステムに応じて、次の手順に従います。
+1. 「**[!UICONTROL 公開鍵]**」フィールドに入力するには、SSH 公開鍵を生成する必要があります。 使用しているオペレーティングシステムに応じて、それぞれ以下の手順に従います。
 
    **Linux および Mac の場合：**
 
@@ -119,31 +119,31 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
 作成した公開鍵は「**[!UICONTROL 鍵管理]**」タブに表示されます。
 
-作成日または編集日、作成または編集したユーザー、IP 範囲の有効期限に基づいて項目を並べ替えることができます。
+作成日、編集日、作成者、編集者および IP 範囲の有効期限に基づいて、項目を並べ替えることができます。 
 
-また、名前やコメントの入力を開始して、公開鍵を検索することもできます。
+また、名前またはコメントを入力して公開鍵を検索することもできます。
 
 ![](assets/control_panel_key_management_sort.png)
 
-1 つ以上の IP 範囲を編集するには、 [この節](#editing-public-keys).
+1 つ以上の IP 範囲を編集するには、[この節](#editing-public-keys)を参照してください。
 
-リストから 1 つ以上の公開鍵を削除するには、公開鍵を選択して、 **[!UICONTROL 公開鍵の削除]** ボタンをクリックします。
+リストから 1 つ以上の公開鍵を削除するには、対象の公開鍵を選択してから「**[!UICONTROL 公開鍵を削除]**」ボタンをクリックします。
 
 ![](assets/control_panel_delete_key.png)
 
 ### 有効期限 {#expiry}
 
-10. **[!UICONTROL 有効期限]** 「 」列には、公開鍵の有効期限が切れるまでの残り日数が表示されます。
+「**[!UICONTROL 有効期限]**」列には、公開鍵の有効期限が切れるまでの残り日数が表示されます。
 
-[メールアラート](../../performance-monitoring/using/email-alerting.md)を購読すると、公開鍵の有効期限が切れる 10 日前、5 日前および当日にメールで通知が届きます。 アラートを受け取ったら、次の操作を実行できます。 [公開鍵の編集](#editing-public-keys) 必要に応じて有効期間を延長します。
+[メールアラート](../../performance-monitoring/using/email-alerting.md)を購読すると、公開鍵の有効期限が切れる 10 日前、5 日前および当日にメールで通知が届きます。 アラートを受け取ったら、[公開鍵を編集](#editing-public-keys)して、必要に応じて有効期間を延長できます。
 
-有効期限が切れた公開鍵は、7 日後に自動的に削除されます。これは次のように表示されます。 **[!UICONTROL 期限切れ]** を **[!UICONTROL 有効期限]** 」列に入力します。 この 7 日間以内：
+有効期限が切れた公開鍵は、7 日後に自動的に削除されます。その場合、「**[!UICONTROL 有効期限]**」列に「**[!UICONTROL 期限切れ]**」と表示されます。この 7 日間では、
 
-* 期限切れの公開鍵を SFTP サーバーへの接続に使用することはできなくなりました。
+* 期限切れの公開鍵は、SFTP サーバーへの接続には使用できません。
 
-* 次の操作が可能です。 [編集](#editing-public-keys) 有効期限が切れた公開鍵と、その期間を更新して再び使用可能にします。
+* 期限切れの公開鍵を[編集](#editing-public-keys)し、有効期間を更新して、再び使用できるようにすることが可能です。
 
-* リストから削除できます。
+* リストから削除することができます。
 
 ## 公開鍵の編集 {#editing-public-keys}
 
@@ -156,10 +156,10 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
 >[!NOTE]
 >
->編集できるのは、2021 年 10 月のリリース以降に作成された公開Campaign コントロールパネルのみです。
+>編集できる公開鍵は、コントロールパネル 2021年10月リリース以降に作成したものだけです。
 
 1. 「**[!UICONTROL 鍵管理]**」リストから 1 つ以上の項目を選択します。
-1. 「 **[!UICONTROL 公開鍵を更新]** ボタンをクリックします。
+1. 「**[!UICONTROL 公開鍵を更新]**」ボタンをクリックします。
 
    ![](assets/control_panel_edit_key.png)
 
@@ -167,6 +167,6 @@ SFTP サーバーにアクセスするために SSH 公開鍵を生成して追�
 
    >[!NOTE]
    >
-   >ユーザー名、インスタンス、公開鍵を OpenSSH 形式で変更するには、公開鍵を削除し、必要に応じて新しく作成します。
+   >ユーザー名、インスタンスおよび OpenSSH 形式の公開鍵を変更するには、その公開鍵を削除してから、必要に応じて新しい公開鍵を作成します。
 
-1. 変更を保存します。
+1. 変更内容を保存します。

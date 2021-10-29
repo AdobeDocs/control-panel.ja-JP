@@ -10,7 +10,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)を参照してください。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
 >Campaign Classic v7 の場合、インスタンスを AWS でホストし、最新の [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ja) ビルド、または最新の [GA ビルド（21.1）](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja#release-notes) でアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md)に記載されている手順に従います。
 
@@ -28,25 +28,25 @@ ht-degree: 82%
 
 **IP 範囲と公開鍵の有効期間**
 
-IP 範囲と公開鍵が使用可能な期間を設定できるようになりました。 詳しくは、 [IP 範囲許可リストへの登録](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) および [鍵の管理](sftp/using/key-management.md#installing-ssh-key) セクション。
+IP 範囲と公開鍵の有効期間を設定できるようになりました。 詳しくは、 [IP 範囲の許可リストへの登録](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list)と[鍵管理](sftp/using/key-management.md#installing-ssh-key)の節を参照してください。
 
 **IP 範囲と公開鍵の編集**
 
-これで、 [IP 範囲](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) および [公開鍵](sftp/using/key-management.md#editing-public-keys) 作成する この機能は、現在のリリースより前に作成された項目には使用できないことに注意してください。Campaign コントロールパネル
+作成した [IP 範囲](sftp/using/ip-range-allow-listing.md#editing-ip-ranges)と[公開鍵](sftp/using/key-management.md#editing-public-keys)を編集できるようになりました。この機能は、現在のコントロールパネルリリースより前に作成された項目には使用できないことに注意してください。
 
-**SFTP IP 範囲および公開鍵の有効期限に関する警告**
+**SFTP の IP 範囲と公開鍵の有効期限に関するアラート**
 
-電子メールアラート機能に、SFTP IP 許可リストの有効期限と SFTP 公開鍵の有効期限に関するアラートが含まれるようになりました。 [詳細情報](performance-monitoring/using/email-alerting.md)
+メールアラート機能に、許可リストに対する SFTP IP アドレスの登録の有効期限と SFTP 公開鍵の有効期限に関するアラートが追加されました。 [詳細情報](performance-monitoring/using/email-alerting.md)
 
-**Campaign v8 での完全なサポート**
+**Campaign v8 での完全サポート**
 
-10. **サブドメイン** および **証明書** 管理機能がAdobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。
+**サブドメイン**&#x200B;と&#x200B;**証明書**&#x200B;の管理機能が Adobe Campaign v8 のコントロールパネルでサポートされるようになりました。
 
 ## 2021年8月 {#august-2021}
 
-**Campaign v8 のサポート**
+**Campaign v8 でのサポート**
 
-Adobe Campaign v8 でコントロールパネルが使用できるようになりました。ただし、**サブドメイン**&#x200B;管理機能と&#x200B;**証明書**&#x200B;管理機能はまだサポートされていません。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}を参照してください。
+Adobe Campaign v8 でコントロールパネルが使用できるようになりました。ただし、**サブドメイン**&#x200B;管理機能と&#x200B;**証明書**&#x200B;管理機能はまだサポートされていません。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## 2020年10月 {#october-2020}
 

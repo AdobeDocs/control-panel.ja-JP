@@ -10,7 +10,7 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="インスタンスの詳細について"
->abstract="Adobe Campaignインスタンスの詳細を表示します。タイプ、名前、ビルド情報および使用可能なアップグレードの推奨事項。"
->additional-url="://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja" text="Campaign Classic リリースノート"
->additional-url="://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja" text="Campaign Standard リリースノート"
+>abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および適用可能な推奨アップグレード）を表示します。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja" text="Campaign Classic リリースノート"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja" text="Campaign Standard リリースノート"
 
 ## インスタンスの詳細について {#about-instance-details}
 
