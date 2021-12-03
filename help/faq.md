@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 94%
 
 詳しくは、コントロールパネルがサポートする操作のドキュメントを参照してください。
 
-### Campaign v8 ではまだサポートされていないが、Campaign Classicv7 で使用できるいくつかの機能はありますか。{#v8-restrictions}
+### Campaign Classic v7 で利用できる機能で、Campaign v8 ではまだサポートされていないものはありますか？{#v8-restrictions}
 
-いいえ。Campaign Classicv7 で使用可能なすべての機能が、サブドメインや証明書管理関連の機能を含む、Campaign v8 のCampaign コントロールパネルを通じてサポートされるようになりました。
+いいえ。Campaign Classic v7 で使用可能なすべての機能は、サブドメインや証明書管理関連の機能を含め、Campaign v8 のコントロールパネルでもサポートされるようになりました。
 
 ### コントロールパネルは Adobe Campaign 専用ですか？
 
@@ -67,7 +67,7 @@ Campaign Classic v7 の場合、インスタンスを Amazon Web Services（AWS�
 ### IMS 組織 ID はどこにありますか？
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
 
 もう 1 つの方法は、**Admin Console** を起動することです。IMS 組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
