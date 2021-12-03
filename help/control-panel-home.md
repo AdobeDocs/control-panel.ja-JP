@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 68%
 
 ## 新機能
 
-**Campaign v8 での完全サポート**
+**Campaign v8 でのフルサポート**
 
-すべての機能 ( **サブドメイン** および **証明書** 管理は、Adobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。 [詳細情報](faq.md#v8-restrictions)
+**サブドメイン**&#x200B;と&#x200B;**証明書**&#x200B;の管理を含むすべての機能が、Adobe Campaign v8 のコントロールパネルでサポートされるようになりました。[詳細情報](faq.md#v8-restrictions)
 
 **IP 範囲の有効期間とエディション**
 
-IP 範囲が使用可能になる期間を設定し、作成する IP 範囲を編集できるようになりました。 [詳細情報](sftp/using/ip-range-allow-listing.md)
+IP レンジの使用可能期間を設定し、作成した IP 範囲を編集できるようになりました。[詳細情報](sftp/using/ip-range-allow-listing.md)
 
 **公開鍵の有効期間とエディション**
 
-同様に、公開鍵の使用期間を設定して、作成した公開鍵を編集できるようになりました。 [詳細情報](sftp/using/key-management.md)
+同様に、公開鍵の使用可能期間を設定し、作成した公開鍵を編集できるようになりました。[詳細情報](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
