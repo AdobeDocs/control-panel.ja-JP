@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: ht
-source-wordcount: '774'
-ht-degree: 100%
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 100%
 
 ### Campaign Classic v7 ユーザーの場合、コントロールパネルにアクセスする条件は何ですか？ {#v7-restrictions}
 
-コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)。
+コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](discover/using/managing-permissions.md)。
 
-Campaign Classic v7 の場合、インスタンスを Amazon Web Services（AWS）でホストし、最新の [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses) ビルドにアップグレードする必要があります。Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic のインスタンスが AWS でホストされているかどうかを確認するには、[この節](#hosted-aws)で説明している手順に従ってください。
+Campaign Classicv7 の場合、インスタンスはAmazon Web Services(AWS) でホストされ、最新のにアップグレードする必要があります [Campaign の安定したビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses) 9032 以降をビルドする場合は、 Campaign Classic のバージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。Campaign Classic のインスタンスが AWS でホストされているかどうかを確認するには、[この節](#hosted-aws)で説明している手順に従ってください。
 
 ### コントロールパネルにアクセスする方法は？
 
@@ -67,7 +67,7 @@ Campaign Classic v7 の場合、インスタンスを Amazon Web Services（AWS�
 ### IMS 組織 ID はどこにありますか？
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)を参照してください。
 
 もう 1 つの方法は、**Admin Console** を起動することです。IMS 組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
