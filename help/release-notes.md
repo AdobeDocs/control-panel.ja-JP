@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '858'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,20 @@ ht-degree: 100%
 >コントロールパネルは、管理者ユーザーからのみアクセスできます。権限について詳しくは、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
 >Campaign Classic v7 の場合は、インスタンスを Amazon Web Services（AWS）でホストし、最新の [Campaign 安定ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)（またはビルド 9032 以降）にアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md#hosted-aws)に記載されている手順に従います。
+
+## 2022年1月 {#january-2022}
+
+**アクティブクエリの監視**
+
+インスタンスで最も長く実行されているクエリを、Campaign コントロールパネルから監視できるようになりました。[詳細情報](performance-monitoring/using/database-active-queries.md)
+
+**スループットと待ち時間の監視**
+
+インスタンスでの配信スループットと待ち時間の一定期間にわたるトレンドを監視できます。[詳細情報](performance-monitoring/using/thoughputs-latencies.md)
+
+**新しいサブドメインでの SSL 証明書の操作**
+
+配信品質の監査がまだ進行中の場合でも、新しく設定されたサブドメインで SSL 証明書の操作を実行できるようになりました。 [詳細情報](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2021年10月 {#october-2021}
 

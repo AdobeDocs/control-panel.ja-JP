@@ -6,9 +6,9 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
 + パフォーマンス監視 {#performance-monitoring}
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
-   + [データベース監視](performance-monitoring/using/database-monitoring.md)
+   + データベース監視 {#database-monitoring}
+      + [データベース監視について](performance-monitoring/using/database-monitoring.md)
+      + [データベース使用率](performance-monitoring/using/database-utilization.md)
+      + [ストレージの概要](performance-monitoring/using/database-storage-overview.md)
+      + [一時的リソース上位 10 位](performance-monitoring/using/database-top-ten-resources.md)
+      + [アクティブなクエリの監視](performance-monitoring/using/database-active-queries.md)
+      + [データベース容量超過の防止](performance-monitoring/using/database-preventing-overload.md)
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
+   + [スループットと待ち時間の監視](performance-monitoring/using/thoughputs-latencies.md)
    + [メールアラート](performance-monitoring/using/email-alerting.md)
 + インスタンス設定 {#instances-settings}
    + [インスタンスにアクセスするための IP 許可リストへの登録](instances-settings/using/ip-allow-listing-instance-access.md)
