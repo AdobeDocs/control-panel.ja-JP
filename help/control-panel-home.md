@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## 新機能
 
-**Campaign v8 でのフルサポート**
+**アクティブクエリの監視**
 
-**サブドメイン**&#x200B;と&#x200B;**証明書**&#x200B;の管理を含むすべての機能が、Adobe Campaign v8 のコントロールパネルでサポートされるようになりました。[詳細情報](faq.md#v8-restrictions)
+インスタンスで最も長く実行されているクエリを、Campaign コントロールパネルから監視できるようになりました。[詳細情報](performance-monitoring/using/database-active-queries.md)
 
-**IP 範囲の有効期間とエディション**
+**スループットと待ち時間の監視**
 
-IP レンジの使用可能期間を設定し、作成した IP 範囲を編集できるようになりました。[詳細情報](sftp/using/ip-range-allow-listing.md)
+インスタンスでの配信スループットと待ち時間の一定期間にわたるトレンドを監視できます。[詳細情報](performance-monitoring/using/thoughputs-latencies.md)
 
-**公開鍵の有効期間とエディション**
-
-同様に、公開鍵の使用可能期間を設定し、作成した公開鍵を編集できるようになりました。[詳細情報](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
