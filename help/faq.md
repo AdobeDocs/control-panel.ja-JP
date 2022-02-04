@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Campaign Classic v7 の場合は、インスタンスを Amazon Web Services（A
 ### IMS 組織 ID はどこにありますか？
 
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)を参照してください。
+1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。IMS 組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
 
 もう 1 つの方法は、**Admin Console** を起動することです。IMS 組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
