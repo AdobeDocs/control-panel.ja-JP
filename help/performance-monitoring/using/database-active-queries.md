@@ -6,11 +6,10 @@ description: コントロールパネルで Campaign インスタンス上のア
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
@@ -24,4 +23,6 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->いずれかのクエリが 24 時間以上アクティブな場合は、カスタマーケアに問い合わせて、問題を特定し解決してもらってください。その場合、クエリの一意の識別子である **[!UICONTROL PID]** 列の値を伝える必要があります。
+>いずれかのクエリが 24 時間以上アクティブな場合、を購読している場合は E メールで通知されます。 [メールアラート](email-alerting.md).
+>
+>その場合は、カスタマーケアに問い合わせて、問題を特定して解決してもらってください。 ユーザーに **[!UICONTROL PID]** 列の値。クエリの一意の識別子です。
