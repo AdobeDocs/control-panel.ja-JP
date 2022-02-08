@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
-workflow-type: ht
-source-wordcount: '858'
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+workflow-type: tm+mt
+source-wordcount: '834'
 ht-degree: 100%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 ## 2022年1月 {#january-2022}
 
-**アクティブクエリの監視**
+<!-- **Active queries monitoring**
 
-インスタンスで最も長く実行されているクエリを、Campaign コントロールパネルから監視できるようになりました。[詳細情報](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
 **スループットと待ち時間の監視**
 
