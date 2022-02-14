@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: a2c007fbf5446c92a6366882eb873deeadd5edf5
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 * **SFTP 公開鍵の有効期限**：定義した公開鍵のいずれかが期限切れになったか、10 日以内に期限切れになります。[鍵の管理](../../sftp/using/key-management.md)を参照してください。
 
-* **長時間実行中のクエリ**：いずれかのインスタンスで 24 時間以上クエリが実行されています。 詳しくは、[アクティブなクエリの監視](database-active-queries.md)を参照してください。
+<!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
