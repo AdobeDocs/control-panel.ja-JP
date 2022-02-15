@@ -6,11 +6,10 @@ description: コントロールパネルでの Campaign データベースの監
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
