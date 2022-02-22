@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
-workflow-type: ht
-source-wordcount: '141'
-ht-degree: 100%
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 74%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 100%
 
 データベース容量を消費している様々なアセットの詳細を表示するには、「**[!UICONTROL 詳細を表示]**」ボタンをクリックします。
 
+ドロップダウンリストを使用して検索を絞り込み、特定のアセットタイプ（ワークフロー、配信、受信者）のテーブルのみを表示できます。
+
 ![](assets/database-storage-details.png)
 
-フィルターを使用して検索を絞り込み、特定のアセットタイプのテーブルのみを表示できます。
-
-![](assets/database-storage-overview-filter.png)
+また、この画面では、インスタンスに関する問題を回避するために特に注意が必要となる可能性のあるワークフローパラメーターを監視できます。 詳しくは、[このページ](workflow-monitoring.md)を参照してください。
