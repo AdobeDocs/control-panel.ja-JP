@@ -4,7 +4,7 @@ description: インスタンスの問題を回避するために注意が必要�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # ワークフローの監視 {#monitor-workflows}
 
-<!-- Clean paused and completed workflows
+<!--## Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -41,7 +41,7 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-Monitor workflow parameters -->
+## Monitor workflow parameters -->
 
 Adobe Campaignでは、インスタンスに関する問題を回避するために、一部のワークフローパラメーターに特に注意する必要が出る場合があります。 Campaign コントロールパネル **[!UICONTROL ストレージの概要]** 詳細を使用すると、ワークフローでこれらのオプションのいずれかが有効になっているかどうかを確認できます。
 
