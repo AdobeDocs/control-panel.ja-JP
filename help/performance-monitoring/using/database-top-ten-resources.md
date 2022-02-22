@@ -6,10 +6,11 @@ description: Campaign データベース上のワークフローと配信で生�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
+source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '182'
+ht-degree: 79%
 
 ---
 
@@ -21,24 +22,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->一般的に、非標準リソースが **40 列を超えない**&#x200B;ようにすることが推奨されます。
+>一般的に、非標準リソースが **40 列を超えない**&#x200B;ようにすることが推奨されます。ワークフローに多数のテーブルが存在するまたはデータベースサイズが大きい場合は、ワークフローを確認して、大量のデータが生成される理由を調べることをお勧めします。
+>
+>Campaign Standardとクラシックのガイドラインは、 [このページ](database-preventing-overload.md) を使用して、データベース容量超過を防ぐことができます。
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->ワークフローに多数のテーブルが存在するまたはデータベースサイズが大きい場合は、ワークフローを確認して、大量のデータが生成される理由を調べることをお勧めします。
->
->また、このページの最後には、データベース容量超過を防ぐための Campaign Standard および Campaign Classic のリソースが提供されています。
-
-「**[!UICONTROL すべて表示]**」ボタンを使用すると、これらの一時的リソースの詳細情報にアクセスできます。
-
-![](assets/database-top10-view.png)
-
-「**[!UICONTROL 中間結果を保持]**」列の値は、Campaign でこのオプションが有効（「1」）と無効（「0」）のどちらであるかを示します。このオプションを使用すると、ワークフローの様々なアクティビティ間のトランジションの結果を保存できます（[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja#logs) のドキュメントを参照）。
-
->[!IMPORTANT]
->
->このオプションは、本番ワークフローでは絶対にオンにしないでください。これは結果の分析に使用され、テスト目的でのみ設計されているので、開発環境またはステージング環境に限定して使用する必要があります。
->
->コントロールパネルの値が、ワークフローの 1 つに対してこのオプションが有効になっていることを示している場合は、Campaign でこのオプションをオフにすることを強くお勧めします。
+この **[!UICONTROL すべて表示]** ボタンをクリックすると、 **[!UICONTROL ストレージの概要]** これらの一時的リソースの詳細を取得するための詳細。 詳しくは、[このページ](database-storage-overview.md)を参照してください。
