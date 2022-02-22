@@ -6,9 +6,9 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
       + [ストレージの概要](performance-monitoring/using/database-storage-overview.md)
       + [一時的リソース上位 10 位](performance-monitoring/using/database-top-ten-resources.md)
       + [アクティブなクエリ](performance-monitoring/using/database-active-queries.md)
+      + [ワークフローの監視](performance-monitoring/using/workflow-monitoring.md)
       + [データベース容量超過の防止](performance-monitoring/using/database-preventing-overload.md)
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [スループットと待ち時間の監視](performance-monitoring/using/thoughputs-latencies.md)
