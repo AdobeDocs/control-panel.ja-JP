@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 74%
 
 ![](assets/database-storage-details.png)
 
-また、この画面では、インスタンスに関する問題を回避するために特に注意が必要となる可能性のあるワークフローパラメーターを監視できます。 詳しくは、[このページ](workflow-monitoring.md)を参照してください。
+またこの画面では、インスタンスに関する問題を回避するために、特に注意が必要となる可能性のあるワークフローパラメーターを監視できます。 詳しくは、[このページ](workflow-monitoring.md)を参照してください。
