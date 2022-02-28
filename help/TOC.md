@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
 + パフォーマンス監視 {#performance-monitoring}
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
-   + データベース監視 {#database-monitoring}
+   + データベース監視{#database-monitoring}
       + [データベース監視について](performance-monitoring/using/database-monitoring.md)
       + [データベース使用率](performance-monitoring/using/database-utilization.md)
       + [ストレージの概要](performance-monitoring/using/database-storage-overview.md)
