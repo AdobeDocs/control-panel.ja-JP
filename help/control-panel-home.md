@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 **ワークフローパラメーターの監視**
 
-インスタンスに関する問題を回避するために特に注意が必要となる可能性のあるワークフローパラメーターを監視できるようになりました。 [詳細情報](performance-monitoring/using/workflow-monitoring.md)
+インスタンスに関する問題を回避するために、特に注意が必要となる可能性のあるワークフローパラメーターを監視できるようになりました。[詳細情報](performance-monitoring/using/workflow-monitoring.md)
 
 
 **アクティブクエリの監視**
