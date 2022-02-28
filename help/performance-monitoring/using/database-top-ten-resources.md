@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->一般的に、非標準リソースが **40 列を超えない**&#x200B;ようにすることが推奨されます。ワークフローに多数のテーブルが存在するまたはデータベースサイズが大きい場合は、ワークフローを確認して、大量のデータが生成される理由を調べることをお勧めします。
+>一般的に、非標準リソースが **40 列を超えない**&#x200B;ようにすることが推奨されます。ワークフローに多数のテーブルが存在する、またはデータベースサイズが大きい場合は、ワークフローを確認して、大量のデータが生成される理由を調べることをお勧めします。
 >
->Campaign Standardとクラシックのガイドラインは、 [このページ](database-preventing-overload.md) を使用して、データベース容量超過を防ぐことができます。
+>Campaign Standard と Classic のガイドラインは、[このページ](database-preventing-overload.md)を使用して、データベース容量超過を防ぐことができます。
 
 ![](assets/database-top10.png)
 
-この **[!UICONTROL すべて表示]** ボタンをクリックすると、 **[!UICONTROL ストレージの概要]** これらの一時的リソースの詳細を取得するための詳細。 詳しくは、[このページ](database-storage-overview.md)を参照してください。
+この「**[!UICONTROL すべて表示]**」ボタンをクリックすると、**[!UICONTROL ストレージの概要]**&#x200B;の詳細にアクセスしてこれらの一時的リソースの詳細情報を取得することができます。詳しくは、[このページ](database-storage-overview.md)を参照してください。
