@@ -1,19 +1,20 @@
 ---
 title: ワークフローの監視
-description: インスタンスの問題を回避するために注意が必要な可能性のある特定のワークフローパラメーターを監視する方法を説明します。
+description: インスタンスの問題を回避するために注意が必要な可能性のある、特定のワークフローパラメーターの監視方法を説明します。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # ワークフローの監視 {#monitor-workflows}
 
-<!--## Clean paused and completed workflows
+<!-- Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -41,38 +42,38 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflow parameters -->
+Monitor workflow parameters -->
 
-Adobe Campaignでは、インスタンスに関する問題を回避するために、一部のワークフローパラメーターに特に注意する必要が出る場合があります。 Campaign コントロールパネル **[!UICONTROL ストレージの概要]** 詳細を使用すると、ワークフローでこれらのオプションのいずれかが有効になっているかどうかを確認できます。
+Adobe Campaign では、インスタンスに関する問題を回避するために、一部のワークフローパラメーターに特に注意しなければならない場合があります。コントロールパネルの「**[!UICONTROL ストレージの概要]**」の詳細を使用すると、ワークフローでこれらのオプションのいずれかが有効になっているかどうかを確認できます。
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL 中間結果を保持]** {#keep-results}
 
-有効（値「1」）にすると、ワークフローの様々なアクティビティ間でトランジションの結果が保存されます。 詳しくは、 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja#logs) ドキュメント。
+有効（値「1」）にすると、このオプションによってワークフローの様々なアクティビティ間でトランジションの結果が保存されます。詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja#logs) ドキュメントを参照してください。
 
 >[!IMPORTANT]
 >
->このオプションは、本番ワークフローでは絶対にオンにしないでください。分析およびテストの目的で使用されるので、開発環境またはステージング環境でのみ使用する必要があります。 Campaign で無効にすることを強くお勧めします。
+>このオプションは、実稼動ワークフローでは絶対にオンにしないでください。分析およびテストの目的で使用されるので、開発環境またはステージング環境でのみ使用する必要があります。Campaign ではオフにすることを強くお勧めします。
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL SQL ログを表示]** {#sql}
 
-このオプションを有効にすると、ワークフローの実行中にデータベースに送信された SQL クエリがAdobe Campaignに表示されます。 詳しくは、 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) ドキュメント。
+このオプションを有効にすると、ワークフローの実行中にデータベースに送信された SQL クエリが Adobe Campaign に表示されます。詳しくは、[Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#execution) ドキュメントを参照してください。
 
-値「1」は、ワークフローに **重大度** フィールドが「実稼動」に設定され、SQL クエリログオプションが有効になっている。
+値「1」は、ワークフローで&#x200B;**重要度**&#x200B;フィールドが「実稼動」に設定され、SQL クエリログオプションが有効になっていることを示しています。
 
 >[!IMPORTANT]
 >
->このオプションを有効にすると、パフォーマンスに影響を与え、サーバー上のログファイルに記録される場合があります。 分析および診断の目的でのみ使用します。
+>このオプションを有効にすると、パフォーマンスに影響を与え、サーバー上のログファイルに記録される場合があります。分析および診断の目的でのみ使用します。
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL スーパーバイザー]** {#supervisors}
 
-このフィールドを使用して、オペレーターをワークフローに割り当てることができます。 ワークフローが失敗した場合、関連するオペレーターに警告が表示されます。 詳しくは、 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) ドキュメント。
+このフィールドを使用して、オペレーターをワークフローに割り当てることができます。 ワークフローが失敗した場合、関連するオペレーターに警告が表示されます。 詳しくは、[Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=ja#error-management) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#error-management) ドキュメントを参照してください。
 
-値「1」は、ワークフローに **重大度** フィールドが「実稼動」に設定され、スーパーバイザーグループがワークフローに割り当てられていない状態。
+値「1」は、ワークフローで&#x200B;**重要度**&#x200B;フィールドが「実稼動」に設定され、スーパーバイザーグループがワークフローに割り当てられていない状態を示します。
 
 ![](assets/wkf-monitoring-supervisors.png)
