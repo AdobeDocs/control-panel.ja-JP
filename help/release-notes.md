@@ -8,9 +8,9 @@ role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 97%
 >
 >Campaign Classic v7 の場合は、インスタンスを Amazon Web Services（AWS）でホストし、最新の [Campaign 安定ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)（またはビルド 9032 以降）にアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md#hosted-aws)に記載されている手順に従います。
 
-## 2022 年 2 月 {#february-2022}
+## 2022年2月 {#february-2022}
 
 **ワークフローパラメーターの監視**
 
-インスタンスに関する問題を回避するために特に注意が必要となる可能性のあるワークフローパラメーターを監視できるようになりました。 [詳細情報](performance-monitoring/using/workflow-monitoring.md)。
+インスタンスに関する問題を回避するために、特に注意が必要となる可能性のあるワークフローパラメーターを監視できるようになりました。[詳細情報](performance-monitoring/using/workflow-monitoring.md)。
 
 ## 2022年1月 {#january-2022}
 
