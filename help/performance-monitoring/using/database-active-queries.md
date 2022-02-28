@@ -6,10 +6,11 @@ description: コントロールパネルで Campaign インスタンス上のア
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: a1ea14f9-ec1d-4e10-89ef-846065512e8c
+source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+workflow-type: ht
+source-wordcount: '108'
+ht-degree: 100%
 
 ---
 
@@ -23,4 +24,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->いずれかのクエリが 24 時間以上アクティブな場合は、カスタマーケアに問い合わせて、問題を特定し解決してもらってください。クエリの一意の識別子である **[!UICONTROL PID]** 列の値を伝える必要があります。
+>いずれかのクエリが 24 時間以上アクティブな場合は、カスタマーケアに問い合わせて、問題を特定し解決してもらってください。クエリの一意の ID である **[!UICONTROL PID]** 列の値を伝える必要があります。
