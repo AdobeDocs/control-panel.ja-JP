@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: コントロールパネルへのアクセス
+title: このCampaign コントロールパネルは、Adobe Campaign Standardや Classic の製品管理者としての作業の効率を高めるのに役立ちます。
 description: コントロールパネルへのアクセス方法の詳細
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 92%
 
 ---
 
@@ -38,17 +38,17 @@ ht-degree: 100%
         <em>コントロールパネルおよびアクセス方法の詳細</em>
     </td>
     <td>
-        <a href="../../sftp/using/about-sftp-management.md"><img alt="conditions" src="assets/do-not-localize/sftp.png"/></a>
+        <a href="../../sftp/using/about-sftp-management.md"><img alt="条件" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="../../sftp/using/about-sftp-management.md"><strong>SFTP サーバーの監視</strong></a></div>
         <em>SFTP サーバーの管理方法の詳細</em>
     </td>
     <td>
-        <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="conditions" src="assets/do-not-localize/subdomains.png"/></a>
+        <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="条件" src="assets/do-not-localize/subdomains.png"/></a>
         <div><a href="../../subdomains-certificates/using/subdomains-branding.md"><strong>サブドメインの監視</strong></a></div>
         <em>サブドメインとその証明書の監視方法の詳細</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
         <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
     </td>
