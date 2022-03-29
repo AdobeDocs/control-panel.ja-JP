@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -23,16 +23,13 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner.png)
 
+CampaignCampaign コントロールパネルを使用すると、各 Campaign インスタンスの設定を管理し、使用状況を追跡できるので、Campaign Standardおよび V7/v8 の製品管理者としての作業の効率を向上できます。
+
 ## 新機能
 
 **ワークフローパラメーターの監視**
 
 インスタンスに関する問題を回避するために、特に注意が必要となる可能性のあるワークフローパラメーターを監視できるようになりました。[詳細情報](performance-monitoring/using/workflow-monitoring.md)
-
-
-**アクティブクエリの監視**
-
-インスタンスで最も長く実行されているクエリを、Campaign コントロールパネルから監視できるようになりました。[詳細情報](performance-monitoring/using/database-active-queries.md)
 
 **スループットと待ち時間の監視**
 
@@ -43,7 +40,7 @@ ht-degree: 100%
 >
 >* コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)
 >
->* Campaign Classic v7 の場合は、デプロイメントに制限があります。[詳細情報](faq.md#v7-restrictions)
+>* Campaign v7 の場合は、デプロイメントに制限があります。[詳細情報](faq.md#v7-restrictions)
 
 
 ## その他のリソース {#additional-resources}
@@ -56,10 +53,10 @@ ht-degree: 100%
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja">Campaign Standard 製品ドキュメント</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic v7</b><br/>
+        <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ja">コントロールパネルのチュートリアルビデオ</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja">Campaign Classic v7 製品ドキュメント</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja">Campaign v7 製品ドキュメント</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>

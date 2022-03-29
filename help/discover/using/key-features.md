@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 92%
+source-wordcount: '295'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 >
 >コントロールパネルは、管理者ユーザーに限定されています。ユーザーに管理者アクセス権を付与する手順については、[この節](managing-permissions.md)を参照してください。
 >
->Campaign Classic の場合は、インスタンスを Amazon Web Services（AWS）でホストし、最新の [Campaign 安定ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)またはビルド 9032 以降にアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](../../faq.md#hosted-aws)で詳しく説明されている手順に従ってください。
+>Campaign v7/v8 の場合、インスタンスはAmazon Web Services(AWS) でホストされ、最新のにアップグレードする必要があります [Campaign の安定したビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses) 9032 以降をビルドする場合は、 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](../../faq.md#hosted-aws)で詳しく説明されている手順に従ってください。
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ ht-degree: 92%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="条件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
-        <br/><em>インスタンス設定（Campaign Classic のみ）の管理方法の詳細</em>
+        <br/><em>インスタンス設定（Campaign v7/v8 のみ）の管理方法の詳細</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>

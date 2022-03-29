@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: 7f7623a747bbc9c3b0816f12195068e04eee9b2f
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 74%
 
 ---
 
@@ -21,11 +21,21 @@ ht-degree: 100%
 >title="スループットと待ち時間の監視について "
 >abstract="このタブでは、インスタンスでの配信スループットと待ち時間の一定期間にわたるトレンドを監視できます。"
 
+Campaign コントロールパネルでは、各インスタンスの配信スループットと待ち時間を監視できます。
+
+>[!IMPORTANT]
+>
+>この機能は、すべてのCampaign Standardおよび v8 のお客様と、Campaign V7 のお客様 ( ビルド番号が 9032、9330、9346 または 9349 の、 [スタンドアロン](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) デプロイメント（mid インスタンスを除く）。
+
 インスタンスの使用状況を把握し、良好なパフォーマンスを確保するには、一定期間にわたって配信スループットと待ち時間のトレンドを監視することが不可欠です。
 
 この情報は、**[!UICONTROL パフォーマンス監視]**&#x200B;カード、「**[!UICONTROL スループットと待ち時間]**」タブにある各 Campaign インスタンスのコントロールパネルに表示されます（コントロールパネルは図を表示するのに最大 1 時間かかる場合があります）。
 
 * **[!UICONTROL スループット]**&#x200B;領域には、使用資格のあるすべての通信チャネルについて、選択した Campaign インスタンスから 1 時間に送信されるメッセージの数に関する情報が表示されます。
+
+   >[!NOTE]
+   >
+   >Campaign v7/v8 の場合、表示されるスループット数は、MID（ミッドソーシング）インスタンスから達成されたスループットです。 スタンドアロンマーケティング (MKT) デプロイメント（MID インスタンスを使用しない）の場合、代わりに MKT インスタンスからのスループットが表示されます。
 
 * **[!UICONTROL 待ち時間]**&#x200B;領域には、リアルタイムトランザクション通信の送信時に、選択したインスタンスで発生した待ち時間に関する情報が表示されます。待ち時間は 95 と 99 のパーセンタイルでキャプチャおよび視覚化されます。つまり、リクエストの 95％と 99％は、指定された待ち時間よりも高速である必要があります。
 

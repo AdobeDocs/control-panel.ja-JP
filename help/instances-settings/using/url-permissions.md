@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この機能は、Campaign v8 および Campaign Classic v7 のインスタンス（ビルド 8850 以降）でのみ使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードが必要です。
+>この機能は、Campaign v7/v8 インスタンスのビルド 8850 以降でのみ使用できます。 以前のビルドを使用している場合、この機能を使用するにはアップグレードが必要です。
 
 Campaign のインスタンスが JavaScript コード（ワークフローなど）で呼び出せる URL のデフォルトリストは制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
@@ -73,7 +73,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
    >
    >左側のペインのリストには、すべての Campaign インスタンスが表示されます。
    >
-   >URL へのアクセス権限の管理は、Campaign Classic インスタンスのみに適用されます。Campaign Standard インスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
+   >URL へのアクセス権限の管理は、Campaign v7/v8 インスタンスのみに適用されるので、Campaign Standardインスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
 
 1. 承認したい URL とその関連プロトコルを入力します（http、https、または sftp）。
 

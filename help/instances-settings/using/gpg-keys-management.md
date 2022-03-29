@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 このトピックについて詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
-**Campaign Classic v7 および Campaign v8：**
+**Campaign v7/v8:**
 
 * [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja)
 * [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-encrypt)
@@ -138,7 +138,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
-**Campaign Classic v7 および Campaign v8：**
+**Campaign v7 および v8:**
 
 * [処理前のファイルの解凍と復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja#use-case-gpg-decrypt)
@@ -186,6 +186,6 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 次のビデオでは、データ暗号化用の GPG キーを生成してインストールする方法を説明します。
 
-GPG キー管理に関する追加のハウツービデオが [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
+GPG キー管理に関する追加のハウツービデオを、  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) および [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) チュートリアルページ
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

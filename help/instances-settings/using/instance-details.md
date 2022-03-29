@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 80%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 100%
 >id="cp_instancesettings_instancedetails"
 >title="インスタンスの詳細について"
 >abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および適用可能な推奨アップグレード）を表示します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja" text="Campaign Classic リリースノート"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja" text="Campaign Standard リリースノート"
 
 ## インスタンスの詳細について {#about-instance-details}
 
 >[!IMPORTANT]
 >
->この機能は、Campaign Classic v7 および Campaign v8 のインスタンスでのみ使用できます。
+>この機能は、Campaign v7/v8 インスタンスでのみ使用できます。
 
 Adobe Campaign インスタンスアーキテクチャには複数のサーバーを含めることができるので、柔軟なマーケティング活動が可能になります。例えば、マーケティングサーバー、リアルタイム（Message Center）サーバー、ミッドソーシングサーバーをインスタンスと連係させることができます。
 
@@ -35,7 +33,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
 
 >[!NOTE]
 >
->パフォーマンスの低下を避け、Adobe Campaign Classic から提供される最新の機能や修正を活用できるようにするため、少なくとも年に 1 回はインスタンスをアップグレードすることをお勧めします。
+>パフォーマンスの低下を避け、Adobe Campaign v7/v8 で提供される最新の機能と修正を活用できるように、少なくとも年に 1 回はインスタンスをアップグレードすることをお勧めします。
 
 **関連トピック：**
 
@@ -50,13 +48,13 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
 
    >[!NOTE]
    >
-   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は、Adobe Campaign Classic インスタンスに関連付けられていません。
+   >「インスタンス設定」カードがCampaign コントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID はAdobe Campaign v7/v8 インスタンスに関連付けられていません。
 
 1. 左側のペインから目的の Campaign インスタンスを選択します。
 
    >[!NOTE]
    >
-   >左側のペインのリストには、すべての Campaign インスタンスが表示されます。「インスタンスの詳細」機能は、Campaign Classic インスタンス専用です。Campaign Standard インスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
+   >左側のペインのリストには、すべての Campaign インスタンスが表示されます。「インスタンスの詳細」機能は、Campaign v7/v8 インスタンス専用です。Campaign Standardインスタンスを選択すると、「適用外のインスタンス」というメッセージが表示されます。
 
 1. インスタンスに接続しているサーバーが表示されます。
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 90%
 
 ---
 
@@ -46,7 +46,7 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 
 ![](assets/databases_dashboard.png)
 
-このダッシュボードのデータは、Campaign インスタンスで実行される&#x200B;**[!UICONTROL データベースクリーンアップテクニカルワークフロー]**（[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja#list-of-technical-workflows) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ja) のドキュメントを参照）に基づいて更新されます。最後にワークフローが実行された時間は、「**[!UICONTROL 使用中の容量]**」および「**[!UICONTROL 提供された容量]**」指標の下で確認できます。ワークフローが 3 日を超えて実行されていない場合は、ワークフローが実行されない理由が調査されるように、アドビカスタマーケアに連絡することをお勧めします。
+このダッシュボードのデータは、 **[!UICONTROL データベースクリーンアップテクニカルワークフロー]** Campaign インスタンス上で実行される [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja#list-of-technical-workflows) および [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ja) ドキュメント )。 最後にワークフローが実行された時間は、「**[!UICONTROL 使用中の容量]**」および「**[!UICONTROL 提供された容量]**」指標の下で確認できます。ワークフローが 3 日を超えて実行されていない場合は、ワークフローが実行されない理由が調査されるように、アドビカスタマーケアに連絡することをお勧めします。
 
 このダッシュボードでは、インスタンスのデータベースの使用状況を分析するのに役立つ追加の指標を利用できます。これらの詳細については以下の節で説明します。
 
@@ -55,4 +55,4 @@ Campaign コントロールパネルでは、各 Campaign インスタンスの�
 * [一時的リソース上位 10 位](../../performance-monitoring/using/database-top-ten-resources.md)
 * [アクティブなクエリ](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) この機能を [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) 使用時または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) 使用時のビデオで確認
+![](assets/do-not-localize/how-to-video.png) 次を使用してビデオでこの機能を確認する： [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ja#performance-monitoring)
