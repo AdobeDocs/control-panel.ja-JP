@@ -4,10 +4,10 @@ solution: Campaign
 title: Campaign コントロールパネルのリリース
 description: このページには、Campaign コントロールパネルのすべての新機能と改善点が記載されています
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 84%
+source-wordcount: '1022'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 <tbody>
 <tr>
 <td>
-<p>スループットと待ち時間の監視は、スタンドアロンデプロイメント（ミッドインスタンスなし）を持つビルド番号 9032、9330、9346 または 9349 を持つすべてのCampaign Standardおよび v8 のお客様が利用できるようになりました。</p><p>詳しくは、 <a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント。</a></p>
+<p>スループットと待ち時間の監視は、すべてのCampaign Standardおよび v8 のお客様と、スタンドアロンデプロイメント（ミッドインスタンスを除く）を持つビルド番号 9032、9330、9346 または 9349 の Campaign V7 のお客様が利用できるようになりました。</p><p>詳しくは、 <a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント。</a></p>
 </td>
 </tr>
 </tbody>
