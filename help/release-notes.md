@@ -1,19 +1,19 @@
 ---
 product: campaign
 solution: Campaign
-title: Campaign コントロールパネルのリリース
-description: このページには、Campaign コントロールパネルのすべての新機能と改善点が記載されています
+title: コントロールパネルのリリース
+description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # コントロールパネルのリリース {#control-panel-releases}
 
-このページでは、Campaign コントロールパネルのすべての新機能と改善点を示します。
+このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>スループットと待ち時間の監視は、すべてのCampaign Standardおよび v8 のお客様と、スタンドアロンデプロイメント（ミッドインスタンスを除く）を持つビルド番号 9032、9330、9346 または 9349 の Campaign V7 のお客様が利用できるようになりました。</p><p>詳しくは、 <a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント。</a></p>
+<p>スループットと待ち時間の監視を、Campaign Standard および v8 のすべてのお客様と、スタンドアロンデプロイメント（ミッドインスタンスを除く）を持つビルド番号 9032、9330、9346 または 9349 の Campaign V7 のお客様が利用できるようになりました。</p><p>詳しくは、<a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>インスタンスで最も長く実行されているクエリを、Campaign コントロールパネルから監視できるようになりました。</p><p>詳しくは、<a href="performance-monitoring/using/database-active-queries.md">詳細ドキュメント</a>を参照してください。</p>
+<p>インスタンスで最も長く実行されているクエリを、コントロールパネルから監視できるようになりました。</p><p>詳しくは、<a href="performance-monitoring/using/database-active-queries.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>配信品質の監査がまだ進行中の場合でも、新しく設定されたサブドメインで SSL 証明書の操作を実行できるようになりました。 </p><p>詳しくは、<a href="subdomains-certificates/using/renewing-subdomain-certificate.md">詳細ドキュメント</a>を参照してください。</p>
+<p>配信品質の監査がまだ進行中の場合でも、新しく設定されたサブドメインで SSL 証明書の操作を実行できるようになりました。</p><p>詳しくは、<a href="subdomains-certificates/using/renewing-subdomain-certificate.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -113,7 +113,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>IP 範囲と公開鍵の有効期間を設定できるようになりました。  </p><p>詳しくは、 <a href="sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP 範囲許可リストへの登録</a> および <a href="sftp/using/key-management.md#installing-ssh-key">鍵の管理</a> セクション。</p>
+<p>IP 範囲と公開鍵の有効期間を設定できるようになりました。  </p><p>詳しくは、<a href="sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP 範囲許可リスト</a>および<a href="sftp/using/key-management.md#installing-ssh-key">鍵の管理</a>の節を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -143,7 +143,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>メールアラート機能に、許可リストに対する SFTP IP アドレスの登録の有効期限と SFTP 公開鍵の有効期限に関するアラートが追加されました。 </p><p>詳しくは、<a href="performance-monitoring/using/email-alerting.md">詳細ドキュメント</a>を参照してください。</p>
+<p>メールアラート機能に、許可リストに対する SFTP IP アドレスの登録の有効期限と SFTP 公開鍵の有効期限に関するアラートが追加されました。</p><p>詳しくは、<a href="performance-monitoring/using/email-alerting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>この <strong>サブドメイン</strong> および <strong>証明書</strong> 管理機能がAdobe Campaign v8 のCampaign コントロールパネルでサポートされるようになりました。</a>.</p>
+<p><strong>サブドメイン</strong>と<strong>証明書</strong>の管理機能が Adobe Campaign v8 のコントロールパネルでサポートされるようになりました。</a></p>
 </td>
 </tr>
 </tbody>
@@ -175,7 +175,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign v8 でコントロールパネルが使用できるようになりました。ただし、<strong>サブドメイン</strong>管理機能と<strong>証明書</strong>管理機能はまだサポートされていません。 </p><p>詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=ja" target="blank">Campaign v8 ドキュメント</a>.</p>
+<p>Adobe Campaign v8 でコントロールパネルが使用できるようになりました。ただし、<strong>サブドメイン</strong>と<strong>証明書</strong>の管理機能は、まだサポートされていません。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=ja" target="blank">Campaign v8 ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>アドビで使用するサブドメインを、Campaign コントロールパネルのインターフェイスから CNAME を使用して直接設定できるようになりました。</p><p>詳しくは、<a href="subdomains-certificates/using/setting-up-new-subdomain.md">詳細ドキュメント</a>を参照してください。</p>
+<p>アドビで使用するサブドメインを、コントロールパネルのインターフェイスから CNAME を使用して直接設定できるようになりました。</p><p>詳しくは、<a href="subdomains-certificates/using/setting-up-new-subdomain.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -213,7 +213,7 @@ ht-degree: 83%
 </tbody>
 </table>
 
-## 2020 年 6 月 {#june-2020}
+## 2020年6月 {#june-2020}
 
 <table>
 <thead>
@@ -262,7 +262,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->Campaign コントロールパネルから使用できるアクティブなプロファイルの監視はベータ版です。通知なしに頻繁に更新および変更される可能性があります。
+>コントロールパネルから使用できるアクティブなプロファイルの監視はベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 
 ## 2020年5月 {#may-2020}
 
@@ -275,13 +275,13 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>CNAME メソッドで設定されたサブドメインの SSL 証明書を Campaign コントロールパネルで更新できるようになりました。</p><p>詳しくは、<a href="subdomains-certificates/using/renewing-subdomain-certificate.md">詳細ドキュメント</a>を参照してください。</p>
+<p>CNAME メソッドで設定されたサブドメインの SSL 証明書を、コントロールパネルで更新できるようになりました。</p><p>詳しくは、<a href="subdomains-certificates/using/renewing-subdomain-certificate.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 2020 年 4 月 {#april-2020}
+## 2020年4月 {#april-2020}
 
 <table>
 <thead>
@@ -292,7 +292,7 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>Campaign コントロールパネルを使用して、Gmail アドレス宛ての E メール送信に使用するすべてのサブドメインに Google TXT サイト検証レコードを追加します。</p><p>詳しくは、<a href="subdomains-certificates/using/managing-txt-records.md">詳細ドキュメント</a>を参照してください。</p>
+<p>Campaign コントロールパネルを使用して、Gmail アドレス宛てのメール送信に使用するすべてのサブドメインに Google TXT サイト検証レコードを追加します。</p><p>詳しくは、<a href="subdomains-certificates/using/managing-txt-records.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -322,13 +322,13 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>Campaign コントロールパネルに、リアルタイムの メールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。</p><p>詳しくは、<a href="performance-monitoring/using/email-alerting.md">詳細ドキュメント</a>を参照してください。</p>
+<p>Campaign コントロールパネルに、リアルタイムのメールアラート機能が搭載されました。コントロールパネルにログインして登録すると、システムパフォーマンス低下の危険がある場合や、将来の高いパフォーマンスを確保するために特定のアクションが必要な場合に、アラートを受信できます。</p><p>詳しくは、<a href="performance-monitoring/using/email-alerting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 2020 年 1 月 {#january-2020}
+## 2020年1月 {#january-2020}
 
 管理者ユーザーがサブドメインを設定し、Campaign コントロールパネルから SSL 証明書を更新するための新しい機能が追加されました。
 
@@ -342,8 +342,8 @@ ht-degree: 83%
 
 ## 2019年9月 {#september-2019}
 
-管理者ユーザーが許可リストに IP アドレスを追加して Campaign v7/v8 インスタンスに接続するための新しい機能が追加されました。
-さらに、管理者ユーザーは、Campaign v7/v8 インスタンスのリストと、ビルドのアップグレードの実施要件を表示できるようになりました。
+Campaign v7／v8 インスタンスに接続するために、管理者ユーザーが IP アドレスを許可リストに追加するための新機能を追加しました。
+さらに管理者ユーザーは、Campaign v7／v8 インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
 詳しくは、[該当するドキュメント](instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
@@ -355,6 +355,6 @@ ht-degree: 83%
 
 ## 2019年7月 {#july-2019}
 
-管理者ユーザーが Campaign v7/v8 インスタンス設定のより詳細な制御をおこなうことができるようにする新しい機能が追加されました。 新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
+管理者ユーザーが Campaign v7／v8 インスタンス設定をさらに詳細に管理できる新機能が追加されました。新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
 
 詳しくは、[詳細ドキュメント](instances-settings/using/url-permissions.md)を参照してください。
