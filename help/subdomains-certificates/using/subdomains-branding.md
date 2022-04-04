@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 91%
 
 サブドメインの設定方法について質問がある場合は、アドビの配信品質チームにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
-## サブドメインの使用例 (Campaign v7/v8){#subdomains-use-cases}
+## サブドメインの使用例（Campaign v7/v8）{#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja" text="新しいサブドメインのセットアップ"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディング"
 
-Campaign v7/v8 インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります ( [新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md)) をクリックします。
+Campaign v7/v8 インスタンスにサブドメインを設定する場合は、サブドメインを使用する使用例を選択する必要があります（[新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md)を参照）。
 
 考えられる使用例は次のとおりです。
 
@@ -82,7 +82,7 @@ Campaign v7/v8 インスタンスにサブドメインを設定する場合は�
 
 >[!NOTE]
 >
->Campaign v7/v8 を使用している場合、Campaign コントロールパネルでは、使用しているマーケティングインスタンスに接続されている RT/MID インスタンスを確認できます。 詳しくは、[インスタンスの詳細](../../instances-settings/using/instance-details.md)の節を参照してください。
+>Campaign v7/v8 を使用している場合、コントロールパネルで、使用しているマーケティングインスタンスに接続されている RT／MID インスタンスを確認できます。詳しくは、[インスタンスの詳細](../../instances-settings/using/instance-details.md)の節を参照してください。
 
 **関連トピック：**
 
