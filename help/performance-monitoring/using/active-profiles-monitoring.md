@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Campaign コントロールパネルから使用できるアクティブなプロファイルの監視はベータ版です。通知なしに頻繁に更新および変更される可能性があります。Campaign Standard 10368 ビルドから利用できます。
+>コントロールパネルから使用できるアクティブなプロファイルの監視はベータ版です。通知なしに頻繁に更新および変更される可能性があります。Campaign Standard 10368 ビルドから利用できます。
 
 各キャンペーンインスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金のためその数がカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-アクティブなプロファイルについて詳しくは、 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) および [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) ドキュメント
+アクティブなプロファイルについて詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) と [Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) のドキュメントを参照してください。
 
 ## アクティブなプロファイルの監視 {#monitoring-active-profiles}
 
@@ -59,7 +59,7 @@ Campaign コントロールパネルでは、各キャンペーンインスタ�
 >アクティブなプロファイルは、インスタンスで毎日実行される専用のテクニカルワークフローに基づいてカウントされます。
 >
 >* Campaign Standard の[「請求」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja)ワークフロー、
->* この [「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja) Campaign v7/v8 のワークフロー。
+>* Campaign v7／v8 の[「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)ワークフロー。
 
 
 下部には、過去 30 日間のアクティブなプロファイルの使用状況がグラフで表示されます。右上隅にあるフィルターを使用すると、表示される期間を 1 年に変更できます。
