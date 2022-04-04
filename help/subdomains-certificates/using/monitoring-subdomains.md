@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: サブドメインの監視
-description: サブドメインを監視して、Adobe Campaignで機能するようにすべてが正しく設定されていることを確認します。
+description: サブドメインを監視して、Adobe Campaign で機能するようにすべてが正しく設定されていることを確認することが重要です。
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
