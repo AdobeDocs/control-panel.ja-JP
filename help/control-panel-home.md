@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-CampaignCampaign コントロールパネルを使用すると、各 Campaign インスタンスの設定を管理し、使用状況を追跡できるので、Campaign Standardおよび V7/v8 の製品管理者としての作業の効率を向上できます。
+Campaign コントロールパネルを使用すると、各 Campaign インスタンスの設定を管理したり使用状況を追跡したりできるので、 Campaign Standard および V7／v8 の製品管理者としての作業の効率を向上できます。
 
 ## 新機能
 
