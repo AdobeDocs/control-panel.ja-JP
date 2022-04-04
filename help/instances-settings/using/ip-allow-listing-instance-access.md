@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->この機能は、Campaign v7/v8 インスタンスでのみ使用できます。
+>この機能は、Campaign v7／v8 のインスタンスでのみ使用できます。
 
 デフォルトでは、様々な IP アドレスから Adobe Campaign インスタンスへはアクセスできません。
 
@@ -55,7 +55,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
 >[!NOTE]
 >
->この **[!UICONTROL インスタンス設定]** カードがCampaign コントロールパネルのホームページに表示されないので、お使いの IMS 組織 ID はAdobe Campaign v7/v8 インスタンスに関連付けられていません。
+>**[!UICONTROL インスタンスの設定]**&#x200B;カードがコントロールパネルのホームページに表示されない場合、IMS 組織 ID は、Adobe Campaign v7／v8 インスタンスに関連付けられていません。
 
 許可リストに IP アドレスを追加するには、次の手順に従います。
 
