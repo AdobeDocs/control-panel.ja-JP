@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 74%
 >title="スループットと待ち時間の監視について "
 >abstract="このタブでは、インスタンスでの配信スループットと待ち時間の一定期間にわたるトレンドを監視できます。"
 
-Campaign コントロールパネルでは、各インスタンスの配信スループットと待ち時間を監視できます。
+コントロールパネルでは、各インスタンスの配信スループットと待ち時間を監視できます。
 
 >[!IMPORTANT]
 >
->この機能は、すべてのCampaign Standardおよび v8 のお客様と、Campaign V7 のお客様 ( ビルド番号が 9032、9330、9346 または 9349 の、 [スタンドアロン](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) デプロイメント（mid インスタンスを除く）。
+>この機能は、すべての Campaign Standard および v8 のお客様と、ビルド番号 9032、9330、9346、または 9349 で[スタンドアロン](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=ja)デプロイメント（ミッドインスタンスなし）の Campaign V7 のお客様が利用できます。
 
 インスタンスの使用状況を把握し、良好なパフォーマンスを確保するには、一定期間にわたって配信スループットと待ち時間のトレンドを監視することが不可欠です。
 
@@ -35,7 +35,7 @@ Campaign コントロールパネルでは、各インスタンスの配信ス�
 
    >[!NOTE]
    >
-   >Campaign v7/v8 の場合、表示されるスループット数は、MID（ミッドソーシング）インスタンスから達成されたスループットです。 スタンドアロンマーケティング (MKT) デプロイメント（MID インスタンスを使用しない）の場合、代わりに MKT インスタンスからのスループットが表示されます。
+   >Campaign v7／v8 の場合、表示されるスループット数は、MID（ミッドソーシング）インスタンスから達成されたスループットです。スタンドアロンマーケティング（MKT）デプロイメント（MID インスタンスなし）では、代わりに MKT インスタンスからのスループットが表示されます。
 
 * **[!UICONTROL 待ち時間]**&#x200B;領域には、リアルタイムトランザクション通信の送信時に、選択したインスタンスで発生した待ち時間に関する情報が表示されます。待ち時間は 95 と 99 のパーセンタイルでキャプチャおよび視覚化されます。つまり、リクエストの 95％と 99％は、指定された待ち時間よりも高速である必要があります。
 
