@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 このトピックについて詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
-**Campaign v7/v8:**
+**Campaign v7/v8：**
 
 * [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja)
 * [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-encrypt)
@@ -138,14 +138,14 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
-**Campaign v7 および v8:**
+**Campaign v7 および v8：**
 
 * [処理前のファイルの解凍と復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja#use-case-gpg-decrypt)
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-decrypt)
 
 ## GPG キーの監視
@@ -186,6 +186,6 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 次のビデオでは、データ暗号化用の GPG キーを生成してインストールする方法を説明します。
 
-GPG キー管理に関する追加のハウツービデオを、  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) および [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) チュートリアルページ
+GPG キー管理に関する追加のハウツービデオが [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
