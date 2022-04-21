@@ -6,10 +6,10 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
 + パフォーマンス監視 {#performance-monitoring}
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
-   + データベース監視{#database-monitoring}
+   + データベース監視 {#database-monitoring}
       + [データベース監視について](performance-monitoring/using/database-monitoring.md)
       + [データベース使用率](performance-monitoring/using/database-utilization.md)
       + [ストレージの概要](performance-monitoring/using/database-storage-overview.md)
@@ -55,4 +55,5 @@ ht-degree: 100%
    + [URL 権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
    + [GPG キーの管理](instances-settings/using/gpg-keys-management.md)
++ [インスタンスの主な連絡先とイベントを特定する](service-events/service-events.md)
 + [FAQ](faq.md)
