@@ -6,10 +6,10 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
    + [コントロールパネルのインターフェイスの概要](discover/using/discovering-the-interface.md)
++ [主要な連絡先とイベントの監視](service-events/service-events.md)
 + SFTP の管理 {#sftp-management}
    + [SFTP の管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージの管理](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [URL 権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
    + [GPG キーの管理](instances-settings/using/gpg-keys-management.md)
-+ [インスタンスの主な連絡先とイベントを特定する](service-events/service-events.md)
 + [FAQ](faq.md)
