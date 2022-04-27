@@ -5,9 +5,9 @@ title: コントロールパネルのリリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 96%
 <table>
 <thead>
 <tr>
-<th><strong>インスタンス上の主要な連絡先とイベントの監視</strong><br/></th>
+<th><strong>インスタンスの主要連絡先とイベントの監視</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>インスタンスで発生する過去および今後のリリースやサービスレビューを監視できるようになりました。また、リクエストや問題に関しては、Adobe時に主要連絡先のリストにアクセスできます。</p><p>詳しくは、<a href="service-events/service-events.md">詳細なドキュメント</a>を参照してください。</p>
+<p>使用しているインスタンス上での過去および今後のリリースやサービスレビューを監視できるようになりました。また、あらゆるリクエストや問題に関するアドビの主要連絡先の一覧にアクセスできるようになりました。</p><p>詳しくは、<a href="service-events/service-events.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
