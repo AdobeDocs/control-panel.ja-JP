@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
    + [コントロールパネルのインターフェイスの概要](discover/using/discovering-the-interface.md)
-+ [主要な連絡先とイベントの監視](service-events/service-events.md)
++ [主要連絡先とイベントの監視](service-events/service-events.md)
 + SFTP の管理 {#sftp-management}
    + [SFTP の管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージの管理](sftp/using/sftp-storage-management.md)
@@ -40,7 +40,7 @@ ht-degree: 95%
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
 + パフォーマンス監視 {#performance-monitoring}
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
-   + データベース監視 {#database-monitoring}
+   + データベース監視{#database-monitoring}
       + [データベース監視について](performance-monitoring/using/database-monitoring.md)
       + [データベース使用率](performance-monitoring/using/database-utilization.md)
       + [ストレージの概要](performance-monitoring/using/database-storage-overview.md)
