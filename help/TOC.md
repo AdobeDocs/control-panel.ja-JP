@@ -6,10 +6,10 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: d99076ab844c348dbca2ae2ca2f3dc83da29406e
+source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 96%
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,4 @@ ht-degree: 96%
    + [URL 権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
    + [GPG キーの管理](instances-settings/using/gpg-keys-management.md)
-   + [MID/RT インスタンスの接続](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)
