@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
+* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-decrypt)
 
 ## GPG キーの監視

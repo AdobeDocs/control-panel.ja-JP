@@ -5,7 +5,7 @@ title: コントロールパネルのリリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 100%
 

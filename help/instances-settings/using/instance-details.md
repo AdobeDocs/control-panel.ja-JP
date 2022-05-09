@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問 {#common-questions}
 
