@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    >[!NOTE]
    >
-   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの 組織 ID は Adobe Campaign のインスタンスに関連付けられていません。
+   >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合、お使いの IMS 組織 ID は Adobe Campaign のインスタンスに関連付けられていません。
    >
    >「<b><span class="uicontrol">URL 権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 

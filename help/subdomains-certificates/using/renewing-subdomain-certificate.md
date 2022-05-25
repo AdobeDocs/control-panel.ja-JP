@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->コントロールパネルからサブドメインを設定できる機能はベータ版であり、予告なく頻繁に更新や変更を行われる可能性があります。
+>Campaign コントロールパネルからの SSL 証明書の更新は、ベータ版で利用でき、予告なく頻繁に更新および変更される可能性があります。
+>
+>ハイブリッドホスティングモデルでインスタンスを使用している場合は、デリゲートされたサブドメインに関連付けられた証明書のみを表示できます。 SSL 証明書を更新できなくなります。
 
 SSL 証明書の更新プロセスには、以下の 3 ステップがあります。
 

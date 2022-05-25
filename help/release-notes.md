@@ -4,10 +4,10 @@ solution: Campaign
 title: コントロールパネルのリリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,39 @@ ht-degree: 100%
 >コントロールパネルは、管理者ユーザーからのみアクセスできます。権限について詳しくは、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
 >Campaign v7 の場合は、インスタンスを Amazon Web Services（AWS）でホストし、最新の [Campaign 安定ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)（またはビルド 9032 以降）にアップグレードする必要があります。バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](faq.md#hosted-aws)に記載されている手順に従います。
+
+## 2022年5月 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>ハイブリッドホスティングモデルでのコントロールパネルの利用</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign コントロールパネルは、ハイブリッドホスティングモデルのお客様が利用できるようになりました。 これらの顧客は、Campaign コントロールパネルの機能を活用して、Campaign コントロールパネルでマーケティングインスタンスに設定した MID/RT インスタンス URL を指定できます。</p><p>詳しくは、<a href="instances-settings/using/external-accounts.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>スループットと待ち時間の監視の更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>スループットと待ち時間の監視機能が強化されました。<ul><li>インスタンスのスループットに貢献している上位 5 件の配信の ID を特定できるようになりました。</li><li>Campaign Classicv7/v8 のお客様は、特定のチャネルの待ち時間を視覚化できるようになりました。</p></li><p>詳しくは、<a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2022年4月 {#april-2022}
 
