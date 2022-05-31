@@ -5,9 +5,9 @@ title: コントロールパネルのリリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1174'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Campaign コントロールパネルは、ハイブリッドホスティングモデルのお客様が利用できるようになりました。 これらの顧客は、Campaign コントロールパネルの機能を活用して、Campaign コントロールパネルでマーケティングインスタンスに設定した MID/RT インスタンス URL を指定できます。</p><p>詳しくは、<a href="instances-settings/using/external-accounts.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ハイブリッドホスティングモデルを使用しているお客様が、コントロールパネルを利用できるようになりました。これらのお客様は、コントロールパネルでマーケティングインスタンスに設定した MID／RT インスタンス URL を指定することで、コントロールパネルの機能を活用できます。</p><p>詳しくは、<a href="instances-settings/using/external-accounts.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +47,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>スループットと待ち時間の監視機能が強化されました。<ul><li>インスタンスのスループットに貢献している上位 5 件の配信の ID を特定できるようになりました。</li><li>Campaign Classicv7/v8 のお客様は、特定のチャネルの待ち時間を視覚化できるようになりました。</p></li><p>詳しくは、<a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
+<p>スループットと待ち時間の監視機能が強化されました。<ul><li>インスタンスのスループットに関与する上位 5 件の配信 ID を特定できるようになりました。</li><li>Campaign Classic v7／v8 のお客様は、特定のチャネルの待ち時間を視覚化できるようになりました。</p></li><p>詳しくは、<a href="performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
