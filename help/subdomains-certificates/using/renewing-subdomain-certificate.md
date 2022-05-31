@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ SSL 証明書を購入したら、目的のサブドメインにインストー�
 >id="cp_install_ssl_certificate"
 >title="SSL 証明書のインストール"
 >abstract="組織で承認された認証局から購入した SSL 証明書をインストールします。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディングについて"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="サブドメインのブランディングについて"
 
 SSL 証明書を購入したら、インスタンスにインストールできます。先に進む前に、次の前提条件を必ず確認してください。
 
