@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 2458263ef5981a16d983912b498e320501df7889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '858'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 >
 >この機能は、Campaign v7／v8 のインスタンスでのみ使用できます。
 >
->ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で追加できるのは IP アドレスのみです。
+>ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で IP アドレスのみ追加できます。
 
 デフォルトでは、様々な IP アドレスから Adobe Campaign インスタンスへはアクセスできません。
 
@@ -93,7 +93,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
       >[!NOTE]
       >
-      >ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で追加できるのは IP アドレスのみです。
+      >ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で IP アドレスのみ追加できます。
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックします。IP 範囲が許可リストに追加されます。
