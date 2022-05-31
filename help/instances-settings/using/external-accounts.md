@@ -1,54 +1,54 @@
 ---
 product: campaign
 solution: Campaign
-title: MID/RT インスタンスの追加（ハイブリッドモデル）
-description: ハイブリッドホスティングモデルで MID/RT インスタンスをCampaign コントロールパネルに追加する方法を説明します。
+title: MID／RT インスタンスの追加（ハイブリッドモデル）
+description: ハイブリッドホスティングモデルの使用時に MID／RT インスタンスをコントロールパネルに追加する方法を説明します。
 feature: Control Panel
 role: Architect
 level: Intermediate
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
-workflow-type: tm+mt
+exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
+source-git-commit: d441c69879da6db963886402ce2d1b9e47b8e5bf
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-
-# MID/RT インスタンスの追加（ハイブリッドモデル）
+# MID／RT インスタンスの追加（ハイブリッドモデル）
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts"
 >title="外部アカウント"
->abstract="この画面では、ハイブリッドホスティングモデルを使用するお客様は、Campaign コントロールパネル機能を活用するために、Campaign コントロールパネルのマーケティングインスタンスで設定された MID/RT インスタンス URL を指定できます。"
+>abstract="この画面で、ハイブリッドホスティングモデルを使用するお客様は、コントロールパネル機能を活用するために、コントロールパネルのマーケティングインスタンスで設定された MID／RT インスタンス URL を指定できます。"
 
-Campaign コントロールパネルを使用すると、ハイブリッドホスティングモデルを使用して、特定のCampaign コントロールパネル機能を利用できます。 これをおこなうには、Campaign コントロールパネルでマーケティングインスタンスに設定した MID/RT インスタンス URL を指定する必要があります。
+コントロールパネルでは、ハイブリッドホスティングモデルを使用するお客様は、特定のコントロールパネル機能を利用できます。これを行うには、コントロールパネルでマーケティングインスタンスに設定した MID／RT インスタンス URL を指定する必要があります。
 
 モデルのホスティングについて詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja)を参照してください。
 
-## MID/RT インスタンスを追加 {#add}
+## MID／RT インスタンスの追加 {#add}
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_url"
 >title="URL"
->abstract="インスタンスの URL。Campaign クライアントコンソールの管理/プラットフォーム/外部アカウントメニューにあります。"
+>abstract="インスタンスの URLは、Campaign クライアントコンソールの管理／プラットフォーム／外部アカウントメニューにあります。"
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_operator"
 >title="演算子"
->abstract="Adobe管理者による最初のプロビジョニング後に提供されたオペレーターの ID。"
+>abstract="アドビ管理者によって初期プロビジョニング後に提供されたオペレーターの ID。"
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_password"
 >title="パスワード"
->abstract="Adobe管理者による最初のプロビジョニング後に指定されたオペレーターのパスワード。"
+>abstract="アドビ管理者によって初期プロビジョニング後に提供されたオペレーターのパスワード。"
 
-ハイブリッド顧客は、Experience Cloudを通じてCampaign コントロールパネルに接続する必要があります。 初めてコントロールパネルにアクセスする場合、ホームページには 2 枚のカードのみが表示されます。
+ハイブリッドのお客様は、Experience Cloud を通じてコントロールパネルに接続する必要があります。初めてコントロールパネルにアクセスする場合、ホームページには 2 枚のカードのみが表示されます。
 
 ![](assets/hybrid-homepage.png)
 
 >[!NOTE]
 >
->コントロールパネルにアクセスする際に問題が発生した場合は、マーケティングインスタンスがまだ組織 ID にマッピングされていない可能性が高くなります。 詳しくは、カスタマーケアにお問い合わせいただき、この設定を完了してください。 接続に成功すると、Campaign コントロールパネルのホームページが表示されます。
+>コントロールパネルにアクセスする際に問題が発生した場合は、マーケティングインスタンスがまだ組織 ID にマッピングされていない可能性があります。 この設定を完了して先に進むには、カスタマーケアにお問い合わせください。接続に成功すると、コントロールパネルのホームページが表示されます。
 
 コントロールパネルの機能を利用するには、MID／RT インスタンス情報を&#x200B;**[!UICONTROL インスタンス設定]**&#x200B;カードで指定する必要があります。それには、次の手順に従います。
 
@@ -58,11 +58,11 @@ Campaign コントロールパネルを使用すると、ハイブリッドホ�
 
    ![](assets/external-account-addbutton.png)
 
-1. 追加する MID/RT インスタンスに関する情報を提供します。
+1. 追加する MID／RT インスタンスに関する情報を指定します。
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**:インスタンスの URL。Campaign クライアントコンソールの **[!UICONTROL 管理]** > **[!UICONTROL Platform]** > **[!UICONTROL 外部アカウント]** メニュー
+   * **[!UICONTROL URL]**：インスタンスの URLは、Campaign クライアントコンソールの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;メニューにあります。
 
       ![](assets/external-account-url.png)
 
@@ -74,7 +74,7 @@ Campaign コントロールパネルを使用すると、ハイブリッドホ�
 
 1. 「**[!UICONTROL 保存]**」をクリックして確定します。
 
-MID／RT URL を追加する際は、非同期プロセスがトリガーされて、URL が正確かどうかが検証されます。この処理には数分かかる場合があります。 MID/RT インスタンス URL が検証されるまで、ジョブは保留中になります。 検証が完了した場合にのみ、コントロールパネルの主な機能を利用できます。
+MID／RT URL を追加する際は、非同期プロセスがトリガーされて、URL が正確かどうかが検証されます。この処理には、数分かかる場合があります。MID／RT インスタンス URL が検証されるまで、ジョブは保留になります。検証が完了した場合にのみ、コントロールパネルの主な機能を利用できます。
 
 ![](assets/external-account-pending.png)
 
@@ -82,13 +82,13 @@ MID／RT URL を追加する際は、非同期プロセスがトリガーされ�
 
 ![](assets/external-account-edit.png)
 
-なお、 **[!UICONTROL 外部アカウント]** MID/RT インスタンス URL の「 」タブを **[!UICONTROL ジョブのログ]**:
+なお、MID／RT インスタンス URL の「**[!UICONTROL 外部アカウント]**」タブで実行されるアクションはすべて&#x200B;**[!UICONTROL ジョブのログ]**&#x200B;で監視できます。
 
 ![](assets/external-account-logs.png)
 
-## ハイブリッド顧客に使用できる機能 {#capabilities}
+## ハイブリッドのお客様が使用できる機能 {#capabilities}
 
-MID/RT インスタンスをCampaign コントロールパネルに追加すると、以下に示す機能を利用できます。
+MID／RT インスタンスがコントロールパネルに追加されると、以下の機能を利用できます。
 
 * [主要連絡先とイベントの監視](../../service-events/service-events.md)
 * [インスタンスの詳細の表示](../../instances-settings/using/instance-details.md)、
