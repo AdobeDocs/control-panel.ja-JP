@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 95%
    + [URL 権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
    + [GPG キーの管理](instances-settings/using/gpg-keys-management.md)
-   + [MID/RT インスタンスの追加（ハイブリッドモデル）](instances-settings/using/external-accounts.md)
+   + [MID／RT インスタンスの追加（ハイブリッドモデル）](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)
