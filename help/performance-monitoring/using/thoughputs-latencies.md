@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
+source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この機能は、すべての Campaign Standard および v8 のお客様と、ビルド番号 9032、9330、9346、または 9349 で[スタンドアロン](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=ja)デプロイメント（ミッドインスタンスなし）の Campaign V7 のお客様が利用できます。
+>この機能は、すべてのCampaign Standard、v8 のお客様、およびビルド番号が 9032 以降の Campaign v7 のお客様が使用できます ( [スタンドアロンデプロイメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=ja) （mid インスタンスを除く）。
 
 インスタンスの使用状況を把握し、良好なパフォーマンスを確保するには、一定期間にわたって配信スループットと待ち時間のトレンドを監視することが不可欠です。
 
