@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign コントロールパネルを使用すると、各 Campaign インス�
 
 **スループットと待ち時間の監視の更新**
 
-スループットと待ち時間の監視機能が強化されました。 [詳細情報](performance-monitoring/using/thoughputs-latencies.md)
+スループットと待ち時間の監視機能が強化されました。[詳細情報](performance-monitoring/using/thoughputs-latencies.md)
 
 * インスタンスのスループットに関与する上位 5 件の配信 ID を特定できるようになりました。
 * Campaign Classic v7／v8 のお客様は、特定のチャネルの待ち時間を視覚化できるようになりました。
