@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '1216'
+ht-degree: 99%
 
 ---
 
@@ -41,6 +41,10 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 コントロールパネルでは、Adobe Campaign インスタンスから送信されるデータを暗号化できます。
 
 これをおこなうには、PGP 暗号化ツールから GPG キーペアを生成し、公開鍵をコントロールパネルにインストールする必要があります。その後、インスタンスからデータを送信する前に、データを暗号化できます。それには、次の手順に従います。
+
+>[!NOTE]
+>
+>最大 60 個の GPG キーをCampaign コントロールパネルでインストールできます。
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="ストレージ容量について"
->abstract="このタブでは、SFTP サーバーのストレージ容量および使用状況情報を表示できます。アクセス権のある SFTP サーバーのみがここに表示されます。他の SFTP サーバーへのアクセス権をリクエストするには、管理者にお問い合わせください。"
+>abstract="このタブでは、SFTP サーバーのストレージ容量および使用状況情報を表示できます。また、SFTP サーバー上で最も容量を消費している上位 10 個のファイルの名前をクリックして、そのファイルのリストを表示できます。 アクセス権のある SFTP サーバーのみがここに表示されます。他の SFTP サーバーへのアクセス権をリクエストするには、管理者にお問い合わせください。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 契約条項によっては、異なるストレージ容量を SFTP サーバーでプロビジョニングしている可能性があります。
@@ -38,6 +38,10 @@ ht-degree: 100%
 
 * **オレンジ**：インスタンスが容量の 80％を超えています。
 * **赤**：インスタンスが容量の 90％を超えています。
+
+また、SFTP サーバー上で最も容量を消費している上位 10 個のファイルを、その名前をクリックすることで識別できます。
+
+![](assets/sftp-top10.png)
 
 ストレージが容量上限に近づいた場合の処理方法に関する役立つヒントも表示されます。
 
