@@ -2,7 +2,7 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 73%
@@ -42,7 +42,7 @@ ht-degree: 73%
 <tbody>
 <tr>
 <td>
-<p>サービスカレンダーで、インスタンスでイベントが発生する前に E メールで通知を受け取るようにリマインダーを設定できるようになりました。 <a href="../instances-settings/using/external-accounts.md">詳細情報</a></p>
+<p>サービスカレンダーで、インスタンスでイベントが発生する前に E メールで通知を受け取るようにリマインダーを設定できるようになりました。 <a href="../service-events/service-events.md">詳細情報</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>

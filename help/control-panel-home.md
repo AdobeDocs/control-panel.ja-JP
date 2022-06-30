@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ SFTP サーバー上で最も容量を消費している上位 10 個のファ�
 
 **サービスカレンダーのリマインダー**
 
-サービスカレンダーで、インスタンスでイベントが発生する前に E メールで通知を受け取るようにリマインダーを設定できるようになりました。 [詳細情報](instances-settings/using/external-accounts.md)
+サービスカレンダーで、インスタンスでイベントが発生する前に E メールで通知を受け取るようにリマインダーを設定できるようになりました。 [詳細情報](service-events/service-events.md)
 
 **サブドメインの CSR 生成の強化**
 
