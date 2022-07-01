@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign では、インスタンスに関する問題を回避するた�
 
 ## **[!UICONTROL SQL ログを表示]** {#sql}
 
-このオプションを有効にすると、ワークフローの実行中にデータベースに送信された SQL クエリが Adobe Campaign に表示されます。詳しくは、[Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#execution) ドキュメントを参照してください。
+このオプションを有効にすると、ワークフローの実行中にデータベースに送信された SQL クエリが Adobe Campaign に表示されます。詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#execution) ドキュメントを参照してください。
 
 値「1」は、ワークフローで&#x200B;**重要度**&#x200B;フィールドが「実稼動」に設定され、SQL クエリログオプションが有効になっていることを示しています。
 
@@ -72,7 +72,7 @@ Adobe Campaign では、インスタンスに関する問題を回避するた�
 
 ## **[!UICONTROL スーパーバイザー]** {#supervisors}
 
-このフィールドを使用して、オペレーターをワークフローに割り当てることができます。 ワークフローが失敗した場合、関連するオペレーターに警告が表示されます。 詳しくは、[Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=ja#error-management) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#error-management) ドキュメントを参照してください。
+このフィールドを使用して、オペレーターをワークフローに割り当てることができます。 ワークフローが失敗した場合、関連するオペレーターに警告が表示されます。 詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#error-management) ドキュメントを参照してください。
 
 値「1」は、ワークフローで&#x200B;**重要度**&#x200B;フィールドが「実稼動」に設定され、スーパーバイザーグループがワークフローに割り当てられていない状態を示します。
 
