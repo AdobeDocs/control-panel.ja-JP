@@ -6,9 +6,9 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 73%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 73%
 + リリースノート {#release-notes}
    + [最新リリース](rn/release-notes.md)
    + 以前のリリース {#previous-releases}
+      + [リリースノート 2022](rn/release-notes-2022.md)
       + [リリースノート 2021](rn/release-notes-2021.md)
       + [リリースノート 2020](rn/release-notes-2020.md)
-      + [リリースノート 20219](rn/release-notes-2019.md)
+      + [リリースノート 2019](rn/release-notes-2019.md)
 + コントロールパネルの概要 {#discover-control-panel}
    + [主な機能](discover/using/key-features.md)
    + [コントロールパネルにアクセス](discover/using/accessing-control-panel.md)
