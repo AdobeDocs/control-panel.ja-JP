@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -27,26 +27,26 @@ ht-degree: 62%
 >
 >ベータ版ではコントロールパネルから SSL 証明書を更新できますが、この機能は、通知なしに頻繁に更新および変更される可能性があります。
 >
->ハイブリッドホスティングモデルでインスタンスを使用している場合は、デリゲートされたサブドメインに関連付けられた証明書のみが表示され、更新できません。
+>ハイブリッドホスティングモデルでインスタンスを使用している場合、デリゲートされたサブドメインに関連付けられている証明書は表示のみ可能で、更新はできません。
 
-SSL 証明書の更新プロセスには、以下の 3 ステップがあります。
+SSL 証明書の更新プロセスは、次の 3 ステップで構成されます。
 
-1. **証明書署名要求 (CSR) の生成**
+1. **証明書署名要求（CSR）の生成**
 
-   証明書署名要求は、証明書を購入する前に、保護する予定のインスタンスおよびサブドメイン用に生成する必要があります。CSR を生成するために必要な情報（共通名、組織名および住所など）を提供する必要があります。[詳細情報](generate-csr.md)
+   証明書署名要求は、証明書を購入する前に、保護する予定のインスタンスおよびサブドメイン用に生成する必要があります。CSR の生成に必要な情報（共通名、組織名、住所など）を提供する必要があります。[詳細情報](generate-csr.md)
 
 1. **SSL 証明書の購入**
 
-   CSR が生成されたら、それを使用して、会社が承認する認証局から SSL 証明書を購入できます。
+   CSR が生成されたら、それを使用して、会社が承認した認証局から SSL 証明書を購入できます。
 
 1. **SSL 証明書のインストール**
 
-   購入した SSL 証明書を目的のサブドメインにインストールして、保護します。 [詳細情報](install-ssl-certificate.md)
+   購入した SSL 証明書を目的のサブドメインにインストールして、サブドメインを保護します。 [詳細情報](install-ssl-certificate.md)
 
-![](assets/do-not-localize/how-to-video.png)[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#subdomains-and-certificates) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#adding-ssl-certificates) を使用して、ビデオでこの機能を確認
+![](assets/do-not-localize/how-to-video.png) この機能をビデオで確認（[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#subdomains-and-certificates) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ja#adding-ssl-certificates) を使用）
 
 **関連トピック：**
 
-* [配信品質のベストプラクティスガイド — Adobe Campaignの SSL 証明書リクエストプロセス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [配信品質のベストプラクティスガイド - Adobe Campaign の SSL 証明書リクエストプロセス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=ja)
 * [サブドメインのブランディング](../../subdomains-certificates/using/subdomains-branding.md)
 * [サブドメインの監視](../../subdomains-certificates/using/monitoring-subdomains.md)
