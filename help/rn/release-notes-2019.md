@@ -1,10 +1,10 @@
 ---
 title: リリースノート 2019
-description: このページでは、2019 年のすべてのリリースのCampaign コントロールパネルを示します。
+description: このページでは、コントロールパネルの 2019年リリースをすべて掲載しています。
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
