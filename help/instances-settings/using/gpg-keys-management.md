@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1216'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 >[!NOTE]
 >
->最大 60 個の GPG キーをCampaign コントロールパネルでインストールできます。
+>コントロールパネルでは最大 60 個の GPG キーをインストールできます。
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
@@ -149,7 +149,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-decrypt)
 
 ## GPG キーの監視
