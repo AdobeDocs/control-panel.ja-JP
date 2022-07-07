@@ -7,13 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: b31853a861aad7beb5b639f0fa22e821e8e25e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# CSR を生成 {#generating-csr}
+# CSR の生成 {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
@@ -26,7 +26,7 @@ ht-degree: 59%
 >abstract="証明書署名要求に、すべてのサブドメインまたは特定のサブドメインのみを含めるよう選択できます。選択したサブドメインのみが、購入した SSL 証明書を通じて認証されます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja" text="サブドメインのブランディングについて"
 
-## CSR を生成 {#generate}
+## CSR の生成 {#generate}
 
 証明書署名要求（CSR）を生成するには、次の手順に従います。
 
@@ -45,7 +45,7 @@ ht-degree: 59%
    * **[!UICONTROL 組織]**：正式な組織名。
    * **[!UICONTROL 組織単位]**：サブドメインにリンクされた単位（例：マーケティング、IT）。
    * **[!UICONTROL インスタンス]**（事前入力済み）：サブドメインに関連付けられた Campaign インスタンスの URL。
-   * **[!UICONTROL 共通名]**:デフォルトでは「共通名」が選択されています。必要に応じて、いずれかのサブドメインを選択できます。
+   * **[!UICONTROL 共通名]**：デフォルトでは共通名が選択されています。必要に応じて、いずれかのサブドメインを選択できます。
 
    ![](assets/renewal3.png)
 
@@ -63,22 +63,22 @@ ht-degree: 59%
 
    >[!NOTE]
    >
-   >この **[!UICONTROL CSR コンテンツをコピー]** 「 」ボタンを使用すると、CSR に関連するすべての情報（組織 ID、インスタンス、組織名、共通名、含まれるサブドメインなど）を
+   >「**[!UICONTROL CSR コンテンツをコピー]**」ボタンを使用すると、CSR に関連するすべての情報（組織 ID、インスタンス、組織名、共通名、含まれるサブドメインなど）をコピーできます。
 
-1. 選択項目に対応する .csr ファイルが自動的に生成され、ダウンロードされます。これで、会社が承認した認証局から SSL 証明書を購入するために使用できます。CSR を再度ダウンロードする必要がある場合は、 [この節](#download).
+1. 選択した項目に対応する .csr ファイルが自動的に生成され、ダウンロードされます。これを使用して、会社が承認した認証局から SSL 証明書を購入できるようになりました。CSR を再度ダウンロードする必要がある場合は、[この節](#download)で説明している手順に従ってください。
 
-CSR が生成され、ダウンロードされたら、それを使用して、組織が承認した認証局から SSL 証明書を購入できます。
+CSR が生成されてダウンロードされたら、それを使用して、組織が承認した認証局から SSL 証明書を購入できます。
 
-SSL 証明書を購入したら、インスタンスにインストールして、サブドメインを保護できます。 [詳細情報](install-ssl-certificate.md)
+SSL 証明書を購入したら、それをインスタンスにインストールして、サブドメインを保護できます。[詳細情報](install-ssl-certificate.md)
 
 ## CSR のダウンロード {#download}
 
-SSL 証明書を購入するには、まず証明書署名要求をダウンロードする必要があります。 CSR は、生成後、自動的にダウンロードされます。 また、ジョブのログからいつでも再度ダウンロードできます。
+SSL 証明書を購入するには、まず証明書署名要求をダウンロードする必要があります。CSR は、生成されると自動的にダウンロードされます。また、ジョブのログからいつでも再度ダウンロードできます。
 
-1. 内 **[!UICONTROL ジョブのログ]**&#x200B;を選択し、 **[!UICONTROL 完了]** 」タブをクリックし、リストをフィルターして、サブドメイン管理に関連するジョブを表示します。
+1. 「**[!UICONTROL ジョブのログ]**」で「**[!UICONTROL 完了]** 」タブを選択し、リストをフィルタリングして、サブドメイン管理に関連するジョブを表示します。
 
    ![](assets/renewal-download.png)
 
-1. CSR の生成に対応するジョブを開き、 **[!UICONTROL ダウンロード]** .csr ファイルを取得するためのリンク。
+1. CSR の生成に対応するジョブを開き、「**[!UICONTROL ダウンロード]**」リンクをクリックして .csr ファイルを取得します。
 
    ![](assets/renewal-download-button.png)
