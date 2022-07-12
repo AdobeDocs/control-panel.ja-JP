@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: d441c69879da6db963886402ce2d1b9e47b8e5bf
+source-git-commit: 409a7b4e25186e0b0984f6c7b63ca72c02c92bb0
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 99%
 
 ---
 
@@ -94,4 +94,4 @@ MID／RT インスタンスがコントロールパネルに追加されると�
 * [インスタンスの詳細の表示](../../instances-settings/using/instance-details.md)、
 * [許可リストへの IP アドレスの追加](../../instances-settings/using/ip-allow-listing-instance-access.md) （RT インスタンスの場合）、
 * [デリゲートされたサブドメインに関する情報の表示](../../subdomains-certificates/using/monitoring-subdomains.md)、
-* [SSL 証明書に関する情報の表示](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+* [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
