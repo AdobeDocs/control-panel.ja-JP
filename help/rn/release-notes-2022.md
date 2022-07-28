@@ -1,14 +1,71 @@
 ---
 title: リリースノート 2022
-description: このページでは、2022 年のすべてのリリースのCampaign コントロールパネルを示します。
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: このページでは、コントロールパネルの 2022年リリースをすべて掲載しています。
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 97%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # リリースノート 2021 {#rn-2022}
+
+## 2022年6月 {#june-2022}
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+<th><strong>SFTP サーバーの容量を消費している上位 10 個のファイル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>SFTP サーバー上で最も容量を消費している上位 10 個のファイルを特定できるようになりました。 <a href="../sftp/using/sftp-storage-management.md">詳細情報</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>サービスカレンダーのリマインダー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>サービスカレンダーで、インスタンスでイベントが発生する前にメールで通知を受け取れるよう、リマインダーを設定できるようになりました。<a href="../service-events/service-events.md">詳細情報</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>サブドメインの CSR 生成の機能強化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CSR 生成プロセスのいくつかの機能が強化されました。 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">詳細情報</a></p><ul><li>CSR を生成する際に、含まれるサブドメインの 1 つを共通名として選択できるようになりました。</li><li>これで、CSR を生成する前に CSR の概要をコピーできます。</li><li>CSR が生成されたら、ジョブのログから再度ダウンロードできます。この機能は、このリリースより前に生成された証明書には適用されません。</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善点
+
+**インスタンス設定**
+
+* コントロールパネルの GPG キーの最大数が 60 個に増えました。 [詳細情報](../instances-settings/using/gpg-keys-management.md)
 
 ## 2022年5月 {#may-2022}
 
