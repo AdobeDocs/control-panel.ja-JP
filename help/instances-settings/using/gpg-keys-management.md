@@ -7,8 +7,8 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
-workflow-type: ht
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 1. プロンプトが表示されたら、キーに対して目的のパラメーターを指定します。次に必要なパラメーターを示します。
 
    * **key type**（キーのタイプ）：RSA
-   * **key length**（キーの長さ）：1024 ～ 4096 ビット
+   * **key length**（キーの長さ）：3072 ～ 4096 ビット
    * **real name**（実名）および **email address**（E メールアドレス）：キーペアの作成者をトラッキングできます。組織または部門にリンクされた名前および E メールアドレスを入力します。
    * **comment**：コメントフィールドにラベルを追加すると、データの暗号化に使用するキーを容易に識別できます。
    * **expiration**（有効期限）：日付。有効期限なしの場合は「0」。
@@ -149,7 +149,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 **Campaign Standard：**
 
-* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
+* [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-decrypt)
 
 ## GPG キーの監視
