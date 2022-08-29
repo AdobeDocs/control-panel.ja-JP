@@ -2,14 +2,31 @@
 title: リリースノート 2022
 description: このページでは、コントロールパネルの 2022年リリースをすべて掲載しています。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# リリースノート 2021 {#rn-2022}
+# リリースノート 2022 {#rn-2022}
+
+## 2022年7月 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>ハイブリッドホスティングモデルにおけるサブドメインの証明書のインストール</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>ハイブリッドホスティングモデルを使用しているお客様は、サブドメインの SSL 証明書をコントロールパネルから更新できるようになりました。</p><p>詳しくは、<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2022年6月 {#june-2022}
 
