@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '378'
 ht-degree: 100%
 
 ---
@@ -53,10 +53,6 @@ Adobe Campaign では、ランディングページ（特に、顧客の機密�
 ![](assets/subdomain_details.png)
 
 サブドメインの SSL 証明書の 1 つに期限切れが近づいている場合、コントロールパネルから直接更新できます。詳しくは、[サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)を参照してください。
-
->[!IMPORTANT]
->
->コントロールパネルから使用できる証明書の更新は、ベータ版です。通知なしに頻繁に更新および変更される可能性があります。
 
 **関連トピック：**
 

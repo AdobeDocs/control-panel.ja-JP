@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,6 @@ ht-degree: 100%
 >abstract="SSL 証明書を更新するには、CSR を生成し、サブドメインの SSL 証明書を購入して、証明書バンドルをインストールする必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#generating-csr" text="証明書署名リクエスト（CSR）の生成"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#installing-ssl-certificate" text="SSL 証明書のインストール"
-
->[!IMPORTANT]
->
->ベータ版ではコントロールパネルから SSL 証明書を更新できますが、この機能は、通知なしに頻繁に更新および変更される可能性があります。
->
->ハイブリッドホスティングモデルでインスタンスを使用している場合、デリゲートされたサブドメインに関連付けられている証明書は表示のみ可能で、更新はできません。
 
 SSL 証明書の更新プロセスは、次の 3 ステップで構成されます。
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '798'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 100%
 
 ### 誰がコントロールパネルを使用できますか？
 
-コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。ハイブリッド環境はまだサポートされていないことに注意してください。
+コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている現在のお客様の製品管理者のみです。
+
+コントロールパネルでは、ハイブリッドホスティングモデルを使用するお客様は、特定のコントロールパネル機能を利用できます。これを行うには、コントロールパネルでマーケティングインスタンスに設定した MID／RT インスタンス URL を指定する必要があります。[詳細情報](instances-settings/using/external-accounts.md)
 
 管理者でないユーザーがアクセスを希望する場合は、製品の管理者に問い合わせて、管理者として追加してもらう必要があります。
 
