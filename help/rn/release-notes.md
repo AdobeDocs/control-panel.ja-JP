@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8310762a92f5db7fdf85520ce50d4862e7a45ee5
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +13,6 @@ ht-degree: 59%
 
 このページでは、コントロールパネルの新機能と改善点を一覧表示しています。
 
-## 2022年8月 {#august-2022}
+## 2022年9月 {#september-2022}
 
-* ハイブリッドホスティングモデルを使用するお客様は、サブドメインを検証できるようになりました。 [詳細情報](../subdomains-certificates/using/monitoring-subdomains.md)
-* 証明書生成要求 (CSR) の「組織単位 (OU)」フィールドがオプションになりました。 [詳細情報](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+ハイブリッドホスティングモデルを使用するお客様は、新しいサブドメインを設定できるようになりました。 [詳細情報](../subdomains-certificates/using/setting-up-new-subdomain.md)

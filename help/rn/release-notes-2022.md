@@ -2,14 +2,19 @@
 title: リリースノート 2022
 description: このページでは、コントロールパネルの 2022年リリースをすべて掲載しています。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # リリースノート 2022 {#rn-2022}
+
+## 2022年8月 {#august-2022}
+
+* ハイブリッドホスティングモデルを使用するお客様は、サブドメインを検証できるようになりました。 [詳細情報](../subdomains-certificates/using/monitoring-subdomains.md)
+* 証明書生成要求 (CSR) の「組織単位 (OU)」フィールドがオプションになりました。 [詳細情報](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2022年7月 {#july-2022}
 
