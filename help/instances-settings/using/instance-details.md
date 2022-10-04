@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
 
    >[!NOTE]
    >
-   >インスタンスの設定カードがコントロールパネルのホームページに表示されない場合、IMS 組織 ID は、 Adobe Campaign v7／v8 インスタンスに関連付けられていません。
+   >Campaign コントロールパネルのホームページに「インスタンス設定」カードが表示されない場合、組織 ID はAdobe Campaign v7/v8 インスタンスに関連付けられていません。
 
 1. 左側のペインから目的の Campaign インスタンスを選択します。
 

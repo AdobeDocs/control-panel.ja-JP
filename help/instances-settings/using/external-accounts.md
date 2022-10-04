@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->コントロールパネルにアクセスする際に問題が発生した場合は、マーケティングインスタンスがまだ組織 ID にマッピングされていない可能性があります。 この設定を完了して先に進むには、カスタマーケアにお問い合わせください。接続に成功すると、コントロールパネルのホームページが表示されます。
+>コントロールパネルにアクセスする際に問題が発生した場合は、マーケティングインスタンスがまだ [組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja). この設定を完了して先に進むには、カスタマーケアにお問い合わせください。接続に成功すると、コントロールパネルのホームページが表示されます。
 
 コントロールパネルの機能を利用するには、MID／RT インスタンス情報を&#x200B;**[!UICONTROL インスタンス設定]**&#x200B;カードで指定する必要があります。それには、次の手順に従います。
 

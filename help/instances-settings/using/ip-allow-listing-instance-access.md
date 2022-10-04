@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
 >[!NOTE]
 >
->**[!UICONTROL インスタンスの設定]**&#x200B;カードがコントロールパネルのホームページに表示されない場合、IMS 組織 ID は、Adobe Campaign v7／v8 インスタンスに関連付けられていません。
+>この **[!UICONTROL インスタンス設定]** カードはCampaign コントロールパネルのホームページに表示されません。 [組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) は、Adobe Campaign v7/v8 インスタンスに関連付けられていません。
 
 許可リストに IP アドレスを追加するには、次の手順に従います。
 
@@ -94,7 +94,6 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
       >[!NOTE]
       >
       >ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で IP アドレスのみ追加できます。
-
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックします。IP 範囲が許可リストに追加されます。
