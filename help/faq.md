@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -60,18 +60,17 @@ Campaign v7 の場合は、インスタンスを Amazon Web Services（AWS）で
 
 ## 組織 ID {#ims-org-id}
 
-### 組織 ID とは何ですか。
+### 組織 ID とは何ですか？
 
 これは、初めて Adobe Experience Cloud にログインする際にインスタンスに割り当てられる一意の ID です。形式は xxx@AdobeOrg です。
 
 詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
 
-### 組織 ID はどこで入手できますか。
+### 組織 ID はどこにありますか？
 
+ID を見つける方法の 1 つとして、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動します。組織 ID は、「**[!UICONTROL 管理クイックアクセス]**」セクションの下部にあります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)を参照してください。
 
-1 つは、[Adobe Experience Cloud のホーム](https://experiencecloud.adobe.com/)／**[!UICONTROL 管理]**&#x200B;に移動する方法です。組織 ID は管理の下部にあります **[!UICONTROL クイックアクセス]** 」セクションに入力します。 詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)を参照してください。
-
-もう 1 つの方法は、**Admin Console** を起動することです。組織 ID は、URL 内に次のように表示されます。https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+もう 1 つの方法は、**Admin Console** を起動することです。組織 ID は、URL 内に、「https://adminconsole.adobe.com/xxx@AdobeOrg/overview」のような形式で表示されます。
 
 ### 組織 ID を知る必要があるのはなぜですか？
 
@@ -79,13 +78,13 @@ Campaign v7 の場合は、インスタンスを Amazon Web Services（AWS）で
 
 ### 複数の組織 ID がある場合はどうすればよいですか？
 
-複数の組織ソリューションへのアクセス権がある場合、2 つ以上のAdobeID がある可能性があります。 この場合、使用すべき正しい組織 ID は、Adobe Campaignインスタンスの下に表示される ID です。
+複数のアドビソリューションへのアクセス権がある場合、2 つ以上の組織 ID がある可能性があります。この場合、使用すべき正しい組織 ID は、Adobe Campaign インスタンスの下に表示されるものです。
 
 >[!NOTE]
 >
->Adobe CampaignとAdobe Analyticsで同じ組織 ID がある場合、これは望ましい状態です。 Analytics と Campaign の間で 1 つの組織 ID を持つことは、買い物かごの放棄などの複雑な使用例を活用するためにソリューションを統合する予定がある場合の要件です（AA + AC の場合）。
+>Adobe Campaign と Adobe Analytics で同じ組織 ID がある場合、これは望ましい状態です。Analytics と Campaign の間で 1 つの組織 ID を持つことは、買い物かごの放棄などの複雑なユースケースを活用できるようソリューションを統合する予定がある場合の要件です（AA + AC の場合）。
 >
->Adobe CampaignとAdobe Analyticsで異なる組織 ID がある場合、カスタマーケアに問い合わせて、ID を整合させてください。
+>Adobe Campaign と Adobe Analytics で異なる組織 ID がある場合、カスタマーケアに問い合わせ、ID を整合させてください。
 
 ### Adobe Campaign のインスタンスが AWS でホストされているかどうかを知るにはどうすればよいですか？{#hosted-aws}
 
