@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
 
    >[!NOTE]
    >
-   >Campaign コントロールパネルのホームページに「インスタンス設定」カードが表示されない場合、組織 ID はAdobe Campaign v7/v8 インスタンスに関連付けられていません。
+   >インスタンスの設定カードがコントロールパネルのホームページに表示されない場合は、 組織 ID が Adobe Campaign v7/v8 インスタンスに関連付けられていません。
 
 1. 左側のペインから目的の Campaign インスタンスを選択します。
 
@@ -70,7 +70,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問 {#common-questions}
 
