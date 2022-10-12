@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->コントロールパネルにアクセスする際に問題が発生した場合は、マーケティングインスタンスがまだ [組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja). この設定を完了して先に進むには、カスタマーケアにお問い合わせください。接続に成功すると、コントロールパネルのホームページが表示されます。
+>コントロールパネルにアクセスする際に問題が発生した場合は、マーケティングインスタンスがまだ[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) にマッピングされていない可能性があります。 この設定を完了して先に進むには、カスタマーケアにお問い合わせください。接続に成功すると、コントロールパネルのホームページが表示されます。
 
 コントロールパネルの機能を利用するには、MID／RT インスタンス情報を&#x200B;**[!UICONTROL インスタンス設定]**&#x200B;カードで指定する必要があります。それには、次の手順に従います。
 
@@ -93,5 +93,5 @@ MID／RT インスタンスがコントロールパネルに追加されると�
 * [主要連絡先とイベントの監視](../../service-events/service-events.md)
 * [インスタンスの詳細の表示](../../instances-settings/using/instance-details.md)、
 * [許可リストへの IP アドレスの追加](../../instances-settings/using/ip-allow-listing-instance-access.md) （RT インスタンスの場合）、
-* [新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md),
+* [新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md)、
 * [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
