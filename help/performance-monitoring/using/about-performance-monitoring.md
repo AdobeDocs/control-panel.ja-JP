@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: tm+mt
-source-wordcount: '114'
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
+workflow-type: ht
+source-wordcount: '81'
 ht-degree: 100%
 
 ---
@@ -26,4 +26,3 @@ Campaign コントロールパネルホームページの「**[!UICONTROL パフ
 >
 >今後の Campaign コントロールパネルのリリースでは、このカードで追加の監視機能が使用できるようになります。
 
-また、Campaign コントロールパネルでは、新規登録して、いずれかの Campaign インスタンスで問題が検出されるたびに電子メール通知を受け取ることができます。詳しくは、[この節](../../performance-monitoring/using/email-alerting.md)を参照してください。
