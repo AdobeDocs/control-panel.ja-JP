@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
-source-wordcount: '195'
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+workflow-type: ht
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,3 @@ Campaign Standard および Campaign Classic では、様々な方法でデー�
 * [データベースパフォーマンスのトラブルシューティング](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ja)（Campaign v7／v8）
 * [データベース関連のオプション](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#database)（Campaign v7／v8）
 * データ保持：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=ja) - [Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=ja#data-retention)
-
->[!NOTE]
->
->また、データベースの 1 つが最大容量に近づいた場合に通知を受け取ることもできます。これをおこなうには、[E メールアラート](../../performance-monitoring/using/email-alerting.md)を購読します。
