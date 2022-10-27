@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 このページでは、コントロールパネルの新機能と改善点を一覧表示しています。
 
-## 2022年9月 {#september-2022}
+## 2022年10月 {#october-2022}
 
-ハイブリッドホスティングモデルを使用するお客様は、新しいサブドメインを設定できるようになりました。 [詳細情報](../subdomains-certificates/using/setting-up-new-subdomain.md)
+E メールアラートで、SSL 証明書の 1 つが 30 日以内に期限切れになると通知されるようになりました。 [詳細情報](../performance-monitoring/using/email-alerting.md)

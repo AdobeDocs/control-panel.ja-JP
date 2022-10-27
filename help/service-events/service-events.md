@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign インスタンスの監視では、インスタンスで予定され�
 
    >[!NOTE]
    >
-   >コントロールパネルのアラートの購読が設定されてない場合は、メッセージが表示され、メール通知の受信登録を行えます。
+   >Campaign コントロールパネルアラートを購読していない場合は、メッセージが表示され、登録して電子メール通知を受け取ることができます。
 
 1. これで、選択したイベントのリマインダーが設定されました。マウスカーソルを合わせることで、いつでもタイトルを表示できます。
 

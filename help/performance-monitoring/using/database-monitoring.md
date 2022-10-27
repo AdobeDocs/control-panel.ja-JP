@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 93%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 ## インスタンスのデータベースについて {#about-instances-databases}
 
-各 Campaign インスタンスには、契約に従って特定の容量のデータベースがプロビジョニングされます。
-
-データベースには、Adobe Campaign に保存されるすべての&#x200B;**アセット**、**ワークフロー**、**データ**&#x200B;が含まれます。
+各 Campaign インスタンスには、契約に従って特定の容量のデータベースがプロビジョニングされます。データベースには、Adobe Campaign に保存されるすべての&#x200B;**アセット**、**ワークフロー**、**データ**&#x200B;が含まれます。
 
 特に、格納されたリソースがインスタンスからまったく削除されていない場合や、一時停止状態のワークフローが多数ある場合には、時間の経過と共に、データベースが最大容量に達してしまう可能性があります。
 
 インスタンスデータベースの容量が足りなくなると、複数の問題（ログインや E メール送信ができないなど）が発生する可能性があります。したがって、最適なパフォーマンスを確保するには、インスタンスのデータベースを監視する必要があります。
+
+を購読している場合、 [メールアラート](../../performance-monitoring/using/email-alerting.md)の場合、1 つのインスタンスのデータベースの容量が 80%以上に達すると、電子メールで通知を受け取ります。
 
 ## データベース使用量の監視{#monitoring-database-usage}
 
@@ -37,8 +37,6 @@ ht-degree: 100%
 Campaign コントロールパネルでは、各 Campaign インスタンスのデータベース使用量を監視できます。これをおこなうには、「**[!UICONTROL パフォーマンス監視]**」カードを開き、「**[!UICONTROL データベース]**」タブを選択します。
 
 「**[!UICONTROL インスタンスリスト]**」から目的のインスタンスを選択し、インスタンスのデータベース容量と使用中の容量に関する情報を表示します。
-
-また、データベースの 1 つが最大容量に近づいた場合に通知を受け取ることもできます。これをおこなうには、[E メールアラート](../../performance-monitoring/using/email-alerting.md)を購読します。
 
 >[!NOTE]
 >

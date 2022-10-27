@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 契約条項によっては、異なるストレージ容量を SFTP サーバーでプロビジョニングしている可能性があります。
 
 各 SFTP サーバーの使用可能容量を定期的に監視することが重要です。そうしないと、サーバーに追加のファイルを保存できなくなったり、このサーバーからの更新に依存するワークフローを正常に実行できなくなったりする可能性があります。
+
+を購読している場合、 [メールアラート](../../performance-monitoring/using/email-alerting.md)を使用している場合、1 台の SFTP サーバーの容量が 80%以上に達すると、電子メールで通知を受け取ります。 [SFTP ストレージ管理](../../sftp/using/sftp-storage-management.md)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png)[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
 
