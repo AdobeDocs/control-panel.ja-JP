@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 アラートのリストを次に示します。
 
-* **SFTP ストレージの使用**：1 台の SFTP サーバーの容量が 80％以上に到達しました。[SFTP ストレージ管理](../../sftp/using/sftp-storage-management.md)を参照してください。
+* **SFTP ストレージの使用**：1 台の SFTP サーバーの容量が 80％以上に到達しました。[SFTP ストレージの管理](../../sftp/using/sftp-storage-management.md)を参照してください。
 
 * **データベース使用量**：1 台のインスタンスデータベースの容量が 80％以上に到達しました。[データベース監視](../../performance-monitoring/using/database-monitoring.md)を参照してください。
 
@@ -36,15 +36,15 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->また、Campaign コントロールパネルでは、次のことが可能です。 **リマインダーを設定** インスタンスでイベントが発生する前に e メールで通知を受け取るため（リリースとサービスのレビュー）。
+>また、コントロールパネルでは、**リマインダーを設定**&#x200B;し、インスタンス（リリースとサービスのレビュー）でイベントが発生する前にメールで通知を受け取ることが可能です。
 >
->これをおこなうには、E メールアラートを購読し、今後の目的のイベントに対してリマインダーを設定しておく必要があります。 [今後のイベントのリマインダーを設定する方法を説明します](../../service-events/service-events.md#reminders)
+>これを行うには、メールアラートを購読し、今後の目的のイベントに対してリマインダーを設定しておく必要があります。[今後のイベントのリマインダーを設定する方法を学ぶ](../../service-events/service-events.md#reminders)
 
 ## アラートの配信を登録 {#subscribe}
 
 これらのアラートを購読するには、次の手順に従います。
 
-1. Campaign コントロールパネルの任意の場所で「**[!UICONTROL アラート通知]**」ボタンをクリックし、「**[!UICONTROL 購読]**」をクリックします。
+1. コントロールパネルの任意の場所で「**[!UICONTROL アラート通知]**」ボタンをクリックし、「**[!UICONTROL 購読]**」をクリックします。
 
    ![](assets/subscribing.png)
 
@@ -52,6 +52,6 @@ ht-degree: 78%
 
    ![](assets/email_subscription.png)
 
-1. 購読すると、Campaign コントロールパネルによってシステムの問題に関する通知が送信され、実行すべきアクションが推奨されます。E メールアラートは、管理者となっている&#x200B;**すべてのインスタンス**&#x200B;について登録したすべてのユーザーに送信されます。
+1. 購読すると、コントロールパネルによってシステムの問題に関する通知が送信され、実行すべきアクションが推奨されます。E メールアラートは、管理者となっている&#x200B;**すべてのインスタンス**&#x200B;について登録したすべてのユーザーに送信されます。
 
    ![](assets/alert_sample.png)
