@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # コントロールパネルのガイド {#using}
 
 + [製品ドキュメント](control-panel-home.md)
-+ リリースノート {#release-notes}
++ リリースノート{#release-notes}
    + [最新リリース](rn/release-notes.md)
    + 以前のリリース {#previous-releases}
       + [リリースノート 2022](rn/release-notes-2022.md)
@@ -51,7 +51,7 @@ ht-degree: 100%
       + [SSL 証明書のインストール](subdomains-certificates/using/install-ssl-certificate.md)
 + パフォーマンス監視 {#performance-monitoring}
    + [パフォーマンス監視について](performance-monitoring/using/about-performance-monitoring.md)
-   + データベース監視 {#database-monitoring}
+   + データベース監視{#database-monitoring}
       + [データベース監視について](performance-monitoring/using/database-monitoring.md)
       + [データベース使用率](performance-monitoring/using/database-utilization.md)
       + [ストレージの概要](performance-monitoring/using/database-storage-overview.md)
