@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: SFTP ストレージ管理
+title: SFTP ストレージの管理
 description: SFTP サーバーのストレージを監視および管理する方法
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 各 SFTP サーバーの使用可能容量を定期的に監視することが重要です。そうしないと、サーバーに追加のファイルを保存できなくなったり、このサーバーからの更新に依存するワークフローを正常に実行できなくなったりする可能性があります。
 
-を購読している場合、 [メールアラート](../../performance-monitoring/using/email-alerting.md)を使用している場合、1 台の SFTP サーバーの容量が 80%以上に達すると、電子メールで通知を受け取ります。 [SFTP ストレージ管理](../../sftp/using/sftp-storage-management.md)を参照してください。
+[メールアラート](../../performance-monitoring/using/email-alerting.md)を購読している場合、1 台の SFTP サーバーの処理能力が 80％以上に達すると、メールで通知が届きます。 [SFTP ストレージの管理](../../sftp/using/sftp-storage-management.md)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png)[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
 
@@ -38,8 +38,8 @@ ht-degree: 94%
 
 各インスタンスについて、視覚的なアラートにより、ストレージがいつ容量を超えるかを把握できます。
 
-* **オレンジ**：インスタンスが容量の 80％を超えています。
-* **赤**：インスタンスが容量の 90％を超えています。
+* **オレンジ**：インスタンスが処理能力の 80％を超えています。
+* **赤**：インスタンスが処理能力の 90％を超えています。
 
 また、SFTP サーバー名をクリックすると、そのサーバー上で最も容量を消費している上位 10 個のファイルを特定することもできます。
 
