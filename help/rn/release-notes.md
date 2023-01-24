@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: ht
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 100%
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 このページでは、コントロールパネルの新機能と改善点を一覧表示しています。
 
-## 2022年10月 {#october-2022}
+## 2023年1月 {#january-2023}
 
-SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メールアラートで通知されるようになりました。[詳細情報](../performance-monitoring/using/email-alerting.md)
+ハイブリッドホスティングモデルを使用しているお客様は、MID インスタンスにアクセスするために、許可リストに IP アドレスを追加できるようになりました。 [詳細情報](../instances-settings/using/ip-allow-listing-instance-access.md)

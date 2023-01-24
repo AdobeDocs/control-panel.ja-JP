@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '864'
-ht-degree: 100%
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 96%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >この機能は、Campaign v7／v8 のインスタンスでのみ使用できます。
->
->ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で IP アドレスのみ追加できます。
 
 デフォルトでは、様々な IP アドレスから Adobe Campaign インスタンスへはアクセスできません。
 
@@ -91,9 +89,9 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
    * **[!UICONTROL AEM 接続]**：指定された AEM IP アドレスからマーケティングインスタンスに接続できるようになります。
    * **[!UICONTROL 外部 API 接続]**：指定された IP アドレスを持つ外部 API からマーケティングインスタンスや Message Center（RT）インスタンスに接続できるようになります。なお、RT インスタンスのコンソールへの接続は無効です。
 
-      >[!NOTE]
-      >
-      >ハイブリッドホスティングモデルでインスタンスを使用している場合、RT インスタンスの「外部 API 接続」で IP アドレスのみ追加できます。
+   >[!NOTE]
+   >
+   >ハイブリッドホスティングモデルでインスタンスを使用している場合、MID インスタンスと RT インスタンスの「外部 API 接続」に IP アドレスのみを追加できます。
 
    ![](assets/ip_whitelist_acesstype.png)
 
