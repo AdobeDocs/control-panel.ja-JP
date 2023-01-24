@@ -2,14 +2,18 @@
 title: リリースノート 2022
 description: このページでは、コントロールパネルの 2022年リリースをすべて掲載しています。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # リリースノート 2022 {#rn-2022}
+
+## 2022年10月 {#october-2022}
+
+SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メールアラートで通知されるようになりました。[詳細情報](../performance-monitoring/using/email-alerting.md)
 
 ## 2022年9月 {#september-2022}
 
