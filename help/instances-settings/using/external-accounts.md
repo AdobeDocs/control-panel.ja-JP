@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ MID／RT インスタンスがコントロールパネルに追加されると�
 
 * [主要連絡先とイベントの監視](../../service-events/service-events.md)
 * [インスタンスの詳細の表示](../../instances-settings/using/instance-details.md)、
-* [許可リストへの IP アドレスの追加](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [許可リストへの IP アドレスの追加](../../instances-settings/using/ip-allow-listing-instance-access.md)、
 * [新しいサブドメインの設定](../../subdomains-certificates/using/setting-up-new-subdomain.md)、
 * [サブドメインの SSL 証明書の更新](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
