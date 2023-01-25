@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
    >[!NOTE]
    >
-   >ハイブリッドホスティングモデルでインスタンスを使用している場合、MID インスタンスと RT インスタンスの「外部 API 接続」に IP アドレスのみを追加できます。
+   >ハイブリッドホスティングモデルのインスタンスを使用している場合は、「外部 API 接続」タイプの IP アドレスのみ MID および RT インスタンスに追加できます。
 
    ![](assets/ip_whitelist_acesstype.png)
 
