@@ -2,8 +2,8 @@
 title: リリースノート 2022
 description: このページでは、コントロールパネルの 2022年リリースをすべて掲載しています。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メー
 <tbody>
 <tr>
 <td>
-<p>スループットと待ち時間の監視機能が強化されました。<ul><li>インスタンスのスループットに関与する上位 5 件の配信 ID を特定できるようになりました。</li><li>Campaign Classic v7／v8 のお客様は、特定のチャネルの待ち時間を視覚化できるようになりました。</p></li><p>詳しくは、<a href="../performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
+<p>スループットと待ち時間の監視機能が強化されました。<ul><li>インスタンスのスループットに関与する上位 5 件の配信 ID を特定できるようになりました。</li><li>Campaign Classic v7／v8 のお客様は、特定のチャネルの待ち時間を視覚化できるようになりました。</p></li><p>詳しくは、<a href="../performance-monitoring/using/throughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メー
 <tbody>
 <tr>
 <td>
-<p>スループットと待ち時間の監視を、Campaign Standard および v8 のすべてのお客様と、スタンドアロンデプロイメント（ミッドインスタンスを除く）を持つビルド番号 9032、9330、9346 または 9349 の Campaign V7 のお客様が利用できるようになりました。</p><p>詳しくは、<a href="../performance-monitoring/using/thoughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
+<p>スループットと待ち時間の監視を、Campaign Standard および v8 のすべてのお客様と、スタンドアロンデプロイメント（ミッドインスタンスを除く）を持つビルド番号 9032、9330、9346 または 9349 の Campaign V7 のお客様が利用できるようになりました。</p><p>詳しくは、<a href="../performance-monitoring/using/throughputs-latencies.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メー
 <tbody>
 <tr>
 <td>
-<p>インスタンスでの配信スループットと待ち時間の一定期間にわたるトレンドを監視できます。</p><p>詳しくは、<a href="../performance-monitoring/using/thoughputs-latencies.md">詳細ドキュメント</a>を参照してください。</p>
+<p>インスタンスでの配信スループットと待ち時間の一定期間にわたるトレンドを監視できます。</p><p>詳しくは、<a href="../performance-monitoring/using/throughputs-latencies.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
