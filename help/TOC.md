@@ -6,7 +6,7 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -31,7 +31,6 @@ ht-degree: 100%
    + [コントロールパネルインターフェイスの理解](discover/using/discovering-the-interface.md)
 + [主要連絡先とイベントの監視](service-events/service-events.md)
 + [メールアラート](performance-monitoring/using/email-alerting.md)
-+ インスタンス設定 {#instances-settings}
 + SFTP の管理 {#sftp-management}
    + [SFTP の管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージの管理](sftp/using/sftp-storage-management.md)
@@ -61,6 +60,7 @@ ht-degree: 100%
       + [データベース容量超過の防止](performance-monitoring/using/database-preventing-overload.md)
    + [アクティブなプロファイルの監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [スループットと待ち時間の監視](performance-monitoring/using/throughputs-latencies.md)
++ インスタンス設定 {#instances-settings}
    + [インスタンスにアクセスするための IP 許可リストへの登録](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 権限](instances-settings/using/url-permissions.md)
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
