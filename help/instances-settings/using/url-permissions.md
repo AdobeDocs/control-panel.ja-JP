@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 **関連トピック：**
 
-* [Campaign サーバーの設定](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ja#installing-campaign-classic)
+* [Campaign サーバーの設定](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
 * [発信接続の保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=ja#outgoing-connection-protection)
 
 ## ベストプラクティス {#best-practices}
