@@ -7,14 +7,19 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 72%
 
 ---
 
 # サブドメインの監視 {#monitoring-subdomains}
+
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="デリゲートされたサブドメインの削除 "
+>abstract="この画面では、Campaign コントロールパネルでデリゲートされたサブドメインを削除できます。 サブドメインの削除は元に戻すことができず、送信すると元に戻せなくなることに注意してください。<br>選択したインスタンスのプライマリドメインを削除しようとすると、置き換えるドメインを選択するよう求められます。"
 
 サブドメインを監視して、Adobe Campaign で機能するようにすべてが正しく設定されていることを確認することが重要です。
 
