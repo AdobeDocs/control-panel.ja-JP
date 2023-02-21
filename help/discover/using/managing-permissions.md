@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}に移動します。
+1. 次に移動： [Adobe Experience Cloudホームページ](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. 「**クイックアクセス**」セクションまたは右上のメニューで選択可能なリンクをクリックして、**Admin Console** を起動します。
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1080'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ SFTP サーバーは保護されているため、SFTP サーバーにアクセ�
 
 CIDR（Classless Inter-Domain Routing）は、コントロールパネルのインターフェイスで IP 範囲を追加する際に使用可能な形式です。
 
-構文は、IP アドレスとそれに続く「/」（スラッシュ記号）および 10 進数で構成されます。形式とその構文について詳しくは、[この記事](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}を参照してください。
+構文は、IP アドレスとそれに続く「/」（スラッシュ記号）および 10 進数で構成されます。形式とその構文について詳しくは、 [この記事](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 自分の管理下にある IP 範囲を CIDR 形式に変換するのに役立つ無料のオンラインツールをインターネットで検索できます。
 
