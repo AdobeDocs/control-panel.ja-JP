@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 72%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="デリゲートされたサブドメインの削除 "
->abstract="この画面では、Campaign コントロールパネルでデリゲートされたサブドメインを削除できます。 サブドメインの削除は元に戻すことができず、送信すると元に戻せなくなることに注意してください。<br><br>選択したインスタンスのプライマリドメインを削除しようとすると、置き換えるドメインを選択するよう求められます。"
+>title="サブドメインのデリゲーションを削除"
+>abstract="この画面では、サブドメインのAdobeへのデリゲーションを削除できます。 このプロセスは、送信後に元に戻したり停止したりすることはできません。<br><br>選択したインスタンスのプライマリドメインのデリゲーションを削除しようとすると、置き換えるドメインを選択するように求められます。"
 
 サブドメインを監視して、Adobe Campaign で機能するようにすべてが正しく設定されていることを確認することが重要です。
 
