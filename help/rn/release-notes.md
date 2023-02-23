@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
+source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 69%
+source-wordcount: '94'
+ht-degree: 34%
 
 ---
 
@@ -13,12 +13,14 @@ ht-degree: 69%
 
 このページでは、コントロールパネルの新機能と改善点を一覧表示しています。
 
-## 2023年1月 {#january-2023}
+## 2023年2月 {#february-2023}
 
-**新しいハイブリッドホスティングモデル機能**
+**Adobeにデリゲートされたサブドメインのデリゲーションの削除**
 
-ハイブリッドホスティングモデルを使用しているお客様は、MID インスタンスにアクセスするための許可リストに IP アドレスを追加できるようになりました。[詳細情報](../instances-settings/using/ip-allow-listing-instance-access.md)
+CNAME 設定を含む、ドメインにデリゲートされたサブAdobeのデリゲーションを削除できるようになりました。 [詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**証明書署名要求 (CSR) の機能強化**
+**サービスカレンダー**
 
-証明書署名要求の生成時に、市区町村フィールドがオプションになりました。
+サービスカレンダーにカレンダービューが追加され、インスタンスで発生する重要なイベントを追跡できるようになりました。 さらに、Campaign コントロールパネルアラートを購読したユーザーに送信される通知に関する情報が追加されました。 [詳細情報](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
