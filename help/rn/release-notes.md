@@ -2,7 +2,7 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 85726597c62cbca7d1055a5cb45271a63218a012
+source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 34%
@@ -20,6 +20,7 @@ ht-degree: 34%
 CNAME 設定を含む、ドメインにデリゲートされたサブAdobeのデリゲーションを削除できるようになりました。 [詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
+
 
 **サービスカレンダー**
 
