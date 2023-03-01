@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -107,4 +107,4 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
 
 **関連トピック：**
 
-* [セキュリティゾーンとオペレーターとのリンク](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [セキュリティゾーンとオペレーターとのリンク](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=ja#linking-a-security-zone-to-an-operator)
