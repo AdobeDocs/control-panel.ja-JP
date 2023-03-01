@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
 
 **関連トピック：**
 
-* [ビルドアップグレードの実行](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Adobe Campaign の更新](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [ビルドアップグレードの実行](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=ja)
+* [Adobe Campaign の更新](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=ja)
 
 ## インスタンスに関する情報の取得 {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ Adobe Campaign インスタンスアーキテクチャには複数のサーバ�
    * 黄：アップグレードを検討する必要があります。最新の機能や修正を利用できません。
    * 赤：できるだけ早くアップグレードする必要があります。最新の機能を利用できないほか、サーバーのパフォーマンスが最適でない可能性があります。
 
-サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)を参照して、作業方法の詳細を確認してください。
+サーバーのいずれかをアップグレードする必要がある場合は、[こちらのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=ja)を参照して、作業方法の詳細を確認してください。
 
 ## よくある質問 {#common-questions}
 
