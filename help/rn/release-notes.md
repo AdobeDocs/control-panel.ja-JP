@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ ht-degree: 34%
 
 **Adobeにデリゲートされたサブドメインのデリゲーションの削除**
 
-CNAME 設定を含む、ドメインにデリゲートされたサブAdobeのデリゲーションを削除できるようになりました。 [詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
+完全にドメインにデリゲートされたサブドメインのデリゲーションをAdobeできるようになりました。 [詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>現在、CNAME を使用して設定されたサブドメインでは、デリゲーションの削除を使用できません。
 
 **サービスカレンダー**
 

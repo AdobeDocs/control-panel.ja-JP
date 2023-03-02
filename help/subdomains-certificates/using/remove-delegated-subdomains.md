@@ -6,9 +6,9 @@ description: サブドメインのデリゲーションを削除してAdobeに�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '516'
 ht-degree: 12%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 12%
 >title="サブドメインデリゲーションを削除"
 >abstract="この画面では、サブドメインのAdobeへのデリゲーションを削除できます。 このプロセスは元に戻すことができず、実行が完了するまで元に戻せないことに注意してください。<br><br>選択したインスタンスのプライマリドメインのデリゲーションを削除しようとすると、置き換えるドメインを選択するように求められます。"
 
-Campaign コントロールパネルを使用すると、CNAME 設定など、Adobeにデリゲートされたサブドメインのデリゲーションを削除できます。
+Campaign コントロールパネルを使用すると、Adobeにデリゲートされたサブドメインのデリゲーションを削除できます。
+
+>[!NOTE]
+>
+>現在、CNAME を使用して設定されたサブドメインでは、デリゲーションの削除を使用できません。
 
 ## 重要な注意事項 {#important}
 
