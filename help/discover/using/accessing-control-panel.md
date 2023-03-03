@@ -16,7 +16,7 @@ ht-degree: 79%
 
 # コントロールパネルへのアクセス {#accessing-control-panel}
 
-Campaign コントロールパネルには、Experience Cloud から直接アクセスすることも、製品自体からアクセスすることもできます。
+コントロールパネルには、Experience Cloud から直接アクセスすることも、製品自体からアクセスすることもできます。
 
 アクセスできるのは、**管理者ユーザー**&#x200B;のみです。ユーザーを管理者グループに割り当てる方法について詳しくは、[この節](../../discover/using/managing-permissions.md)を参照してください。
 

@@ -42,7 +42,7 @@ ht-degree: 100%
 >abstract="このタブでは、Campaign インスタンスごとに、アクティブなプロファイルの使用状況と変化の最新情報や履歴がリアルタイムで表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja" text="パフォーマンス監視について"
 
-Campaign コントロールパネルでは、各キャンペーンインスタンスのアクティブなプロファイルの使用状況を監視できます。
+コントロールパネルでは、各キャンペーンインスタンスのアクティブなプロファイルの使用状況を監視できます。
 
 それには、次の手順に従います。
 

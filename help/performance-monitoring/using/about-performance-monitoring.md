@@ -16,13 +16,13 @@ ht-degree: 100%
 
 # パフォーマンス監視について {#about-performance-monitoring}
 
-Campaign コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。
+コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。
 
-Campaign コントロールパネルホームページの「**[!UICONTROL パフォーマンス監視]**」カードを使用すると、データベース容量など、Campaign インスタンスの使用状況を監視できます。詳しくは、[この節](../../performance-monitoring/using/database-monitoring.md)を参照してください。
+コントロールパネルホームページの「**[!UICONTROL パフォーマンス監視]**」カードを使用すると、データベース容量など、Campaign インスタンスの使用状況を監視できます。詳しくは、[この節](../../performance-monitoring/using/database-monitoring.md)を参照してください。
 
 ![](assets/performance_card.png)
 
 >[!NOTE]
 >
->今後の Campaign コントロールパネルのリリースでは、このカードで追加の監視機能が使用できるようになります。
+>今後の コントロールパネルのリリースでは、このカードで追加の監視機能が使用できるようになります。
 

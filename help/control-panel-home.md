@@ -1,6 +1,6 @@
 ---
 title: 製品ドキュメント
-description: Campaign コントロールパネルのドキュメント。
+description: コントロールパネルのドキュメント。
 feature: Control Panel
 role: Architect
 level: Beginner
