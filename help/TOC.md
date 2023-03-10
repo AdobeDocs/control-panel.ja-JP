@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
    + [サブドメインのブランディング](subdomains-certificates/using/subdomains-branding.md)
    + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
    + [新しいサブドメインの設定](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [サブドメインのAdobeへのデリゲーションを削除](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [アドビへのサブドメインのデリゲーションの削除](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
    + SSL 証明書の管理 {#manage-certificates}
       + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)

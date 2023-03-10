@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 30%
 
 ## 2023年2月 {#february-2023}
 
-**Adobeにデリゲートされたサブドメインのデリゲーションの削除**
+**アドビにデリゲートされたサブドメインのデリゲーションの削除**
 
-完全にドメインにデリゲートされたサブドメインのデリゲーションをAdobeできるようになりました。 [詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
+アドビに完全にデリゲートされたサブドメインのデリゲーションを削除できるようになりました。[詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
 >[!NOTE]
 >
->現在、CNAME を使用して設定されたサブドメインでは、デリゲーションの削除を使用できません。
+>現在、デリゲーションの削除は、CNAME を使用して設定されたサブドメインでは使用できません。
 
 **サービスカレンダー**
 
-サービスカレンダーにカレンダービューが追加され、インスタンスで発生する重要なイベントを追跡できるようになりました。 さらに、Campaign コントロールパネルアラートを購読したユーザーに送信される通知に関する情報が追加されました。 [詳細情報](../service-events/service-events.md)
+お使いのインスタンスで発生する重要なイベントを追跡するためのカレンダー表示がサービスカレンダーに追加されました。さらに、コントロールパネルのアラートを購読しているユーザーに送信される通知に関する情報が追加されました。[詳細情報](../service-events/service-events.md)
 
 ![](assets/do-not-localize/gif-calendar.gif)
