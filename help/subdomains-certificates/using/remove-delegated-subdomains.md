@@ -6,9 +6,9 @@ description: アドビへのサブドメインのデリゲーションを削除�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 61%
 
 ---
@@ -66,14 +66,16 @@ CNAME タイプのデリゲーションを削除する場合は、次の手順�
 
 次の表に、削除するデリゲーションの種類と、置き換えドメインの設定に使用するデリゲーションの種類に応じて、実行するアクションを示します。
 
-| 削除された委任 | 置換ドメイン | 必要なアクション |
+| 削除された委任 | 置き換えドメインの委任 | 必要なアクション |
 |  ---  |  ---  |  ---  |
-| 完全 | 置き換えドメインなし | アクションは不要 |
-| 完全 | CNAME | DNS レコードの追加（IP アフィニティに基づくオプション） |
-| 完全 | 完全 | アクションは不要 |
 | CNAME | 置き換えドメインなし | DNS レコードの削除 |
-| CNAME | CNAME | DNS レコードの削除と追加（IP アフィニティに基づくオプション） |
+| CNAME | CNAME | DNS レコードの削除<br/>DNS レコードを追加 *（IP アフィニティに応じてオプション）* |
 | CNAME | 完全 | DNS レコードの削除 |
+| 完全 | 置き換えドメインなし | アクションは不要 |
+| 完全 | CNAME | DNS レコードを追加 *（IP アフィニティに応じてオプション）* |
+| 完全 | 完全 | アクションは不要 |
+
+{style="table-layout:auto"}
 
 これをおこなうには、 **[!DNL Action]** 委任の削除を確認する前に、手順が表示されます。 この画面には、コンテキストに応じて、削除または追加する DNS レコードが一覧表示されます。
 
