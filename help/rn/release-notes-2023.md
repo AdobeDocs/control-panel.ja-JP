@@ -3,7 +3,7 @@ title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
 source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
