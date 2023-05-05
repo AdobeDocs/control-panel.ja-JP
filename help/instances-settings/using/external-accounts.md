@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 80%
 
 コントロールパネルでは、ハイブリッドホスティングモデルを使用するお客様は、特定のコントロールパネル機能を利用できます。そのためには、以下の手順を実行します。
 
-* [MID/RT インスタンス URL を指定](#add) マーケティングインスタンスでCampaign コントロールパネル
-* [MID/RT インスタンスの IP アドレスを許可リストに追加](#ip) マーケティングインスタンスが接続できるようにします。
+* コントロールパネルのマーケティングインスタンスに設定されている [MID／RT インスタンス URL を指定します](#add)。
+* マーケティングインスタンスが許可リストに接続できるように、[MID／RT インスタンスの IP アドレスを許可リストに追加します](#ip)。
 
 モデルのホスティングについて詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja)を参照してください。
 
@@ -89,13 +89,13 @@ MID／RT URL を追加する際は、非同期プロセスがトリガーされ�
 
 ![](assets/external-account-logs.png)
 
-## IP アドレスを許可リストに追加 {#ip}
+## 許可リストへの IP アドレスの追加 {#ip}
 
-MID/RT インスタンスを追加したら、マーケティングインスタンスが許可リストに接続できるように、その IP アドレスをインスタンスに追加する必要があります。
+MID／RT インスタンスを追加したら、マーケティングインスタンスが許可リストに接続できるように、その IP アドレスを許可リストに追加する必要があります。
 
-これは、 **[!UICONTROL IP 許可リストへの登録]** 」タブをクリックします。 **[!UICONTROL インスタンス設定]** カード。 [許可リストに IP アドレスを追加する方法を説明します](ip-allow-listing-instance-access.md)
+これは、**[!UICONTROL インスタンス設定]**&#x200B;カードの「**[!UICONTROL IP の許可リストへの登録]**」タブから実行できます。[許可リストに IP アドレスを追加する方法については、こちらを参照してください](ip-allow-listing-instance-access.md)
 
-完了すると、MID/RT インスタンスでCampaign コントロールパネル機能を使用できるようになります。
+完了すると、MID／RT インスタンスでコントロールパネル機能を使用できるようになります。
 
 ## ハイブリッドのお客様が使用できる機能 {#capabilities}
 
