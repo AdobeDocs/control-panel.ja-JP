@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '828'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 アドビへのサブドメインのデリゲーションを削除するには、次の手順に従います。
 
-1. 削除するドメインデリゲーションの横の省略記号ボタンをクリックし、「 」を選択します。 **[!UICONTROL 委任を削除]**.
+1. 削除するドメインデリゲーションの横にある「...」ボタンをクリックし、「**[!UICONTROL デリゲーションを削除]**」を選択します。
 
    ![](assets/undelegate-subdomain.png)
 
@@ -78,7 +78,7 @@ CNAME タイプのデリゲーションを削除する場合は、問題を回�
 
 {style="table-layout:auto"}
 
-委任を削除するためにこれらのアクションの 1 つが必要な場合は、 **[!DNL Action]** 委任の削除を確認する前に、手順が表示されます。 この画面には、コンテキストに応じて、削除または追加する DNS レコードが表示されます。
+デリゲーションを削除するためにこれらのアクションの 1 つが必要な場合は、デリゲーションの削除を確認する前に、追加の **[!DNL Action]** 手順が表示されます。この画面には、コンテキストに応じて、削除または追加する DNS レコードが表示されます。
 
 ![](assets/action-step.png)
 
