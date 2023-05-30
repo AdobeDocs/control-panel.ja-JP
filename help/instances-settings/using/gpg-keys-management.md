@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1232'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,11 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
    * **key length**（キーの長さ）：3072 ～ 4096 ビット
    * **real name**（実名）および **email address**（E メールアドレス）：キーペアの作成者をトラッキングできます。組織または部門にリンクされた名前および E メールアドレスを入力します。
    * **comment**：コメントフィールドにラベルを追加すると、データの暗号化に使用するキーを容易に識別できます。
+
+      >[!IMPORTANT]
+      >
+      >このフィールドを空のままにせず、コメントを入力する必要があります。
+
    * **expiration**（有効期限）：日付。有効期限なしの場合は「0」。
    * **passphrase**（パスフレーズ）
 
