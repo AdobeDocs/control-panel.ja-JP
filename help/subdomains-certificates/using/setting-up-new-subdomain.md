@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1542'
+ht-degree: 86%
 
 ---
+
 
 # 新しいサブドメインの設定 {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 0%
 >title="新しいサブドメインの設定と証明書の管理"
 >abstract="Adobe Campaign で E メールの送信またはランディングページの公開を開始するには、新しいサブドメインを設定してサブドメインの SSL 証明書を管理する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja" text="SSL 証明書の監視"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="サブドメインの SSL 証明書をAdobeにデリゲート"
+>abstract="Campaign コントロールパネルでは、サブドメインの SSL 証明書をAdobeで管理できます。 CNAME を使用してサブドメインを設定している場合、証明書をドメインホスティングソリューションに生成するために、証明書レコードが自動的に生成されて提供されます。"
 
 ## 必読 {#must-read}
 
@@ -94,6 +100,8 @@ ht-degree: 0%
 
    必ずデリゲートするサブドメインの&#x200B;**フルネームを**&#x200B;入力してください。例えば、「usoffers.email.weretail.com」サブドメインをデリゲートするには、「usoffers.email.weretail.com」 と入力します。
 
+1. サブドメインの SSL 証明書の生成をAdobeにデリゲートするには、 **[!UICONTROL サブドメインのAdobe管理 SSL のオプト]** オプション。
+
    ![](assets/subdomain6.png)
 
 サブドメインが送信されると、コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、[サブドメインのチェックと設定](#subdomain-checks-and-configuration)を参照してください。
@@ -134,25 +142,36 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
    ![](assets/cname-use-case.png)
 
-1. 作成したサブドメインをホスティングソリューションに入力し、「**[!UICONTROL 次へ]**」をクリックします。
+1. 作成したサブドメインをホスティングソリューションに入力します。 サブドメインの SSL 証明書の生成をAdobeにデリゲートするには、 **[!UICONTROL サブドメインのAdobe管理 SSL のオプト]** オプション。
 
-   必ず設定するサブドメインの&#x200B;**フルネーム**&#x200B;を入力してください。例えば、「usoffers.email.weretail.com」サブドメインを設定するには、「usoffers.email.weretail.com」と入力します。
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >必ず設定するサブドメインの&#x200B;**フルネーム**&#x200B;を入力してください。例えば、「usoffers.email.weretail.com」サブドメインを設定するには、「usoffers.email.weretail.com」と入力します。
 
 1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
    ![](assets/cname-generate-record.png)
 
-1. 前の手順のすべての DNS レコードが、ドメインホスティングソリューションで生成されていることを確認してください。すべてが正しく設定されている場合は、最初の文を選択し、「**[!UICONTROL 送信]**」をクリックして確定します。
+1. 前の手順のすべての DNS レコードが、ドメインホスティングソリューションで生成されていることを確認してください。すべてが正しく設定されている場合は、最初の文を選択し、 **[!UICONTROL 次へ]** をクリックして確定します。
 
-   ![](assets/cname-confirmation.png)
+   レコードを作成し、後でサブドメイン設定を送信する場合は、2 番目の文を選択します。 その後、サブドメインの管理画面の&#x200B;**[!UICONTROL 処理中]**&#x200B;領域から直接サブドメイン設定を再開できます。サーバーに配置する DNS レコードは、コントロールパネルに 30 日間保持されます。その後は、サブドメインを最初から設定する必要があります。
+
 
    >[!NOTE]
    >
-   >レコードを作成し、後でサブドメイン設定を送信する場合は、2 番目の文を選択し、「**[!UICONTROL 後で送信]**」をクリックします。その後、サブドメインの管理画面の&#x200B;**[!UICONTROL 処理中]**&#x200B;領域から直接サブドメイン設定を再開できます。
-   >
-   >サーバーに配置する DNS レコードは、コントロールパネルに 30 日間保持されます。その後は、サブドメインを最初から設定する必要があります。
+   >SSL 証明書をAdobeにデリゲートしない場合は、サブドメイン設定の最後の手順です。 次をクリック： **[!UICONTROL 送信]** 」ボタンをクリックします。
+
+   ![](assets/cname-confirmation.png)
+
+1. サブドメインの証明書をAdobeにデリゲートする場合、証明書は自動的に生成されます。 これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインホスティングソリューションに移動して、一致する証明書を生成します。
+
+   ![](assets/cname-csr-generation.png)
+
+1. すべての証明書レコードがドメインホスティングソリューションに生成されていることを確認します。 すべてが正しく設定されている場合は、最初の文を選択し、「**[!UICONTROL 送信]**」をクリックして確定します。
+
+   ![](assets/cnames-submit.png)
 
 サブドメインが送信されると、コントロールパネルで様々なチェックと設定手順が実行されます。詳しくは、[サブドメインのチェックと設定](#subdomain-checks-and-configuration)を参照してください。
 
