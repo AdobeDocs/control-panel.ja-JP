@@ -1,14 +1,21 @@
 ---
 title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
-source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: ht
-source-wordcount: '134'
+exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # リリースノート 2023 {#rn-2023}
+
+## 2023年3月 {#march-2023}
+
+**CNAME のサブドメインデリゲーションの削除**
+
+CNAME を使用して設定されたサブドメインのデリゲーションを削除できるようになりました。[詳細情報](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## 2023年2月 {#february-2023}
 
