@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1543'
 ht-degree: 86%
 
 ---
@@ -165,7 +165,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
    ![](assets/cname-confirmation.png)
 
-1. サブドメインの証明書をAdobeにデリゲートする場合、証明書は自動的に生成されます。 これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインホスティングソリューションに移動して、一致する証明書を生成します。
+1. サブドメインの証明書をAdobeにデリゲートする場合、証明書レコードは自動的に生成されます。 これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインホスティングソリューションに移動して、一致する証明書を生成します。
 
    ![](assets/cname-csr-generation.png)
 
