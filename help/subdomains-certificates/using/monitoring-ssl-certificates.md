@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 78%
 
 ---
 
@@ -27,6 +27,18 @@ Adobe Campaign では、ランディングページ（特に、顧客の機密�
 **SSL 証明書は、一定期間提供されます**（1 年間、60 日間など）。証明書の期限が切れると、ランディングページにアクセスしたりサブドメインからリソースを使用したりする際に問題が発生する可能性があります。これを回避するために、コントロールパネルを使用して、サブドメインの SSL 証明書を監視したり、その更新プロセスを開始したりできます。
 
 ![](assets/no_certificate.png)
+
+## サブドメインの SSL 証明書をAdobeにデリゲート
+
+新しいサブドメインを設定する際に、SSL 証明書をAdobeが管理できます。 Adobeは証明書を自動的に作成し、証明書の期限が切れる前に毎年更新するので、この方法を強くお勧めします。
+
+CNAME を使用してサブドメインデリゲーションを設定する場合、Adobeは、証明書を生成するためにドメインホスティングソリューションで使用する証明書レコードを提供します。
+
+>[!NOTE]
+>
+>SSL 証明書のデリゲーションは、新しいサブドメインを設定する場合にのみ使用できます。 既にデリゲートされたサブドメインには使用できません。
+
+新しいサブドメインの設定時に、SSL 証明書のデリゲーションが有効になります。 詳しくは、 [この節](setting-up-new-subdomain.md).
 
 ## SSL 証明書の監視 {#monitoring-certificates}
 
