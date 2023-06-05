@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 86%
+source-wordcount: '1564'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="サブドメインの SSL 証明書をAdobeにデリゲート"
->abstract="Campaign コントロールパネルでは、サブドメインの SSL 証明書をAdobeで管理できます。 CNAME を使用してサブドメインを設定している場合、証明書をドメインホスティングソリューションに生成するために、証明書レコードが自動的に生成されて提供されます。"
+>abstract="Campaign コントロールパネルでは、サブドメインの SSL 証明書をAdobeで管理できます。 CNAME を使用してサブドメインを設定している場合、証明書をドメインホスティングソリューションに生成するために、証明書レコードが自動的に生成されて提供されます。 この機能は、新しいサブドメインを設定する場合にのみ使用できます。 既存のデリゲートされたサブドメインに対して証明書をデリゲートすることはできません。"
 
 ## 必読 {#must-read}
 
