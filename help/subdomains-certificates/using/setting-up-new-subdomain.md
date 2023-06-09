@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 80%
+source-wordcount: '1669'
+ht-degree: 79%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 80%
 
 ### サブドメインの SSL 証明書をAdobeにデリゲート
 
-新しいサブドメインを設定する際に、SSL 証明書をAdobeが管理できます。 Adobeは証明書を自動的に作成し、証明書の期限が切れる前に毎年更新するので、この方法を強くお勧めします。
+新しいサブドメインを設定する際に、SSL 証明書をAdobeが管理できます。 Adobeは証明書を自動的に作成し、証明書の期限が切れる前に毎年更新するので、この方法を強くお勧めします。 SSL 証明書のデリゲーションは、新しいサブドメインを設定する場合にのみ使用できます。 既にデリゲートされたサブドメインには使用できません。
 
 CNAME を使用してサブドメインデリゲーションを設定する場合、Adobeは、証明書を生成するためにドメインホスティングソリューションで使用する証明書レコードを提供します。
 
 >[!NOTE]
 >
->SSL 証明書のデリゲーションは、新しいサブドメインを設定する場合にのみ使用できます。 既にデリゲートされたサブドメインには使用できません。
+>Adobeが管理する SSL は、無料で利用できる機能です。
 
 ### ネームサーバーの設定
 

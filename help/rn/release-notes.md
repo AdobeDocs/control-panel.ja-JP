@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 29%
+source-wordcount: '113'
+ht-degree: 25%
 
 ---
 
@@ -20,3 +20,7 @@ ht-degree: 29%
 これで、サブドメインの SSL 証明書を Domain で管理できるようになりました。Adobe。 CNAME を使用してサブドメインを設定している場合、証明書をドメインホスティングソリューションに生成するために、証明書レコードが自動的に生成されて提供されます。
 
 この機能は、新しいサブドメインを設定する場合にのみ使用できます。 既存のデリゲートされたサブドメインに対して証明書をデリゲートすることはできません。 [詳細情報](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Adobeが管理する SSL は、無料で利用できる機能です。
