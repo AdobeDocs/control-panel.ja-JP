@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,6 @@ IP アドレスがいったん許可リストに登録されれば、Campaign �
    * **[!UICONTROL ラベル]**：許可リストに表示されるラベル。
 
    * **[!UICONTROL 名前]**：アクセスタイプ、インスタンス（外部 API 接続の場合）および IP アドレスで一意になる名前が必要です。
-
 
 1. IP アドレスに許可するアクセスのタイプを指定します。
 

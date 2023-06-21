@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -67,13 +67,13 @@ ht-degree: 100%
 
    * **[!UICONTROL URL]**：インスタンスの URLは、Campaign クライアントコンソールの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;メニューにあります。
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL オペレーター]**／**[!UICONTROL パスワード]**：アドビ管理者による初期プロビジョニング後に提供されたオペレーターの資格情報。
 
-      >[!NOTE]
-      >
-      >これらの詳細が不明な場合は、カスタマーケアにお問い合わせください。
+     >[!NOTE]
+     >
+     >これらの詳細が不明な場合は、カスタマーケアにお問い合わせください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確定します。
 

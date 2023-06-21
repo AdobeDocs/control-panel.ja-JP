@@ -9,8 +9,8 @@ level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * **[!UICONTROL システムリソース]**
 
-   システムリソースがデータベース容量の大部分を消費している場合は、カスタマーケアに連絡することをお勧めします。
+  システムリソースがデータベース容量の大部分を消費している場合は、カスタマーケアに連絡することをお勧めします。
 
 * デフォルトで Campaign インスタンスに付属している&#x200B;**[!UICONTROL 標準のテーブル]**
 * ワークフローと配信によって作成される&#x200B;**[!UICONTROL 一時的テーブル]**

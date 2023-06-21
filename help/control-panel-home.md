@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,6 @@ CNAME 設定など、アドビにデリゲートされたサブドメインの�
 >* コントロールパネルは、管理者ユーザーに限定されています。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)
 >
 >* Campaign v7 の場合は、デプロイメントに制限があります。[詳細情報](faq.md#v7-restrictions)
-
 
 ## その他のリソース {#additional-resources}
 
