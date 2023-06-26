@@ -6,10 +6,10 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
    + SSL 証明書の管理 {#manage-certificates}
       + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [SSL 証明書をAdobeに委任](subdomains-certificates/using/delegate-ssl.md)
       + [SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR の生成](subdomains-certificates/using/generate-csr.md)
       + [SSL 証明書のインストール](subdomains-certificates/using/install-ssl-certificate.md)

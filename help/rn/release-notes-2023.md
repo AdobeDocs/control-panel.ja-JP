@@ -2,14 +2,26 @@
 title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # リリースノート 2023 {#rn-2023}
+
+## 2023 年 5 月の機能強化 {#june-2023}
+
+**アドビへのサブドメインの SSL 証明書のデリゲーション**
+
+サブドメインの SSL 証明書をアドビで管理できるようになりました。CNAME を使用してサブドメインを設定している場合、ドメインホスティングソリューションに証明書を生成するために、証明書レコードが自動的に生成および提供されます。
+
+この機能は、新しいサブドメインを設定する場合にのみ使用できます。 既存のデリゲートされたサブドメインの証明書はデリゲートできません。[詳細情報](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>アドビ管理の SSL は、ユーザーが無料で使用できる機能です。
 
 ## 2023年3月 {#march-2023}
 

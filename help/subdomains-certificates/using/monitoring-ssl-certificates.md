@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
@@ -30,15 +30,7 @@ Adobe Campaign では、ランディングページ（特に、顧客の機密�
 
 ## アドビへのサブドメインの SSL 証明書のデリゲート
 
-新しいサブドメインを設定する際に、SSL 証明書をアドビで管理できます。アドビで証明書を自動的に作成し、証明書の有効期限が切れる前に毎年更新するので、これを強くお勧めします。
-
-CNAME を使用してサブドメインデリゲーションを設定している場合、アドビでは、証明書を生成するためにドメインホスティングソリューションに使用する証明書レコードを提供します。
-
->[!NOTE]
->
->SSL 証明書のデリゲーションは、新しいサブドメインを設定する場合にのみ使用できます。既にデリゲートされたサブドメインには使用できません。
-
-新しいサブドメインを設定する場合、SSL 証明書のデリゲーションが有効になります。続行方法については、[この節](setting-up-new-subdomain.md)を参照してください。
+Adobeは証明書を自動的に作成し、証明書の期限が切れる前に毎年更新するので、サブドメインの SSL 証明書をAdobeにデリゲートすることを強くお勧めします。 [サブドメインの SSL 証明書をAdobeにデリゲートする方法を説明します](delegate-ssl.md)
 
 ## SSL 証明書の監視 {#monitoring-certificates}
 
