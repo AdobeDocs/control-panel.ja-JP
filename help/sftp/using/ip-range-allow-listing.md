@@ -132,7 +132,7 @@ CIDR（Classless Inter-Domain Routing）は、コントロールパネルのイ�
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"
->title="IP 範囲の更新"
+>title="IP 範囲を更新"
 >abstract="選択した IP 範囲を更新して SFTP サーバーに接続できるようにします。"
 
 IP 範囲を編集するには、次の手順に従います。
