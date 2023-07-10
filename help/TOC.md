@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
    + [TXT レコードの管理](subdomains-certificates/using/managing-txt-records.md)
    + SSL 証明書の管理 {#manage-certificates}
       + [SSL 証明書の監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
-      + [SSL 証明書をAdobeに委任](subdomains-certificates/using/delegate-ssl.md)
+      + [アドビに SSL 証明書をデリゲート](subdomains-certificates/using/delegate-ssl.md)
       + [SSL 証明書の更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR の生成](subdomains-certificates/using/generate-csr.md)
       + [SSL 証明書のインストール](subdomains-certificates/using/install-ssl-certificate.md)
