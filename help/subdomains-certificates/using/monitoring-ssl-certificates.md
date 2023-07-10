@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign では、ランディングページ（特に、顧客の機密�
 
 ## アドビへのサブドメインの SSL 証明書のデリゲート
 
-Adobeは証明書を自動的に作成し、証明書の期限が切れる前に毎年更新するので、サブドメインの SSL 証明書をAdobeにデリゲートすることを強くお勧めします。 [サブドメインの SSL 証明書をAdobeにデリゲートする方法を説明します](delegate-ssl.md)
+アドビで証明書を自動的に作成し、証明書の有効期限が切れる前に毎年更新するので、アドビへのサブドメインの SSL 証明書のデリゲートを強くお勧めします。[詳しくは、アドビへのサブドメインの SSL 証明書のデリゲート方法を参照してください](delegate-ssl.md)
 
 ## SSL 証明書の監視 {#monitoring-certificates}
 
