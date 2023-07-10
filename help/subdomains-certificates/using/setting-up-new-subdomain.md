@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1590'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ## 必読 {#must-read}
 
-このページでは、完全なサブドメインの委任または CNAME を使用して新しいサブドメインを設定する方法について説明します。これら 2 つの方法に関する全体的な概念については](../../subdomains-certificates/using/subdomains-branding.md)サブドメインのブランディング[の節で説明します。
+このページでは、完全なサブドメインのデリゲーションまたは CNAME を使用して新しいサブドメインを設定する方法について説明します。これら 2 つの方法に関する全体的な概念については](../../subdomains-certificates/using/subdomains-branding.md)サブドメインのブランディング[の節で説明します。
 
 **関連トピック：**
 
@@ -104,7 +104,7 @@ CNAME を使用してサブドメインデリゲーションを設定してい�
 
    必ずデリゲートするサブドメインの&#x200B;**フルネームを**&#x200B;入力してください。例えば、「usoffers.email.weretail.com」サブドメインをデリゲートするには、「usoffers.email.weretail.com」 と入力します。
 
-1. サブドメインの SSL 証明書の生成をアドビにデリゲートするには、「**[!UICONTROL サブドメインのアドビ管理の SSL を選択]**」オプションを有効にします。[SSL 証明書のデリゲーションの詳細を説明します](delegate-ssl.md)
+1. サブドメインの SSL 証明書の生成をアドビにデリゲートするには、「**[!UICONTROL サブドメインのアドビ管理の SSL を選択]**」オプションを有効にします。[詳しくは、SSL 証明書のデリゲーションを参照してください](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -148,7 +148,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 1. 作成したサブドメインをホスティングソリューションに入力します。
 
-   サブドメインの SSL 証明書の生成をアドビにデリゲートするには、「**[!UICONTROL サブドメインのアドビ管理の SSL を選択]**」オプションを有効にします。[SSL 証明書のデリゲーションの詳細を説明します](delegate-ssl.md)
+   サブドメインの SSL 証明書の生成をアドビにデリゲートするには、「**[!UICONTROL サブドメインのアドビ管理の SSL を選択]**」オプションを有効にします。[詳しくは、SSL 証明書のデリゲーションを参照してください](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
