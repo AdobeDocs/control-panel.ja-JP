@@ -3,15 +3,15 @@ title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # リリースノート 2023 {#rn-2023}
 
-## 2023 年 5 月の機能強化 {#june-2023}
+## 2023年5月の改善点 {#june-2023}
 
 **アドビへのサブドメインの SSL 証明書のデリゲーション**
 
