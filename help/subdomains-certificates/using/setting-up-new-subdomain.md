@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 100%
+source-wordcount: '1596'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ CNAME を使用してサブドメインデリゲーションを設定してい�
 
 >[!NOTE]
 >
->アドビ管理の SSL は、ユーザーが無料で使用できる機能です。
+>アドビ管理の SSL は、ユーザーが無料で使用できる機能です。[SSL 証明書管理の詳細を説明します](monitoring-ssl-certificates.md#management)
 
 ### ネームサーバーの設定
 

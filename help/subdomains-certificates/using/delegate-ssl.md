@@ -6,10 +6,10 @@ description: アドビへのサブドメインの SSL 証明書のデリゲー�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0eefdbde25c955c84ee7534976256ca4df9a686c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="アドビへのサブドメインの SSL 証明書のデリゲート"
 >abstract="コントロールパネルでは、サブドメインの SSL 証明書をアドビで管理できます。CNAME を使用してサブドメインを設定している場合、ドメインホスティングソリューションに証明書を生成するために、証明書レコードが自動的に生成および提供されます。"
 
-アドビで証明書を自動的に作成し、証明書の有効期限が切れる前に毎年更新するので、アドビへのサブドメインの SSL 証明書のデリゲートを強くお勧めします。
+Adobeは証明書を自動的に作成し、証明書の期限が切れる前に毎年更新するので、サブドメインの SSL 証明書の管理をAdobeにデリゲートすることを強くお勧めします。
 
 CNAME を使用してサブドメインデリゲーションを設定している場合、アドビでは、証明書を生成するためにドメインホスティングソリューションに使用する証明書レコードを提供します。
 
@@ -28,7 +28,8 @@ CNAME を使用してサブドメインデリゲーションを設定してい�
 
 >[!NOTE]
 >
->アドビ管理の SSL は、ユーザーが無料で使用できる機能です。
+>アドビ管理の SSL は、ユーザーが無料で使用できる機能です。サブドメインの証明書をAdobeにデリゲートすることは透過的で、キャンペーンと配信品質には影響しません。 [SSL 証明書管理の詳細を説明します](monitoring-ssl-certificates.md#management)
+
 
 ## 新しいサブドメインの SSL 証明書のデリゲート {#new}
 
