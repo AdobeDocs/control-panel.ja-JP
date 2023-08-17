@@ -32,7 +32,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 コントロールパネルには、Experience Cloud Platform の&#x200B;**ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. 次の [Adobe Experience Cloudホームページ](https://experiencecloud.adobe.com/){target="_blank"}を選択します。 **Campaign** から **クイックアクセス** 」セクションまたは右上の上部のメニューを使用して、アクセスできます。
+1. 次から： [Adobe Experience Cloudホームページ](https://experiencecloud.adobe.com/){target="_blank"}を選択します。 **Campaign** から **クイックアクセス** 」セクションまたは右上の上部のメニューを使用して、アクティビティを選択できます。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
