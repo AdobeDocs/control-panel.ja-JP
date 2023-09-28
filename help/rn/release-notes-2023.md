@@ -2,16 +2,22 @@
 title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # リリースノート 2023 {#rn-2023}
 
-## 2023年5月の改善点 {#june-2023}
+## 2023年6月 {#june-2023}
+
+* 既にデリゲートされたサブドメインの SSL 証明書を、サブドメインリストから直接アドビにデリゲートできるようになりました。[詳細情報](../subdomains-certificates/using/delegate-ssl.md)
+
+* アラートメールの送信者を `"alert@notifications.campaign.adobe.com"` に変更しました。
+
+## 2023年5月の改善点 {#may-2023}
 
 **アドビへのサブドメインの SSL 証明書のデリゲーション**
 
