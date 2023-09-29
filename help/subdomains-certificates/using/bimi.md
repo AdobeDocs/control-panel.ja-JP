@@ -6,9 +6,9 @@ description: サブドメインに BIMI レコードを追加する方法を説�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. Adobe Analytics の **[!UICONTROL 会社のロゴ URL]**」で、ロゴを含むSVGファイルの URL を指定します。
 
-1. The **[!UICONTROL 証明書 URL]** フィールドはオプションです。 検証済みマーク証明書 (VMC) の URL を追加して、スパム送信者や他の悪意のあるユーザーが所有していないブランドロゴを使用するのを防ぐために、組織がロゴの法的所有者であることを証明できます。
+1. しかし **[!UICONTROL 証明書 URL]** はオプションで、メールボックス市場の 80%をカバーする Gmail やAppleなど、一部のメールボックスプロバイダーに必要です。 したがって、BIMI を本当に活用するために、検証済みマーク証明書 (VMC) を取得することをお勧めします。
 
    +++VMC を入手するにはどうすればよいですか？
 
@@ -56,6 +56,8 @@ ht-degree: 0%
    1. ロゴが商標であることを確認したら、DigiCert または Entrust 認証局 (CA) に連絡して、VMC をリクエストしてください。
 
    1. VMC が承認されると、エンティティ証明書のプライバシー拡張メール (PEM) ファイルが届きます。 CA から取得した他の中間証明書をこの PEM ファイルに追加します。 PEM ファイル（追加ファイルと共に）をパブリック Web サーバーにアップロードし、PEM ファイルの URL をメモします。 BIMI TXT レコードに URL を使用します。
+
+   1. 特定のサブドメインのサブドメインの詳細ページに BIMI レコードが表示されたら、使用可能な BIMI インスペクタを使用できます [ここ](https://bimigroup.org/bimi-generator/) をクリックして、BIMI レコードが正しく機能しているかどうかを確認します。
 
    BIMI の実装に関する詳細は、 [BIMI 標準ドキュメント](https://bimigroup.org/implementation-guide/)
 +++

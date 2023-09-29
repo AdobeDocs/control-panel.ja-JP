@@ -6,9 +6,9 @@ description: サブドメインに DMARC レコードを追加する方法を説
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## DMARC レコードについて {#about}
 
 Domain Based Message Authentication, Reporting and Conformance(DMARC) は、組織が E メールドメインをフィッシング攻撃やスプーフィング攻撃から保護するのに役立つ、E メール認証プロトコル標準です。 SPF および DKIM チェックに失敗した E メールをメールボックスプロバイダーがどのように処理するかを決定でき、送信者のドメインを認証し、悪意のある目的でドメインが不正に使用されるのを防ぐ方法を提供できます。
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## 制限事項と前提条件 {#limitations}
 
@@ -37,11 +39,17 @@ Domain Based Message Authentication, Reporting and Conformance(DMARC) は、組�
 
 1. を選択します。 **[!UICONTROL ポリシータイプ]** 電子メールの 1 つに失敗した場合に受信者サーバーが従うように設定します。 使用可能なポリシーの種類は次のとおりです。
 
-   * なし,
-   * 強制隔離（スパムフォルダーの配置）
-   * 拒否（E メールをブロック）します。
+   * **[!UICONTROL なし]**,
+   * **[!UICONTROL 強制隔離]** （スパムフォルダーの配置）、
+   * **[!UICONTROL 拒否]** （E メールをブロック）。
 
-   サブドメインが設定されたばかりの場合、サブドメインが完全に設定され、電子メールが正しく送信されるまで、この値を「なし」に設定することをお勧めします。 すべてを正しく設定したら、ポリシータイプを「強制隔離」または「却下」に変更できます。
+   ベストプラクティスとして、DMARC の潜在的な影響を DMARC が把握できるように、DMARC ポリシーを p=none から p=quarantine にエスカレートし、p=reject にエスカレートすることで、DMARC の実装を徐々に展開することをお勧めします。
+
+   * **手順 1:** 受け取り、使用したフィードバックを分析します (p=none)。これは、認証に失敗したメッセージに対して何のアクションも実行せず、送信者に電子メールレポートを送信するように受信者に指示します。 また、正当なメッセージが認証に失敗する場合は、SPF/DKIM の問題を確認して修正します。
+
+   * **手順 2:** SPF と DKIM がすべての正当な E メールの認証を渡しているかどうかを確認し、ポリシーを (p=quarantine) に移動します。これは、受信側の E メールサーバーに、認証に失敗した E メールを強制隔離するよう指示します（通常は、スパムフォルダーにメッセージを配置します）。 ポリシーが強制隔離に設定されている場合は、E メールのごく一部から開始することを推奨します。
+
+   * **手順 3:** ポリシーを (p=reject) に調整します。 注意：このポリシーは慎重に使用し、お客様の組織に適しているかどうかを判断してください。 p= reject ポリシーは、認証に失敗したドメインの E メールを受信者に対して完全に拒否（バウンス）するように指示します。 このポリシーを有効にすると、ドメインで 100%認証された電子メールのみがインボックスに配置される可能性もあります。
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Domain Based Message Authentication, Reporting and Conformance(DMARC) は、組�
    * 集計 — DMARC レポートは、例えば、特定の期間に失敗した電子メールの数など、高レベルの情報を提供します。
    * フォレンジック DMARC の失敗レポートには、例えば、失敗した E メールの送信元 IP アドレスなどの詳細情報が表示されます。
 
-1. デフォルトでは、選択した DMARC ポリシーがすべての電子メールに適用されます。 このパラメーターを変更して、特定の割合の電子メールにのみ適用できます。
+1. DMARC ポリシーが「なし」に設定されている場合は、100%のメールに適用される割合を入力します。
 
-   DMARC を徐々にデプロイする場合は、まずメッセージのごく一部から始めることができます。 受信サーバーで認証を渡すドメインからのメッセージが増えるので、100%に達するまで、より高い割合でレコードを更新します。
+   ポリシーが「拒否」または「強制隔離」に設定されている場合は、E メールのごく一部から開始することをお勧めします。 ドメインからのメールが受信サーバーで認証を渡すのが増えるので、より高い割合でレコードを徐々に更新してください。
 
    >[!NOTE]
    >
