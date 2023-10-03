@@ -6,13 +6,13 @@ description: サブドメインに DMARC レコードを追加する方法を説
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # DMARC レコードの追加 {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Domain Based Message Authentication, Reporting and Conformance(DMARC) は、組織が E メールドメインをフィッシング攻撃やスプーフィング攻撃から保護するのに役立つ、E メール認証プロトコル標準です。 SPF および DKIM チェックに失敗した E メールをメールボックスプロバイダーがどのように処理するかを決定でき、送信者のドメインを認証し、悪意のある目的でドメインが不正に使用されるのを防ぐ方法を提供できます。
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+DMARC の実装に関する詳細は、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## 制限事項と前提条件 {#limitations}
 

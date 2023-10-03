@@ -6,19 +6,21 @@ description: サブドメインに BIMI レコードを追加する方法を説�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
-
 # BIMI レコードを追加 {#dmarc}
 
 ## BIMI レコードについて {#about}
 
-メッセージ識別 (BIMI) のブランドインジケーターは、送信者の E メールの横に承認済みのロゴをメールボックスプロバイダーの受信ボックスに表示して、ブランドの認知度と信頼性を高める業界標準です。 DMARC 認証を通じて送信者の身元を確認することで、E メールのスプーフィングやフィッシングを防ぐのに役立ち、悪意のある関係者が E メールの正当なブランドとして偽装するのがより難しくなります。 BIMI の実装について詳しくは、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+メッセージ識別 (BIMI) のブランドインジケーターは、送信者の E メールの横に承認済みのロゴをメールボックスプロバイダーの受信ボックスに表示して、ブランドの認知度と信頼性を高める業界標準です。 DMARC 認証を通じて送信者の身元を確認することで、E メールのスプーフィングやフィッシングを防ぐのに役立ち、悪意のある関係者が E メールの正当なブランドとして偽装するのがより難しくなります。
+
+BIMI の実装について詳しくは、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
