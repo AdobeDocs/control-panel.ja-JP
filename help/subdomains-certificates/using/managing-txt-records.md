@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: サブドメインのGoogleサイト検証レコードの追加
-description: ドメイン所有権の検証用に、サブドメインのGoogleサイト検証レコードを追加する方法を説明します。
+title: サブドメインの Google サイト検証レコードの追加
+description: ドメイン所有権の検証用に、サブドメインの Google サイト検証レコードを追加する方法を説明します。
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Googleサイト検証レコードの追加 {#adding-a-google-txt-record}
+# Google サイト検証レコードを追加 {#adding-a-google-txt-record}
 
 高い受信ボックス率および低いスパム率を確保するために、Google などの一部のサービスでは、ドメインを所有していることを検証するために、ドメイン設定に TXT レコードを追加する必要があります。
 
@@ -22,11 +22,11 @@ ht-degree: 76%
 
 Gmail アドレス宛てのメール送信に使用するサブドメインに Google TXT レコードを追加するには、次の手順に従います。
 
-1. サブドメインリストで、目的のサブドメインの横にある省略記号ボタンをクリックし、「 」を選択します。 **[!UICONTROL サブドメインの詳細]**.
+1. サブドメインリストで、目的のサブドメインの横にある省略記号ボタンをクリックし、「**[!UICONTROL サブドメインの詳細]**」を選択します。
 
-1. 次をクリック： **[!UICONTROL TXT レコードを追加]** 」ボタンをクリックし、「 **[!UICONTROL Google Site Verification]** から **[!UICONTROL レコードタイプ]** 」ドロップダウンリストから選択できます。
+1. 「**[!UICONTROL TXT レコードを追加]**」ボタンをクリックし、「**[!UICONTROL レコードタイプ]**」ドロップダウンリストから「**[!UICONTROL Google サイト検証]**」を選択します。
 
-1. G Suite 管理ツールで生成された値を入力します。 詳しくは、[G Suite 管理ヘルプ](https://support.google.com/a/answer/183895)を参照してください。
+1. G Suite 管理ツールで生成された値を入力します。詳しくは、[G Suite 管理ヘルプ](https://support.google.com/a/answer/183895)を参照してください。
 
    ![](assets/txt_addtxt.png)
 
