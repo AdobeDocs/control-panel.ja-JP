@@ -3,7 +3,7 @@ title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
