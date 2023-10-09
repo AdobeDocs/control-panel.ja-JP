@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 87%
    + サブドメインのデリゲート {#delegate-subdomains}
       + [新しいサブドメインを設定](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [アドビへのサブドメインのデリゲーションの削除](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + TXT レコードの操作 (Google、BIMI、DMARC) {#txt-records}
-      + [TXT レコードの概要](subdomains-certificates/using/gs-txt-records.md)
-      + [Googleサイト検証レコードの追加](subdomains-certificates/using/managing-txt-records.md)
+   + TXT レコードの操作（Google、BIMI、DMARC）{#txt-records}
+      + [TXT レコードの基本を学ぶ](subdomains-certificates/using/gs-txt-records.md)
+      + [Google サイト検証レコードを追加](subdomains-certificates/using/managing-txt-records.md)
       + [DMARC レコードの追加](subdomains-certificates/using/dmarc.md)
       + [BIMI レコードを追加](subdomains-certificates/using/bimi.md)
    + サブドメインの SSL 証明書を管理 {#manage-certificates}
