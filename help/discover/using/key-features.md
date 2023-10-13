@@ -7,8 +7,8 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -50,12 +50,12 @@ ht-degree: 100%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>インスタンス設定の管理</strong></a></div>
-        <br/><em>インスタンス設定（Campaign v7／v8 のみ）の管理方法の詳細</em>
+        <em>インスタンス設定（Campaign v7／v8 のみ）の管理方法の詳細</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>パフォーマンスの監視</strong></a></div>
-        <br/><em>インスタンスの主要リソースの使用率を監視する方法の詳細</em>
+        <em>インスタンスの主要リソースの使用率を監視する方法の詳細</em>
     </td>
 </tr>
 </table>
