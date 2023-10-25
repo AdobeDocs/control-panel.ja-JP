@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="インスタンスの詳細について"
->abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および適用可能な推奨アップグレード）を表示します。"
+>abstract="Adobe Campaign インスタンスの詳細（タイプ、名前、ビルド情報および適用可能なレコメンデーションアップグレード）を表示します。"
 
 ## インスタンスの詳細について {#about-instance-details}
 
