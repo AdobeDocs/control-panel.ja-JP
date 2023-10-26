@@ -2,14 +2,34 @@
 title: リリースノート 2023
 description: このページでは、コントロールパネルの 2023年リリースをすべて掲載しています。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # リリースノート 2023 {#rn-2023}
+
+## 2023年9月 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>DMARC および BIMI レコードの管理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>DMARC および BIMI レコードをコントロールパネルから直接追加できるようになりました。
+
+<ul><li><strong>DMARC レコード</strong>は、送信者のドメインを認証し、悪意のある目的でのドメインの不正使用を防ぐ方法を提供します。<a href="../subdomains-certificates/using/dmarc.md">DMARC レコードの追加方法を学ぶ</a></li>
+<li><strong>BIMI レコード</strong>は、メールボックスプロバイダーの受信ボックスで、メールの横に承認済みのロゴを表示して、ブランドの認知度と信頼性を高めることができます。<a href="../subdomains-certificates/using/bimi.md">BIMI レコードの追加方法を学ぶ</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023年6月 {#june-2023}
 
