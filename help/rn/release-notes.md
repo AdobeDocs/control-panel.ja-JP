@@ -2,10 +2,10 @@
 title: 最新リリース
 description: このページでは、コントロールパネルのすべての新機能と改善点を一覧表示しています。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 26%
 
 ---
 
@@ -13,22 +13,21 @@ ht-degree: 100%
 
 このページでは、コントロールパネルの新機能と改善点を一覧表示しています。
 
-## 2023年9月 {#september-2023}
+## 2023年10月 {#october-2023}
 
-<table>
-<thead>
-<tr>
-<th><strong>DMARC および BIMI レコードの管理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>DMARC および BIMI レコードをコントロールパネルから直接追加できるようになりました。
+**ユーザーインターフェイス**
 
-<ul><li><strong>DMARC レコード</strong>は、送信者のドメインを認証し、悪意のある目的でのドメインの不正使用を防ぐ方法を提供します。<a href="../subdomains-certificates/using/dmarc.md">DMARC レコードの追加方法を学ぶ</a></li>
-<li><strong>BIMI レコード</strong>は、メールボックスプロバイダーの受信ボックスで、メールの横に承認済みのロゴを表示して、ブランドの認知度と信頼性を高めることができます。<a href="../subdomains-certificates/using/bimi.md">BIMI レコードの追加方法を学ぶ</a></li></ul>
-</td>
-</tr>
-</tbody>
-</table>
+* Campaign コントロールパネルが追加の言語で利用できるようになりました。 [詳細情報](../discover/using/discovering-the-interface.md#supported-languages-languages)
+
+**アクティブなプロファイルの監視**
+
+* 複数のインスタンスを使用している場合に、組織に対して使用可能なアクティブなプロファイルの数、およびすべてのインスタンス内で組織で使用されたプロファイルの総数を監視できるようになりました。 [詳細情報](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**DMARC レコード**
+
+* 複数の電子メールアドレスで、集計レポートと失敗レポートの電子メールを受け取れるようになりました。 [詳細情報](../subdomains-certificates/using/dmarc.md)
+* サブドメインに DMARC と BIMI の両方のレコードが存在する場合は、次の変更が行われています。
+
+   * DMARC レコードは削除できません。 削除する場合は、まず BIMI レコードを削除する必要があります。
+   * DMARC レコードは編集できますが、ポリシーを「なし」にダウングレードすることはできません。割合 (%) は 100 にする必要があります。
+
