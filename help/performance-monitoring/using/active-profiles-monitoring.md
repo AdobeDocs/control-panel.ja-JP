@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 51%
@@ -56,7 +56,11 @@ ht-degree: 51%
 
 * 選択したインスタンスで現在使用されているアクティブなプロファイルの数と、インスタンスに対する最新の請求ワークフロー実行のタイムスタンプ。
 
-* すべてのインスタンス内で組織全体で使用されたアクティブなプロファイルの合計数。 このセクションは、組織に複数のインスタンスが関連付けられている場合にのみ表示されます。
+* すべてのインスタンス内で組織全体で使用されたアクティブなプロファイルの合計数。
+
+  >[!NOTE]
+  >
+  >このセクションは、組織に複数のインスタンスが関連付けられている場合にのみ表示されます。
 
 * 組織に割り当てられたアクティブなプロファイルの合計数。
 
