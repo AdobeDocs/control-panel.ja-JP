@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '795'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ DMARC の実装に関する詳細は、 [アドビの配信品質のベスト�
 
 * SPF および DKIM レコードは、DMARC レコードを作成するための前提条件です.
 * DMARC レコードは、完全なサブドメインデリゲーションを使用してサブドメインに対してのみ追加できます。[サブドメイン設定メソッドの詳細を学ぶ](subdomains-branding.md#subdomain-delegation-methods)
+* サブドメインに DMARC と BIMI の両方のレコードが存在する場合：
+   * DMARC レコードは削除できません。 DMARC レコードを削除する場合は、まず BIMI レコードを削除します。
+   * DMARC レコードは編集できますが、DMARC ポリシーを「なし」にダウングレードすることはできません。また、割合 (%) を「100」に設定する必要があります。
 
 ## サブドメインの DMARC レコードを追加 {#add}
 
@@ -55,7 +58,7 @@ DMARC の実装に関する詳細は、 [アドビの配信品質のベスト�
    >
    > DMARC レコードポリシーの種類が「なし」に設定されている場合、BIMI レコードの作成は利用できません。
 
-1. DMARC レポートを受信するメールアドレスを入力します。メールの 1 つが失敗した場合、DMARC レポートは選択したメールアドレスに自動送信されます。
+1. DMARC レポートを受信するメールアドレスを入力します。複数の電子メールアドレスを追加する場合は、コンマで区切ります。 メールの 1 つが失敗した場合、DMARC レポートは選択したメールアドレスに自動送信されます。
 
    * 集計 DMARC レポートは、例えば、特定の期間に失敗した電子メールの数など、高レベルの情報を提供します。
    * フォレンジック DMARC の失敗レポートには、例えば、失敗したメールの送信元 IP アドレスなどの詳細情報が表示されます。
