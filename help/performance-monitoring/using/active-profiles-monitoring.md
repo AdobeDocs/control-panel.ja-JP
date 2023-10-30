@@ -10,11 +10,11 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# アクティブなプロファイルの監視 {#active-profiles-monitoring}
+# アクティブなプロファイルを監視 {#active-profiles-monitoring}
 
 ## アクティブなプロファイルについて {#about-active-profiles}
 
@@ -39,16 +39,16 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="アクティブなプロファイルの監視について"
->abstract="このタブでは、Campaign インスタンス内および組織内の各プロファイルの、アクティブな最新および過去の使用状況と変化に関するリアルタイム情報を取得できます。"
+>abstract="このタブでは、Campaign インスタンスと組織ごとに、アクティブなプロファイルの使用状況と変化の最新情報や履歴がリアルタイムで表示されます。"
 
-アクティブなプロファイルの使用に関する情報は、専用の [!DNL Campaign] インスタンス上で毎日実行されるテクニカルワークフロー：
+アクティブなプロファイルの使用状況に関連する情報は、インスタンスで毎日実行される専用の [!DNL Campaign] テクニカルワークフローに基づいて、コントロールパネルで更新されます。
 * Campaign Standard の[「請求」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja)ワークフロー、
 * Campaign v7／v8 の[「アクティブな請求プロファイルの数」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)ワークフロー。
 
 
-アクティブなプロファイルの使用状況をCampaign コントロールパネルで監視するには、 **[!UICONTROL パフォーマンスの監視]** カード > **[!UICONTROL アクティブなプロファイル]** 」タブをクリックし、 **[!UICONTROL インスタンスリスト]**.
+コントロールパネルでアクティブなプロファイルの使用状況を監視するには、「**[!UICONTROL パフォーマンス監視]**」カード／「**[!UICONTROL アクティブなプロファイル]**」タブに移動し、**[!UICONTROL インスタンスリスト]**&#x200B;から目的のインスタンスを選択します。
 
-アクティブなプロファイルの使用に関する情報が表示されます。
+アクティブなプロファイルの使用状況に関する情報が表示されます。
 
 ![](assets/active-profiles-graph.png)
 
@@ -56,7 +56,7 @@ ht-degree: 51%
 
 * 選択したインスタンスで現在使用されているアクティブなプロファイルの数と、インスタンスに対する最新の請求ワークフロー実行のタイムスタンプ。
 
-* すべてのインスタンス内で組織全体で使用されたアクティブなプロファイルの合計数。
+* すべてのインスタンス内の組織全体で使用されているアクティブなプロファイルの合計数。
 
   >[!NOTE]
   >
@@ -64,4 +64,4 @@ ht-degree: 51%
 
 * 組織に割り当てられたアクティブなプロファイルの合計数。
 
-下部のセクションには、過去 30 日間のアクティブなプロファイルの使用状況が視覚的に表示されます。 右上隅にあるフィルターを使用して、この期間を 1 年に変更できます。 グラフの上にマウスポインターを置くと、選択した期間に使用されたアクティブなプロファイルの正確な数を取得できます。
+下部のセクションには、過去 30 日間のアクティブなプロファイルの使用状況が視覚的に表示されます。右上隅にあるフィルターを使用して、この期間を 1 年に変更できます。右上隅にあるフィルターを使用すると、この時間枠を 1 年に変更できます。グラフにカーソルを合わせると、選択した期間に使用されたアクティブなプロファイルの正確な数を取得できます。
