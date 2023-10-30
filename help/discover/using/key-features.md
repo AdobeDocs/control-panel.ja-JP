@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: コントロールパネルは、Adobe Campaign Standard や Classic の製品管理者としての作業の効率を高めるのに役立ちます。
 description: コントロールパネルへのアクセス方法の詳細
-feature: Control Panel
-role: Architect
-level: Beginner
+feature: Control Panel, Overview
+role: Admin
+level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 

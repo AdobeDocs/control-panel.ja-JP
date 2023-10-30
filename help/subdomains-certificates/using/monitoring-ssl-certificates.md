@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: サブドメインの SSL 証明書の監視
 description: サブドメインの SSL 証明書の監視方法の詳細
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%

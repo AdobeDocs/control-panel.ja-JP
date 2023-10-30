@@ -3,12 +3,12 @@ product: campaign
 solution: Campaign
 title: サブドメインの Google サイト検証レコードの追加
 description: ドメイン所有権の検証用に、サブドメインの Google サイト検証レコードを追加する方法を説明します。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 

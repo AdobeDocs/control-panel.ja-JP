@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: スループットと待ち時間の監視
 description: コントロールパネルで Campaign インスタンスのスループットと待ち時間を監視する方法を説明します。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%

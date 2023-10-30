@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: ストレージの概要
 description: インスタンス上のデータベース容量を消費している様々な Campaign リソースをコントロールパネルで監視する方法を説明します。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%

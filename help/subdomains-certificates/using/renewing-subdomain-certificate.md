@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: サブドメインの SSL 証明書の更新
 description: サブドメインの SSL 証明書の更新方法の詳細
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%

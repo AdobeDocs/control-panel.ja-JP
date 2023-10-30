@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 一時的リソース上位 10 位
 description: Campaign データベース上のワークフローと配信で生成された一時的リソース上位 10 位をコントロールパネルで監視する方法を説明します。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->一般的に、非標準リソースが **40 列を超えない**&#x200B;ようにすることが推奨されます。ワークフローに多数のテーブルが存在する、またはデータベースサイズが大きい場合は、ワークフローを確認して、大量のデータが生成される理由を調べることをお勧めします。
+>一般的なレコメンデーションは、非標準リソースが **40 列を超えない**&#x200B;ようにすることです。ワークフローに多数のテーブルが存在する、またはデータベースサイズが大きい場合は、ワークフローを確認して、大量のデータが生成される理由を調べることをお勧めします。
 >
 >Campaign Standard と Classic のガイドラインは、[このページ](database-preventing-overload.md)を使用して、データベース容量超過を防ぐことができます。
 

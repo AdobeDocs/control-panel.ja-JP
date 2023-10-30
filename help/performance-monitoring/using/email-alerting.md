@@ -2,12 +2,12 @@
 product: campaign
 solution: Campaign
 title: メールアラート
-description: Campaign インスタンスに問題が発生した場合に E メール通知を受信する方法について説明します
-feature: Control Panel
-role: Architect
+description: Campaign インスタンスに問題が発生した場合にメール通知を受信する方法について説明します
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
@@ -52,6 +52,6 @@ ht-degree: 100%
 
    ![](assets/email_subscription.png)
 
-1. 購読すると、コントロールパネルによってシステムの問題に関する通知が送信され、実行すべきアクションが推奨されます。E メールアラートは、管理者となっている&#x200B;**すべてのインスタンス**&#x200B;について登録したすべてのユーザーに送信されます。
+1. 購読すると、コントロールパネルによってシステムの問題に関する通知が送信され、実行すべきアクションが推奨されます。メールアラートは、管理者となっている&#x200B;**すべてのインスタンス**&#x200B;について登録したすべてのユーザーに送信されます。
 
    ![](assets/alert_sample.png)

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 新しいサブドメインの設定
 description: キャンペーンインスタンス用の新しいサブドメインの設定方法の詳細
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 100%
