@@ -6,10 +6,10 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
    + [コントロールパネルインターフェイスの理解](discover/using/discovering-the-interface.md)
-+ [主要連絡先とイベントの監視](service-events/service-events.md)
-+ [メールアラート](performance-monitoring/using/email-alerting.md)
++ イベントと E メールアラート {#alerts-events}
+   + [主要連絡先とイベントの監視](service-events/service-events.md)
+   + [メールアラート](performance-monitoring/using/email-alerting.md)
 + SFTP の管理 {#sftp-management}
    + [SFTP の管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージの管理](sftp/using/sftp-storage-management.md)
