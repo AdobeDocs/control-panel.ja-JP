@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
@@ -19,8 +19,6 @@ ht-degree: 62%
 >title="コントロールパネルについて"
 >abstract="コントロールパネルホームページから、Campaign インスタンスで実行できるすべてのアクションにアクセスできます。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja" text="コントロールパネルへのアクセス"
-
-![](assets/do-not-localize/banner.png)
 
 Campaign コントロールパネルを使用すると、各 Campaign インスタンスの設定を管理したり使用状況を追跡したりできるので、 Campaign Standard および V7／v8 の製品管理者としての作業の効率を向上できます。
 
