@@ -6,7 +6,7 @@ user-guide-title: コントロールパネルのガイド
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
    + [コントロールパネルインターフェイスの理解](discover/using/discovering-the-interface.md)
+   + [FAQ](faq.md)
 + イベントと E メールアラート {#alerts-events}
    + [主要連絡先とイベントの監視](service-events/service-events.md)
    + [メールアラート](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [インスタンスの詳細](instances-settings/using/instance-details.md)
    + [GPG キーの管理](instances-settings/using/gpg-keys-management.md)
    + [MID／RT インスタンスの追加（ハイブリッドモデル）](instances-settings/using/external-accounts.md)
-+ [FAQ](faq.md)
