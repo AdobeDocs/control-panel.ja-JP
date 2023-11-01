@@ -7,4 +7,4 @@ ht-degree: 100%
 ---
 # control-panel.ja-JP
 
-Campaign コントロールパネルドキュメントのリポジトリ
+コントロールパネルドキュメントのリポジトリ
