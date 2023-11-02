@@ -3,12 +3,12 @@ product: campaign
 solution: Campaign
 title: GPG キー管理
 description: Adobe Campaign 内のデータを暗号化および復号化するための GPG キーの管理方法について説明します。
-feature: Control Panel
+feature: Control Panel, Encryption
 role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: ht
+source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
+workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 100%
 
