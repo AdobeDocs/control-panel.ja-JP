@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
    + [コントロールパネルインターフェイスの理解](discover/using/discovering-the-interface.md)
    + [FAQ](faq.md)
-+ イベントと E メールアラート {#alerts-events}
++ イベントとメールアラート {#alerts-events}
    + [主要連絡先とイベントの監視](service-events/service-events.md)
    + [メールアラート](performance-monitoring/using/email-alerting.md)
 + SFTP の管理 {#sftp-management}
