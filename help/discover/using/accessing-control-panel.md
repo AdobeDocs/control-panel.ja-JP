@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 79%
 
 Adobe Experience Cloud Platform からコントロールパネルにアクセスするには、次の手順に従います。
 
-1. 次に移動： [Experience Cloudホームページ](https://experiencecloud.adobe.com/){target="_blank"}.
+1. [Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}に移動します。
 
 1. 「**クイックアクセス**」セクションの専用リンクをクリックします。
 
@@ -32,7 +32,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 コントロールパネルには、Experience Cloud Platform の&#x200B;**ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. 次から： [Adobe Experience Cloudホームページ](https://experiencecloud.adobe.com/){target="_blank"}を選択します。 **Campaign** から **クイックアクセス** 」セクションまたは右上の上部のメニューを使用して、アクティビティを選択できます。
+1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}で、「**クイックアクセス**」セクションまたは右側のトップメニューから「**Campaign**」を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 >[!NOTE]
 >
->製品内からのアクセスは、次の場合に使用できます。 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"} のみ。
+>製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"} でのみ可能です。
 
 1. Campaign Standard 製品を起動します。
 
