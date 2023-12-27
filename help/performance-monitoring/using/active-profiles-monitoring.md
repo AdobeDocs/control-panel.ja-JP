@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
-workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Facebookチャネルと X( 旧称：Twitter) チャネルは考慮されません。
+>ただし、Facebook チャネルと X（旧 Twitter）チャネルは考慮されません。
 
 アクティブなプロファイルについて詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ja) と [Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja#active-profiles) のドキュメントを参照してください。
 
@@ -61,9 +61,9 @@ ht-degree: 88%
 
 下部のセクションには、過去 30 日間のアクティブなプロファイルの使用状況が視覚的に表示されます。右上隅にあるフィルターを使用して、この期間を 1 年に変更できます。右上隅にあるフィルターを使用すると、この時間枠を 1 年に変更できます。グラフにカーソルを合わせると、選択した期間に使用されたアクティブなプロファイルの正確な数を取得できます。
 
-アクティブなプロファイルの使用に関する情報は、専用の [!DNL Campaign] インスタンス上で一定の間隔で実行される「請求」テクニカルワークフロー。
+アクティブなプロファイルの使用状況に関連する情報は、インスタンスで一定の時間間隔で実行される専用の [!DNL Campaign]「課金」テクニカルワークフローに基づいて、コントロールパネルで更新されます。
 
 | Campaign のバージョン | テクニカルワークフロー | 実行 |
 |  ---  |  ---  |  ---  |
-| Campaign Standard | [請求](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja) | 日 |
-| Campaign v7/v8 | [請求](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | 毎月 |
+| Campaign Standard | [課金](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja) | 日次 |
+| Campaign v7/v8 | [課金](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=ja) | 毎月 |
