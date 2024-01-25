@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 メッセージ識別（BIMI）のブランドインジケーターは、メールボックスプロバイダーの受信ボックスにある送信者のメールの横に承認済みのロゴを表示して、ブランドの認知度と信頼性を高める業界標準です。DMARC 認証を通じて送信者の ID を確認することで、メールのスプーフィングやフィッシングを防ぐのに役立ち、悪意のある攻撃者がメールの正当なブランドとして偽装するのがより難しくなります。
 
-1 つのサブドメインに対して複数のロゴを持つことができます。 これをおこなうには、各ロゴに 1 つの BIMI レコードを設定し、各レコードに BIMI セレクターを割り当てる必要があります。 [BIMI レコードを追加する方法を説明します](#add)
+特定のサブドメインに対して複数のロゴを持つことができます。これを行うには、各ロゴに 1 つの BIMI レコードを設定し、各レコードに BIMI セレクターを割り当てる必要があります。[詳しくは、BIMI レコードの追加方法を参照してください](#add)
 
 BIMI の実装について詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=ja)を参照してください。
 
@@ -47,7 +47,7 @@ BIMI の実装について詳しくは、[アドビの配信品質のベスト�
 
    ![](assets/bimi-add.png)
 
-1. The **[!UICONTROL セレクター]** 「 」フィールドでは、レコードの BIMI セレクターを指定できます。 BIMI セレクターは、BIMI レコードに割り当てることができる一意の識別子です。 これにより、特定のサブドメインに対して複数のロゴを定義できます。
+1. 「**[!UICONTROL セレクター]**」フィールドでは、レコードの BIMI セレクターを指定できます。BIMI セレクターは、BIMI レコードに割り当てることができる一意の識別子です。これにより、特定のサブドメインに対して複数のロゴを定義できます。
 
 1. **[!UICONTROL 会社のロゴ URL]** 内で、ロゴを含む SVG ファイルの URL を指定します。
 
