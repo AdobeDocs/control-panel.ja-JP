@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ DMARC の実装に関する詳細は、 [アドビの配信品質のベスト�
 * SPF および DKIM レコードは、DMARC レコードを作成するための前提条件です.
 * DMARC レコードは、完全なサブドメインデリゲーションを使用してサブドメインに対してのみ追加できます。[サブドメイン設定メソッドの詳細を学ぶ](subdomains-branding.md#subdomain-delegation-methods)
 
-  CNAME ベースのサブドメインに DMARC レコードを確立するには、親ドメインに DMARC レコードを設定します。 これにより、CNAME を介してデリゲートされた場合でも、関連するすべてのサブドメインが DMARC レコードパラメーターを継承するようになります。
+  CNAME ベースのサブドメインで DMARC レコードを確立するには、その親ドメインで DMARC レコードを設定します。これにより、CNAME を通じてデリゲートされた場合でも、関連付けられたすべてのサブドメインが DMARC レコードパラメーターを継承するようになります。
 
 * サブドメインに DMARC と BIMI の両方のレコードが存在する場合：
    * DMARC レコードは削除できません。DMARC レコードを削除する場合は、まず BIMI レコードを削除します。
