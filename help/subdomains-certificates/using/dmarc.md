@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ DMARC の実装に関する詳細は、 [アドビの配信品質のベスト�
 
    * 集計 DMARC レポートは、例えば、特定の期間に失敗した電子メールの数など、高レベルの情報を提供します。
    * フォレンジック DMARC の失敗レポートには、例えば、失敗したメールの送信元 IP アドレスなどの詳細情報が表示されます。
+
+   >[!CAUTION]
+   >
+   >レポートを受信するために追加するメールアドレスが DMARC レコードを作成したドメイン外にある場合は、このドメインを所有する DNS を指定する外部ドメインを承認する必要があります。 それには、で説明されている手順に従います [dmarc.org ドキュメント](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. DMARC ポリシーが「なし」に設定されている場合は、100％のメールに適用される割合を入力します。
 
