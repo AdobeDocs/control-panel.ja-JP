@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ DMARC の実装に関する詳細は、 [アドビの配信品質のベスト�
 
    >[!CAUTION]
    >
-   >レポートを受信するために追加するメールアドレスが DMARC レコードを作成したドメイン外にある場合は、このドメインを所有する DNS を指定する外部ドメインを承認する必要があります。 それには、で説明されている手順に従います [dmarc.org ドキュメント](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+   >レポートを受信するために追加するメールアドレスが DMARC レコードを作成したドメインの外部にある場合は、その外部ドメインを承認して、このドメインを所有していることを DNS に指定する必要があります。これを行うには、[dmarc.org ドキュメント](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)で詳しく説明されている手順に従います。
 
 1. DMARC ポリシーが「なし」に設定されている場合は、100％のメールに適用される割合を入力します。
 
