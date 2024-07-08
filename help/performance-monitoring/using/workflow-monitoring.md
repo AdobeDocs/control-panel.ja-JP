@@ -5,9 +5,9 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '320'
+source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+workflow-type: tm+mt
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -77,3 +77,4 @@ Adobe Campaign では、インスタンスに関する問題を回避するた�
 値「1」は、ワークフローで&#x200B;**重要度**&#x200B;フィールドが「実稼動」に設定され、スーパーバイザーグループがワークフローに割り当てられていない状態を示します。
 
 ![](assets/wkf-monitoring-supervisors.png)
+
