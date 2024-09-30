@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
+source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 80%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 ## BIMI レコードについて {#about}
 
-メッセージ識別（BIMI）のブランドインジケーターは、メールボックスプロバイダーの受信ボックスにある送信者のメールの横に承認済みのロゴを表示して、ブランドの認知度と信頼性を高める業界標準です。DMARC 認証を通じて送信者の ID を確認することで、メールのスプーフィングやフィッシングを防ぐのに役立ち、悪意のある攻撃者がメールの正当なブランドとして偽装するのがより難しくなります。
-
-特定のサブドメインに対して複数のロゴを持つことができます。これを行うには、各ロゴに 1 つの BIMI レコードを設定し、各レコードに BIMI セレクターを割り当てる必要があります。[詳しくは、BIMI レコードの追加方法を参照してください](#add)
+BIMI （Brand Indicators for Message Identification）は、メールボックスプロバイダーのインボックスで送信者のメールの横に承認済みロゴを表示して、ブランドの認知と信頼を強化する業界標準です。
 
 BIMI の実装について詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=ja)を参照してください。
 
@@ -29,10 +27,12 @@ BIMI の実装について詳しくは、[アドビの配信品質のベスト�
 ## 制限事項と前提条件 {#limitations}
 
 * SPF、DKIM および DMARC レコードは、BIMI レコードを作成するための前提条件です。
-* BIMI レコードは、完全なサブドメインデリゲーションを使用してサブドメインに対してのみ追加できます。[サブドメイン設定メソッドの詳細を学ぶ](subdomains-branding.md#subdomain-delegation-methods)
+
+* BIMI レコードは DNS で公開する必要があります。完全にデリゲートされたドメインの場合は、Campaign コントロールパネルを通じて公開できます。 [サブドメイン設定メソッドの詳細を学ぶ](subdomains-branding.md#subdomain-delegation-methods)
+
 * DMARC レコードの前提条件：
 
-   * サブドメインのレコードポリシータイプは、「強制隔離」または「却下」に設定する必要があります。DMARC ポリシータイプが「なし」に設定されている BIMI レコードの作成は利用できません。
+   * 組織ドメインのレコード ポリシータイプは、[ 強制隔離 ] または [ 拒否 ] に設定する必要があります。 DMARC ポリシータイプが「なし」に設定されている BIMI レコードの作成は利用できません。
    * DMARC ポリシーが適用されるメールの割合は 100%である必要があります。BIMI は、この割合が 100％未満に設定された DMARC ポリシーをサポートしていません。
 
 [DMARC レコードの設定方法を説明します](dmarc.md)
@@ -47,11 +47,11 @@ BIMI の実装について詳しくは、[アドビの配信品質のベスト�
 
    ![](assets/bimi-add.png)
 
-1. 「**[!UICONTROL セレクター]**」フィールドでは、レコードの BIMI セレクターを指定できます。BIMI セレクターは、BIMI レコードに割り当てることができる一意の識別子です。これにより、特定のサブドメインに対して複数のロゴを定義できます。
+1. 「**[!UICONTROL セレクター]**」フィールドでは、レコードの BIMI セレクターを指定できます。BIMI セレクターは、BIMI レコードに割り当てることができる一意の識別子です。これにより、特定のサブドメインに対して複数のロゴを定義できます。 これは、現在、メールボックスプロバイダーではサポートされていません。
 
 1. **[!UICONTROL 会社のロゴ URL]** 内で、ロゴを含む SVG ファイルの URL を指定します。
 
-1. **[!UICONTROL 証明書 URL]** はオプションですが、メールボックス市場の 80%をカバーする Gmail や Apple など、一部のメールボックスプロバイダーには必要です。したがって、BIMI を本当に活用するために、検証済みマーク証明書（VMC）を取得することをお勧めします。
+1. **[!UICONTROL 証明書 URL]** はオプションですが、Gmail やAppleなど、一部のメールボックスプロバイダーでは必要になります。 したがって、BIMI を本当に活用するために、検証済みマーク証明書（VMC）を取得することをお勧めします。
 
    +++VMC を入手するにはどうすればよいですか？
 
