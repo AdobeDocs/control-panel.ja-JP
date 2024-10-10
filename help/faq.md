@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ID を見つける方法の 1 つとして、[Adobe Experience Cloud のホー�
 
 ### 複数の組織 ID がある場合はどうすればよいですか？
 
-Analytics と Campaign の間で 1 つの組織 ID を持つことは、買い物かごの放棄などの複雑なユースケースを活用できるようソリューションを統合する予定がある場合の要件です（Adobe Analytics + Adobe Campaignの場合）。 複数のアドビソリューションへのアクセス権がある場合、2 つ以上の組織 ID がある可能性があります。この場合、使用すべき正しい組織 ID は、Adobe Campaign インスタンスの下に表示されるものです。
+Analytics と Campaign の間で 1 つの組織 ID を使用することは、買い物かごの放棄などの複雑なユースケースを活用できるようソリューションを統合する予定がある場合の要件です（Adobe Analytics + Adobe Campaign の場合）。複数のアドビソリューションへのアクセス権がある場合、2 つ以上の組織 ID がある可能性があります。この場合、使用すべき正しい組織 ID は、Adobe Campaign インスタンスの下に表示されるものです。
 
 <!--
 >[!NOTE]
@@ -90,7 +90,7 @@ Analytics と Campaign の間で 1 つの組織 ID を持つことは、買い�
 
 インスタンスが AWS でホストされているかどうかを確認するには、以下の手順に従います。
 
-1. ログイン URL を取得します。これは Campaign インスタンスにログインするために使用する URL で、ほとんどの場合、「.campaign.adobe.com」または「.neolane.net」で終わります。
+1. ログイン URL を取得します。ログイン URL は、Campaign インスタンスへのログインに利用する URL で、ほとんどの場合、「.campaign.adobe.com」または「.neolane.net」で終わります。
 1. ターミナルを開いて、ログイン URL に対して **[!DNL nslookup]** コマンドを実行します。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`

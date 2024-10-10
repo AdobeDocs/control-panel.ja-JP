@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## BIMI レコードについて {#about}
 
-BIMI （Brand Indicators for Message Identification）は、メールボックスプロバイダーのインボックスで送信者のメールの横に承認済みロゴを表示して、ブランドの認知と信頼を強化する業界標準です。
+メッセージ識別（BIMI）のブランドインジケーターは、メールボックスプロバイダーの受信ボックスにある送信者のメールの横に承認済みのロゴを表示して、ブランドの認知度と信頼性を高める業界標準です。
 
 BIMI の実装について詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=ja)を参照してください。
 
@@ -28,11 +28,11 @@ BIMI の実装について詳しくは、[アドビの配信品質のベスト�
 
 * SPF、DKIM および DMARC レコードは、BIMI レコードを作成するための前提条件です。
 
-* BIMI レコードは DNS で公開する必要があります。完全にデリゲートされたドメインの場合は、Campaign コントロールパネルを通じて公開できます。 [サブドメイン設定メソッドの詳細を学ぶ](subdomains-branding.md#subdomain-delegation-methods)
+* BIMI レコードは DNS で公開する必要があります。完全にデリゲートされたドメインの場合は、コントロールパネルを通じて公開できます。[サブドメイン設定メソッドの詳細を学ぶ](subdomains-branding.md#subdomain-delegation-methods)
 
 * DMARC レコードの前提条件：
 
-   * 組織ドメインのレコード ポリシータイプは、[ 強制隔離 ] または [ 拒否 ] に設定する必要があります。 DMARC ポリシータイプが「なし」に設定されている BIMI レコードの作成は利用できません。
+   * 組織のドメインのレコードポリシータイプは、「強制隔離」または「却下」に設定する必要があります。DMARC ポリシータイプが「なし」に設定されている BIMI レコードの作成は利用できません。
    * DMARC ポリシーが適用されるメールの割合は 100%である必要があります。BIMI は、この割合が 100％未満に設定された DMARC ポリシーをサポートしていません。
 
 [DMARC レコードの設定方法を説明します](dmarc.md)
@@ -47,11 +47,11 @@ BIMI の実装について詳しくは、[アドビの配信品質のベスト�
 
    ![](assets/bimi-add.png)
 
-1. 「**[!UICONTROL セレクター]**」フィールドでは、レコードの BIMI セレクターを指定できます。BIMI セレクターは、BIMI レコードに割り当てることができる一意の識別子です。これにより、特定のサブドメインに対して複数のロゴを定義できます。 これは、現在、メールボックスプロバイダーではサポートされていません。
+1. 「**[!UICONTROL セレクター]**」フィールドでは、レコードの BIMI セレクターを指定できます。BIMI セレクターは、BIMI レコードに割り当てることができる一意の識別子です。これにより、特定のサブドメインに対して複数のロゴを定義できます。これは、現在、メールボックスプロバイダーではサポートされていません。
 
 1. **[!UICONTROL 会社のロゴ URL]** 内で、ロゴを含む SVG ファイルの URL を指定します。
 
-1. **[!UICONTROL 証明書 URL]** はオプションですが、Gmail やAppleなど、一部のメールボックスプロバイダーでは必要になります。 したがって、BIMI を本当に活用するために、検証済みマーク証明書（VMC）を取得することをお勧めします。
+1. **[!UICONTROL 証明書 URL]** はオプションですが、Gmail や Apple など、一部のメールボックスプロバイダーには必要です。したがって、BIMI を本当に活用するために、検証済みマーク証明書（VMC）を取得することをお勧めします。
 
    +++VMC を入手するにはどうすればよいですか？
 
