@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ コントロールパネルの概要 {#discover-control-panel}
++ コントロールパネルの理解 {#discover-control-panel}
    + [主な機能](discover/using/key-features.md)
    + [コントロールパネルへのアクセス](discover/using/accessing-control-panel.md)
    + [コントロールパネルに対する権限の管理](discover/using/managing-permissions.md)
@@ -34,25 +34,25 @@ ht-degree: 100%
 + イベントとメールアラート {#alerts-events}
    + [主要連絡先とイベントの監視](service-events/service-events.md)
    + [メールアラート](performance-monitoring/using/email-alerting.md)
-+ SFTP の管理 {#sftp-management}
++ SFTP 管理 {#sftp-management}
    + [SFTP の管理について](sftp/using/about-sftp-management.md)
    + [SFTP ストレージの管理](sftp/using/sftp-storage-management.md)
    + [IP 範囲許可リストへの登録](sftp/using/ip-range-allow-listing.md)
    + [鍵の管理](sftp/using/key-management.md)
    + [SFTP サーバーへのログイン](sftp/using/logging-into-sftp-server.md)
    + [よくある質問](sftp/using/common-questions.md)
-+ サブドメインと証明書 {#subdomains-and-certificates}
++ サブドメインおよび証明書 {#subdomains-and-certificates}
    + [サブドメインのブランディング](subdomains-certificates/using/subdomains-branding.md)
    + [サブドメインの監視](subdomains-certificates/using/monitoring-subdomains.md)
    + サブドメインのデリゲート {#delegate-subdomains}
       + [新しいサブドメインを設定](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [アドビへのサブドメインのデリゲーションの削除](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + TXT レコードの操作（Google、BIMI、DMARC）{#txt-records}
+   + TXT レコードの操作（Google、BIMI、DMARC） {#txt-records}
       + [TXT レコードの基本を学ぶ](subdomains-certificates/using/gs-txt-records.md)
       + [Google サイト検証レコードを追加](subdomains-certificates/using/managing-txt-records.md)
       + [DMARC レコードの追加](subdomains-certificates/using/dmarc.md)
       + [BIMI レコードを追加](subdomains-certificates/using/bimi.md)
-   + サブドメインの SSL 証明書を管理 {#manage-certificates}
+   + サブドメインの SSL 証明書の管理 {#manage-certificates}
       + [SSL 証明書を監視](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [アドビに SSL 証明書をデリゲート](subdomains-certificates/using/delegate-ssl.md)
       + [SSL 証明書を更新](subdomains-certificates/using/renewing-subdomain-certificate.md)
