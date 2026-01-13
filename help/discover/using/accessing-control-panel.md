@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 56%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 100%
 
 アクセスできるのは、**管理者ユーザー**&#x200B;のみです。ユーザーを管理者グループに割り当てる方法について詳しくは、[この節](../../discover/using/managing-permissions.md)を参照してください。
 
+>[!IMPORTANT]
+>
+>デフォルトでは、「管理者」Campaign コントロールパネルプロファイルに属する管理者ユーザーが製品にアクセスできます。 組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「管理者」、「管理者」、「承認管理者」など）。 **名前に「admin」という単語が含まれている製品プロファイルでは、Campaign コントロールパネルへのアクセス権が自動的に付与されます。**
+>
+>製品プロファイルの名前を慎重に確認し、許可されたユーザーのみがCampaign コントロールパネルにアクセスできるようにします。
+
 ## Experience Cloud Platform からのアクセス {#access-experience-cloud-platform}
 
 Adobe Experience Cloud Platform からコントロールパネルにアクセスするには、次の手順に従います。
 
-1. [Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}に移動します。
+1. [Experience Cloud ホームページ ](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
 
 1. 「**クイックアクセス**」セクションの専用リンクをクリックします。
 
@@ -32,7 +38,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 コントロールパネルには、Experience Cloud Platform の&#x200B;**ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}で、「**クイックアクセス**」セクションまたは右側のトップメニューから「**Campaign**」を選択します。
+1. [Adobe Experience Cloudのホームページ ](https://experiencecloud.adobe.com/){target="_blank"}**で、「クイックアクセス** セクションまたは右側のトップメニューから **Campaign** を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +50,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 >[!NOTE]
 >
->製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"} でのみ可能です。
+>製品内からのアクセスは [0}Campaign Standard} でのみ可能です。](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"}
 
 1. Campaign Standard 製品を起動します。
 

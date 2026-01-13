@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}に移動します。
+1. [Adobe Experience Cloud ホームページ ](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
 
 1. 「**クイックアクセス**」セクションまたは右上のメニューで選択可能なリンクをクリックして、**Admin Console** を起動します。
 
@@ -50,9 +50,11 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >デフォルトでは、管理者ユーザーは製品プロファイル「管理者」に属しています。組織の構成に応じて、製品プロファイルに異なる名前を付けることができます（「admin」、「admins」など）。
+   >デフォルトでは、「管理者」Campaign コントロールパネルプロファイルに属する管理者ユーザーが製品にアクセスできます。 組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「管理者」、「管理者」、「承認管理者」など）。 **名前に「admin」という単語が含まれている製品プロファイルでは、Campaign コントロールパネルへのアクセス権が自動的に付与されます。**
+   >
+   >Campaign インスタンスに大きな変更を加えることができるので、Admin Consoleの製品プロファイル命名規則を慎重に見直して、許可されたユーザーのみがCampaign コントロールパネルアクセス権を持つようにします。
 
 1. 管理者ユーザーのリストが表示されます。「**[!UICONTROL ユーザーを追加]**」ボタンをクリックして、目的のユーザーを追加します。
 
@@ -64,4 +66,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/35055?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
