@@ -30,7 +30,7 @@ ht-degree: 56%
 
 Adobe Experience Cloud Platform からコントロールパネルにアクセスするには、次の手順に従います。
 
-1. [Experience Cloud ホームページ ](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
+1. [Experience Cloud ホームページ &#x200B;](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
 
 1. 「**クイックアクセス**」セクションの専用リンクをクリックします。
 
@@ -38,7 +38,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 コントロールパネルには、Experience Cloud Platform の&#x200B;**ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. [Adobe Experience Cloudのホームページ ](https://experiencecloud.adobe.com/){target="_blank"}**で、「クイックアクセス** セクションまたは右側のトップメニューから **Campaign** を選択します。
+1. [Adobe Experience Cloudのホームページ &#x200B;](https://experiencecloud.adobe.com/){target="_blank"}**で、「クイックアクセス** セクションまたは右側のトップメニューから **Campaign** を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -50,7 +50,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 >[!NOTE]
 >
->製品内からのアクセスは [0}Campaign Standard} でのみ可能です。](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"}
+>製品内からのアクセスは [0&rbrace;Campaign Standard&rbrace; でのみ可能です。](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"}
 
 1. Campaign Standard 製品を起動します。
 

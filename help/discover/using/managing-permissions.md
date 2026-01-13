@@ -18,9 +18,9 @@ ht-degree: 74%
 
 コントロールパネルは、Campaign インスタンスのすべての管理者ユーザーが利用できます。ユーザーを管理者グループに割り当てて、コントロールパネルへのアクセス権を付与するには、以下の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloud ホームページ ](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
+1. [Adobe Experience Cloud ホームページ &#x200B;](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
 
 1. 「**クイックアクセス**」セクションまたは右上のメニューで選択可能なリンクをクリックして、**Admin Console** を起動します。
 
