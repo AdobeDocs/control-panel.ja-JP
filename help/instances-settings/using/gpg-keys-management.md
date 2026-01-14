@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. 確認したら、スクリプトは、ファイルに書き出したりコントロールパネルに直接貼り付けたりできるキーと、それに関連するフィンガープリントを生成します。ファイルを書き出すには、このコマンドを実行し、生成したキーのフィンガープリントを実行します。
+1. 確認したら、スクリプトは、ファイルにエクスポートしたりコントロールパネルに直接貼り付けたりできるキーと、それに関連するフィンガープリントを生成します。ファイルをエクスポートするには、このコマンドを実行し、生成したキーのフィンガープリントを実行します。
 
    `gpg -a --export <fingerprint>`
 
@@ -83,7 +83,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    ![](assets/gpg_install_button.png)
 
-1. PGP 暗号化ツールから生成された公開鍵を貼り付けます。また、書き出した公開鍵ファイルを直接ドラッグ＆ドロップすることもできます。
+1. PGP 暗号化ツールから生成された公開鍵を貼り付けます。また、エクスポートした公開鍵ファイルを直接ドラッグ＆ドロップすることもできます。
 
    >[!NOTE]
    >
@@ -106,12 +106,12 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 **Campaign v7/v8：**
 
 * [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-encrypt)
+* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-encrypt)
 
 **Campaign Standard：**
 
 * [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja#use-case-gpg-encrypt)
+* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja#use-case-gpg-encrypt)
 
 ## データの復号化 {#decrypting-data}
 
@@ -196,4 +196,4 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 GPG キー管理に関する追加のハウツービデオが [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/327888?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
