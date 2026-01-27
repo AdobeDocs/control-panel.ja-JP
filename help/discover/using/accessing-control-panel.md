@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 56%
 
 >[!IMPORTANT]
 >
->デフォルトでは、「管理者」Campaign コントロールパネルプロファイルに属する管理者ユーザーが製品にアクセスできます。 組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「管理者」、「管理者」、「承認管理者」など）。 **名前に「admin」という単語が含まれている製品プロファイルでは、Campaign コントロールパネルへのアクセス権が自動的に付与されます。**
+>デフォルトでは、コントロールパネルは、「Administrators」製品プロファイルに属する管理者ユーザーがアクセスできます。組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「admin」、「admins」、「approval admin」など）。**名前に「admin」という単語が含まれる製品プロファイルには、コントロールパネルへのアクセス権が自動的に付与されます。**
 >
->製品プロファイルの名前を慎重に確認し、許可されたユーザーのみがCampaign コントロールパネルにアクセスできるようにします。
+>製品プロファイルの命名を慎重に確認し、認証されたユーザーのみがコントロールパネルにアクセスできるようにします。
 
 ## Experience Cloud Platform からのアクセス {#access-experience-cloud-platform}
 
 Adobe Experience Cloud Platform からコントロールパネルにアクセスするには、次の手順に従います。
 
-1. [Experience Cloud ホームページ &#x200B;](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
+1. [Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}に移動します。
 
 1. 「**クイックアクセス**」セクションの専用リンクをクリックします。
 
@@ -38,7 +38,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 コントロールパネルには、Experience Cloud Platform の&#x200B;**ソリューションピッカー**&#x200B;からもアクセスできます。
 
-1. [Adobe Experience Cloudのホームページ &#x200B;](https://experiencecloud.adobe.com/){target="_blank"}**で、「クイックアクセス** セクションまたは右側のトップメニューから **Campaign** を選択します。
+1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}で、「**クイックアクセス**」セクションまたは右側の上部メニューから「**Campaign**」を選択します。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -50,7 +50,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
 >[!NOTE]
 >
->製品内からのアクセスは [0&rbrace;Campaign Standard&rbrace; でのみ可能です。](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"}
+>製品内からのアクセスは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja){target="_blank"} でのみ可能です。
 
 1. Campaign Standard 製品を起動します。
 

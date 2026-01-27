@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 74%
 
 コントロールパネルは、Campaign インスタンスのすべての管理者ユーザーが利用できます。ユーザーを管理者グループに割り当てて、コントロールパネルへのアクセス権を付与するには、以下の手順に従います。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloud ホームページ &#x200B;](https://experiencecloud.adobe.com/){target="_blank"} に移動します。
+1. [Adobe Experience Cloud ホームページ](https://experiencecloud.adobe.com/){target="_blank"}に移動します。
 
 1. 「**クイックアクセス**」セクションまたは右上のメニューで選択可能なリンクをクリックして、**Admin Console** を起動します。
 
@@ -52,9 +52,9 @@ ht-degree: 74%
 
    >[!IMPORTANT]
    >
-   >デフォルトでは、「管理者」Campaign コントロールパネルプロファイルに属する管理者ユーザーが製品にアクセスできます。 組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「管理者」、「管理者」、「承認管理者」など）。 **名前に「admin」という単語が含まれている製品プロファイルでは、Campaign コントロールパネルへのアクセス権が自動的に付与されます。**
+   >デフォルトでは、コントロールパネルは、「Administrators」製品プロファイルに属する管理者ユーザーがアクセスできます。組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「admin」、「admins」、「approval admin」など）。**名前に「admin」という単語が含まれる製品プロファイルには、コントロールパネルへのアクセス権が自動的に付与されます。**
    >
-   >Campaign インスタンスに大きな変更を加えることができるので、Admin Consoleの製品プロファイル命名規則を慎重に見直して、許可されたユーザーのみがCampaign コントロールパネルアクセス権を持つようにします。
+   >コントロールパネルでは Campaign インスタンスに大幅な変更を行うことができるので、Admin Console で製品プロファイルの命名規則を慎重に確認し、認証されたユーザーのみがコントロールパネルにアクセスできるようにします。
 
 1. 管理者ユーザーのリストが表示されます。「**[!UICONTROL ユーザーを追加]**」ボタンをクリックして、目的のユーザーを追加します。
 
@@ -66,4 +66,4 @@ ht-degree: 74%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/35055?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

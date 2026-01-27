@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >この機能は、Campaign v7／v8 インスタンスのビルド 8850 以降でのみ使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードが必要です。
 
-Campaign のインスタンスが JavaScript コード（ワークフローなど）で呼び出せる URL のデフォルトリストは制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
+Campaign インスタンスにより、JavaScript コード（ワークフローなど）からの呼び出しが可能なデフォルトの URL リストは制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
 デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。コントロールパネルを使用すると、外部の URL を承認済み URL リストに追加して、インスタンスがアクセスできるように設定できます。これにより、Campaign インスタンスを SFTP サーバーや web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
 
