@@ -5,16 +5,17 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+source-git-commit: bf1bbf0d85cf4f8e33232e4e19d08a6f31d4a35a
 workflow-type: ht
-source-wordcount: '269'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
 # ワークフローの監視 {#monitor-workflows}
 
-<!-- Clean paused and completed workflows
+<!-- 
+Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -22,7 +23,7 @@ Control Panel allows you to identify those workflows and clean the temporary res
 
 >[!NOTE]
 >
->Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ja#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ja) documentation). 
+>Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation). 
 
 To clean paused and completed workflows, follow these steps:
 
@@ -42,31 +43,32 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-Monitor workflow parameters -->
+Monitor workflow parameters 
+-->
 
-Adobe Campaign では、インスタンスに関する問題を回避するために、一部のワークフローパラメーターに特に注意しなければならない場合があります。コントロールパネルの「**[!UICONTROL ストレージの概要]**」の詳細を使用すると、ワークフローでこれらのオプションのいずれかが有効になっているかどうかを確認できます。
+Adobe Campaign では、インスタンスに関する問題を回避するために、一部のワークフローパラメーターに特に注意しなければならない場合があります。 コントロールパネルの「**[!UICONTROL ストレージの概要]**」の詳細を使用すると、ワークフローでこれらのオプションのいずれかが有効になっているかどうかを確認できます。
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL 中間結果を保持]** {#keep-results}
 
-有効（値「1」）にすると、このオプションによってワークフローの様々なアクティビティ間でトランジションの結果が保存されます。詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja#logs) ドキュメントを参照してください。
+有効（値「1」）にすると、このオプションによってワークフローの様々なアクティビティ間でトランジションの結果が保存されます。 詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja#logs) ドキュメントを参照してください。
 
 >[!IMPORTANT]
 >
->このオプションは、実稼動ワークフローでは絶対にオンにしないでください。分析およびテストの目的で使用されるので、開発環境またはステージング環境でのみ使用する必要があります。Campaign ではオフにすることを強くお勧めします。
+>このオプションは、実稼動ワークフローでは絶対にオンにしないでください。 分析およびテストの目的で使用されるので、開発環境またはステージング環境でのみ使用する必要があります。 Campaign ではオフにすることを強くお勧めします。
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL SQL ログを表示]** {#sql}
 
-このオプションを有効にすると、ワークフローの実行中にデータベースに送信された SQL クエリが Adobe Campaign に表示されます。詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#execution) ドキュメントを参照してください。
+このオプションを有効にすると、ワークフローの実行中にデータベースに送信された SQL クエリが Adobe Campaign に表示されます。 詳しくは、[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ja) および [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja#execution) ドキュメントを参照してください。
 
 値「1」は、ワークフローで&#x200B;**重要度**&#x200B;フィールドが「実稼動」に設定され、SQL クエリログオプションが有効になっていることを示しています。
 
 >[!IMPORTANT]
 >
->このオプションを有効にすると、パフォーマンスに影響を与え、サーバー上のログファイルに記録される場合があります。分析および診断の目的でのみ使用します。
+>このオプションを有効にすると、パフォーマンスに影響を与え、サーバー上のログファイルに記録される場合があります。 分析および診断の目的でのみ使用します。
 
 ![](assets/wkf-monitoring-sql.png)
 
