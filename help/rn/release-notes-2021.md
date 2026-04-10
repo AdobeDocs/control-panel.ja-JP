@@ -5,11 +5,10 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
-source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+source-git-commit: 9f8b99be31e35da477bdd7e4a39e5634dbb4d3a0
 workflow-type: ht
-source-wordcount: '184'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>IP 範囲と公開鍵の有効期間を設定できるようになりました。  </p><p>詳しくは、<a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP 範囲許可リスト</a>および<a href="../sftp/using/key-management.md#installing-ssh-key">鍵の管理</a>の節を参照してください。</p>
+<p>IP 範囲と公開鍵の有効期間を設定できるようになりました。 </p><p>詳しくは、<a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP 範囲許可リスト</a>および<a href="../sftp/using/key-management.md#installing-ssh-key">鍵の管理</a>の節を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -42,7 +41,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>作成した <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範囲</a>と<a href="../sftp/using/key-management.md#editing-public-keys">公開鍵</a>を編集できるようになりました。この機能は、現在のコントロールパネルリリースより前に作成された項目には使用できないことに注意してください。
+<p>作成した <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範囲</a>と<a href="../sftp/using/key-management.md#editing-public-keys">公開鍵</a>を編集できるようになりました。 この機能は、現在のコントロールパネルリリースより前に作成された項目には使用できないことに注意してください。
 </td>
 </tr>
 </tbody>
