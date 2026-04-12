@@ -46,7 +46,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 >
 >コントロールパネルでは最大 60 個の GPG キーをインストールできます。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#video)
 
 1. [OpenPGP の仕様](https://www.openpgp.org/about/standard/)に従った PGP 暗号化ツールを使用して公開鍵と秘密鍵のペアを生成します。 これをおこなうには、GPG ユーティリティまたは GNuGP ソフトウェアをインストールします。
 
@@ -99,7 +99,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 その後、キーは Adobe Campaign ワークフローで使用できます。 データ抽出アクティビティを使用する場合は、このキーを使用してデータを暗号化できます。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#video)
 
 このトピックについて詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
@@ -122,7 +122,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 * **公開鍵**&#x200B;は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
 * **秘密鍵**&#x200B;は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#video)
 
 コントロールパネルでキーペアを生成するには、次の手順に従います。
 
