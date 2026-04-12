@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1348'
+ht-degree: 95%
 
 ---
 
@@ -34,13 +34,13 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 * **送信データを暗号化**：Adobe Campaign は、インストールされた公開鍵でデータを暗号化してから送信します。
 
-* **受信データを復号化**：Adobe Campaign は、コントロールパネルからダウンロードした公開鍵を使用して、外部システムから暗号化されたデータを受信します。Adobe Campaign は、コントロールパネルから生成された秘密鍵を使用して、データを復号化します。
+* **受信データを復号化**：Adobe Campaign は、コントロールパネルからダウンロードした公開鍵を使用して、外部システムから暗号化されたデータを受信します。 Adobe Campaign は、コントロールパネルから生成された秘密鍵を使用して、データを復号化します。
 
 ## データの暗号化 {#encrypting-data}
 
 コントロールパネルでは、Adobe Campaign インスタンスから送信されるデータを暗号化できます。
 
-これをおこなうには、PGP 暗号化ツールから GPG キーペアを生成し、公開鍵をコントロールパネルにインストールする必要があります。その後、インスタンスからデータを送信する前に、データを暗号化できます。それには、次の手順に従います。
+これをおこなうには、PGP 暗号化ツールから GPG キーペアを生成し、公開鍵をコントロールパネルにインストールする必要があります。 その後、インスタンスからデータを送信する前に、データを暗号化できます。 それには、次の手順に従います。
 
 >[!NOTE]
 >
@@ -48,21 +48,21 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
-1. [OpenPGP の仕様](https://www.openpgp.org/about/standard/)に従った PGP 暗号化ツールを使用して公開鍵と秘密鍵のペアを生成します。これをおこなうには、GPG ユーティリティまたは GNuGP ソフトウェアをインストールします。
+1. [OpenPGP の仕様](https://www.openpgp.org/about/standard/)に従った PGP 暗号化ツールを使用して公開鍵と秘密鍵のペアを生成します。 これをおこなうには、GPG ユーティリティまたは GNuGP ソフトウェアをインストールします。
 
    >[!NOTE]
    >
-   >キーを生成するオープンソースのフリーソフトウェアを使用できます。ただし、組織のガイドラインに従っていることと、IT／セキュリティ組織が推奨する GPG ユーティリティを使用していることを確認してください。
+   >キーを生成するオープンソースのフリーソフトウェアを使用できます。 ただし、組織のガイドラインに従っていることと、IT／セキュリティ組織が推奨する GPG ユーティリティを使用していることを確認してください。
 
 1. ユーティリティがインストールされたら、Mac ターミナルまたは Windows コマンドで次のコマンドを実行します。
 
    `gpg --full-generate-key`
 
-1. プロンプトが表示されたら、キーに対して目的のパラメーターを指定します。次に必要なパラメーターを示します。
+1. プロンプトが表示されたら、キーに対して目的のパラメーターを指定します。 次に必要なパラメーターを示します。
 
    * **key type**（キーのタイプ）：RSA
    * **key length**（キーの長さ）：3072 ～ 4096 ビット
-   * **real name**（実名）および **email address**（メールアドレス）：キーペアの作成者をトラッキングできます。組織または部門にリンクされた名前およびメールアドレスを入力します。
+   * **real name**（実名）および **email address**（メールアドレス）：キーペアの作成者をトラッキングできます。 組織または部門にリンクされた名前およびメールアドレスを入力します。
    * **comment**：コメントフィールドにラベルを追加すると、データの暗号化に使用するキーを容易に識別できます。
      >[!IMPORTANT]
      >
@@ -73,7 +73,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. 確認したら、スクリプトは、ファイルにエクスポートしたりコントロールパネルに直接貼り付けたりできるキーと、それに関連するフィンガープリントを生成します。ファイルをエクスポートするには、このコマンドを実行し、生成したキーのフィンガープリントを実行します。
+1. 確認したら、スクリプトは、ファイルにエクスポートしたりコントロールパネルに直接貼り付けたりできるキーと、それに関連するフィンガープリントを生成します。 ファイルをエクスポートするには、このコマンドを実行し、生成したキーのフィンガープリントを実行します。
 
    `gpg -a --export <fingerprint>`
 
@@ -83,7 +83,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    ![](assets/gpg_install_button.png)
 
-1. PGP 暗号化ツールから生成された公開鍵を貼り付けます。また、エクスポートした公開鍵ファイルを直接ドラッグ＆ドロップすることもできます。
+1. PGP 暗号化ツールから生成された公開鍵を貼り付けます。 また、エクスポートした公開鍵ファイルを直接ドラッグ＆ドロップすることもできます。
 
    >[!NOTE]
    >
@@ -93,11 +93,11 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 1. 「**[!UICONTROL キーをインストール]**」ボタンをクリックします。
 
-公開鍵がインストールされると、リストに表示されます。**...** ボタンを使用して、公開鍵をダウンロードしたり、そのフィンガープリントをコピーしたりできます。
+公開鍵がインストールされると、リストに表示されます。 **...** ボタンを使用して、公開鍵をダウンロードしたり、そのフィンガープリントをコピーしたりできます。
 
 ![](assets/gpg_install_download.png)
 
-その後、キーは Adobe Campaign ワークフローで使用できます。データ抽出アクティビティを使用する場合は、このキーを使用してデータを暗号化できます。
+その後、キーは Adobe Campaign ワークフローで使用できます。 データ抽出アクティビティを使用する場合は、このキーを使用してデータを暗号化できます。
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
@@ -106,12 +106,12 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 **Campaign v7/v8：**
 
 * [ファイルの圧縮または暗号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-encrypt)
+* [ユースケース：Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-encrypt)
 
 **Campaign Standard：**
 
 * [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
-* [使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja#use-case-gpg-encrypt)
+* [ユースケース：Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ja#use-case-gpg-encrypt)
 
 ## データの復号化 {#decrypting-data}
 
@@ -132,29 +132,29 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
    ![](assets/gpg_generate.png)
 
-1. キーの名前を指定して、「**[!UICONTROL キーを生成]**」をクリックします。この名前は、Campaign ワークフローでの復号化に使用するキーの識別に役立ちます。
+1. キーの名前を指定して、「**[!UICONTROL キーを生成]**」をクリックします。 この名前は、Campaign ワークフローでの復号化に使用するキーの識別に役立ちます。
 
    ![](assets/gpg_generate_name.png)
 
-キーペアが生成されると、公開鍵がリストに表示されます。復号化キーペアは有効期限なしで生成されます。
+キーペアが生成されると、公開鍵がリストに表示されます。 復号化キーペアは有効期限なしで生成されます。
 
 **...** ボタンを使用して、公開鍵をダウンロードしたり、そのフィンガープリントをコピーしたりできます。
 
 ![](assets/gpg_generate_list.png)
 
-その後、公開鍵は、外部システムと共有できるようになります。Adobe Campaign では、データの読み込みアクティビティで秘密鍵を使用でき、公開鍵で暗号化されたデータを復号化できるようになります。
+その後、公開鍵は、外部システムと共有できるようになります。 Adobe Campaign では、データの読み込みアクティビティで秘密鍵を使用でき、公開鍵で暗号化されたデータを復号化できるようになります。
 
 詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
 **Campaign v7 および v8：**
 
-* [処理前のファイルの解凍と復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja)
-* [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja#use-case-gpg-decrypt)
+* [処理前のファイルの解凍または復号化](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja)
+* [ユースケース：Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータを読み込む](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ja#use-case-gpg-decrypt)
 
 **Campaign Standard：**
 
 * [暗号化されたデータの管理](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja)
-* [使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-decrypt)
+* [ユースケース：Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータを読み込む](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ja#use-case-gpg-decrypt)
 
 ## GPG キーの監視
 
@@ -172,7 +172,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
   ![](assets/gpg_icon_decrypt.png)：データの復号化を可能にするためにキーが生成されています。
 
 * **[!UICONTROL フィンガープリント]**：キーのフィンガープリント。
-* **[!UICONTROL 有効期限]**：キーの有効期限。コントロールパネルでは、キーの有効期限が近づくと視覚的に示されます。
+* **[!UICONTROL 有効期限]**：キーの有効期限。 コントロールパネルでは、キーの有効期限が近づくと視覚的に示されます。
 
    * 30 日前には至急（赤）が表示されます。
    * 60 日前には警告（黄色）が表示されます。
@@ -182,7 +182,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
   >
   >コントロールパネルからメール通知は送信されないことに注意してください。
 
-ベストプラクティスとして、不要になったキーは削除することをお勧めします。これをおこなうには、**...** ボタンをクリックしてから「**[!UICONTROL キーを削除]」を選択します。**
+ベストプラクティスとして、不要になったキーは削除することをお勧めします。 これをおこなうには、**...** ボタンをクリックしてから「**[!UICONTROL キーを削除]」を選択します。**
 
 ![](assets/gpg_delete.png)
 
@@ -196,4 +196,4 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 GPG キー管理に関する追加のハウツービデオが [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/327888?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
