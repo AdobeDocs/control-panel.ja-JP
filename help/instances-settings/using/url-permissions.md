@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 92%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この機能は、Campaign v7／v8 インスタンスのビルド 8850 以降でのみ使用できます。以前のビルドを使用している場合、この機能を使用するにはアップグレードが必要です。
+>この機能は、Campaign v7／v8 インスタンスのビルド 8850 以降でのみ使用できます。 以前のビルドを使用している場合、この機能を使用するにはアップグレードが必要です。
 
-Campaign インスタンスにより、JavaScript コード（ワークフローなど）からの呼び出しが可能なデフォルトの URL リストは制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
+JavaScript コードで呼び出すことができるURLのデフォルトリスト（ワークフローなど） キャンペーンのインスタンス数は限られています。 リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
-デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。コントロールパネルを使用すると、外部の URL を承認済み URL リストに追加して、インスタンスがアクセスできるように設定できます。これにより、Campaign インスタンスを SFTP サーバーや web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
+デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。 コントロールパネルを使用すると、外部の URL を承認済み URL リストに追加して、インスタンスがアクセスできるように設定できます。 これにより、Campaign インスタンスを SFTP サーバーや web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
 
 URL を追加すると、該当するインスタンスの設定ファイル（serverConf.xml）で参照されます。
 
@@ -39,13 +39,13 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 **関連トピック：**
 
 * [Campaign サーバーの設定](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ja)
-* [発信接続の保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=ja#outgoing-connection-protection)
+* [送信接続の保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=ja#outgoing-connection-protection)
 
 ## ベストプラクティス {#best-practices}
 
 * Campaign インスタンスを、接続する意図のない Web サイトやサーバーに接続しないでください。
-* 不要になった URL は削除してください。ただし、URL を削除すると、社内の他の部門も該当する URL に接続できなくなります。
-* コントロールパネルは、**http**、**https**、および **sftp** プロトコルに対応しています。無効な URL またはプロトコルを入力すると、エラーが返されます。
+* 不要になった URL は削除してください。 ただし、URL を削除すると、社内の他の部門も該当する URL に接続できなくなります。
+* コントロールパネルは、**http**、**https**、および **sftp** プロトコルに対応しています。 無効な URL またはプロトコルを入力すると、エラーが返されます。
 
 ## URL へのアクセス権限の管理 {#managing-url-permissions}
 
@@ -62,10 +62,9 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
    >
    >「インスタンス設定」カードがコントロールパネルのホームページに表示されない場合は、お使いの[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) が Adobe Campaign のインスタンスに関連付けられていません。
    >
-   >「<b><span class="uicontrol">URL 権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
+   >「<b><span class="uicontrol">URL 権限</span></b>」タブには、インスタンスがアクセスできる外部 URL の一覧が表示されます。 このリストには、Campaign が動作するのに必要な URL（インフラストラクチャ間の接続など）は含まれません。
 
 1. 左側のペインから目的のインスタンスを選択し、「**[!UICONTROL 新しい URL を追加]**」ボタンをクリックします。
-
 
    ![](assets/add_url1.png)
 
@@ -79,7 +78,7 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    >[!NOTE]
    >
-   >複数のインスタンスによる URL へのアクセスを承認できます。そのためには、「インスタンス」フィールドにインスタンスの最初の文字を入力して、直接インスタンスを追加します。
+   >複数のインスタンスによる URL へのアクセスを承認できます。 そのためには、「インスタンス」フィールドにインスタンスの最初の文字を入力して、直接インスタンスを追加します。
 
    ![](assets/add_url2.png)
 
@@ -87,17 +86,16 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
    >[!NOTE]
    >
-   >入力した URL の検証が完了すると、URL の末尾に「/.*」文字が自動的に追加され、入力したページのすべてのサブページが対象になります。
+   >「/.*」文字は、入力したページのすべてのサブページをカバーするために、検証後に入力したURLの末尾に自動的に追加されます。
 
    ![](assets/add_url_listnew.png)
 
 URL を選択して「**[!UICONTROL URL を削除]**」ボタンをクリックすれば、URL はいつでも削除できます。
 
-
 URL を削除すると、インスタンスはその URL を呼び出すことができなくなります。
 
 ## よくある質問 {#common-questions}
 
-**新規 URL を追加しましたが、インスタンスは依然 URL に接続できません。これはなぜですか？**
+**新規 URL を追加しましたが、インスタンスは依然 URL に接続できません。 これはなぜですか？**
 
-接続しようとしている URL に許可リストへの登録、パスワードの入力、または別の認証方法が必要となる場合があります。コントロールパネルでは、その他の認証を管理できません。
+接続しようとしている URL に許可リストへの登録、パスワードの入力、または別の認証方法が必要となる場合があります。 コントロールパネルでは、その他の認証を管理できません。
