@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 100%
 
 コントロールパネルには、Experience Cloud から直接アクセスすることも、製品自体からアクセスすることもできます。
 
-アクセスできるのは、**管理者ユーザー**&#x200B;のみです。ユーザーを管理者グループに割り当てる方法について詳しくは、[この節](../../discover/using/managing-permissions.md)を参照してください。
+## 前提条件 {#prerequisites}
+
+Campaign v7／v8 の場合は、インスタンスを Amazon Web Services（AWS）でホストし、最新の [Campaign 安定ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses)またはビルド 9032 以降にアップグレードする必要があります。 バージョンを確認する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ja#getting-your-campaign-version)を参照してください。 インスタンスが AWS でホストされているかどうかを確認するには、[このページ](../../faq.md#hosted-aws)で詳しく説明されている手順に従ってください。
+
+Microsoft AzureでホストされているCampaign v8 インスタンスは、Campaign コントロールパネル機能のサブセットにもアクセスできます。[&#x200B; インスタンスアクセスのIP許可リスト &#x200B;](../../instances-settings/using/ip-allow-listing-instance-access.md)、[SFTP サーバーのIP許可リスト &#x200B;](../../sftp/using/ip-range-allow-listing.md)、[&#x200B; カスタマー管理のSSL証明書管理](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
 
 >[!IMPORTANT]
 >
->デフォルトでは、コントロールパネルは、「Administrators」製品プロファイルに属する管理者ユーザーがアクセスできます。組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「admin」、「admins」、「approval admin」など）。**名前に「admin」という単語が含まれる製品プロファイルには、コントロールパネルへのアクセス権が自動的に付与されます。**
->
->製品プロファイルの命名を慎重に確認し、認証されたユーザーのみがコントロールパネルにアクセスできるようにします。
+>デフォルトでは、コントロールパネルは、「Administrators」製品プロファイルに属する管理者ユーザーがアクセスできます。 組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「admin」、「admins」、「approval admin」など）。 **名前に「admin」という単語が含まれている製品プロファイルは、Campaign コントロールパネル**&#x200B;へのアクセス権を自動的に付与します。 製品プロファイルの命名を慎重に確認し、認証されたユーザーのみがコントロールパネルにアクセスできるようにします。 [Campaign コントロールパネルに対する権限を管理する方法について説明します](../../discover/using/managing-permissions.md)。
 
 ## Experience Cloud Platform からのアクセス {#access-experience-cloud-platform}
 
@@ -42,7 +44,7 @@ Adobe Experience Cloud Platform からコントロールパネルにアクセス
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. Campaign インスタンスのリストが表示されます。**コントロールパネル**&#x200B;カードをクリックして起動します。
+1. Campaign インスタンスのリストが表示されます。 **コントロールパネル**&#x200B;カードをクリックして起動します。
 
    ![](assets/do-not-localize/control_panel_access2.png)
 

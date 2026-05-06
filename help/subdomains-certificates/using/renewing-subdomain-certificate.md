@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >サブドメインの SSL 証明書の更新は、この処理をアドビにデリゲートせずに自分で証明書を管理することを選択した場合にのみ必要です。 アドビでは証明書を自動的に作成し、証明書の有効期限が切れる前に毎年更新するので、サブドメインの SSL 証明書の管理をアドビにデリゲートするよう強くお勧めします。 [詳しくは、SSL 証明書の管理を参照してください](monitoring-ssl-certificates.md#management)
+>
+>お客様が管理するSSL証明書管理は、AWSでホストされているCampaign v7/v8 インスタンスと、Microsoft AzureでホストされているCampaign v8 インスタンスで使用できます。
 
 SSL 証明書の更新プロセスは、次の 3 ステップで構成されます。
 
