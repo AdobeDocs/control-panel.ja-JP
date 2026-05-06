@@ -28,7 +28,7 @@ SFTP サーバーは保護されているため、 SFTP サーバーにアクセ
 >
 >SFTP サーバーのIP許可リストは、AWSでホストされるCampaign v7/v8 インスタンス、Campaign Standard インスタンス、およびMicrosoft AzureでホストされるCampaign v8 インスタンスで使用できます。
 
-![](assets/do-not-localize/how-to-video.png)[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
+![](assets/do-not-localize/how-to-video.png) [Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
 
 ## CIDR 形式について {#about-cidr-format}
 

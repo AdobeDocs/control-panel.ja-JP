@@ -26,7 +26,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->コントロールパネルは、管理者ユーザーに限定されています。 ユーザーに管理者アクセス権を付与する手順については、[この節](managing-permissions.md)を参照してください。 インスタンスのホスティング要件に関する前提条件については、[このページ ](accessing-control-panel.md)を参照してください。
+>コントロールパネルは、管理者ユーザーに限定されています。 ユーザーに管理者アクセス権を付与する手順については、[この節](managing-permissions.md)を参照してください。 インスタンスのホスティング要件に関する前提条件については、[このページ &#x200B;](accessing-control-panel.md)を参照してください。
 
 <table style="table-layout:fixed">
 <tr>
