@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 99%
+source-wordcount: '857'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->この機能は、Campaign v7／v8 のインスタンスでのみ使用できます。
+>この機能は、AWSでホストされているCampaign v7/v8 インスタンスと、Microsoft AzureでホストされているCampaign v8 インスタンスで使用できます。
 
 デフォルトでは、様々な IP アドレスから Adobe Campaign インスタンスへはアクセスできません。
 
