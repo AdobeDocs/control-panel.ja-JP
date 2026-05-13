@@ -7,9 +7,14 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '356'
+TQID: https://experienceleague.adobe.com/m02LjIAF8WJEB3TTSerLtktGejxwoDFu7HfGUpYsYok
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 357
 ht-degree: 100%
 
 ---
@@ -23,10 +28,10 @@ ht-degree: 100%
 サーバーにログインする前に、以下のことを確認してください。
 
 * SFTP サーバーが&#x200B;**アドビによってホストされている**。
-* **ユーザー名**&#x200B;は、サーバー用に設定されている。この情報は、SFTP カードの「**鍵管理**」タブのコントロールパネルで、直接確認できます。
-* SFTP サーバーにログインするための&#x200B;**秘密鍵と公開鍵のペア**&#x200B;がある。SSH 鍵の追加方法について詳しくは、[この節](../../sftp/using/key-management.md)を参照してください。
-* SFTP サーバー上の&#x200B;**許可リストにパブリック IP アドレスが追加されている**。追加されていない場合は、IP 範囲を許可リストに追加する方法の詳細について[この節](../../sftp/using/ip-range-allow-listing.md)を参照してください。
-* **SFTP クライアントソフトウェア**&#x200B;へのアクセス権がある。使用が推奨される SFTP クライアントアプリケーションについて IT 部門に相談したり、会社のポリシーによって許可されている場合はインターネットで検索したりできます。
+* **ユーザー名**&#x200B;は、サーバー用に設定されている。 この情報は、SFTP カードの「**鍵管理**」タブのコントロールパネルで、直接確認できます。
+* SFTP サーバーにログインするための&#x200B;**秘密鍵と公開鍵のペア**&#x200B;がある。 SSH 鍵の追加方法について詳しくは、[この節](../../sftp/using/key-management.md)を参照してください。
+* SFTP サーバー上の&#x200B;**許可リストにパブリック IP アドレスが追加されている**。 追加されていない場合は、IP 範囲を許可リストに追加する方法の詳細について[この節](../../sftp/using/ip-range-allow-listing.md)を参照してください。
+* **SFTP クライアントソフトウェア**&#x200B;へのアクセス権がある。 使用が推奨される SFTP クライアントアプリケーションについて IT 部門に相談したり、会社のポリシーによって許可されている場合はインターネットで検索したりできます。
 
 SFTP サーバーに接続するには、次の手順に従います。
 
@@ -38,7 +43,7 @@ SFTP サーバーに接続するには、次の手順に従います。
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 「**[!UICONTROL SSH 秘密鍵]**」フィールドで、コンピューターに保存されている秘密鍵ファイルを選択します。これは、公開鍵と同じ名前（「.pub」拡張子を除く）を持つテキストファイルです（例：「enable」）。
+1. 「**[!UICONTROL SSH 秘密鍵]**」フィールドで、コンピューターに保存されている秘密鍵ファイルを選択します。 これは、公開鍵と同じ名前（「.pub」拡張子を除く）を持つテキストファイルです（例：「enable」）。
 
    ![](assets/do-not-localize/connect2.png)
 
