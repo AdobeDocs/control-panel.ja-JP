@@ -5,9 +5,12 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '601'
+TQID: https://experienceleague.adobe.com/Dpa90tq2F5m7mfxeGGDjLg6Aw7bjh0Obx9qt-aUTvVA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 601
 ht-degree: 100%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 100%
 
 ## 2022年10月 {#october-2022}
 
-SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メールアラートで通知されるようになりました。[詳細情報](../performance-monitoring/using/email-alerting.md)
+SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メールアラートで通知されるようになりました。 [詳細情報](../performance-monitoring/using/email-alerting.md)
 
 ## 2022年9月 {#september-2022}
 
@@ -72,7 +75,7 @@ SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メー
 <tbody>
 <tr>
 <td>
-<p>サービスカレンダーで、インスタンスでイベントが発生する前にメールで通知を受け取れるよう、リマインダーを設定できるようになりました。<a href="../service-events/service-events.md">詳細情報</a></p>
+<p>サービスカレンダーで、インスタンスでイベントが発生する前にメールで通知を受け取れるよう、リマインダーを設定できるようになりました。 <a href="../service-events/service-events.md">詳細情報</a></p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +90,7 @@ SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メー
 <tbody>
 <tr>
 <td>
-<p>CSR 生成プロセスのいくつかの機能が強化されました。 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">詳細情報</a></p><ul><li>CSR を生成する際に、含まれるサブドメインの 1 つを共通名として選択できるようになりました。</li><li>これで、CSR を生成する前に CSR の概要をコピーできます。</li><li>CSR が生成されたら、ジョブのログから再度ダウンロードできます。この機能は、このリリースより前に生成された証明書には適用されません。</li></ul><p>
+<p>CSR 生成プロセスのいくつかの機能が強化されました。 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">詳細情報</a></p><ul><li>CSR を生成する際に、含まれるサブドメインの 1 つを共通名として選択できるようになりました。</li><li>これで、CSR を生成する前に CSR の概要をコピーできます。</li><li>CSR が生成されたら、ジョブのログから再度ダウンロードできます。 この機能は、このリリースより前に生成された証明書には適用されません。</li></ul><p>
 
 </td>
 </tr>
@@ -111,7 +114,7 @@ SSL 証明書の 1 つが 30 日以内に期限切れになるときに、メー
 <tbody>
 <tr>
 <td>
-<p>ハイブリッドホスティングモデルを使用しているお客様が、コントロールパネルを利用できるようになりました。これらのお客様は、コントロールパネルでマーケティングインスタンスに設定した MID／RT インスタンス URL を指定することで、コントロールパネルの機能を活用できます。</p><p>詳しくは、<a href="../instances-settings/using/external-accounts.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ハイブリッドホスティングモデルを使用しているお客様が、コントロールパネルを利用できるようになりました。 これらのお客様は、コントロールパネルでマーケティングインスタンスに設定した MID／RT インスタンス URL を指定することで、コントロールパネルの機能を活用できます。</p><p>詳しくは、<a href="../instances-settings/using/external-accounts.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
