@@ -8,12 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 1348
@@ -53,7 +50,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 >
 >コントロールパネルでは最大 60 個の GPG キーをインストールできます。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
 1. [OpenPGP の仕様](https://www.openpgp.org/about/standard/)に従った PGP 暗号化ツールを使用して公開鍵と秘密鍵のペアを生成します。 これをおこなうには、GPG ユーティリティまたは GNuGP ソフトウェアをインストールします。
 
@@ -106,7 +103,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 その後、キーは Adobe Campaign ワークフローで使用できます。 データ抽出アクティビティを使用する場合は、このキーを使用してデータを暗号化できます。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
 このトピックについて詳しくは、次の Adobe Campaign ドキュメントを参照してください。
 
@@ -129,7 +126,7 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 * **公開鍵**&#x200B;は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
 * **秘密鍵**&#x200B;は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#video)
 
 コントロールパネルでキーペアを生成するには、次の手順に従います。
 
@@ -203,4 +200,4 @@ Campaign を使用して GPG 暗号化を実装するには、管理者ユーザ
 
 GPG キー管理に関する追加のハウツービデオが [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) と [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ja#instance-settings) のチュートリアルページで参照できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/327888?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
