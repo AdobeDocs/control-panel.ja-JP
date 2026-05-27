@@ -8,8 +8,10 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 TQID: https://experienceleague.adobe.com/fCmnWIo7FfgfreWs9oFucCL1PNgSN7-1sWXbagwvn6I
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 1106
@@ -29,9 +31,9 @@ ht-degree: 96%
 
 SFTP サーバーにアクセスするために SSH 公開鍵を生成して追加する手順および認証に関するレコメンデーションを以下に説明します。
 
-サーバーへのアクセスを設定したら、忘れずにサーバーにアクセスする必要がある **** IP アドレスを許可リストに登録して、サーバーに接続できるようにしてください。 詳しくは、[この節](../../instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
+サーバーへのアクセスを設定したら、忘れずにサーバーにアクセスする必要がある **&#x200B;**&#x200B;IP アドレスを許可リストに登録して、サーバーに接続できるようにしてください。 詳しくは、[この節](../../instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png)[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
+![](assets/do-not-localize/how-to-video.png) [Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
 
 ## ベストプラクティス {#best-practices}
 
