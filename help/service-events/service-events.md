@@ -8,18 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +30,7 @@ ht-degree: 96%
 >
 >サービスカレンダーはベータ版であり、予告なく頻繁に更新や変更が行われる可能性があります。
 
-Campaign インスタンスを効果的に監視するには、インスタンスに影響を与える可能性のある重要なイベントを追跡することが重要です。 このCampaign コントロールパネルを使用すると、新しいリリース、アップグレード、パッチ、ホットフィックスなどのイベントを特定でき、リクエストや問題に関する主要なAdobe連絡先のリストが表示されます。
+Campaign インスタンスを効果的に監視するには、インスタンスに影響を与える可能性のある重要なイベントを追跡することが重要です。 コントロールパネルでは、新規リリース、アップグレード、パッチ、ホットフィックスなどのイベントを特定でき、リクエストや問題に関するアドビの主要連絡先リストが表示されます。
 
 この情報には、コントロールパネルのホームページにある&#x200B;**[!UICONTROL サービスカレンダー]**&#x200B;カードからアクセスできます。
 

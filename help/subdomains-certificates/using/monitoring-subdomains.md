@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 TQID: https://experienceleague.adobe.com/49fMBOZ2iN7xs7PpnYRLDHpQO5eXMTvn-veAxpjeH7w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,7 @@ ht-degree: 77%
 >
 >アドビでは、証明日のないサブドメインの使用は、配信品質の問題がある可能性があるので、お勧めしません。
 
-検証を開始する際に、サブドメインが正しく設定されていることを確認するために、いくつかの操作が実行されます（インスタンスのテナントチェック、メール送信テストなど）。 サブドメインの検証が失敗した場合は、Adobe カスタマーケアに連絡して詳細な調査を行ってください。
+検証を開始する際、サブドメインが正しく設定されていることを確認するのに複数の操作が実行されます（インスタンステナントの確認、メールの送信テストなど）。サブドメインの検証に失敗した場合は、アドビカスタマーケアに連絡して、さらに調査を依頼してください。
 
 **関連トピック：**
 

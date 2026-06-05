@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->コントロールパネルは、管理者ユーザーに限定されています。 ユーザーに管理者アクセス権を付与する手順については、[この節](managing-permissions.md)を参照してください。 インスタンスのホスティング要件に関する前提条件については、[このページ &#x200B;](accessing-control-panel.md)を参照してください。
+>コントロールパネルは、管理者ユーザーに限定されています。 ユーザーに管理者アクセス権を付与する手順については、[この節](managing-permissions.md)を参照してください。 インスタンスのホスティング要件に関する前提条件について詳しくは、[このページ](accessing-control-panel.md)を参照してください。
 
 <table style="table-layout:fixed">
 <tr>
@@ -51,7 +51,7 @@ ht-degree: 95%
         <em>インスタンス設定（Campaign v7／v8 のみ）の管理方法の詳細</em>
     </td>
     <td>
-        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="条件" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>パフォーマンスの監視</strong></a></div>
         <em>インスタンスの主要リソースの使用率を監視する方法の詳細</em>
     </td>
