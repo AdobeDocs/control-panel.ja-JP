@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1136
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ SFTP サーバーは保護されているため、 SFTP サーバーにアクセ
 
 >[!NOTE]
 >
->SFTP サーバーのIP許可リストは、AWSでホストされるCampaign v7/v8 インスタンス、Campaign Standard インスタンス、およびMicrosoft AzureでホストされるCampaign v8 インスタンスで使用できます。
+>SFTP サーバー用の IP 許可リストへの登録は、AWS でホストされる Campaign v7／v8 インスタンス、Campaign Standard インスタンス、Microsoft Azure でホストされる Campaign v8 インスタンスで使用できます。
 
-![](assets/do-not-localize/how-to-video.png) [Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
+![](assets/do-not-localize/how-to-video.png)[Campaign v7／v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) または [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ja#sftp-management) を使用して、ビデオでこの機能を確認
 
 ## CIDR 形式について {#about-cidr-format}
 

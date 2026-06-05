@@ -24,9 +24,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 93%
 
 ### 誰がコントロールパネルを使用できますか？
 
-このCampaign コントロールパネルは、AWSでAdobe Campaignをホストしているお客様の製品管理者に対して開かれています。 Microsoft AzureでホストされるCampaign v8 インスタンスには、Campaign コントロールパネル機能のサブセットにもアクセスできます。例えば、インスタンスへのアクセスを許可するIP許可リスト、SFTP サーバーのIP許可リスト、お客様が管理するSSL証明書の管理などです。
+コントロールパネルを使用できるのは、Adobe Campaign を AWS でホストしている顧客の製品管理者です。また、Microsoft Azure でホストされる Campaign v8 インスタンスは、コントロールパネル機能のサブセット（インスタンス アクセス用の IP 許可リストへの登録、SFTP サーバー用の IP 許可リストへの登録、お客様が管理する SSL 証明書の管理）にもアクセスできます。
 
 コントロールパネルでは、ハイブリッドホスティングモデルを使用するお客様は、特定のコントロールパネル機能を利用できます。 これを行うには、コントロールパネルでマーケティングインスタンスに設定した MID／RT インスタンス URL を指定する必要があります。 [詳細情報](instances-settings/using/external-accounts.md)
 

@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>作成した <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範囲</a>と<a href="../sftp/using/key-management.md#editing-public-keys">公開鍵</a>を編集できるようになりました。 この機能は、現在のコントロールパネルリリースより前に作成された項目には使用できないことに注意してください。
+<p>作成した <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範囲</a>と<a href="../sftp/using/key-management.md#editing-public-keys">公開鍵</a>を編集できるようになりました。この機能は、現在のコントロールパネルリリースより前に作成された項目には使用できないことに注意してください。
 </td>
 </tr>
 </tbody>
