@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 100%
@@ -22,8 +22,7 @@ ht-degree: 100%
 
 ## 2019年9月 {#september-2019}
 
-Campaign v7／v8 インスタンスに接続するために、管理者ユーザーが IP アドレスを許可リストに追加するための新機能を追加しました。
-さらに管理者ユーザーは、Campaign v7／v8 インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
+Campaign v7／v8 インスタンスに接続するために、管理者ユーザーが IP アドレスを許可リストに追加するための新機能を追加しました。さらに管理者ユーザーは、Campaign v7／v8 インスタンスと、ビルドのアップグレードの実施要件のリストを表示できるようになりました。
 
 詳しくは、[該当するドキュメント](../instances-settings/using/ip-allow-listing-instance-access.md)を参照してください。
 
@@ -38,3 +37,4 @@ Campaign v7／v8 インスタンスに接続するために、管理者ユーザ
 管理者ユーザーが Campaign v7／v8 インスタンス設定をさらに詳細に管理できる新機能が追加されました。 新しいコントロールパネルの機能には、データ／ファイル転送用に Adobe Campaign が接続する URL を追加する機能が含まれます。
 
 詳しくは、[詳細ドキュメント](../instances-settings/using/url-permissions.md)を参照してください。
+
