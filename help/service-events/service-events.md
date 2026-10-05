@@ -7,22 +7,32 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
+TQID: 'https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 787
+    internal-label: Customer experience
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
-
 ---
-
 # 主要連絡先とイベントの特定 {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
@@ -76,12 +86,12 @@ Campaign インスタンスを効果的に監視するには、インスタン�
 
 * **リリース**&#x200B;は、インスタンスへの過去および今後のデプロイメントを示し、カレンダー表示ではそれぞれグレーと青で表示されます。 イベントの詳細では、各デプロイメントに関連付けられたリリースのタイプを明示します。
 
-   * **[!UICONTROL 一般提供（GA）]**：入手可能な最新の安定ビルドです。
-   * **[!UICONTROL 限定提供（LA）]**：オンデマンドデプロイメントのみ。
-   * **[!UICONTROL リリース候補（RC）]**：エンジニアリング部門により検証済みです。 本番環境での検証待ちです。
-   * **[!UICONTROL プレリリース]**：お客様の特定のニーズに対応するための先行提供です。
-   * **[!UICONTROL 使用できなくなりました]**：このビルドに重大な問題はありませんが、追加のバグ修正が含まれている新しいビルドが提供されています。 アップグレードが必要です。
-   * **[!UICONTROL 非推奨（廃止予定）]**：既知のリグレッションが含まれているビルドです。 このビルドのサポートは終了しています。 アップグレードが必須です。
+  * **[!UICONTROL 一般提供（GA）]**：入手可能な最新の安定ビルドです。
+  * **[!UICONTROL 限定提供（LA）]**：オンデマンドデプロイメントのみ。
+  * **[!UICONTROL リリース候補（RC）]**：エンジニアリング部門により検証済みです。 本番環境での検証待ちです。
+  * **[!UICONTROL プレリリース]**：お客様の特定のニーズに対応するための先行提供です。
+  * **[!UICONTROL 使用できなくなりました]**：このビルドに重大な問題はありませんが、追加のバグ修正が含まれている新しいビルドが提供されています。 アップグレードが必要です。
+  * **[!UICONTROL 非推奨（廃止予定）]**：既知のリグレッションが含まれているビルドです。 このビルドのサポートは終了しています。 アップグレードが必須です。
 
 今後の 1 つまたは複数のイベントにフラグを割り当てて、それらのイベントを追跡することができます。 それには、イベント名の横にある省略記号ボタンをクリックします。
 
